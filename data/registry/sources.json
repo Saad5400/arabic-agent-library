@@ -295,23 +295,28 @@
     "category": "poetry",
     "source_type": "scan",
     "language_stage": "classical",
-    "status": "downloaded",
+    "status": "synthesized",
     "original_url": "https://archive.org/details/hm4132",
     "mirror_urls": [
       "https://archive.org/download/hm4132/hm4132.pdf",
-      "https://archive.org/download/hm4132/hm4132_djvu.txt"
+      "https://archive.org/download/hm4132/hm4132_djvu.txt",
+      "https://ar.wikisource.org/wiki/%D8%A5%D8%B0%D8%A7_%D8%BA%D8%A7%D9%85%D8%B1%D8%AA_%D9%81%D9%8A_%D8%B4%D8%B1%D9%81_%D9%85%D8%B1%D9%88%D9%85",
+      "https://ar.wikisource.org/wiki/%D9%88%D8%A7_%D8%AD%D8%B1_%D9%82%D9%84%D8%A8%D8%A7%D9%87_%D9%85%D9%85%D9%86_%D9%82%D9%84%D8%A8%D9%87_%D8%B4%D8%A8%D9%85",
+      "https://ar.wikisource.org/wiki/%D8%B9%D9%84%D9%89_%D9%82%D8%AF%D8%B1_%D8%A3%D9%87%D9%84_%D8%A7%D9%84%D8%B9%D8%B2%D9%85_%D8%AA%D8%A3%D8%AA%D9%8A_%D8%A7%D9%84%D8%B9%D8%B2%D8%A7%D8%A6%D9%85"
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "عُثر على طبعة حجرية مصورة بعنوان «ديوان المتنبي (طبعة حجرية 1297هـ)» في Internet Archive مع ملف OCR بصيغة DjVuTXT. الملفان الخامان موجودان محليًا الآن (`data/raw/poetry-diwan-al-mutanabbi.ia.pdf` و `data/raw/poetry-diwan-al-mutanabbi.ia-djvu.txt`)، لكن الاستخراج والتنظيف وبناء حزمة Markdown لم تُنجز بعد.",
-    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
+    "notes": "عُثر على طبعة حجرية مصورة بعنوان «ديوان المتنبي (طبعة حجرية 1297هـ)» في Internet Archive مع ملف OCR بصيغة DjVuTXT. بعد فحص المادة المحلية تبيَّن أن OCR الخام شديد الاضطراب ولا يصلح وحده للاقتباس الدقيق بيتًا بيتًا، لذلك أُنتج ملف نصي منظَّف بمختارات موثقة من ثلاث قصائد عبر صفحات ويكي مصدر العربية المرتبطة بالديوان، مع الإبقاء على المصوَّر المحلي وملف OCR الخام بوصفهما أصل الاقتناء. المخرجات الحالية ما تزال جزئية: `data/text/poetry-diwan-al-mutanabbi-selected-poems.txt` و `data/markdown/poetry-mutanabbi-ambition-and-voice.md`، وتحتاج لاحقًا إلى مواءمة أوسع مع صفحات الطبعة الحجرية المحلية أو استخراج نصي أنظف منها.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms. Auxiliary poem transcriptions consulted from Arabic Wikisource are available under CC BY-SA 4.0.",
     "raw_file": "data/raw/poetry-diwan-al-mutanabbi.ia.pdf",
-    "text_file": null,
-    "markdown_outputs": [],
+    "text_file": "data/text/poetry-diwan-al-mutanabbi-selected-poems.txt",
+    "markdown_outputs": [
+      "data/markdown/poetry-mutanabbi-ambition-and-voice.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "ديوان المتنبي",
       "normalized_author": "المتنبي",
-      "content_sha256": null
+      "content_sha256": "2c95740371685ff2e538e61c7576c316172ea2c020636925b51e0c7a31a6f335"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
