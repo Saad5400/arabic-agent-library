@@ -238,7 +238,7 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "نُزِّل ملف OCR بصيغة DjVuTXT من Internet Archive وحُفظ خامًا، ثم أُنتج منه مقتطف افتتاحي منظَّف يدويًا لبداية خط الأنابيب مع حزمة Markdown أولية عن البلاغة والفصاحة. المعالجة الحالية جزئية (مقتطف افتتاحي فقط) وما تزال تحتاج إلى مراجعة النص على PDF المصوَّر وتوسيع التغطية إلى أبواب أخرى من الكتاب.",
+    "notes": "نُزِّل ملف OCR بصيغة DjVuTXT من Internet Archive وحُفظ خامًا، ثم أُنتج منه ملف نصي منظَّف موسَّع من المقتطفات الافتتاحية (المقدمة وبعض الفصلين الأولين من الباب الأول) مع حزمة Markdown أكثر ثراءً عن البلاغة والفصاحة. المعالجة ما تزال جزئية ولا تمثل الكتاب كله؛ وتحتاج لاحقًا إلى مراجعة النص على PDF المصوَّر وربط المقتطفات بمواضعها الصفحية وتوسيع التغطية إلى أبواب السبك والإيجاز والسجع والبديع.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/reference-sinaatayn.ia-djvu.txt",
     "text_file": "data/text/reference-sinaatayn-opening.txt",
@@ -248,7 +248,7 @@
     "duplicate_keys": {
       "normalized_title": "كتاب الصناعتين الكتابه والشعر",
       "normalized_author": "ابو هلال العسكري",
-      "content_sha256": "674a1e176715b3635e7d7fc7239b80e094210bf1acc7d3e50c883c828ece297b"
+      "content_sha256": "ccf2e47a332eea02d31f344a3c9f327c11b35e2c173e1910e7fc843eb099cc8d"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
