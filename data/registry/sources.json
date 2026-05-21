@@ -193,20 +193,27 @@
     "category": "grammar-style",
     "source_type": "html",
     "language_stage": "classical",
-    "status": "candidate",
+    "status": "synthesized",
     "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AE%D8%B5%D8%A7%D8%A6%D8%B5",
-    "mirror_urls": [],
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AE%D8%B5%D8%A7%D8%A6%D8%B5/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%82%D9%88%D9%84_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D9%81%D8%B5%D9%84_%D8%A8%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D9%84%D8%A7%D9%85_%D9%88%D8%A7%D9%84%D9%82%D9%88%D9%84",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AE%D8%B5%D8%A7%D8%A6%D8%B5/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%82%D9%88%D9%84_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D9%88%D9%85%D8%A7_%D9%87%D9%8A",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AE%D8%B5%D8%A7%D8%A6%D8%B5/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%82%D9%88%D9%84_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D9%86%D8%AD%D9%88",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AE%D8%B5%D8%A7%D8%A6%D8%B5/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%82%D9%88%D9%84_%D8%B9%D9%84%D9%89_%D8%A7%D9%84%D8%A5%D8%B9%D8%B1%D8%A7%D8%A8"
+    ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "ثري في علل العربية وبنية التعبير والاستعمال. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "notes": "أُنجزت في هذه الدفعة طبقة تأسيسية نحوية/أسلوبية حقيقية من متن `الخصائص` عبر أربع صفحات فعلية من ويكي مصدر: باب اللغة وما هي، وباب النحو، وباب الإعراب، وباب الفصل بين الكلام والقول. جُمعت هذه الصفحات في raw batch واحد، ثم نُظِّمت في ملف نصي منظَّف، ثم صيغت منها حزمة Markdown عملية تركز على الغرض، وسمت العربية، ووظيفة الإعراب، والفرق بين الكلام التام والقول الناقص. التغطية ما تزال جزئية جدًا بالنسبة إلى الكتاب كله، لكنها تمنح المشروع أول أساس غني في قسم grammar-style بدل الاكتفاء بالترشيح النظري.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "raw_file": "data/raw/grammar-style-khasais-foundations-language-nahw-irab-kalam-qawl.wikitext.txt",
+    "text_file": "data/text/grammar-style-khasais-foundations-language-nahw-irab-kalam-qawl.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-khasais-language-nahw-irab-kalam-qawl.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "الخصائص",
       "normalized_author": "ابن جني",
-      "content_sha256": null
+      "content_sha256": "138d29734ca78ef41cf4a0e43f67cf67bbac9d5c97069f5777044bae5d30fd16"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
