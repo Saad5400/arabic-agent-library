@@ -1,0 +1,6 @@
+.venv-ocr/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+mother-water-reminder-sample.mp3

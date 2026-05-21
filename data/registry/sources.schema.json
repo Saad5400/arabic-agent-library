@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Arabic Agent Library Source Registry",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "category",
+      "source_type",
+      "status"
+    ],
+    "properties": {
+      "id": { "type": "string" },
+      "title": { "type": "string" },
+      "author": { "type": ["string", "null"] },
+      "category": {
+        "type": "string",
+        "enum": [
+          "dictionary",
+          "rhetoric",
+          "grammar-style",
+          "poetry",
+          "prose",
+          "reference",
+          "other"
+        ]
+      },
+      "source_type": {
+        "type": "string",
+        "enum": [
+          "pdf",
+          "epub",
+          "html",
+          "txt",
+          "scan",
+          "physical",
+          "catalog-only",
+          "other"
+        ]
+      },
+      "language_stage": {
+        "type": "string",
+        "enum": ["classical", "modern", "mixed", "unknown"]
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "candidate",
+          "queued",
+          "downloaded",
+          "extracted",
+          "cleaned",
+          "synthesized",
+          "rejected"
+        ]
+      },
+      "original_url": { "type": ["string", "null"] },
+      "mirror_urls": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "publisher": { "type": ["string", "null"] },
+      "year": { "type": ["integer", "null"] },
+      "notes": { "type": ["string", "null"] },
+      "license": { "type": ["string", "null"] },
+      "raw_file": { "type": ["string", "null"] },
+      "text_file": { "type": ["string", "null"] },
+      "markdown_outputs": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "duplicate_keys": {
+        "type": "object",
+        "properties": {
+          "normalized_title": { "type": ["string", "null"] },
+          "normalized_author": { "type": ["string", "null"] },
+          "content_sha256": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      },
+      "provenance": {
+        "type": "object",
+        "properties": {
+          "discovered_at": { "type": ["string", "null"] },
+          "discovery_method": { "type": ["string", "null"] },
+          "verified_by": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  }
+}

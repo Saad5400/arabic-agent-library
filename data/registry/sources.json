@@ -1,0 +1,378 @@
+[
+  {
+    "id": "dict-lisan-al-arab",
+    "title": "لسان العرب",
+    "author": "ابن منظور",
+    "category": "dictionary",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "لسان العرب",
+      "normalized_author": "ابن منظور",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "dict-al-qamus-al-muhit",
+    "title": "القاموس المحيط",
+    "author": "مجد الدين الفيروزآبادي",
+    "category": "dictionary",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "معجم أساسي يمكن الإفادة منه في المفردات والصيغ. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "القاموس المحيط",
+      "normalized_author": "مجد الدين الفيروزابادي",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "dict-mukhtar-al-sihah",
+    "title": "مختار الصحاح",
+    "author": "محمد بن أبي بكر الرازي",
+    "category": "dictionary",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "مدخل جيد لبناء مواد معجمية مختصرة موجهة للوكلاء. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "مختار الصحاح",
+      "normalized_author": "محمد بن ابي بكر الرازي",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "rhetoric-dalail-al-ijaz",
+    "title": "دلائل الإعجاز",
+    "author": "عبد القاهر الجرجاني",
+    "category": "rhetoric",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%AF%D9%84%D8%A7%D8%A6%D9%84_%D8%A7%D9%84%D8%A5%D8%B9%D8%AC%D8%A7%D8%B2",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "مرجع محوري في النظم والبيان والعلاقات الدقيقة بين التراكيب. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "دلائل الاعجاز",
+      "normalized_author": "عبد القاهر الجرجاني",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "rhetoric-asrar-al-balagha",
+    "title": "أسرار البلاغة",
+    "author": "عبد القاهر الجرجاني",
+    "category": "rhetoric",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1_%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_%D9%81%D9%8A_%D8%B9%D9%84%D9%85_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "مفيد في التصوير البياني والفروق الأسلوبية. تأكد وجوده على ويكي مصدر العربي تحت عنوان الصفحة: أسرار البلاغة في علم البيان.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "اسرار البلاغه",
+      "normalized_author": "عبد القاهر الجرجاني",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "grammar-style-kitab",
+    "title": "الكتاب",
+    "author": "سيبويه",
+    "category": "grammar-style",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "مرجع نحوي أصيل، يصلح لاشتقاق قواعد استعمالية دقيقة بعد التبسيط. تأكد وجوده على ويكي مصدر العربي تحت عنوان الصفحة: الكتاب (سيبويه).",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "الكتاب",
+      "normalized_author": "سيبويه",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "grammar-style-khasais",
+    "title": "الخصائص",
+    "author": "ابن جني",
+    "category": "grammar-style",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AE%D8%B5%D8%A7%D8%A6%D8%B5",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "ثري في علل العربية وبنية التعبير والاستعمال. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "الخصائص",
+      "normalized_author": "ابن جني",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "reference-adab-al-katib",
+    "title": "أدب الكاتب",
+    "author": "ابن قتيبة",
+    "category": "reference",
+    "source_type": "catalog-only",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": null,
+    "mirror_urls": [],
+    "publisher": null,
+    "year": null,
+    "notes": "قريب من غرض المشروع في تحسين صياغة الكاتب وتقويم لسانه.",
+    "license": null,
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "ادب الكاتب",
+      "normalized_author": "ابن قتيبه",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "manual seed list",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "reference-sinaatayn",
+    "title": "كتاب الصناعتين الكتابة والشعر",
+    "author": "أبو هلال العسكري",
+    "category": "reference",
+    "source_type": "scan",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/AAlexandrina-145489",
+    "mirror_urls": [
+      "https://archive.org/download/AAlexandrina-145489/145489_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D8%B1.pdf",
+      "https://archive.org/download/AAlexandrina-145489/145489_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D8%B1_djvu.txt"
+    ],
+    "publisher": "Internet Archive",
+    "year": null,
+    "notes": "نُزِّل ملف OCR بصيغة DjVuTXT من Internet Archive وحُفظ خامًا، ثم أُنتج منه مقتطف افتتاحي منظَّف يدويًا لبداية خط الأنابيب مع حزمة Markdown أولية عن البلاغة والفصاحة. المعالجة الحالية جزئية (مقتطف افتتاحي فقط) وما تزال تحتاج إلى مراجعة النص على PDF المصوَّر وتوسيع التغطية إلى أبواب أخرى من الكتاب.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
+    "raw_file": "data/raw/reference-sinaatayn.ia-djvu.txt",
+    "text_file": "data/text/reference-sinaatayn-opening.txt",
+    "markdown_outputs": [
+      "data/markdown/reference-sinaatayn-balagha-fasaha.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "كتاب الصناعتين الكتابه والشعر",
+      "normalized_author": "ابو هلال العسكري",
+      "content_sha256": "674a1e176715b3635e7d7fc7239b80e094210bf1acc7d3e50c883c828ece297b"
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "manual seed list; verified via Internet Archive advanced search + metadata API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "reference-al-bayan-wa-al-tabyin",
+    "title": "البيان والتبيين",
+    "author": "الجاحظ",
+    "category": "reference",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "candidate",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86_%D9%88%D8%A7%D9%84%D8%AA%D8%A8%D9%8A%D9%8A%D9%86",
+    "mirror_urls": [
+      "https://archive.org/details/al-Jahiz",
+      "https://archive.org/download/al-Jahiz/al-Jahiz.pdf",
+      "https://archive.org/download/al-Jahiz/al-Jahiz_djvu.txt"
+    ],
+    "publisher": "Wikisource contributors",
+    "year": 1998,
+    "notes": "مرجع نثري وأسلوبي محوري؛ تأكد وجود صفحة رقمية له على ويكي مصدر العربي، كما وُجدت نسخة مصورة مع OCR في Internet Archive تحت المعرّف al-Jahiz. سنة 1998 هنا تعود إلى بيانات العنصر الرقمي في الأرشيف لا إلى تاريخ تأليف العمل الأصلي.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0. Internet Archive hosts a scan and OCR sidecars under item-specific access terms.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "البيان والتبيين",
+      "normalized_author": "الجاحظ",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "verified via Wikisource API and Internet Archive metadata API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "poetry-diwan-al-mutanabbi",
+    "title": "ديوان المتنبي",
+    "author": "المتنبي",
+    "category": "poetry",
+    "source_type": "scan",
+    "language_stage": "classical",
+    "status": "downloaded",
+    "original_url": "https://archive.org/details/hm4132",
+    "mirror_urls": [
+      "https://archive.org/download/hm4132/hm4132.pdf",
+      "https://archive.org/download/hm4132/hm4132_djvu.txt"
+    ],
+    "publisher": "Internet Archive",
+    "year": null,
+    "notes": "عُثر على طبعة حجرية مصورة بعنوان «ديوان المتنبي (طبعة حجرية 1297هـ)» في Internet Archive مع ملف OCR بصيغة DjVuTXT. الملفان الخامان موجودان محليًا الآن (`data/raw/poetry-diwan-al-mutanabbi.ia.pdf` و `data/raw/poetry-diwan-al-mutanabbi.ia-djvu.txt`)، لكن الاستخراج والتنظيف وبناء حزمة Markdown لم تُنجز بعد.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
+    "raw_file": "data/raw/poetry-diwan-al-mutanabbi.ia.pdf",
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "ديوان المتنبي",
+      "normalized_author": "المتنبي",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "manual seed list; verified via Internet Archive advanced search + metadata API",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "poetry-diwan-abi-tammam",
+    "title": "ديوان أبي تمام",
+    "author": "أبو تمام",
+    "category": "poetry",
+    "source_type": "scan",
+    "language_stage": "classical",
+    "status": "queued",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A3%D8%A8%D9%8A_%D8%AA%D9%85%D8%A7%D9%85",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "عُثر على صفحة موثقة في ويكي مصدر العربي تمثل نسخة مصورة/تفريغًا غير مكتمل للديوان؛ تصلح كهدف اقتناء لاحق مع ضرورة تتبع اكتمال التفريغ قبل الاعتماد على النص.",
+    "license": "Underlying work public domain; Wikisource transcription/scan metadata available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "ديوان ابي تمام",
+      "normalized_author": "ابو تمام",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "manual seed list; verified via Wikisource API and page inspection",
+      "verified_by": "Hermes"
+    }
+  },
+  {
+    "id": "poetry-diwan-al-buhturi",
+    "title": "ديوان البحتري",
+    "author": "البحتري",
+    "category": "poetry",
+    "source_type": "scan",
+    "language_stage": "classical",
+    "status": "queued",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D8%AD%D8%AA%D8%B1%D9%8A",
+    "mirror_urls": [],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "عُثر على صفحة موثقة في ويكي مصدر العربي تمثل نسخة مصورة/تفريغًا غير مكتمل للديوان؛ تفيد في تتبع الشواهد الشعرية لاحقًا لكن النص المتاح ليس مكتملاً بعد.",
+    "license": "Underlying work public domain; Wikisource transcription/scan metadata available under CC BY-SA 4.0.",
+    "raw_file": null,
+    "text_file": null,
+    "markdown_outputs": [],
+    "duplicate_keys": {
+      "normalized_title": "ديوان البحتري",
+      "normalized_author": "البحتري",
+      "content_sha256": null
+    },
+    "provenance": {
+      "discovered_at": "2026-05-21",
+      "discovery_method": "manual seed list; verified via Wikisource API and page inspection",
+      "verified_by": "Hermes"
+    }
+  }
+]
