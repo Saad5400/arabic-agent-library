@@ -1,4 +1,4 @@
-# Arabic Agent Library
+# Arabic Agent Library مكتبة البلاغة والفصاحة لوكلاء الذكاء الاصطناعي
 
 Arabic Agent Library is a source-grounded corpus-building project for AI agents that need to write strong Modern Standard Arabic with better diction, style, rhetoric, and source awareness.
 
