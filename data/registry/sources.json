@@ -62,20 +62,31 @@
     "category": "dictionary",
     "source_type": "html",
     "language_stage": "classical",
-    "status": "candidate",
+    "status": "synthesized",
     "original_url": "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD",
-    "mirror_urls": [],
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%A8%D8%A7%D8%A1",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%81%D8%A7%D8%A1",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%88%D8%A7%D9%88",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%83%D8%A7%D9%81",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%82%D8%A7%D9%81",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AC%D9%8A%D9%85",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%84%D8%A7%D9%85",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%B9%D9%8A%D9%86"
+    ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "مدخل جيد لبناء مواد معجمية مختصرة موجهة للوكلاء. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "notes": "أُنجزت في هذه المرحلة طبقة تأسيسية معجمية موجهة للكتابة العربية من مواد ويكي مصدر: جُمعت مداخل منتقاة تخدم البيان والفصاحة والإيجاز والتفصيل والجودة والقول المسؤول، ثم نُظِّمت في ملف نصي منظَّف وحزمة Markdown عملية. التغطية ما تزال جزئية ومركزة على جذور مختارة (مثل: بلغ، بين، فصح، وضح، وجز، فصل، كتب، قول، لحن، جود) ولا تمثل المعجم كله.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "raw_file": "data/raw/dict-mukhtar-al-sihah-selected-writing-roots.wikitext.txt",
+    "text_file": "data/text/dict-mukhtar-al-sihah-writing-roots.txt",
+    "markdown_outputs": [
+      "data/markdown/dict-mukhtar-al-sihah-clarity-and-diction.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "مختار الصحاح",
       "normalized_author": "محمد بن ابي بكر الرازي",
-      "content_sha256": null
+      "content_sha256": "dc8a872c9057388c9abcf5776c13f3286b9c1c85f201fc92223ad2c2040a9d1d"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
