@@ -42,20 +42,27 @@
     "category": "dictionary",
     "source_type": "html",
     "language_stage": "classical",
-    "status": "candidate",
+    "status": "synthesized",
     "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7",
-    "mirror_urls": [],
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7/%D9%85%D9%82%D8%AF%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D8%A4%D9%84%D9%81",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%87%D9%85%D8%B2%D8%A9"
+    ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "معجم أساسي يمكن الإفادة منه في المفردات والصيغ. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "notes": "أُنجزت في هذه الدفعة أول طبقة عمل حقيقية من القاموس المحيط عبر جمع صفحتين كاملتين من النص الرقمي المتاح على ويكي مصدر: مقدمة المؤلف وباب الهمزة. جُمعت الصفحتان في raw batch واحد أكبر من الجذور المنفردة الصغيرة، ثم نُظِّمت المادة في ملف نصي يوزع الفائدة على مبادئ صناعة المعجم والاختصار، وعلى عناقيد لفظية عملية تخدم التثبت، والمران والتهاون، والبطء والإبطاء، والرجوع والإقرار والتبوئة. ثم صيغت منها ثلاث حزم Markdown متوسطة الغنى بدل ملف واحد ضيق حول جذر مفرد. هذه التغطية لا تزال جزئية بالنسبة إلى المعجم كله، لكنها تمنح المشروع أول دفعة حقيقية من القاموس المحيط نفسه وتوسع الأساس المعجمي بمصدر جديد لا يكرر الدفعات الأخيرة من لسان العرب.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "raw_file": "data/raw/dict-al-qamus-al-muhit-muqaddima-and-bab-al-hamza.wikitext.txt",
+    "text_file": "data/text/dict-al-qamus-al-muhit-foundations-from-muqaddima-and-bab-al-hamza.txt",
+    "markdown_outputs": [
+      "data/markdown/dict-al-qamus-al-muhit-dictionary-method-and-editorial-economy.md",
+      "data/markdown/dict-al-qamus-al-muhit-commitment-hesitation-and-deliberate-speed.md",
+      "data/markdown/dict-al-qamus-al-muhit-return-accountability-and-placement.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "القاموس المحيط",
       "normalized_author": "مجد الدين الفيروزابادي",
-      "content_sha256": null
+      "content_sha256": "c7ddbd6247b3f4dc3a7f9df530aa233e03053803083f1c0152caf4972ba0e839"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
