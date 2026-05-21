@@ -6,20 +6,25 @@
     "category": "dictionary",
     "source_type": "html",
     "language_stage": "classical",
-    "status": "downloaded",
+    "status": "synthesized",
     "original_url": "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8",
-    "mirror_urls": [],
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%B1%D9%81_%D8%A7%D9%84%D8%A8%D8%A7%D8%A1",
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A8%D9%8A%D9%86-"
+    ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. في هذه المرحلة أُنجز اقتناء خام أولي موثَّق من صفحة الفهرس الرئيسة في ويكي مصدر عبر سكربت جلب مخصص مع backoff، وحُفظت روابط الحروف/الأجزاء داخل الملف الخام لتسهيل التقاط المقاطع التالية. هذا لا يمثل متن المعجم نفسه بعد؛ بل يثبت طبقة اقتناء قابلة للتكرار تمهِّد لاستخراج صفحات الجذور والحروف لاحقًا.",
+    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. صُحِّح في هذه المرحلة وضع الاقتناء السابق: الملف `data/raw/dict-lisan-al-arab.wikitext.txt` ليس إلا صفحة الفهرس/المدخل التي تجمع روابط الحروف، ولا يمثل متن المعجم. أُنجز هنا أول اقتناء معجمي فعلي من متن لسان العرب نفسه عبر صفحة الحرف `لسان العرب/حرف الباء` ثم صفحة الجذر `لسان العرب/بين-`، وحُفظت المادة الخام، ونُظِّمت في ملف نصي منظَّف، ثم حُوِّلت إلى حزمة Markdown عملية عن البيان والإبانة والتبين. التغطية ما تزال جزئية جداً ومحصورة في جذر `بين`، لكنها تمثل محتوى معجمياً حقيقياً لا مجرد فهرس.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/dict-lisan-al-arab.wikitext.txt",
-    "text_file": null,
-    "markdown_outputs": [],
+    "raw_file": "data/raw/dict-lisan-al-arab-bayn.wikitext.txt",
+    "text_file": "data/text/dict-lisan-al-arab-bayn.txt",
+    "markdown_outputs": [
+      "data/markdown/dict-lisan-al-arab-bayn-clarity-separation-and-judgment.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "لسان العرب",
       "normalized_author": "ابن منظور",
-      "content_sha256": "dd49ed36ddc0f905f5b1766842f90e70600f41653dcdd6aba3c8f9e2130f876f"
+      "content_sha256": "73d4634c80401d7416e3a46d2f85e2701c1022d1722101696fdf663260343165"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
