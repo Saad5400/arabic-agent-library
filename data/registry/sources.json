@@ -10,21 +10,24 @@
     "original_url": "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8",
     "mirror_urls": [
       "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%B1%D9%81_%D8%A7%D9%84%D8%A8%D8%A7%D8%A1",
-      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A8%D9%8A%D9%86-"
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A8%D9%8A%D9%86-",
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A8%D8%A7%D8%A1-",
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%81%D8%A3%D9%81%D8%A3_-"
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. صُحِّح في هذه المرحلة وضع الاقتناء السابق: الملف `data/raw/dict-lisan-al-arab.wikitext.txt` ليس إلا صفحة الفهرس/المدخل التي تجمع روابط الحروف، ولا يمثل متن المعجم. أُنجز هنا أول اقتناء معجمي فعلي من متن لسان العرب نفسه عبر صفحة الحرف `لسان العرب/حرف الباء` ثم صفحة الجذر `لسان العرب/بين-`، وحُفظت المادة الخام، ونُظِّمت في ملف نصي منظَّف، ثم حُوِّلت إلى حزمة Markdown عملية عن البيان والإبانة والتبين. التغطية ما تزال جزئية جداً ومحصورة في جذر `بين`، لكنها تمثل محتوى معجمياً حقيقياً لا مجرد فهرس.",
+    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. صُحِّح في هذا المشروع وضع الاقتناء السابق: الملف `data/raw/dict-lisan-al-arab.wikitext.txt` ليس إلا صفحة الفهرس/المدخل التي تجمع روابط الحروف، ولا يمثل متن المعجم. أُنجز أول اقتناء معجمي فعلي سابقاً عبر صفحة الجذر `لسان العرب/بين-` وحزمة عملية عن البيان والإبانة والتبين. وفي هذه الدفعة الثانية توسعت التغطية إلى صفحتين حقيقيتين إضافيتين من متن المعجم (`لسان العرب/باء-` و`لسان العرب/فأفأ -`) مع تجميع خامٍّ جديد، وملف نصي منظَّف، وحزمة Markdown أوسع عن الافتتاح، والانطباع الأول، والبذاءة، والبراءة، والفصاحة. التغطية لا تزال جزئية جداً نسبةً إلى المعجم كله، لكنها صارت تتجاوز جذر `بين` إلى دفعة تأسيسية متعددة الأبواب تخدم الكتابة العربية مباشرة.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/dict-lisan-al-arab-bayn.wikitext.txt",
-    "text_file": "data/text/dict-lisan-al-arab-bayn.txt",
+    "raw_file": "data/raw/dict-lisan-al-arab-writing-foundations-bada-badha-baraa-fasaha.wikitext.txt",
+    "text_file": "data/text/dict-lisan-al-arab-writing-foundations-bada-badha-baraa-fasaha.txt",
     "markdown_outputs": [
-      "data/markdown/dict-lisan-al-arab-bayn-clarity-separation-and-judgment.md"
+      "data/markdown/dict-lisan-al-arab-bayn-clarity-separation-and-judgment.md",
+      "data/markdown/dict-lisan-al-arab-opening-judgment-and-fasaha.md"
     ],
     "duplicate_keys": {
       "normalized_title": "لسان العرب",
       "normalized_author": "ابن منظور",
-      "content_sha256": "73d4634c80401d7416e3a46d2f85e2701c1022d1722101696fdf663260343165"
+      "content_sha256": "cca2b91f940a89ec4fab77740351d374cb9cc08dcb8fa097e0f133682d2aae0f"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
