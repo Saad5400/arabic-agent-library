@@ -6,20 +6,20 @@
     "category": "dictionary",
     "source_type": "html",
     "language_stage": "classical",
-    "status": "candidate",
+    "status": "downloaded",
     "original_url": "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8",
     "mirror_urls": [],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. في هذه المرحلة أُنجز اقتناء خام أولي موثَّق من صفحة الفهرس الرئيسة في ويكي مصدر عبر سكربت جلب مخصص مع backoff، وحُفظت روابط الحروف/الأجزاء داخل الملف الخام لتسهيل التقاط المقاطع التالية. هذا لا يمثل متن المعجم نفسه بعد؛ بل يثبت طبقة اقتناء قابلة للتكرار تمهِّد لاستخراج صفحات الجذور والحروف لاحقًا.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": null,
+    "raw_file": "data/raw/dict-lisan-al-arab.wikitext.txt",
     "text_file": null,
     "markdown_outputs": [],
     "duplicate_keys": {
       "normalized_title": "لسان العرب",
       "normalized_author": "ابن منظور",
-      "content_sha256": null
+      "content_sha256": "dd49ed36ddc0f905f5b1766842f90e70600f41653dcdd6aba3c8f9e2130f876f"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
