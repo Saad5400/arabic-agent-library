@@ -12,22 +12,26 @@
       "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%B1%D9%81_%D8%A7%D9%84%D8%A8%D8%A7%D8%A1",
       "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A8%D9%8A%D9%86-",
       "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%A8%D8%A7%D8%A1-",
-      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%81%D8%A3%D9%81%D8%A3_-"
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D9%81%D8%A3%D9%81%D8%A3_-",
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%B1%D9%81_%D8%A7%D9%84%D9%88%D8%A7%D9%88"
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. صُحِّح في هذا المشروع وضع الاقتناء السابق: الملف `data/raw/dict-lisan-al-arab.wikitext.txt` ليس إلا صفحة الفهرس/المدخل التي تجمع روابط الحروف، ولا يمثل متن المعجم. أُنجز أول اقتناء معجمي فعلي سابقاً عبر صفحة الجذر `لسان العرب/بين-` وحزمة عملية عن البيان والإبانة والتبين. وفي هذه الدفعة الثانية توسعت التغطية إلى صفحتين حقيقيتين إضافيتين من متن المعجم (`لسان العرب/باء-` و`لسان العرب/فأفأ -`) مع تجميع خامٍّ جديد، وملف نصي منظَّف، وحزمة Markdown أوسع عن الافتتاح، والانطباع الأول، والبذاءة، والبراءة، والفصاحة. التغطية لا تزال جزئية جداً نسبةً إلى المعجم كله، لكنها صارت تتجاوز جذر `بين` إلى دفعة تأسيسية متعددة الأبواب تخدم الكتابة العربية مباشرة.",
+    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. صُحِّح في هذا المشروع وضع الاقتناء السابق: الملف `data/raw/dict-lisan-al-arab.wikitext.txt` ليس إلا صفحة الفهرس/المدخل التي تجمع روابط الحروف، ولا يمثل متن المعجم. أُنجز اقتناء فعلي سابقاً عبر صفحة الجذر `لسان العرب/بين-` ثم عبر صفحتين حقيقيتين إضافيتين من متن المعجم (`لسان العرب/باء-` و`لسان العرب/فأفأ -`). وفي هذه الدفعة الأوسع جرى الانتقال إلى خام كبير فعلاً من متن المعجم نفسه: صفحة `لسان العرب/حرف الواو` الكاملة (نحو 1.5 ميغابايت من الويكي تكست)، مع تنظيم ملف نصي منتقى يجمع أحد عشر جذراً نافعة للكتابة العربية، ثم توزيعها على ثلاث حزم Markdown أوسع عن الوضوح والوصف والوجهة، والإيجاز والوزن والوصل، والوعد والثقة والتوفيق والوعي والسعة. هذه الدفعة تعمل على محتوى معجمي حقيقي لا على صفحة الفهرس، وتزيد الأساس المعجمي للمشروع عبر صفحة حرفية واسعة بدلاً من الوقوف عند جذر صغير منفرد؛ ومع ذلك تبقى التغطية جزئية جداً بالنسبة إلى لسان العرب كله.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/dict-lisan-al-arab-writing-foundations-bada-badha-baraa-fasaha.wikitext.txt",
-    "text_file": "data/text/dict-lisan-al-arab-writing-foundations-bada-badha-baraa-fasaha.txt",
+    "raw_file": "data/raw/dict-lisan-al-arab-harf-al-waw.wikitext.txt",
+    "text_file": "data/text/dict-lisan-al-arab-harf-al-waw-writing-foundations.txt",
     "markdown_outputs": [
       "data/markdown/dict-lisan-al-arab-bayn-clarity-separation-and-judgment.md",
-      "data/markdown/dict-lisan-al-arab-opening-judgment-and-fasaha.md"
+      "data/markdown/dict-lisan-al-arab-opening-judgment-and-fasaha.md",
+      "data/markdown/dict-lisan-al-arab-waw-clarity-description-and-direction.md",
+      "data/markdown/dict-lisan-al-arab-waw-briefness-balance-and-connection.md",
+      "data/markdown/dict-lisan-al-arab-waw-promises-trust-understanding-and-capacity.md"
     ],
     "duplicate_keys": {
       "normalized_title": "لسان العرب",
       "normalized_author": "ابن منظور",
-      "content_sha256": "cca2b91f940a89ec4fab77740351d374cb9cc08dcb8fa097e0f133682d2aae0f"
+      "content_sha256": "882105449b517f2f81159fb50f64574da1cfcb4a30a27ec0659bf48dd0613b01"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
