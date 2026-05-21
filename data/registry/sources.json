@@ -176,20 +176,28 @@
     "category": "grammar-style",
     "source_type": "html",
     "language_stage": "classical",
-    "status": "candidate",
+    "status": "synthesized",
     "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)",
-    "mirror_urls": [],
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%A3%D9%88%D9%84"
+    ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "مرجع نحوي أصيل، يصلح لاشتقاق قواعد استعمالية دقيقة بعد التبسيط. تأكد وجوده على ويكي مصدر العربي تحت عنوان الصفحة: الكتاب (سيبويه).",
+    "notes": "أُنجزت في هذه الدفعة أول طبقة عمل حقيقية واسعة من `الكتاب` عبر خام كبير فعلاً من صفحتين أساسيتين على ويكي مصدر: `المقدمة` كاملة و`الجزء الأول` كاملاً، وجُمعتا في raw batch واحد يتجاوز 270 كيلوبايت قبل أي تركيب. ثم نُظمت المادة في ملف نصي تأسيسي واسع يجمع منزلة الكتاب وطريقته في الفحص، وأقسام الكلم، ومجاري أواخر الكلم، والمسند والمسند إليه، وعلاقة اللفظ بالمعنى، ومراتب الاستقامة والإحالة، وما يحتمله الشعر، وبدايات التعدية والمفعولات والحال. وبدلاً من ملف واحد ضيق، وُزعت الفائدة على أربع حزم Markdown متوسطة الغنى عن: منهج الكتاب وسلطته التحريرية، وأساس بناء الجملة، ومطابقة اللفظ للمعنى ومراتب السلامة، والتعدية والمكملات والحال. التغطية ما تزال جزئية بالنسبة إلى الكتاب كله، لكنها تمنح المشروع دفعة grammar-style أكبر وأعرض من الدفعات الصغيرة السابقة، وتعزز الأساس النحوي/الأسلوبي قبل العودة إلى مواد الأدب والبلاغة اللاحقة.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "raw_file": "data/raw/grammar-style-kitab-muqaddima-and-part-one.wikitext.txt",
+    "text_file": "data/text/grammar-style-kitab-foundations-muqaddima-kalim-mana-transitivity.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-kitab-method-scope-and-authority.md",
+      "data/markdown/grammar-style-kitab-sentence-foundations-parts-endings-and-isnad.md",
+      "data/markdown/grammar-style-kitab-meaning-fit-validity-and-poetic-license.md",
+      "data/markdown/grammar-style-kitab-transitivity-complements-and-hal.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "الكتاب",
       "normalized_author": "سيبويه",
-      "content_sha256": null
+      "content_sha256": "f3c494a5502777c185ed6b25c2d9646ccfd6b8bc89c6066755231d32383a75e1"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
