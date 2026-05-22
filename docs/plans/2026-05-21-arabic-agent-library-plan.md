@@ -1,6 +1,8 @@
 # خطة تنفيذ مكتبة البلاغة والفصاحة للوكيل العربي
 
-> **For Hermes:** Use subagent-driven-development skill to implement this plan task-by-task.
+> هذه الخطة قديمة وتاريخية. المرجع التنفيذي المعتمد الآن هو: `docs/MASTER_EXECUTION_CHECKLIST.md`
+
+> **For Hermes:** Use `docs/MASTER_EXECUTION_CHECKLIST.md` as the primary execution order and checkbox tracker.
 
 **Goal:** Build a source-grounded Arabic knowledge library that helps AI agents write correct, eloquent Modern Standard Arabic using curated real references.
 

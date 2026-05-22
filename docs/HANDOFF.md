@@ -57,6 +57,7 @@ Interpretation:
 
 ### ابدأ بهذه الملفات
 
+- `docs/MASTER_EXECUTION_CHECKLIST.md`
 - `README.md`
 - `data/registry/sources.json`
 - `scripts/registry_tool.py`
