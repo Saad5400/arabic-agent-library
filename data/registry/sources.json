@@ -205,21 +205,27 @@
     "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)",
     "mirror_urls": [
       "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9",
-      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%A3%D9%88%D9%84"
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%A3%D9%88%D9%84",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB"
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "أُنجزت في هذه الدفعة أول طبقة عمل حقيقية واسعة من `الكتاب` عبر خام كبير فعلاً من صفحتين أساسيتين على ويكي مصدر: `المقدمة` كاملة و`الجزء الأول` كاملاً، وجُمعتا في raw batch واحد يتجاوز 270 كيلوبايت قبل أي تركيب. ثم نُظمت المادة في ملف نصي تأسيسي واسع يجمع منزلة الكتاب وطريقته في الفحص، وأقسام الكلم، ومجاري أواخر الكلم، والمسند والمسند إليه، وعلاقة اللفظ بالمعنى، ومراتب الاستقامة والإحالة، وما يحتمله الشعر، وبدايات التعدية والمفعولات والحال. وبدلاً من ملف واحد ضيق، وُزعت الفائدة على أربع حزم Markdown متوسطة الغنى عن: منهج الكتاب وسلطته التحريرية، وأساس بناء الجملة، ومطابقة اللفظ للمعنى ومراتب السلامة، والتعدية والمكملات والحال. التغطية ما تزال جزئية بالنسبة إلى الكتاب كله، لكنها تمنح المشروع دفعة grammar-style أكبر وأعرض من الدفعات الصغيرة السابقة، وتعزز الأساس النحوي/الأسلوبي قبل العودة إلى مواد الأدب والبلاغة اللاحقة.",
+    "notes": "امتد العمل على `الكتاب` في هذه الدفعة من طبقة التأسيس السابقة (المقدمة + الجزء الأول) إلى batch خام أكبر جديد يضم `الجزء الثاني` و`الجزء الثالث` معاً في ملف raw واحد حجمه نحو 366 كيلوبايت قبل التركيب. بدلاً من الرجوع إلى باب صغير منفرد، جُمعت كتلة أوسع من المادة ثم نُظمت في ملف نصي عملي واسع، وأُنتجت منها أربع حزم Markdown جديدة تغطي: إضمار الفعل في الأمر والنهي والتحذير والإغراء، والمصادر المنصوبة وصيغ الدعاء والإنشاء، والظروف والجر وتوزيع القيود، ثم البدل والنعت والحال والخبر بعد المعرفة. هذا يوسّع الأساس النحوي/الأسلوبي للمشروع في اتجاه عملي يخدم الوكلاء على مستوى التوجيه، والنبرة، وتعليق القيود، والوصف والحال، من غير تفتيت صغير زائد. تظل تغطية `الكتاب` جزئية، لكنها أصبحت أعرض بكثير من الدفعة السابقة، ومبنية هذه المرة على raw corpus أكبر من مجرد مطالع المصدر.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/grammar-style-kitab-muqaddima-and-part-one.wikitext.txt",
-    "text_file": "data/text/grammar-style-kitab-foundations-muqaddima-kalim-mana-transitivity.txt",
+    "raw_file": "data/raw/grammar-style-kitab-parts-two-three.wikitext.txt",
+    "text_file": "data/text/grammar-style-kitab-parts-two-three-commands-masdars-zarf-sifa-foundations.txt",
     "markdown_outputs": [
-      "data/markdown/grammar-style-kitab-complete-writing-foundations.md"
+      "data/markdown/grammar-style-kitab-complete-writing-foundations.md",
+      "data/markdown/grammar-style-kitab-command-ellipsis-and-scene-control.md",
+      "data/markdown/grammar-style-kitab-masdar-supplication-and-register.md",
+      "data/markdown/grammar-style-kitab-zarf-jar-and-constraint-placement.md",
+      "data/markdown/grammar-style-kitab-known-reference-badal-sifa-hal.md"
     ],
     "duplicate_keys": {
       "normalized_title": "الكتاب",
       "normalized_author": "سيبويه",
-      "content_sha256": "f3c494a5502777c185ed6b25c2d9646ccfd6b8bc89c6066755231d32383a75e1"
+      "content_sha256": "6b7ebca4782c06331b80a99361214ed1394162872f019d71e6c3634bfd00c6c8"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
