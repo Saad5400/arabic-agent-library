@@ -280,26 +280,34 @@
     "title": "أدب الكاتب",
     "author": "ابن قتيبة",
     "category": "reference",
-    "source_type": "catalog-only",
+    "source_type": "scan",
     "language_stage": "classical",
-    "status": "candidate",
-    "original_url": null,
-    "mirror_urls": [],
-    "publisher": null,
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/AAlexandrina-195125",
+    "mirror_urls": [
+      "https://archive.org/download/AAlexandrina-195125/195125%20-%20%D8%A3%D8%AF%D8%A8%20%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8.pdf",
+      "https://archive.org/download/AAlexandrina-195125/195125%20-%20%D8%A3%D8%AF%D8%A8%20%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8_djvu.txt",
+      "https://archive.org/download/AAlexandrina-195125/195125%20-%20%D8%A3%D8%AF%D8%A8%20%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8_scandata.xml"
+    ],
+    "publisher": "Internet Archive",
     "year": null,
-    "notes": "قريب من غرض المشروع في تحسين صياغة الكاتب وتقويم لسانه.",
-    "license": null,
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "notes": "أُنجزت أول دفعة فعلية من `أدب الكاتب` اعتمادًا على شاهد رقمي كبير من Internet Archive هو العنصر `AAlexandrina-195125`، لا على صفحة فهرسية صغيرة ولا على لقطة هامشية. استُخدم ملف OCR الخام `djvu.txt` مع `scandata.xml` لاقتناء نطاق واسع من `كتاب المعرفة` يمتد تقريبًا من الصفحة 8 إلى الصفحة 64، أي نحو 57 صفحة مصدرية قبل باب `أصول أسماء الناس`. ونظرًا إلى تشويش OCR في مواضع متعددة، نُظمت المادة وفق تنظيف محافظ في ملف text عملي يركز على خمسة أبواب متعاقبة ذات فائدة مباشرة للكاتب: تصحيح الألفاظ وحدود الاستعمال، ما جاء مثنى، المزدوج من الكلام، صيغ الدعاء الجارية، وتأويل الكلام المستعمل بين الناس. ثم صيغت المادة في ثلاث حزم Markdown متوسطة الغنى، وهو تقسيم مبرر لهذه الكتلة الصفحية تحت قاعدة نحو ملف واحد لكل عشرين صفحة. التغطية ما تزال جزئية بالنسبة إلى الكتاب كله، لكنها تمثل اقتناءً حقيقيًا واسعًا ومخرجًا مرجعيًا عمليًا يخدم الكتابة الفصحى من متن المصدر نفسه.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
+    "raw_file": "data/raw/reference-adab-al-katib.ia-djvu.txt",
+    "text_file": "data/text/reference-adab-al-katib-book-al-maarifa-opening-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/reference-adab-al-katib-lexical-corrections-and-precision.md",
+      "data/markdown/reference-adab-al-katib-paired-expressions-and-formulae.md",
+      "data/markdown/reference-adab-al-katib-idiom-origins-and-writerly-judgment.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "ادب الكاتب",
       "normalized_author": "ابن قتيبه",
-      "content_sha256": null
+      "content_sha256": "ade8e78926c2f7e6dffee0c38fcfd69c70a7f80915820ba5c719d0a5ac2162ee"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "manual seed list",
+      "discovery_method": "manual seed list; verified via Internet Archive advanced search + metadata API",
       "verified_by": "Hermes"
     }
   },

@@ -1,0 +1,218 @@
+SOURCE ID: reference-adab-al-katib
+TITLE: أدب الكاتب
+AUTHOR: ابن قتيبة
+RAW SOURCE: data/raw/reference-adab-al-katib.ia-djvu.txt
+AUXILIARY PAGE MAP: data/raw/reference-adab-al-katib.ia-scandata.xml
+DIGITAL PROVENANCE: Internet Archive item AAlexandrina-195125
+EDITORIAL METHOD: conservative cleanup + chapter-level organization from noisy OCR; verbatim snippets retained only where the reading is reasonably stable; broader points may be summarized when OCR damage is heavy.
+COVERAGE IN THIS TEXT FILE: كتاب المعرفة، من الصفحة 8 تقريبًا إلى الصفحة 64 تقريبًا من طبعة الأرشيف الرقمي، قبل بدء باب "أصول أسماء الناس".
+APPROXIMATE SOURCE PAGES IN THIS BATCH: 57 pages.
+WHY THIS RANGE: it gives a broad writer-facing foundation rather than a tiny excerpt — lexical correction, paired expressions, formulaic duos, supplicatory phrases, and idiomatic sayings with their roots.
+KNOWN LIMITATIONS:
+- OCR is noisy in many places, especially marginal notes and some verses.
+- The page numbers here are approximate, reconstructed from the OCR headers and the end-of-book table of contents.
+- This file is a practical extraction for agent use, not a diplomatic transcription.
+
+==================================================
+CHAPTER 1 — باب معرفة ما يضعه الناس في غير موضعه
+Approx. pages: 8–37
+Working value: lexical correction, semantic boundaries, anti-sloppiness in common usage.
+
+Core editorial reading:
+Ibn Qutaybah opens كتاب المعرفة by correcting words that people commonly place in the wrong slot. The governing habit is not mere dictionary recital; it is writerly discipline. He distinguishes near-words, names the specific field each belongs to, and warns against flattening them into casual synonymy.
+
+Selected corrected distinctions and practical takeaways:
+
+1) أشفار العين vs الهدب
+- The source distinguishes the eyelid-edge from the lashes that grow on it.
+- Practical use: do not call the lashes themselves "أشفار" without care; the writer should separate the border from the hair upon it.
+- Writing value: precision in anatomical and descriptive prose.
+
+2) إبرة العقرب/الزنبور vs sting/venom confusion
+- The text distinguishes the actual instrument of harm from the poison carried with it.
+- Writing value: when describing injury or danger, separate the implement, the effect, and the substance.
+
+3) الطرب
+- Ibn Qutaybah rejects the narrowed popular use that confines الطرب to joy.
+- He treats it as agitation/lightness of the soul that may arise from joy or grief.
+- Writing value: avoid reducing emotionally mixed words to one modernized mood.
+
+4) الحشمة
+- He resists collapsing الحشمة into simple shyness alone.
+- In the opening examples it leans toward anger/strained emotional reaction more than mere bashfulness.
+- Writing value: do not project later softened usage backward onto older prose without warning.
+
+5) القافلة
+- The source marks the returning caravan as the stricter sense, while later usage broadens.
+- Writing value: a careful writer should know when a word’s classical edge is narrower than current habit.
+
+6) المأتم / المناحة
+- He separates the gathering of women in grief from the lamentation scene itself.
+- Writing value: distinguish the social gathering, the act of lamenting, and the emotional state.
+
+7) الحمام / اليمام
+- The source gives a more exact bird distinction than common speech usually preserves.
+- Writing value: useful for literary description and for avoiding flattened zoological vocabulary.
+
+8) الربيع / الفصول
+- Ibn Qutaybah reports that Arabs differed in season naming and that common people use spring labels loosely.
+- Writing value: season words may require contextual caution; some are convention-bound, not self-evident.
+
+9) الظل / الفيء
+- The chapter sharply distinguishes general shade from the shade that returns/leans after the sun has shifted.
+- Writing value: one of the most useful distinctions for elevated prose, descriptive writing, and Qur'anic or classical allusion.
+
+10) الكلأ / السراب and other near-field terms
+- The chapter repeatedly warns that surface resemblance tempts misuse.
+- Writing value: semantic neighborhoods require border control.
+
+11) names of body parts, animals, weapons, weather, food, garments, and earth-materials
+- The chapter keeps expanding from one-off corrections to a whole habit of lexical sorting.
+- Writing value: precision is not restricted to abstract eloquence; it extends to daily nouns and technical reference.
+
+Editorial summary of the chapter:
+This chapter trains the writer to distrust easy equivalence. The operative question is not “can the reader roughly guess the meaning?” but “did the word land in its proper slot?”
+
+Representative stable snippets from the OCR:
+- "ومن ذلك ... الحشمة ..." — used to challenge the casual reduction of the word to simple embarrassment.
+- "ومن ذلك ... القافلة ..." — used to narrow the term toward the returning group.
+- "ومن ذلك ... الظل والفئ ..." — used to mark an important descriptive distinction.
+
+==================================================
+CHAPTER 2 — باب تأويل ما جاء مثنّى في مستعمل الكلام
+Approx. pages: 38–43
+Working value: conventional dual forms and paired shorthand that carry compressed cultural meaning.
+
+Core editorial reading:
+This chapter explains why Arabic often names two things together under one compact dual phrase. These expressions are not random ornaments; they are dense cultural shortcuts. A writer who knows them can read older texts accurately and avoid clumsy paraphrase.
+
+Selected examples and takeaways:
+- الأطيبان: food and sex.
+- الأحمران: in one usage, meat and wine.
+- الأصغران: gold and saffron; elsewhere heart and tongue appear in similar compressed pairings.
+- الأبيضان / الأسودان: compressed pair-names used by context, not by literal color only.
+- العمران: may denote paired proper names or paired times depending on context.
+- الأبوان: often extends beyond the strict biological father/mother pairing in inherited Arabic usage.
+
+Writing value:
+- Do not decode dual compounds literally every time.
+- Ask what cultural pair the expression conventionally indexes.
+- When paraphrasing for modern readers, unpack the pair instead of preserving ambiguity.
+
+==================================================
+CHAPTER 3 — باب تأويل المستعمل من مزدوج الكلام
+Approx. pages: 44–48
+Working value: binomials, fixed doubles, and rhetorical pairings.
+
+Core editorial reading:
+Ibn Qutaybah records stock doubled expressions whose two halves are not freely replaceable. The force of the phrase lies in inherited pairing, not in ad hoc synonym stacking.
+
+Examples highlighted in the batch:
+- الليّ والرمّ
+- الحرّ والريح
+- دبّ ودرج
+- لا يعرف هِرًّا من بِرٍّ
+- حيّاك الله وبيّاك / related greeting formulas discussed around this section
+- حادف وقاذف / lexical pairing with role distinction
+- ثاغية وراغية
+
+Writing value:
+- Treat inherited doubles as structured units.
+- When revising Arabic prose, check whether a familiar pair has an established order and sense.
+- Avoid fake eloquence by inventing arbitrary binaries that sound classical but have no rooted usage.
+
+==================================================
+CHAPTER 4 — باب ما يستعمل من الدعاء في الكلام
+Approx. pages: 48–49
+Working value: supplicatory formulas, socially embedded phrasing, and what counts as idiomatic prayer-language.
+
+Core editorial reading:
+This short section shows that even prayer-like expressions have idiomatic boundaries. The writer must know what is actually said, what each formula wishes for, and when the phrase is inherited rather than analytically transparent.
+
+Usable takeaways:
+- Formulaic blessing language should be learned as usage, not assembled mechanically word by word.
+- Some expressions invoke settlement, nearness, relief, companionship, or alignment rather than generic “good wishes.”
+- The source’s concern is not piety alone; it is phraseological correctness.
+
+==================================================
+CHAPTER 5 — باب تأويل كلام من كلام الناس مستعمل
+Approx. pages: 49–64
+Working value: idiom origins, semantic archaeology, stronger editorial judgment about clichés and inherited sayings.
+
+Core editorial reading:
+This chapter is especially valuable for agents and modern writers because it explains the roots of common sayings. Ibn Qutaybah does not merely gloss them; he shows the concrete image or material origin behind the expression. That origin restores force to phrases that might otherwise be repeated mechanically.
+
+Selected expressions and practical readings:
+
+1) "جرى عليه الدهر أشطره"
+- Root image taken from the divided structure of the camel’s teats / quarters.
+- Writing value: classical idiom often comes from physical partition or pastoral life.
+
+2) "دفع إليه برمّته"
+- Explained through giving something over with its tether/whole attachment.
+- Writing value: use when total transfer is intended, not partial concession.
+
+3) "ما به قلبة" / similar disease-origin expressions
+- Bodily or animal disease imagery becomes a general formula for defect or hidden affliction.
+- Writing value: many idioms arise from technical bodily vocabulary; flattening them loses force.
+
+4) "نسيج وحده"
+- Derived from the uniquely woven cloth with no shared loom-pattern.
+- Writing value: one of the clearest source-grounded paths from craft image to praise of singular excellence.
+
+5) "على يدي عدل"
+- Tied to a named historical/policing figure and then generalized into hopeless disposal or decisive finishing.
+- Writing value: some phrases keep a proper-name fossil inside them.
+
+6) "رفع عقيرته"
+- Backed by a bodily image, then generalized to raising the voice in shouting or crying.
+- Writing value: recover image before reuse.
+
+7) "لا تُبع عليه"
+- Bodily/animal origin behind what later sounds like abstract discouragement.
+- Writing value: many admonitory phrases are concrete before they are moral.
+
+8) "تدين تدان"
+- Presented as reciprocal consequence: as you do, so shall be done to you.
+- Writing value: compact moral reciprocity formula.
+
+9) "لا جرم"
+- The chapter records grammatical-semantic discussion showing how a phrase becomes fixed usage.
+- Writing value: some expressions should be treated as settled discourse particles, not re-literalized each time.
+
+10) naming transfers such as الوضوء / الاستنجاء / التغوط / الكنيف
+- The source traces how place, act, instrument, or surrounding condition can give a word its later technical sense.
+- Writing value: semantic transfer is systematic; precise prose benefits from knowing the direction of transfer.
+
+11) ظعينة / راوية / عقال / إسار
+- The chapter repeatedly shows naming by relation: carrier, binding, loading, enclosure, accompaniment.
+- Writing value: classical Arabic often names by function and attached context.
+
+Editorial summary of the chapter:
+A strong writer should not repeat idioms as dead furniture. This chapter revives them by explaining their original scene, material basis, or analogical extension.
+
+==================================================
+CROSS-CHAPTER FOUNDATIONS FOR AGENT USE
+
+A) lexical precision precedes ornament
+The source repeatedly prefers right placement over grand tone.
+
+B) inherited pairings are meaning-bearing units
+Duals and doubles are not decorative fluff.
+
+C) idiom should be understood before it is reused
+Origin restores force and prevents wrong modern paraphrase.
+
+D) semantic transfer is one of the book’s teaching engines
+A place gives its name to the act; an instrument names the effect; an animal image becomes a moral phrase.
+
+E) the book is already practical reference literature
+Even before later chapters on orthography and morphology, the opening of كتاب المعرفة is a writer’s repair manual.
+
+==================================================
+POTENTIAL DOWNSTREAM PACK CLUSTERS SUPPORTED BY THIS TEXT FILE
+1. lexical correction and semantic boundaries
+2. fixed pairings and formulaic doubles
+3. idiom origins and writerly judgment
+
+END OF CLEANED WORKING TEXT

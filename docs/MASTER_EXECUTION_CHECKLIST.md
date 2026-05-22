@@ -46,8 +46,8 @@
 - [x] المراجع العامة: 3
 - [x] البلاغة: 2
 - [x] الشعر: 3
-- [x] مصادر synthesized: 7
-- [x] مصادر candidate: 4
+- [x] مصادر synthesized: 8
+- [x] مصادر candidate: 3
 - [x] مصادر queued: 2
 
 المعنى العملي للحالة الحالية:
@@ -125,14 +125,14 @@
 
 ### الحالة الحالية
 - [x] كتاب الصناعتين: synthesized
-- [ ] أدب الكاتب: candidate
+- [x] أدب الكاتب: synthesized
 - [ ] البيان والتبيين: candidate
 
 ### قائمة التحقق
-- [ ] اقتناء raw حقيقي واسع لـ `reference-adab-al-katib`
-- [ ] استخراج text عملي من `reference-adab-al-katib`
-- [ ] إنتاج Markdown مناسب من `reference-adab-al-katib`
-- [ ] تحديث السجل وذكر حدود التغطية
+- [x] اقتناء raw حقيقي واسع لـ `reference-adab-al-katib`
+- [x] استخراج text عملي من `reference-adab-al-katib`
+- [x] إنتاج Markdown مناسب من `reference-adab-al-katib`
+- [x] تحديث السجل وذكر حدود التغطية
 - [ ] اقتناء raw حقيقي واسع لـ `reference-al-bayan-wa-al-tabyin`
 - [ ] استخراج text عملي من `reference-al-bayan-wa-al-tabyin`
 - [ ] إنتاج Markdown مناسب من `reference-al-bayan-wa-al-tabyin`
@@ -230,7 +230,7 @@
 هذه هي السلسلة التي يجب أن نسير عليها ما لم يظهر مانع حقيقي موثق:
 
 1. [x] مراجعة وتدقيق ما أُنتج في طبقة المعاجم والنحو من ناحية الحجم/التقسيم/الاستعمال
-2. [ ] إكمال `أدب الكاتب`
+2. [x] إكمال `أدب الكاتب`
 3. [ ] إكمال `البيان والتبيين`
 4. [ ] إكمال `دلائل الإعجاز`
 5. [ ] إكمال `أسرار البلاغة`
