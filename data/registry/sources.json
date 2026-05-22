@@ -101,25 +101,36 @@
       "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%82%D8%A7%D9%81",
       "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AC%D9%8A%D9%85",
       "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%84%D8%A7%D9%85",
-      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%B9%D9%8A%D9%86"
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%B9%D9%8A%D9%86",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AA%D8%A7%D8%A1",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AB%D8%A7%D8%A1",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AD%D8%A7%D8%A1",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AF%D8%A7%D9%84",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%B1%D8%A7%D8%A1",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D9%86",
+      "https://ar.wikisource.org/wiki/%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%AD/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%B4%D9%8A%D9%86"
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "أُنجزت في هذه المرحلة دفعة معجمية تأسيسية أوسع بكثير من العمل السابق على الجذور المنتقاة الصغيرة. جُمعت ثماني صفحات حروف كاملة من ويكي مصدر (`باب الباء`، `باب الفاء`، `باب الواو`، `باب الكاف`، `باب القاف`، `باب الجيم`، `باب اللام`، `باب العين`) في raw batch واحد يتجاوز 1.0 ميغابايت من الويكي-تكست قبل أي تركيب. ثم نُظِّمت المادة في ملف نصي واسع يعيد توزيع الجذور على أربعة عناقيد عملية تخدم الوكيل في: البيان والفهم واللفظ؛ الإيجاز والفصل والوصل والوجهة؛ الكتابة ونسبة القول والتفويض والعهد؛ والجودة والعقل والعيب والنقد المنضبط. وصيغت من ذلك أربع حزم Markdown متوسطة الغنى تضاف إلى الحزمة الأقدم `dict-mukhtar-al-sihah-clarity-and-diction.md` بدل الاكتفاء بملف واحد ضيق. هذه الدفعة توسع الأساس المعجمي للمشروع بخام حرفي كبير فعلاً وتغطي طيفاً أوسع من قرارات الكتابة والتحرير والنقد، لكنها تظل جزئية بالنسبة إلى المعجم كله.",
+    "notes": "أُنجزت أولاً دفعة معجمية تأسيسية واسعة من `مختار الصحاح` عبر ثماني صفحات حروف كاملة (`باب الباء`، `باب الفاء`، `باب الواو`، `باب الكاف`، `باب القاف`، `باب الجيم`، `باب اللام`، `باب العين`) في raw batch يتجاوز 1.0 ميغابايت، ثم نُظمت في ملف نصي واسع وصيغت منها عدة حزم عن البيان والإيجاز والكتابة والنقد. وفي هذه الدفعة التالية لم يُعَد تكرار المحاور نفسها، بل جرى توسيع الأساس المعجمي بدفعة ثانية كبيرة من سبع صفحات حروف كاملة أخرى من متن المعجم (`باب التاء`، `باب الثاء`، `باب الحاء`، `باب الدال`، `باب الراء`، `باب السين`، `باب الشين`) جُمعت في raw batch جديد يبلغ نحو 744 كيلوبايت قبل أي تنظيف. ثم نُظِّمت المادة في ملف نصي واسع يوزع الفائدة على أربع شبكات عملية جديدة: التثبت والحجة والشهادة؛ التدبير والترتيب والسرد والربط؛ الحذف والحصر والحزم وضبط الحد؛ والشرح والسؤال والسبر ورفع الاشتباه. وصيغت من ذلك أربع حزم Markdown متوسطة الغنى تزيد التغطية الأفقية للمشروع عبر موضوعات تحريرية متعددة بدل الغرق في جذر واحد أو ملف ضيق. هذه الدفعة تعزز الأساس المعجمي للمشروع بمحتوى متني حقيقي واسع من صفحات الحروف نفسها، وتوسع `مختار الصحاح` من معجم للبيان والالتزام فقط إلى معجم عملي للتحقق، والتخطيط، والمراجعة، وشرح المعنى، مع بقاء التغطية جزئية بالنسبة إلى المعجم كله.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/dict-mukhtar-al-sihah-full-letter-pages-b-f-w-k-q-j-l-ayn.wikitext.txt",
-    "text_file": "data/text/dict-mukhtar-al-sihah-broad-writing-foundations-from-full-letter-pages.txt",
+    "raw_file": "data/raw/dict-mukhtar-al-sihah-full-letter-pages-t-th-h-d-r-s-shin.wikitext.txt",
+    "text_file": "data/text/dict-mukhtar-al-sihah-broad-writing-foundations-t-th-h-d-r-s-shin.txt",
     "markdown_outputs": [
       "data/markdown/dict-mukhtar-al-sihah-clarity-and-diction.md",
       "data/markdown/dict-mukhtar-al-sihah-broad-bayan-fahm-and-lafz.md",
       "data/markdown/dict-mukhtar-al-sihah-broad-ijaz-fasl-wasl-and-qasd.md",
       "data/markdown/dict-mukhtar-al-sihah-broad-writing-attribution-and-commitment.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-quality-reason-and-critique.md"
+      "data/markdown/dict-mukhtar-al-sihah-broad-quality-reason-and-critique.md",
+      "data/markdown/dict-mukhtar-al-sihah-broad-verification-proof-and-testimony.md",
+      "data/markdown/dict-mukhtar-al-sihah-broad-planning-order-sequence-and-links.md",
+      "data/markdown/dict-mukhtar-al-sihah-broad-deletion-restraint-and-proportion.md",
+      "data/markdown/dict-mukhtar-al-sihah-broad-explanation-questioning-and-removing-ambiguity.md"
     ],
     "duplicate_keys": {
       "normalized_title": "مختار الصحاح",
       "normalized_author": "محمد بن ابي بكر الرازي",
-      "content_sha256": "fc4f4f94381191aa68a769b104949ca5926d67f9b74dfc5dcf06554dd3eecd46"
+      "content_sha256": "d28620e8c41b1deb0deb32186f9b78e0f410560ae31bda199e33dfe88f54ae44"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
