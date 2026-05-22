@@ -2,25 +2,13 @@
 import json
 import re
 import sys
-import unicodedata
 from pathlib import Path
+
+from arabic_normalization import normalize_arabic
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY_PATH = ROOT / "data/registry/sources.json"
 SCHEMA_PATH = ROOT / "data/registry/sources.schema.json"
-
-
-def normalize_arabic(text: str | None) -> str | None:
-    if text is None:
-        return None
-    text = unicodedata.normalize("NFKC", text)
-    text = text.strip().lower()
-    text = re.sub(r"[\u064B-\u065F\u0670]", "", text)
-    text = text.replace("أ", "ا").replace("إ", "ا").replace("آ", "ا")
-    text = text.replace("ة", "ه")
-    text = text.replace("ى", "ي")
-    text = re.sub(r"\s+", " ", text)
-    return text
 
 
 def load_registry() -> list:

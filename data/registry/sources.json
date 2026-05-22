@@ -139,7 +139,7 @@
     "text_file": null,
     "markdown_outputs": [],
     "duplicate_keys": {
-      "normalized_title": "دلائل الاعجاز",
+      "normalized_title": "دلايل الاعجاز",
       "normalized_author": "عبد القاهر الجرجاني",
       "content_sha256": null
     },
@@ -244,7 +244,7 @@
       "data/markdown/grammar-style-khasais-complete-writing-foundations.md"
     ],
     "duplicate_keys": {
-      "normalized_title": "الخصائص",
+      "normalized_title": "الخصايص",
       "normalized_author": "ابن جني",
       "content_sha256": "a07885f6192a230086436eedcd64461f46e80f0b338cfed2dcf2bd2e0d9af24e"
     },

@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 .DS_Store
 mother-water-reminder-sample.mp3
+data/sqlite/
+exports/
