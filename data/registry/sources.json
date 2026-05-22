@@ -349,30 +349,35 @@
     "title": "البيان والتبيين",
     "author": "الجاحظ",
     "category": "reference",
-    "source_type": "html",
+    "source_type": "scan",
     "language_stage": "classical",
-    "status": "candidate",
-    "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86_%D9%88%D8%A7%D9%84%D8%AA%D8%A8%D9%8A%D9%8A%D9%86",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/al-Jahiz",
     "mirror_urls": [
-      "https://archive.org/details/al-Jahiz",
       "https://archive.org/download/al-Jahiz/al-Jahiz.pdf",
-      "https://archive.org/download/al-Jahiz/al-Jahiz_djvu.txt"
+      "https://archive.org/download/al-Jahiz/al-Jahiz_djvu.txt",
+      "https://archive.org/download/al-Jahiz/al-Jahiz_scandata.xml",
+      "https://archive.org/download/al-Jahiz/al-Jahiz_djvu.xml",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86_%D9%88%D8%A7%D9%84%D8%AA%D8%A8%D9%8A%D9%8A%D9%86"
     ],
-    "publisher": "Wikisource contributors",
+    "publisher": "Internet Archive",
     "year": 1998,
-    "notes": "مرجع نثري وأسلوبي محوري؛ تأكد وجود صفحة رقمية له على ويكي مصدر العربي، كما وُجدت نسخة مصورة مع OCR في Internet Archive تحت المعرّف al-Jahiz. سنة 1998 هنا تعود إلى بيانات العنصر الرقمي في الأرشيف لا إلى تاريخ تأليف العمل الأصلي.",
-    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0. Internet Archive hosts a scan and OCR sidecars under item-specific access terms.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "notes": "أُنجزت في هذه الدفعة أول معالجة فعلية واسعة لـ `البيان والتبيين` اعتمادًا على شاهد رقمي كبير من Internet Archive هو العنصر `al-Jahiz`، لا على صفحة ويكي مصدر وحدها ولا على مقتطف صغير. جرى اقتناء raw كبير يضم OCR النصي (`al-Jahiz_djvu.txt` بحجم يقارب 3.7 ميغابايت)، وملف `scandata.xml`، وملف OCR البنيوي `djvu.xml`، مع الاحتفاظ بالمصوَّر PDF نفسه. ثم استُخرجت من `djvu.xml` دفعة متصلة من الجزء الأول تمتد تقريبًا من الصفحة 101 إلى الصفحة 140، أي نحو 40 صفحة مصدرية، لأنها تجمع كتلة عملية عريضة من قلب الكتاب: تعريف البيان، ووجوه الدلالة باللفظ والإشارة والخط والحال، ثم مباحث الملاءمة، والإيجاز، ومراعاة السامع، والترداد، وفساد السبك وعيوب الأداء. نُظمت هذه المادة في ملف text عملي واحد، ثم وُزعت على حزمتين Markdown متناسبتين مع قاعدة نحو ملف واحد لكل عشرين صفحة: الأولى عن قنوات البيان وكشف المعنى، والثانية عن الإيجاز، ومراعاة السامع، وضبط عيوب الأداء. التغطية ما تزال جزئية بالنسبة إلى الكتاب كله، لكنها تمثل اقتناءً مرجعيًا حقيقيًا واسعًا ومفيدًا في صناعة الكاتب، وتنقل `البيان والتبيين` من طور candidate إلى artifacts فعلية صالحة للاستعمال.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms. Arabic Wikisource listing remains available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/reference-al-bayan-wa-al-tabyin.ia-djvu.txt",
+    "text_file": "data/text/reference-al-bayan-wa-al-tabyin-bayan-opening-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/reference-al-bayan-wa-al-tabyin-channels-of-bayan-and-meaning.md",
+      "data/markdown/reference-al-bayan-wa-al-tabyin-brevity-audience-and-defect-control.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "البيان والتبيين",
       "normalized_author": "الجاحظ",
-      "content_sha256": null
+      "content_sha256": "741be34f06147147b7bb323459a3b032eb0b895da44529cd140f83d571260f8d"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "verified via Wikisource API and Internet Archive metadata API",
+      "discovery_method": "verified via Internet Archive metadata API and OCR page extraction; Wikisource listing retained as an auxiliary pointer",
       "verified_by": "Hermes"
     }
   },

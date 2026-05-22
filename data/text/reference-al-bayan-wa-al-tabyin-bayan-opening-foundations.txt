@@ -1,0 +1,175 @@
+SOURCE ID: reference-al-bayan-wa-al-tabyin
+TITLE: البيان والتبيين
+AUTHOR: الجاحظ
+RAW SOURCE: data/raw/reference-al-bayan-wa-al-tabyin.ia-djvu.txt
+AUXILIARY PAGE MAP: data/raw/reference-al-bayan-wa-al-tabyin.ia-scandata.xml
+AUXILIARY OCR XML: data/raw/reference-al-bayan-wa-al-tabyin.ia-djvu.xml
+DIGITAL PROVENANCE: Internet Archive item al-Jahiz
+EDITORIAL METHOD: page-bounded extraction from OCR XML + conservative cleanup + chapter-level reorganization; verbatim snippets retained only where the OCR is reasonably stable; broader points are summarized when the scan noise rises.
+COVERAGE IN THIS TEXT FILE: الجزء الأول من البيان والتبيين، تقريبًا الصفحات 101–140 من الشاهد الرقمي، من موضع تعريف البيان ووجوه الدلالة إلى مباحث الإيجاز، وحسن الأداء، ومراعاة السامع، والتنبيه على العيّ والخلل.
+APPROXIMATE SOURCE PAGES IN THIS BATCH: 40 pages.
+WHY THIS RANGE: it is a materially broad contiguous slice from the book’s practical core, not a tiny excerpt. It covers what البيان is, how meaning travels through speech / writing / gesture / circumstance, what makes delivery succeed, how audience-fit and brevity work, and why defects of tongue or composition can spoil otherwise intelligent prose.
+KNOWN LIMITATIONS:
+- OCR remains noisy in verses, marginal notes, and some proper names.
+- Printed page numbering is reconstructed from the OCR page objects and may not align perfectly with every visible folio in the scan.
+- This file is a practical extraction for agent use, not a diplomatic transcription.
+
+==================================================
+SECTION 1 — تعريف البيان وقنوات إظهار المعنى
+Approx. pages: 101–113
+Working value: foundations for explaining, clarifying, and choosing the right expressive channel.
+
+Core editorial reading:
+In this run of pages al-Jahiz treats البيان as a general name for whatever removes the veil from meaning and delivers what is hidden in the mind to the hearer. He refuses to confine communication to spoken wording alone. Speech matters, but so do sign, writing, visible circumstance, and contextual indication.
+
+Major foundations extracted from this range:
+
+1) البيان وظيفة كشف لا مجرد جمال لفظي
+- The pages define البيان by effect: successful unveiling of meaning.
+- Writing value: the writer should judge expression by whether it opens the intended meaning cleanly, not by ornament alone.
+
+2) البيان أوسع من اللسان وحده
+- The source treats اللفظ, الإشارة, الخط, and what later readers call الحال / النصبة as cooperating channels.
+- Writing value: not every explanation should be forced into long prose. Sometimes structure, formatting, gesture-like ordering, or contextual framing carries the burden better.
+
+3) البيان مرتبط بالعلم والفهم
+- The pages align البيان with knowledge and treat العي as kin to ignorance or failure of access.
+- Writing value: unclear prose often exposes unclear thought, not merely weak style.
+
+4) الإشارة ليست زينة ملحقة
+- Al-Jahiz insists that signs of face, eye, brow, hand, posture, and visible condition may stand in for words or outrun them.
+- Writing value: in modern agent prose, this maps to staging, sequencing, contrast, emphasis, and layout choices that show relations without over-explaining them.
+
+5) الكتابة أداة تصحيح وإحكام
+- The source reports that use of the pen disciplines the mind and helps correct expression in a way speech alone does not always secure.
+- Writing value: drafting on the page is not a mere storage step; it is part of thinking clearly.
+
+6) الحال نفسها دالّة
+- The section on النصبة / الحال extends meaning-bearing force to the visible state of things.
+- Writing value: when explaining an event, object, or social scene, do not ignore what the situation itself already tells the reader.
+
+Representative stable snippets from the OCR:
+- "البيان اسم جامع لكل شيء كشف لك قناع المعنى".
+- "الإشارة واللفظ شريكان".
+- "استعمال القلم أجدر أن يحض الذهن على تصحيح الكتاب".
+
+Practical agent takeaways:
+- Ask first: what exactly is hidden that needs unveiling?
+- Choose the cheapest channel that actually reveals it.
+- Prefer structure and explicit relation over decorative paraphrase.
+- Treat ambiguity as a delivery failure unless the ambiguity is intentional.
+
+==================================================
+SECTION 2 — البلاغة بين الفصل والوصل، وهيئة المتكلم، ومقدار الأداء
+Approx. pages: 114–123
+Working value: criteria for fitting expression to matter, voice, and occasion.
+
+Core editorial reading:
+After laying out channels of meaning, the batch moves toward practical judgments about بلاغة speech itself. The text gathers definitions and habits around distinguishing فصل from وصل, matching wording to the matter, and recognizing that outward bearing, vocal presence, and proportion all affect reception.
+
+Major foundations extracted from this range:
+
+1) البلاغة ليست كثرة القول
+- One definition in the range turns on knowing الفصل من الوصل, not swelling discourse.
+- Writing value: clarity often depends on where to separate and where to connect, not on adding more explanation.
+
+2) الشمائل والهيئة قد تعين القبول أو تعوقه
+- Several pages note the effect of bearing, stance, and presence on delivery.
+- Writing value: modern equivalent includes tone control, pacing, confidence, and clean entrance into the point.
+
+3) الاسم والموضع والمقدار يجب أن تتناسب
+- The source repeatedly values fitness: the right expression, in the right amount, for the right thing.
+- Writing value: avoid labels that are either inflated, deficient, or improperly shared across unlike cases.
+
+4) تمام الآلة ليس لفظًا فقط
+- The pages discuss external and internal conditions that support successful communication.
+- Writing value: good output depends on more than vocabulary; it depends on judgment, arrangement, and steadiness.
+
+5) بعض التعجب البلاغي ينشأ من المفارقة بين الصغير والمحمول عليه
+- The source notices how speech effects intensify when the expression or circumstance carries more than expected.
+- Writing value: use proportion deliberately—brief lines can carry force if their placement is exact.
+
+Representative stable snippets from the OCR:
+- "ما البلاغة؟ قال: معرفة الفصل من الوصل".
+- Material stressing that the outward state and fittingness of expression affect persuasion and acceptance.
+
+Practical agent takeaways:
+- Revise for joins and breaks, not just for single-word replacement.
+- Test whether each label fits its object exactly.
+- Strip any sentence whose only job is to sound elevated.
+- Do not separate rhetorical force from arrangement and delivery.
+
+==================================================
+SECTION 3 — مراعاة السامع، الإيجاز، العيّ، وفساد التركيب أو النطق
+Approx. pages: 124–140
+Working value: audience-fit, brevity, anti-takalluf, and control of defects that break transmission.
+
+Core editorial reading:
+This broader stretch becomes intensely practical for writers and agents. It moves among named eloquent figures, comments on who talks too much or too little, when repetition is useful, how brevity works, and why certain defects—whether in articulation, structure, or forcing words together—destroy otherwise promising speech.
+
+Major foundations extracted from this range:
+
+1) كثرة الكلام ليست دليلاً على القدرة
+- The section on people "who hardly fall silent" does not praise mere abundance; it watches error-rate, control, and proportion.
+- Writing value: long output is only justified when it keeps hold of the listener’s path.
+
+2) الإيجاز إصابة قبل أن يكون اختصارًا
+- The pages praise formulations that hit the target cleanly and place the treatment exactly where needed.
+- Writing value: brevity means accurate landing, not skeletal thinness.
+
+3) الترداد تابع لحال المستمعين
+- The source openly says repetition has no single fixed limit; it depends on the audience and situation.
+- Writing value: repeat when repetition rescues understanding, not when it flatters the speaker.
+
+4) فساد اللفظ يلتصق باللسان والسمع والقلب
+- The batch warns that ugly, forced, or badly joined wording can root itself in habit and deform understanding.
+- Writing value: awkward phrasing is not harmless; it trains the mind toward weaker distinctions.
+
+5) عيوب الأداء ليست كلها سواء
+- The pages distinguish between inability, affectation, haste, stammering types, lisping patterns, and overblown speech.
+- Writing value: diagnosis matters. Not every unclear passage fails for the same reason.
+
+6) تنافر الألفاظ والسبك المتكلف يكدّ اللسان
+- The batch uses hard verses and comments on mismatched word-neighborhoods to show that some language exhausts the mouth and ear.
+- Writing value: test prose for flow, not merely correctness.
+
+7) قليل الكلام قد يغلب كثيره إن كان أوضع للمعنى
+- Several remarks across the range point to force achieved by placement and proportion rather than bulk.
+- Writing value: choose compact dominance over inflated adequacy.
+
+Representative stable snippets from the OCR:
+- Material on "من لم ينشط لحديثك فارفع عنه مؤونة الاستماع منك".
+- Material praising formulations that place treatment exactly and reach the point without excess.
+- Material warning against ugly, sticky verbal habits and against speech that burdens the tongue.
+
+Practical agent takeaways:
+- Watch the listener’s energy, not just your own supply of facts.
+- Use repetition only where comprehension genuinely needs it.
+- Diagnose whether a weak sentence suffers from excess, mismatch, affectedness, or phonetic drag.
+- Prefer language that moves smoothly without becoming flat.
+
+==================================================
+CROSS-RANGE FOUNDATIONS FOR AGENT USE
+
+A) البيان منظومة نقل معنى
+Meaning can travel through wording, sign, layout-like indication, and visible situation.
+
+B) البلاغة مقياسها الإصابة والملاءمة
+The best line is not the loudest line but the one that places meaning where it belongs.
+
+C) الكتابة تفكير منضبط
+The pen is part of correction, not merely a record after thought is done.
+
+D) الإيجاز يحتاج إلى إحكام سابق
+Compression works only when thought is already ordered.
+
+E) العيوب الأسلوبية والمعنوية تتطلب تشخيصًا
+Some failures are failures of knowledge; some of sequencing; some of articulation; some of self-display.
+
+==================================================
+POTENTIAL DOWNSTREAM PACK CLUSTERS SUPPORTED BY THIS TEXT FILE
+1. channels of bayan and methods of revealing meaning
+2. writerly fit: brevity, joins, audience, and proportion
+3. defect control: affectation, phonetic drag, over-talking, and breakdowns of transmission
+
+END OF CLEANED WORKING TEXT
