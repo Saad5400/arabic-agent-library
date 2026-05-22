@@ -29,14 +29,7 @@
     "raw_file": "data/raw/dict-lisan-al-arab-multi-page-qaf-lam-nun-writing-foundations.wikitext.txt",
     "text_file": "data/text/dict-lisan-al-arab-multi-page-qaf-lam-nun-writing-foundations.txt",
     "markdown_outputs": [
-      "data/markdown/dict-lisan-al-arab-bayn-clarity-separation-and-judgment.md",
-      "data/markdown/dict-lisan-al-arab-opening-judgment-and-fasaha.md",
-      "data/markdown/dict-lisan-al-arab-reading-reporting-and-attribution.md",
-      "data/markdown/dict-lisan-al-arab-qasd-nazm-luzum-and-cut.md",
-      "data/markdown/dict-lisan-al-arab-lafz-fitness-sincerity-and-reference.md",
-      "data/markdown/dict-lisan-al-arab-waw-clarity-description-and-direction.md",
-      "data/markdown/dict-lisan-al-arab-waw-briefness-balance-and-connection.md",
-      "data/markdown/dict-lisan-al-arab-waw-promises-trust-understanding-and-capacity.md"
+      "data/markdown/dict-lisan-al-arab-complete-writing-foundations.md"
     ],
     "duplicate_keys": {
       "normalized_title": "لسان العرب",
@@ -69,9 +62,7 @@
     "raw_file": "data/raw/dict-al-qamus-al-muhit-muqaddima-and-bab-al-hamza.wikitext.txt",
     "text_file": "data/text/dict-al-qamus-al-muhit-foundations-from-muqaddima-and-bab-al-hamza.txt",
     "markdown_outputs": [
-      "data/markdown/dict-al-qamus-al-muhit-dictionary-method-and-editorial-economy.md",
-      "data/markdown/dict-al-qamus-al-muhit-commitment-hesitation-and-deliberate-speed.md",
-      "data/markdown/dict-al-qamus-al-muhit-return-accountability-and-placement.md"
+      "data/markdown/dict-al-qamus-al-muhit-complete-writing-foundations.md"
     ],
     "duplicate_keys": {
       "normalized_title": "القاموس المحيط",
@@ -112,20 +103,12 @@
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "أُنجزت أولاً دفعة معجمية تأسيسية واسعة من `مختار الصحاح` عبر ثماني صفحات حروف كاملة (`باب الباء`، `باب الفاء`، `باب الواو`، `باب الكاف`، `باب القاف`، `باب الجيم`، `باب اللام`، `باب العين`) في raw batch يتجاوز 1.0 ميغابايت، ثم نُظمت في ملف نصي واسع وصيغت منها عدة حزم عن البيان والإيجاز والكتابة والنقد. وفي هذه الدفعة التالية لم يُعَد تكرار المحاور نفسها، بل جرى توسيع الأساس المعجمي بدفعة ثانية كبيرة من سبع صفحات حروف كاملة أخرى من متن المعجم (`باب التاء`، `باب الثاء`، `باب الحاء`، `باب الدال`، `باب الراء`، `باب السين`، `باب الشين`) جُمعت في raw batch جديد يبلغ نحو 744 كيلوبايت قبل أي تنظيف. ثم نُظِّمت المادة في ملف نصي واسع يوزع الفائدة على أربع شبكات عملية جديدة: التثبت والحجة والشهادة؛ التدبير والترتيب والسرد والربط؛ الحذف والحصر والحزم وضبط الحد؛ والشرح والسؤال والسبر ورفع الاشتباه. وصيغت من ذلك أربع حزم Markdown متوسطة الغنى تزيد التغطية الأفقية للمشروع عبر موضوعات تحريرية متعددة بدل الغرق في جذر واحد أو ملف ضيق. هذه الدفعة تعزز الأساس المعجمي للمشروع بمحتوى متني حقيقي واسع من صفحات الحروف نفسها، وتوسع `مختار الصحاح` من معجم للبيان والالتزام فقط إلى معجم عملي للتحقق، والتخطيط، والمراجعة، وشرح المعنى، مع بقاء التغطية جزئية بالنسبة إلى المعجم كله.",
+    "notes": "أُنجزت أولاً دفعة معجمية تأسيسية واسعة من `مختار الصحاح` عبر ثماني صفحات حروف كاملة (`باب الباء`، `باب الفاء`، `باب الواو`، `باب الكاف`، `باب القاف`، `باب الجيم`، `باب اللام`، `باب العين`) في raw batch يتجاوز 1.0 ميغابايت، ثم نُظمت في ملف نصي واسع وصيغت منها عدة حزم عن البيان والإيجاز والكتابة والنقد. وفي هذه الدفعة التالية لم يُعَد تكرار المحاور نفسها، بل جرى توسيع الأساس المعجمي بدفعة ثانية كبيرة من سبع صفحات حروف كاملة أخرى من متن المعجم (`باب التاء`، `باب الثاء`، `باب الحاء`، `باب الدال`، `باب الراء`، `باب السين`، `باب الشين`) جُمعت في raw batch جديد يبلغ نحو 744 كيلوبايت قبل أي تنظيف. ثم نُظِّمت المادة في ملف نصي واسع يخدم هذه الصفحات السبع، وأُعيد تلخيص محاورها العملية الأربع — التثبت والحجة والشهادة؛ التدبير والترتيب والسرد والربط؛ الحذف والحصر والحزم وضبط الحد؛ والشرح والسؤال والسبر ورفع الاشتباه — في **ملف Markdown موحد واحد** بدل تفتيتها إلى عدة ملفات صغيرة، لأن المصدر نفسه صغير نسبيًا. هذه الدفعة تعزز الأساس المعجمي للمشروع بمحتوى متني حقيقي واسع من صفحات الحروف نفسها، وتوسع `مختار الصحاح` من معجم للبيان والالتزام فقط إلى معجم عملي للتحقق، والتخطيط، والمراجعة، وشرح المعنى، مع بقاء التغطية جزئية بالنسبة إلى المعجم كله.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
     "raw_file": "data/raw/dict-mukhtar-al-sihah-full-letter-pages-t-th-h-d-r-s-shin.wikitext.txt",
     "text_file": "data/text/dict-mukhtar-al-sihah-broad-writing-foundations-t-th-h-d-r-s-shin.txt",
     "markdown_outputs": [
-      "data/markdown/dict-mukhtar-al-sihah-clarity-and-diction.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-bayan-fahm-and-lafz.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-ijaz-fasl-wasl-and-qasd.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-writing-attribution-and-commitment.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-quality-reason-and-critique.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-verification-proof-and-testimony.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-planning-order-sequence-and-links.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-deletion-restraint-and-proportion.md",
-      "data/markdown/dict-mukhtar-al-sihah-broad-explanation-questioning-and-removing-ambiguity.md"
+      "data/markdown/dict-mukhtar-al-sihah-complete-writing-foundations.md"
     ],
     "duplicate_keys": {
       "normalized_title": "مختار الصحاح",
@@ -214,10 +197,7 @@
     "raw_file": "data/raw/grammar-style-kitab-muqaddima-and-part-one.wikitext.txt",
     "text_file": "data/text/grammar-style-kitab-foundations-muqaddima-kalim-mana-transitivity.txt",
     "markdown_outputs": [
-      "data/markdown/grammar-style-kitab-method-scope-and-authority.md",
-      "data/markdown/grammar-style-kitab-sentence-foundations-parts-endings-and-isnad.md",
-      "data/markdown/grammar-style-kitab-meaning-fit-validity-and-poetic-license.md",
-      "data/markdown/grammar-style-kitab-transitivity-complements-and-hal.md"
+      "data/markdown/grammar-style-kitab-complete-writing-foundations.md"
     ],
     "duplicate_keys": {
       "normalized_title": "الكتاب",
@@ -261,11 +241,7 @@
     "raw_file": "data/raw/grammar-style-khasais-qiyas-ilal-alfaz-mana-batch.wikitext.txt",
     "text_file": "data/text/grammar-style-khasais-qiyas-ilal-alfaz-mana-foundations.txt",
     "markdown_outputs": [
-      "data/markdown/grammar-style-khasais-language-nahw-irab-kalam-qawl.md",
-      "data/markdown/grammar-style-khasais-qiyas-usage-and-shudhudh.md",
-      "data/markdown/grammar-style-khasais-meaning-before-ornament-and-islah-al-lafz.md",
-      "data/markdown/grammar-style-khasais-parsing-versus-meaning.md",
-      "data/markdown/grammar-style-khasais-ilal-and-guarded-rules.md"
+      "data/markdown/grammar-style-khasais-complete-writing-foundations.md"
     ],
     "duplicate_keys": {
       "normalized_title": "الخصائص",
