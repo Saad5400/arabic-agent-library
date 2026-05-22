@@ -1,8 +1,8 @@
-# Arabic Agent Library — Handoff for the next agent
+# مذكرة تسليم: مكتبة البلاغة والفصاحة للوكيل العربي
 
 Read this file before making changes.
 
-## Project purpose
+## غاية المشروع
 
 Build a source-grounded Arabic reference library that helps AI agents write better fusha by learning from real Arabic sources rather than generic style heuristics.
 
@@ -13,18 +13,18 @@ The project pipeline is:
 3. text extraction / cleaning
 4. Markdown synthesis for agent consumption
 
-## Current state at handoff
+## صورة الحالة عند التسليم
 
 The project has moved beyond planning and already contains real artifacts.
 
-### Registry state
+### حال السجل المركزي
 
 - 13 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
 - one source is synthesized end-to-end
 - one additional poetry source is downloaded but not yet processed further
 
-### First completed slice
+### أول مسار اكتمل طرفاه
 
 Source id: `reference-sinaatayn`
 
@@ -39,7 +39,7 @@ What this proves:
 - registry -> raw -> text -> markdown works at least once
 - the project is no longer just schema and docs
 
-### Additional acquired source
+### مصدر مضاف جرى اقتناؤه
 
 Source id: `poetry-diwan-al-mutanabbi`
 
@@ -53,9 +53,9 @@ Interpretation:
 - acquisition has happened
 - extraction / cleanup / synthesis still remain
 
-## Important files
+## ملفات لا غنى عنها
 
-### Read first
+### ابدأ بهذه الملفات
 
 - `README.md`
 - `data/registry/sources.json`
@@ -64,14 +64,14 @@ Interpretation:
 - `docs/text-extraction-spec.md`
 - `docs/markdown-pack-spec.md`
 
-### Existing output examples
+### أمثلة المخرجات الموجودة
 
 - `data/text/reference-sinaatayn-opening.txt`
 - `data/markdown/reference-sinaatayn-balagha-fasaha.md`
 
-## What is trustworthy vs incomplete
+## ما يصح البناء عليه وما لا يزال ناقصًا
 
-### Trustworthy enough to build on
+### ما يصح الاعتماد عليه الآن
 
 - repository structure
 - registry schema
@@ -81,7 +81,7 @@ Interpretation:
 - first synthesized example from `reference-sinaatayn`
 - downloaded mutanabbi raw artifacts
 
-### Still incomplete
+### ما يزال محتاجًا إلى استكمال
 
 - OCR/bootstrap is not yet formalized into repo scripts
 - only one source has text + markdown output
@@ -89,7 +89,7 @@ Interpretation:
 - no comprehensive automated test suite yet
 - no packaging / release process
 
-## Suggested next action
+## الخطوة التالية المقترحة
 
 Best next concrete task:
 
@@ -104,7 +104,7 @@ Why this is the best next step:
 - it grows the corpus with a different category (poetry)
 - it avoids wasting another iteration on metadata-only polishing
 
-## Validation commands
+## أوامر التحقق
 
 Run from repo root:
 
@@ -118,7 +118,7 @@ Expected current behavior:
 - lint should pass
 - duplicate check should report no duplicate title/author pairs
 
-## OCR notes
+## ملاحظات بيئة التعرّف الضوئي على الحروف
 
 A local OCR environment was used during development but is intentionally not committed.
 
@@ -136,7 +136,7 @@ Recommended repo improvement:
 - add a documented bootstrap script for OCR
 - add a repeatable extraction command for PDF / scan inputs
 
-## Data model conventions
+## اصطلاحات نموذج البيانات
 
 Registry entries should keep these in sync:
 
@@ -147,7 +147,7 @@ Registry entries should keep these in sync:
 - `duplicate_keys.content_sha256` when relevant
 - provenance and notes when acquisition/extraction choices matter
 
-## Known project philosophy
+## فلسفة المشروع
 
 - prefer real source-backed artifacts over more planning
 - keep provenance explicit
@@ -155,7 +155,7 @@ Registry entries should keep these in sync:
 - optimize final Markdown for agent readability, not book facsimile layout
 - prefer small verified increments over bulk ingestion
 
-## If you only have 10 minutes
+## إذا لم يكن لك إلا عشر دقائق
 
 Do this in order:
 

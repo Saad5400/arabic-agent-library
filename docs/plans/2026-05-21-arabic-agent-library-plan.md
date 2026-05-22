@@ -1,4 +1,4 @@
-# Arabic Agent Library Implementation Plan
+# خطة تنفيذ مكتبة البلاغة والفصاحة للوكيل العربي
 
 > **For Hermes:** Use subagent-driven-development skill to implement this plan task-by-task.
 
@@ -10,38 +10,38 @@
 
 ---
 
-## Project phases
+## مراحل المشروع
 
-### Phase 1: Registry and source policy
+### المرحلة الأولى: السجل وسياسة اختيار المصادر
 - Define what counts as an acceptable source.
 - Create a registry schema with unique IDs, URLs, titles, authors, categories, status, and duplication checks.
 - Create the first curated seed list.
 
-### Phase 2: Raw source ingestion
+### المرحلة الثانية: اقتناء المواد الخام
 - Add scripts and conventions for downloading or referencing sources.
 - Store raw files separately from metadata.
 - Track ingestion status and failures.
 
-### Phase 3: Text extraction and cleanup
+### المرحلة الثالثة: استخراج النص وتنقيحه
 - Convert PDF/EPUB/HTML/TXT into UTF-8 text.
 - Remove scanning noise, page headers, repeated footers, and broken line wraps.
 - Store cleaned text with links back to source IDs.
 
-### Phase 4: Markdown knowledge synthesis
+### المرحلة الرابعة: تركيب الحزم المعرفية بصيغة ماركداون
 - Produce agent-friendly Markdown packs by topic.
 - Keep each file concise, navigable, and source-backed.
 - Separate quotation material from distilled guidance.
 
-### Phase 5: Review and expansion
+### المرحلة الخامسة: المراجعة والتوسعة
 - Add quality checks.
 - Expand source coverage without duplication.
 - Periodically rebuild Markdown outputs from improved text.
 
 ---
 
-## Initial task breakdown
+## تفصيل المهام الأولى
 
-### Task 1: Create registry schema
+### المهمة الأولى: إنشاء مخطط السجل
 **Objective:** Define a single structure for source tracking.
 
 **Files:**
@@ -52,7 +52,7 @@
 - JSON files are valid.
 - Every source entry can track provenance, format, status, and duplicate detection fields.
 
-### Task 2: Define source selection policy
+### المهمة الثانية: ضبط سياسة اختيار المصادر
 **Objective:** Make source acceptance criteria explicit.
 
 **Files:**
@@ -62,7 +62,7 @@
 - Policy distinguishes primary references, secondary references, and excluded material.
 - Policy explains how to avoid low-quality or duplicated sources.
 
-### Task 3: Seed the first source candidates
+### المهمة الثالثة: زرع الدفعة الأولى من المصادر المرشحة
 **Objective:** Add an initial list of trusted targets to pursue.
 
 **Files:**
@@ -72,7 +72,7 @@
 - The list covers dictionaries, rhetoric/style books, grammar/style references, and poetry.
 - Each candidate has a category and acquisition status.
 
-### Task 4: Define text extraction conventions
+### المهمة الرابعة: تحديد أعراف استخراج النص
 **Objective:** Standardize how raw sources become text.
 
 **Files:**
@@ -81,7 +81,7 @@
 **Verification:**
 - Spec covers file naming, encoding, cleanup rules, and provenance fields.
 
-### Task 5: Define Markdown output format
+### المهمة الخامسة: تحديد صورة المخرج بصيغة ماركداون
 **Objective:** Specify what an agent-facing knowledge file should look like.
 
 **Files:**
@@ -92,7 +92,7 @@
 - Template is easy for an AI agent to scan.
 - Template keeps source citations and distilled guidance separate.
 
-### Task 6: Build first end-to-end example
+### المهمة السادسة: بناء أول مثال مكتمل المسار
 **Objective:** Take one source from registry to text to Markdown.
 
 **Files:**
@@ -103,7 +103,7 @@
 
 ---
 
-## Working rules
+## قواعد العمل
 
 - Never add a source without registry metadata.
 - Never overwrite provenance.
@@ -111,6 +111,6 @@
 - Re-check duplicates by title, author, URL, and content hash when possible.
 - Keep the final Markdown optimized for AI reading, not human book layout.
 
-## Next recommended action
+## الخطوة المقترحة التالية
 
 Start with Task 1 and Task 2: define the source registry schema and source selection policy before collecting real materials.

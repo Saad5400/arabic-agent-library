@@ -1,178 +1,139 @@
-# Arabic Agent Library مكتبة البلاغة والفصاحة لوكلاء الذكاء الاصطناعي
+# مكتبة البلاغة والفصاحة للوكيل العربي
 
-Arabic Agent Library is a source-grounded corpus-building project for AI agents that need to write strong Modern Standard Arabic with better diction, style, rhetoric, and source awareness.
+هذا المشروع مكتبةٌ عربيةٌ مصدريةٌ تُبنى لتخدم وكيلًا يكتب العربية الفصحى على بصيرة، لا على زخرفٍ إنشائيٍّ فارغ، ولا على حدسٍ لغويٍّ منفصلٍ عن أصوله.
 
-The repository is not meant to be a generic Arabic dataset dump. Its goal is to build a traceable pipeline:
+والمقصود في هذه المرحلة وكيلٌ واحدٌ قبل غيره: وكيلٌ يَرجع إلى مواد المكتبة المتاحة، ويستخرج منها ما يقوّي عبارته، ويهذّب منطقه، ويُحسن اختياره للفظ، ثم يكتب على هدى الشاهد والمعنى معًا.
 
-1. discover trustworthy Arabic sources
-2. ingest raw files or canonical digital texts
-3. extract or clean UTF-8 text
-4. synthesize compact agent-friendly Markdown packs
+فالمشروع ليس مستودعًا عامًا لنصوص عربية مبعثرة، ولا مكبًّا لبيانات خام، بل مسارٌ منضبطٌ يحفظ الصلة بين المخرج النهائي وبين مصدره الحقيقي.
 
-Every output should stay linked to a real source through a central registry.
+## لماذا أُنشئت هذه المكتبة
 
-## Why this project exists
+كثيرٌ من العربية التي تخرج من النماذج مفهومةٌ في الجملة، لكنها ضعيفة السَّبك، مفلطحة النبرة، مكرورة العبارة، أو بعيدة الصلة بكتب العربية الرفيعة. فجاء هذا المشروع ليبني طبقةً وسطى نافعة بين النص الخام وبين الجواب النهائي: طبقة حزمٍ عمليةٍ موجَّهةٍ للوكيل.
 
-Many Arabic outputs from AI systems are understandable but stylistically weak, flattened, repetitive, or detached from classical and high-quality reference material. This project aims to create reusable Arabic reference packs that help downstream agents:
+والغاية أن يتعلّم الوكيل من مصادر عربية حقيقية كيف:
 
-- choose stronger and clearer fusha wording
-- distinguish between eloquence, clarity, and ornament
-- borrow patterns from real Arabic reference works
-- cite provenance instead of relying on vague style advice
+- يختار اللفظ الأقوى والأبين.
+- يفرّق بين الفصاحة والبيان والزينة اللفظية.
+- يستفيد من المعجم، والبلاغة، والنحو، والشعر، والكتب المرجعية من غير تقويلٍ للمصادر.
+- يربط كل فائدةٍ تحريرية بسندٍ واضحٍ وحدود تغطيةٍ صريحة.
 
-## Current repository status
+## صورة المشروع اليوم
 
-This repo already contains the first end-to-end slice of the pipeline:
+في حالته الراهنة يضم المستودع:
 
-- a registry with 13 curated source entries
-- source policy and extraction/synthesis specs
-- one ingested reference source
-- one cleaned text excerpt
-- one first Markdown knowledge pack
-- one additional downloaded poetry source waiting for extraction work
+- 13 مصدرًا مسجّلًا في السجل المركزي.
+- 20 حزمة ماركداون موجَّهة للوكيل.
+- 10 ملفات نصية منظَّفة أو مقتطفاتٍ عملية.
+- 13 ملفًّا خامًّا أو أثَرًا أوليًّا محفوظًا للمراجعة والتتبع.
 
-Current registry summary:
+وتوزيع فئات المصادر في السجل هو:
 
-- total entries: 13
-- categories:
-  - dictionary: 3
-  - rhetoric: 2
-  - grammar-style: 2
-  - reference: 3
-  - poetry: 3
-- statuses:
-  - candidate: 9
-  - queued: 2
-  - downloaded: 1
-  - synthesized: 1
+- معاجم: 3
+- بلاغة/فصاحة: 2
+- نحو/أسلوب: 2
+- مراجع عامة: 3
+- شعر: 3
 
-## What has been built so far
+أما حالات السجل الحالية فهي:
 
-### 1) Project design and governance
+- حزم مكتملة الصياغة: 7
+- مصادر مرشحة: 4
+- مصادر مصطفّة للعمل القادم: 2
 
-- `docs/source-selection-policy.md`
-- `docs/text-extraction-spec.md`
-- `docs/markdown-pack-spec.md`
-- `docs/plans/2026-05-21-arabic-agent-library-plan.md`
+## الفكرة التشغيلية الأساسية
 
-These documents define what sources are acceptable, how raw files become text, and how agent-facing Markdown should be structured.
+يبنى العمل في هذا المشروع على مسارٍ ظاهر الخطوات:
 
-### 2) Central source registry
+1. اختيار مصدرٍ عربيٍّ موثوقٍ يصلح أن يُعلِّم الوكيل شيئًا نافعًا.
+2. حفظ الأثر الخام أو النص الرقمي الأصلي مع إثبات مصدره.
+3. استخراج نص UTF-8 وتنقيحه من التشويش بقدر الحاجة.
+4. تركيب حزمة ماركداون عملية تُبقي الشواهد، والفروق، والقيود، ووجوه الانتفاع التحريري.
 
-- `data/registry/sources.schema.json`
-- `data/registry/sources.json`
-- `scripts/registry_tool.py`
+ولا تُقبل فائدةٌ نهائية ما لم يمكن ردُّها إلى مادةٍ موثقة، ولو من طريقٍ تقريبيٍّ مضبوط.
 
-The registry keeps:
+## ما الذي ينجزه الوكيل بهذه المكتبة
 
-- source id
-- title / author
-- category
-- source type
-- status
-- URLs and mirrors
-- local artifact paths
-- duplicate keys
-- provenance notes
+حين يستعمل الوكيل هذه المكتبة على الوجه المطلوب، فليس دوره أن يكرّر ألفاظ المصادر أو يقلّد نبرتها تقليدًا أعمى؛ بل أن:
 
-Validation helpers already exist in `scripts/registry_tool.py`.
+- يستخلص من الحزمة قرارًا لغويًا أو أسلوبيًا قابلًا للاستعمال.
+- يوازن بين البيان والاختصار بحسب المقام.
+- يميّز بين اللفظ القوي واللفظ المتكلف.
+- يبني جوابًا عربيًا أحسن سبكًا وأقرب إلى الأمانة المصدرية.
+- يصرّح بحدود ما استفاده من المصدر إذا كانت التغطية جزئية أو الشاهد مشكوكًا فيه بسبب OCR أو غيره.
 
-### 3) First real source pipeline
+## بنية المستودع
 
-The first source pushed through the pipeline is:
+- `README.md` — هذه المقدمة الجامعة للمشروع وغايته وحاله.
+- `docs/` — المواصفات، والسياسات، والخطط، ومذكرات التسليم.
+- `data/registry/` — السجل المركزي للمصادر، مع المخطط وأدوات التحقق.
+- `data/raw/` — المواد الخام، وصور الاقتناء، وآثار OCR الأولية.
+- `data/text/` — النصوص المنظفة أو المقتطفات العاملة.
+- `data/markdown/` — الحزم النهائية أو شبه النهائية التي يقرؤها الوكيل مباشرة.
+- `scripts/` — الأدوات الخادمة للفحص والتحقق ومعالجة السجل.
 
-- `reference-sinaatayn`
-- title: `كتاب الصناعتين الكتابة والشعر`
-- author: `أبو هلال العسكري`
+## ملفات مرجعية لا غنى عنها
 
-Tracked artifacts:
+- `docs/HANDOFF.md` — أقصر طريقٍ لفهم وضع المشروع عند استلامه.
+- `data/registry/sources.json` — سجل العمل المعتمد.
+- `scripts/registry_tool.py` — أداة التحقق من السجل واكتشاف التكرار.
+- `docs/source-selection-policy.md` — سياسة قبول المصادر أو استبعادها.
+- `docs/text-extraction-spec.md` — مواصفة الاستخراج والتنظيف.
+- `docs/markdown-pack-spec.md` — مواصفة الحزم الموجَّهة للوكيل.
+- `data/markdown/_template.md` — القالب الأساس لبناء الحزم الجديدة.
 
-- raw OCR sidecar: `data/raw/reference-sinaatayn.ia-djvu.txt`
-- cleaned excerpt: `data/text/reference-sinaatayn-opening.txt`
-- first Markdown pack: `data/markdown/reference-sinaatayn-balagha-fasaha.md`
+## كيف تُقرأ الحزمة الجيدة
 
-This is the first proof that the pipeline is real, not just planning.
+الحزمة الجيدة في هذا المشروع ليست ملخصًا قصيرًا باردًا، ولا تفريغًا للنص الخام، بل بناءً عمليًا يجمع عادةً بين:
 
-### 4) Additional acquired source
+- وجهة العمل للوكيل.
+- خلاصة المادة وقواعدها العملية.
+- فروقٍ وتمايزاتٍ نافعة.
+- شواهد موثقة من المصدر.
+- تنبيهاتٍ تحريرية وحدود تغطية.
+- أبوابٍ مفتوحةٍ يضيف فيها المحرر ما يلزم بحسب طبيعة المصدر.
 
-A second source has already been downloaded and committed for future work:
+ولهذا لا يُطلب من القالب أن يكون قصيرًا لذاته؛ بل أن يكون مرنًا، وأن يفسح للمادة الغنية مجالها الطبيعي.
 
-- `poetry-diwan-al-mutanabbi`
-- raw scan PDF: `data/raw/poetry-diwan-al-mutanabbi.ia.pdf`
-- raw OCR sidecar: `data/raw/poetry-diwan-al-mutanabbi.ia-djvu.txt`
+## أوامر التحقق
 
-This source is acquired but not yet extracted into cleaned text or Markdown.
-
-## Repository structure
-
-- `README.md` — project overview and current state
-- `docs/` — policy, specs, plan, and handoff notes
-- `data/registry/` — source registry and schema
-- `data/raw/` — downloaded source files or OCR sidecars
-- `data/text/` — extracted / cleaned UTF-8 text
-- `data/markdown/` — agent-facing synthesized knowledge packs
-- `scripts/` — project utilities
-
-## Key files
-
-- `docs/HANDOFF.md` — best file for another agent to read first
-- `data/registry/sources.json` — authoritative working set
-- `scripts/registry_tool.py` — validation and duplicate checks
-- `data/markdown/reference-sinaatayn-balagha-fasaha.md` — first example of final output shape
-
-## Validation commands
-
-From the repo root:
+من جذر المستودع:
 
 ```bash
 python3 scripts/registry_tool.py lint
 python3 scripts/registry_tool.py check-duplicates
 ```
 
-## OCR environment notes
+## ما ليس هذا المشروع بصدده
 
-An OCR environment was prepared locally during development but is intentionally not committed.
+هذا المشروع، في صورته الحالية، ليس:
 
-Local path used during development:
+- منتجًا نهائيًا مصقولًا.
+- مدونةً عربيةً شاملة.
+- مكتبة بايثون مُحزَّمة.
+- مجموعةً عشوائيةً من النصوص بلا أثرٍ ولا نسبة.
 
-- `.venv-ocr/`
+وإنما هو بناءٌ تراكميٌّ لمكتبةٍ عربيةٍ نافعةٍ لوكيل كتابةٍ يستند إلى الشاهد والمصدر.
 
-Installed stack used locally:
+## الأولويات القريبة
 
-- `uv`
-- `torch` CPU build
-- `marker-pdf`
-- `surya-ocr`
+الأولوية الآن ليست الإكثار من العناوين، بل تعميق قيمة الحزم نفسها، حتى يصير في المكتبة ما يكفي ليكتب الوكيل كتابةً أبلغ وأوثق وأغنى من الجواب العام.
 
-The repo itself does not yet include a reproducible setup script for OCR. A next contributor can either:
+ولهذا تتقدّم الأعمال الآتية:
 
-- recreate the environment manually with `uv`, or
-- formalize it into a committed setup script / requirements file.
+1. توسيع الحزم انطلاقًا من مواد خامٍّ أكبر وأغنى.
+2. زيادة عدد النصوص المنظفة التي تقود إلى حزم ذات قيمة مباشرة.
+3. إحكام القالب الأساس ليقبل الزيادات النوعية بحسب طبيعة المصدر.
+4. تحسين قابلية الوكيل للاستفادة من المكتبة في إعادة الصياغة والجواب البليغ.
+5. إبقاء كل توسعٍ مقرونًا بنسبةٍ واضحةٍ وحدودٍ معلنة.
 
-## Highest-priority next steps
+## مذكرة تسليم سريعة
 
-1. Extract a clean text artifact from `poetry-diwan-al-mutanabbi`
-2. Update its registry entry with local artifact paths and status changes
-3. Expand the `reference-sinaatayn` coverage beyond the opening excerpt
-4. Produce more agent-facing Markdown packs from real text, not only registry metadata
-5. Add reproducible OCR/bootstrap scripts so another agent can resume without local guesswork
-
-## Non-goals
-
-This repository is not currently:
-
-- a polished product
-- a full Arabic corpus
-- a finished benchmark
-- a packaged Python library
-
-It is an actively structured build-out of a traceable Arabic knowledge library for future agent use.
-
-## Handoff note
-
-If another agent is continuing this project, start with:
+إذا تولّى وكيلٌ آخر هذا المستودع، فليبدأ من هذا الترتيب:
 
 1. `docs/HANDOFF.md`
 2. `data/registry/sources.json`
 3. `scripts/registry_tool.py`
-4. the existing artifacts under `data/raw/`, `data/text/`, and `data/markdown/`
+4. `docs/markdown-pack-spec.md`
+5. `data/markdown/` ثم `data/text/`
+
+فمن هناك يظهر له موضع البناء، وما اكتمل، وما ينبغي أن يُستأنف بعده.

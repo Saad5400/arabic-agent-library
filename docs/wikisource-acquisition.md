@@ -32,7 +32,7 @@ python3 scripts/fetch_wikisource.py \
   --output data/raw/lisan-bayn-page.wikitext.txt
 ```
 
-### 3) الطباعة إلى stdout بدل الكتابة
+### 3) الإخراج إلى المعيار القياسي بدل الكتابة
 
 ```bash
 python3 scripts/fetch_wikisource.py --title "القاموس المحيط" --stdout
