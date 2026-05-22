@@ -21,25 +21,33 @@ The project has moved beyond planning and already contains real artifacts.
 
 - 13 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- one source is synthesized end-to-end
-- one additional poetry source is downloaded but not yet processed further
+- 7 sources are currently `synthesized`
+- 4 sources remain `candidate`
+- 2 sources remain `queued`
 
-### أول مسار اكتمل طرفاه
+### أحدث إنجاز بنيوي مهم
 
-Source id: `reference-sinaatayn`
+المستودع لم يعد في مرحلة إثبات المسار فقط؛ بل دخل مرحلة **مراجعة الأساس المنتج نفسه**. في آخر مراجعة كبيرة جُمعت حزم `مختار الصحاح` و`الكتاب` المتفرقة في ملفين جامعَين، وصارت مخرجات المصادر التأسيسية أوضح وأقل تفتيتًا، مع تحديث السجل والخطة الرئيسية تبعًا لذلك.
 
-Artifacts:
+### مثالان مرجعيان مكتملان داخل طبقة الأساس
 
-- raw OCR text: `data/raw/reference-sinaatayn.ia-djvu.txt`
-- cleaned excerpt: `data/text/reference-sinaatayn-opening.txt`
-- synthesized pack: `data/markdown/reference-sinaatayn-balagha-fasaha.md`
+Source ids:
 
-What this proves:
+- `dict-mukhtar-al-sihah`
+- `grammar-style-kitab`
 
-- registry -> raw -> text -> markdown works at least once
-- the project is no longer just schema and docs
+Representative artifacts:
 
-### مصدر مضاف جرى اقتناؤه
+- `data/markdown/dict-mukhtar-al-sihah-complete-writing-foundations.md`
+- `data/markdown/grammar-style-kitab-complete-writing-foundations.md`
+
+What this now proves:
+
+- registry -> raw -> text -> markdown works across multiple source families, not once only
+- the project can both ingest new material and later rebalance file granularity for usability
+- the foundation layers (dictionary + grammar/style) are materially stronger than the early handoff state
+
+### مصدر شعري له مسار مكتمل فعلاً
 
 Source id: `poetry-diwan-al-mutanabbi`
 
@@ -47,11 +55,13 @@ Artifacts already present locally:
 
 - `data/raw/poetry-diwan-al-mutanabbi.ia.pdf`
 - `data/raw/poetry-diwan-al-mutanabbi.ia-djvu.txt`
+- `data/text/poetry-mutanabbi-ambition-opening.txt`
+- `data/markdown/poetry-mutanabbi-ambition-and-voice.md`
 
 Interpretation:
 
-- acquisition has happened
-- extraction / cleanup / synthesis still remain
+- acquisition, cleanup, and synthesis have all happened for this source
+- poetry is no longer merely downloaded raw material
 
 ## ملفات لا غنى عنها
 
@@ -94,16 +104,16 @@ Interpretation:
 
 Best next concrete task:
 
-1. process `poetry-diwan-al-mutanabbi`
-2. create a cleaned text artifact under `data/text/`
-3. update the matching registry entry with `raw_file`, `text_file`, and status
-4. synthesize one small Markdown pack from that text
+1. start `reference-adab-al-katib` in line with `docs/MASTER_EXECUTION_CHECKLIST.md`
+2. acquire a materially large raw batch from a real digital witness (not a tiny excerpt)
+3. build one cleaned text artifact under `data/text/`
+4. synthesize one appropriately broad Markdown output, ثم تحديث السجل
 
 Why this is the best next step:
 
-- it turns the second real source into another end-to-end proof
-- it grows the corpus with a different category (poetry)
-- it avoids wasting another iteration on metadata-only polishing
+- the checklist’s first audit step for dictionary/grammar foundations has now been advanced
+- the project should move next to the first unfinished reference source instead of looping on the same foundation files
+- `أدب الكاتب` fits the user’s goal of practical, source-grounded guidance for fusha writing better than another cosmetic reshuffle
 
 ## أوامر التحقق
 
