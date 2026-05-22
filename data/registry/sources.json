@@ -95,17 +95,21 @@
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "أُنجزت في هذه المرحلة طبقة تأسيسية معجمية موجهة للكتابة العربية من مواد ويكي مصدر: جُمعت مداخل منتقاة تخدم البيان والفصاحة والإيجاز والتفصيل والجودة والقول المسؤول، ثم نُظِّمت في ملف نصي منظَّف وحزمة Markdown عملية. التغطية ما تزال جزئية ومركزة على جذور مختارة (مثل: بلغ، بين، فصح، وضح، وجز، فصل، كتب، قول، لحن، جود) ولا تمثل المعجم كله.",
+    "notes": "أُنجزت في هذه المرحلة دفعة معجمية تأسيسية أوسع بكثير من العمل السابق على الجذور المنتقاة الصغيرة. جُمعت ثماني صفحات حروف كاملة من ويكي مصدر (`باب الباء`، `باب الفاء`، `باب الواو`، `باب الكاف`، `باب القاف`، `باب الجيم`، `باب اللام`، `باب العين`) في raw batch واحد يتجاوز 1.0 ميغابايت من الويكي-تكست قبل أي تركيب. ثم نُظِّمت المادة في ملف نصي واسع يعيد توزيع الجذور على أربعة عناقيد عملية تخدم الوكيل في: البيان والفهم واللفظ؛ الإيجاز والفصل والوصل والوجهة؛ الكتابة ونسبة القول والتفويض والعهد؛ والجودة والعقل والعيب والنقد المنضبط. وصيغت من ذلك أربع حزم Markdown متوسطة الغنى تضاف إلى الحزمة الأقدم `dict-mukhtar-al-sihah-clarity-and-diction.md` بدل الاكتفاء بملف واحد ضيق. هذه الدفعة توسع الأساس المعجمي للمشروع بخام حرفي كبير فعلاً وتغطي طيفاً أوسع من قرارات الكتابة والتحرير والنقد، لكنها تظل جزئية بالنسبة إلى المعجم كله.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/dict-mukhtar-al-sihah-selected-writing-roots.wikitext.txt",
-    "text_file": "data/text/dict-mukhtar-al-sihah-writing-roots.txt",
+    "raw_file": "data/raw/dict-mukhtar-al-sihah-full-letter-pages-b-f-w-k-q-j-l-ayn.wikitext.txt",
+    "text_file": "data/text/dict-mukhtar-al-sihah-broad-writing-foundations-from-full-letter-pages.txt",
     "markdown_outputs": [
-      "data/markdown/dict-mukhtar-al-sihah-clarity-and-diction.md"
+      "data/markdown/dict-mukhtar-al-sihah-clarity-and-diction.md",
+      "data/markdown/dict-mukhtar-al-sihah-broad-bayan-fahm-and-lafz.md",
+      "data/markdown/dict-mukhtar-al-sihah-broad-ijaz-fasl-wasl-and-qasd.md",
+      "data/markdown/dict-mukhtar-al-sihah-broad-writing-attribution-and-commitment.md",
+      "data/markdown/dict-mukhtar-al-sihah-broad-quality-reason-and-critique.md"
     ],
     "duplicate_keys": {
       "normalized_title": "مختار الصحاح",
       "normalized_author": "محمد بن ابي بكر الرازي",
-      "content_sha256": "dc8a872c9057388c9abcf5776c13f3286b9c1c85f201fc92223ad2c2040a9d1d"
+      "content_sha256": "fc4f4f94381191aa68a769b104949ca5926d67f9b74dfc5dcf06554dd3eecd46"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
