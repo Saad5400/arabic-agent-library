@@ -482,16 +482,29 @@
     "category": "poetry",
     "source_type": "scan",
     "language_stage": "classical",
-    "status": "queued",
-    "original_url": "https://ar.wikisource.org/wiki/%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D8%AD%D8%AA%D8%B1%D9%8A",
-    "mirror_urls": [],
-    "publisher": "Wikisource contributors",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/Diwan_Buhturi",
+    "mirror_urls": [
+      "https://archive.org/download/Diwan_Buhturi/4408.pdf",
+      "https://archive.org/download/Diwan_Buhturi/4408_djvu.txt",
+      "https://archive.org/download/Diwan_Buhturi/4408_djvu.xml",
+      "https://archive.org/download/Diwan_Buhturi/4408_scandata.xml",
+      "https://ar.wikisource.org/wiki/%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D8%AD%D8%AA%D8%B1%D9%8A"
+    ],
+    "publisher": "Internet Archive",
     "year": null,
-    "notes": "عُثر على صفحة موثقة في ويكي مصدر العربي تمثل نسخة مصورة/تفريغًا غير مكتمل للديوان؛ تفيد في تتبع الشواهد الشعرية لاحقًا لكن النص المتاح ليس مكتملاً بعد.",
-    "license": "Underlying work public domain; Wikisource transcription/scan metadata available under CC BY-SA 4.0.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "notes": "نُقل `ديوان البحتري` من مجرد مرشح على ويكي مصدر إلى اقتناء فعلي واسع من Internet Archive (العنصر `Diwan_Buhturi`). حُفظت محليًا ملفات raw الأربعة: المصوَّر `data/raw/poetry-diwan-al-buhturi.ia.pdf`، وOCR النصي `data/raw/poetry-diwan-al-buhturi.ia-djvu.txt`، وOCR البنيوي `data/raw/poetry-diwan-al-buhturi.ia-djvu.xml`، وملف `data/raw/poetry-diwan-al-buhturi.ia-scandata.xml`. ثم استُخرج نطاق متصل واسع من متن الديوان اعتمادًا على DjVuXML عبر الأوراق 1400–1520 (حوالي 121 ورقة/صفحة مصدرية). نُتج ملف OCR وسيط (للمراجعة/الرجوع) وملف foundations محافظ ينظّف الضجيج ويُوسم كل مقطع برقم الورقة. وبسبب ضجيج OCR وعدم تحقق ترقيم القصائد في هذا الشاهد، تُنسب التغطية هنا إلى أرقام الأوراق (leaves) لا إلى قصائد محققة سطرًا سطرًا. ثم قُسمت المخرجات إلى 7 ملفات Markdown تحت قاعدة ~ملف لكل 20 ورقة تقريبًا.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms. The auxiliary Wikisource page remains only a discovery pointer under CC BY-SA 4.0.",
+    "raw_file": "data/raw/poetry-diwan-al-buhturi.ia.pdf",
+    "text_file": "data/text/poetry-diwan-al-buhturi-leaves-1400-1520-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/poetry-buhturi-selected-leaves-1400-1419-writing-notes.md",
+      "data/markdown/poetry-buhturi-selected-leaves-1420-1439-writing-notes.md",
+      "data/markdown/poetry-buhturi-selected-leaves-1440-1459-writing-notes.md",
+      "data/markdown/poetry-buhturi-selected-leaves-1460-1479-writing-notes.md",
+      "data/markdown/poetry-buhturi-selected-leaves-1480-1499-writing-notes.md",
+      "data/markdown/poetry-buhturi-selected-leaves-1500-1520-writing-notes.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "ديوان البحتري",
       "normalized_author": "البحتري",
@@ -499,7 +512,7 @@
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "manual seed list; verified via Wikisource API and page inspection",
+      "discovery_method": "manual seed list; initial Wikisource verification, then broad Internet Archive acquisition via metadata API",
       "verified_by": "Hermes"
     }
   }
