@@ -21,13 +21,13 @@ The project has moved beyond planning and already contains real artifacts.
 
 - 13 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 11 sources are currently `synthesized`
+- 12 sources are currently `synthesized`
 - 0 sources remain `candidate`
-- 2 sources remain `queued`
+- 1 source remains `queued`
 
 ### أحدث إنجاز بنيوي مهم
 
-اكتملت الآن ثاني دفعة بلاغية فعلية من `أسرار البلاغة`، فصار مصدرا البلاغة المسجلان كلاهما في طور `synthesized`. استُخدم شاهد رقمي كبير من Internet Archive (`ar114rhet38`) لا صفحة فهرسية قصيرة: raw batch جديد يضم OCR النصي (`data/raw/rhetoric-asrar-al-balagha.ia-djvu.txt` بنحو 1.26 ميغابايت)، وملف OCR البنيوي `data/raw/rhetoric-asrar-al-balagha.ia-djvu.xml`، و`data/raw/rhetoric-asrar-al-balagha.ia-scandata.xml`، مع المصوَّر `data/raw/rhetoric-asrar-al-balagha.ia.pdf`. ومن هذا الشاهد استُخرج نطاق متصل عريض من متن الكتاب نفسه عبر الأوراق التقريبية 32–120، أي نحو 89 صفحة مصدرية بعد المقدمة الحديثة الطويلة. نُظمت المادة في ملف text عملي واحد، ثم وُزعت على خمس حزم Markdown تخدم الوكيل مباشرة في: البيان والكلام وأولوية النظم، والتجنيس والسجع والحشو تحت حكم المعنى، والتشبيه والتمثيل والطريق إلى الاستعارة، والاستعارة المفيدة واستعارة الاسم والفعل، ثم مآخذ الشبه بين الحس والعقل. وبذلك أُغلقت المرحلة البلاغية في الخطة، وصارت الخطوة التالية الإلزامية هي `ديوان أبي تمام`.
+أُنجز الآن `poetry-diwan-abi-tammam` وصار في طور `synthesized` بدل `queued`. استُخدم شاهد رقمي كبير وحقيقي من Internet Archive (`20220923_20220923_1326`) لا صفحة قصيدة صغيرة ولا فهرسًا مقتضبًا: حُفظت محليًا ملفات raw الأربعة (`data/raw/poetry-diwan-abi-tammam.ia.pdf` و`data/raw/poetry-diwan-abi-tammam.ia-djvu.txt` و`data/raw/poetry-diwan-abi-tammam.ia-djvu.xml` و`data/raw/poetry-diwan-abi-tammam.ia-scandata.xml`). ومن هذا الشاهد استُخرج نطاق متصل واسع من `باب المديح` عبر الأوراق 20-61، أي نحو 42 صفحة مصدرية، ثم نُظم في ملف OCR عملي وسيط وملف foundations تحريري محافظ، وتحوّل بعد ذلك إلى حزمتين Markdown متوسطي الغنى تخدمان الوكيل مباشرة في: صورة الحرب والهيبة والسيادة، ومداخل المدح من الشوق والسفر والعتاب وروابط الصلة. وبذلك انتقلت الخطة الإلزامية إلى المصدر الشعري الأخير غير المكتمل: `ديوان البحتري`.
 
 ### أمثلة مرجعية مكتملة يمكن القياس عليها
 
@@ -102,7 +102,7 @@ Interpretation:
 
 - OCR/bootstrap is not yet formalized into repo scripts
 - the rhetoric layer is now fully synthesized across its two registered sources
-- the broader poetry layer is still incomplete because `أبي تمام` and `البحتري` remain queued
+- the broader poetry layer is still incomplete only because `البحتري` remains queued
 - no comprehensive automated test suite yet
 - no packaging / release process
 
@@ -110,16 +110,16 @@ Interpretation:
 
 Best next concrete task:
 
-1. start `poetry-diwan-abi-tammam` in line with `docs/MASTER_EXECUTION_CHECKLIST.md`
+1. start `poetry-diwan-al-buhturi` in line with `docs/MASTER_EXECUTION_CHECKLIST.md`
 2. acquire a materially large raw batch from a real scan or broad digital witness (not a tiny poem page or isolated excerpt)
 3. build one cleaned text artifact under `data/text/`
 4. synthesize one or more appropriately broad Markdown outputs under the ~1 file per 20 pages rule, ثم تحديث السجل
 
 Why this is the best next step:
 
-- the checklist order has now moved out of rhetoric entirely and into the unfinished poetry layer
-- repeating small add-ons on `أسرار البلاغة` immediately would violate the anti-repeat rule after a broad 89-page batch already landed
-- `ديوان أبي تمام` is now the clearest next source because it is the next unchecked source in the master execution order before `ديوان البحتري`
+- the checklist order is now inside the final unfinished source of the poetry layer
+- repeating small add-ons on `أبي تمام` immediately would violate the anti-repeat rule after a broad 42-page batch already landed there
+- `ديوان البحتري` is now the clearest next source because it is the last unchecked source in the master execution order before the final project-wide quality review
 
 ## أوامر التحقق
 

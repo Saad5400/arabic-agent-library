@@ -445,24 +445,33 @@
     "category": "poetry",
     "source_type": "scan",
     "language_stage": "classical",
-    "status": "queued",
-    "original_url": "https://ar.wikisource.org/wiki/%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A3%D8%A8%D9%8A_%D8%AA%D9%85%D8%A7%D9%85",
-    "mirror_urls": [],
-    "publisher": "Wikisource contributors",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/20220923_20220923_1326",
+    "mirror_urls": [
+      "https://archive.org/download/20220923_20220923_1326/20220923_20220923_1326.pdf",
+      "https://archive.org/download/20220923_20220923_1326/20220923_20220923_1326_djvu.txt",
+      "https://archive.org/download/20220923_20220923_1326/20220923_20220923_1326_djvu.xml",
+      "https://archive.org/download/20220923_20220923_1326/20220923_20220923_1326_scandata.xml",
+      "https://ar.wikisource.org/wiki/%D8%AF%D9%8A%D9%88%D8%A7%D9%86_%D8%A3%D8%A8%D9%8A_%D8%AA%D9%85%D8%A7%D9%85"
+    ],
+    "publisher": "Internet Archive",
     "year": null,
-    "notes": "عُثر على صفحة موثقة في ويكي مصدر العربي تمثل نسخة مصورة/تفريغًا غير مكتمل للديوان؛ تصلح كهدف اقتناء لاحق مع ضرورة تتبع اكتمال التفريغ قبل الاعتماد على النص.",
-    "license": "Underlying work public domain; Wikisource transcription/scan metadata available under CC BY-SA 4.0.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "notes": "استُبدل الاعتماد الأولي على ويكي مصدر باقتناء حقيقي واسع من Internet Archive (العنصر `20220923_20220923_1326`). حُفظت محليًا ملفات raw الأربعة: المصوَّر، وOCR النصي DjVuTXT، وOCR البنيوي DjVuXML، وscandata. ثم استُخرج نطاق متصل واسع من باب المديح عبر الأوراق 20-61، أي نحو 42 صفحة مصدرية، في ملف OCR عملي وسيط وملف foundations تحريري محافظ. وبسبب ضجيج OCR وعدم توفر ترقيم صفحات نافع في `scandata.xml`، تُنسب التغطية هنا إلى أرقام الأوراق لا إلى صفحات محققة سطرًا سطرًا. المخرجات الحالية تخدم الوكيل في مسارين عريضين: صورة الحرب والهيبة والسيادة، ومداخل المدح من الشوق والسفر والعتاب وروابط الصلة.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms. The auxiliary Wikisource page remains only a discovery pointer under CC BY-SA 4.0.",
+    "raw_file": "data/raw/poetry-diwan-abi-tammam.ia.pdf",
+    "text_file": "data/text/poetry-diwan-abi-tammam-bab-al-madih-leaves-20-61-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/poetry-abi-tammam-madih-war-splendor-and-sovereign-image.md",
+      "data/markdown/poetry-abi-tammam-madih-entry-desire-journey-and-patronage-bonds.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "ديوان ابي تمام",
       "normalized_author": "ابو تمام",
-      "content_sha256": null
+      "content_sha256": "342a8a4a173c29c184c468fd93f0a69f635ad61c872d375af6f0273dceef8014"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "manual seed list; verified via Wikisource API and page inspection",
+      "discovery_method": "manual seed list; initial Wikisource verification, then broad Internet Archive acquisition plus OCR XML page-range extraction",
       "verified_by": "Hermes"
     }
   },

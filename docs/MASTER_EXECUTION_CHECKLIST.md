@@ -182,14 +182,14 @@
 
 ### الحالة الحالية
 - [x] ديوان المتنبي: synthesized
-- [ ] ديوان أبي تمام: queued
+- [x] ديوان أبي تمام: synthesized
 - [ ] ديوان البحتري: queued
 
 ### قائمة التحقق
-- [ ] اقتناء raw حقيقي واسع لـ `poetry-diwan-abi-tammam`
-- [ ] استخراج text عملي من `poetry-diwan-abi-tammam`
-- [ ] إنتاج Markdown مناسب من `poetry-diwan-abi-tammam`
-- [ ] تحديث السجل وذكر حدود التغطية
+- [x] اقتناء raw حقيقي واسع لـ `poetry-diwan-abi-tammam`
+- [x] استخراج text عملي من `poetry-diwan-abi-tammam`
+- [x] إنتاج Markdown مناسب من `poetry-diwan-abi-tammam`
+- [x] تحديث السجل وذكر حدود التغطية
 - [ ] اقتناء raw حقيقي واسع لـ `poetry-diwan-al-buhturi`
 - [ ] استخراج text عملي من `poetry-diwan-al-buhturi`
 - [ ] إنتاج Markdown مناسب من `poetry-diwan-al-buhturi`
@@ -234,7 +234,7 @@
 3. [x] إكمال `البيان والتبيين`
 4. [x] إكمال `دلائل الإعجاز`
 5. [x] إكمال `أسرار البلاغة`
-6. [ ] إكمال `ديوان أبي تمام`
+6. [x] إكمال `ديوان أبي تمام`
 7. [ ] إكمال `ديوان البحتري`
 8. [ ] تنفيذ مراجعة الجودة النهائية على المشروع كله
 
