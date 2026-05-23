@@ -147,20 +147,29 @@
     "category": "rhetoric",
     "source_type": "html",
     "language_stage": "classical",
-    "status": "candidate",
+    "status": "synthesized",
     "original_url": "https://ar.wikisource.org/wiki/%D8%AF%D9%84%D8%A7%D8%A6%D9%84_%D8%A7%D9%84%D8%A5%D8%B9%D8%AC%D8%A7%D8%B2",
-    "mirror_urls": [],
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%AF%D9%84%D8%A7%D8%A6%D9%84_%D8%A7%D9%84%D8%A5%D8%B9%D8%AC%D8%A7%D8%B2_-_%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%A3%D9%88%D9%84",
+      "https://ar.wikisource.org/wiki/%D8%AF%D9%84%D8%A7%D8%A6%D9%84_%D8%A7%D9%84%D8%A5%D8%B9%D8%AC%D8%A7%D8%B2_-_%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A"
+    ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "مرجع محوري في النظم والبيان والعلاقات الدقيقة بين التراكيب. تأكد وجود نص رقمي له على ويكي مصدر العربي.",
+    "notes": "أُنجزت في هذه الدفعة أول طبقة بلاغية فعلية من `دلائل الإعجاز` عبر اقتناء خام كبير من صفحتين كاملتين متصلتين من متن ويكي مصدر (`دلائل الإعجاز - الجزء الأول` و`دلائل الإعجاز - الجزء الثاني`) لا من مقطع صغير منفرد. جُمعت الصفحتان في raw batch واحد حجمه نحو 346 كيلوبايت بعد إضافة رؤوس الإثبات، ويضم ما يقارب 38.5 ألف كلمة من النص الرقمي، أي ما يعادل تقريباً 110–130 صفحة مطبوعة بحسب كثافة النص. ثم نُظم المحتوى في ملف text عملي واسع يوزع الفائدة على خمسة محاور تخدم الكاتب مباشرة: النظم وبناء المعنى بالعلاقات، وملاءمة اللفظ للمعنى وسقوط وهم الفصاحة المفردة، وضبط التقديم والتأخير في النفي والسؤال، واستعمال الحذف و`الذي` لإدارة استدلال القارئ، ثم الفصل والوصل وربط الجمل. وصيغت من هذه الدفعة خمس حزم Markdown متوسطة الغنى، وهو تقسيم مبرر لهذه الكتلة الواسعة تحت قاعدة نحو ملف واحد لكل عشرين صفحة تقريباً. هذه أول تغطية synthesized حقيقية للمصدر، مبنية على متن بلاغي واسع لا على لقطة صغيرة، لكنها ما تزال جزئية بالنسبة إلى الكتاب كله.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "raw_file": "data/raw/rhetoric-dalail-al-ijaz-parts-one-two.wikitext.txt",
+    "text_file": "data/text/rhetoric-dalail-al-ijaz-parts-one-two-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/rhetoric-dalail-al-ijaz-nazm-and-relational-meaning.md",
+      "data/markdown/rhetoric-dalail-al-ijaz-lexical-fit-and-the-myth-of-isolated-fasaha.md",
+      "data/markdown/rhetoric-dalail-al-ijaz-order-negation-and-scope.md",
+      "data/markdown/rhetoric-dalail-al-ijaz-deletion-relative-clauses-and-active-inference.md",
+      "data/markdown/rhetoric-dalail-al-ijaz-fasl-wasl-and-sentence-linking.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "دلايل الاعجاز",
       "normalized_author": "عبد القاهر الجرجاني",
-      "content_sha256": null
+      "content_sha256": "14ab11d7625472c37896c3fc519a32e93c2f188823ee5b0a5570e26c70ebeaee"
     },
     "provenance": {
       "discovered_at": "2026-05-21",

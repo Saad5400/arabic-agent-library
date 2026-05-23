@@ -1,0 +1,154 @@
+SOURCE ID: rhetoric-dalail-al-ijaz
+TITLE: دلائل الإعجاز
+AUTHOR: عبد القاهر الجرجاني
+RAW SOURCE: data/raw/rhetoric-dalail-al-ijaz-parts-one-two.wikitext.txt
+DIGITAL PROVENANCE: Arabic Wikisource pages `دلائل الإعجاز - الجزء الأول` and `دلائل الإعجاز - الجزء الثاني`
+EDITORIAL METHOD: full-page wikitext acquisition for two contiguous major parts + conservative reading + practical reorganization by writer-facing decision area. Stable short quotations are retained where wording is famous or clearly preserved; longer stretches are summarized to avoid pretending to provide a diplomatic edition.
+COVERAGE IN THIS TEXT FILE: two full Wikisource parts from the opening half of the work — the introductory argument about النظم, major discussion of البلاغة والفصاحة and word-fit inside composition, treatment of التقديم والتأخير في النفي, then the practical chapters on النكرة مع التقديم, الحذف, the function of `الذي`, and الفصل والوصل.
+APPROXIMATE SOURCE PAGES IN THIS BATCH: about 110–130 page-equivalent pages, estimated from ~38.5k words across the two complete parts (roughly 300–350 words per print page).
+WHY THIS RANGE: it is a materially broad rhetoric batch built from two complete parts rather than a tiny excerpt. The range covers both the conceptual heart of the book (meaning through arrangement, not isolated ornament) and several high-leverage sentence decisions that directly affect AI writing: order, scope, omission, relative-clause framing, and sentence linkage.
+KNOWN LIMITATIONS:
+- Wikisource transcription is strong overall, but this file still reorganizes selectively for agent use rather than reproducing every paragraph.
+- The page-equivalent estimate is inferential because the Wikisource part pages are not segmented here by scan folios.
+- The book continues far beyond this batch; coverage remains partial even though this increment is broad.
+
+==================================================
+SECTION 1 — النظم علاقة لا زينة منفصلة
+Approx. page-equivalent range: 1–24 of this batch
+Working value: foundations for understanding that eloquence lives in relations, syntactic attachment, and placement.
+
+Core editorial reading:
+The opening move of the batch is methodological, not decorative. Al-Jurjani begins by making النظم a matter of tying words together according to intelligible relations, not merely assembling impressive vocabulary. Names, verbs, and particles gain force from the kinds of attachment they enter: predication, state, addition, dependency, agency, objecthood, qualification, circumstance, and the mediating role of particles. The point for writers is severe and practical: there is no independent eloquence waiting inside a word before composition. Meaning-strength appears when relations are chosen well.
+
+Major foundations extracted from this range:
+1) `ليس النظم سوى تعليق الكلم بعضها ببعض` is not a slogan about beauty but a definition of where value resides.
+2) Grammatical relations are not after-the-fact parsing labels; they are the mechanism by which meaning becomes thinkable and transferable.
+3) Attachment types matter because every writerly decision places one element under another: actor, acted-on, qualifier, limiter, occasion, comparison, exclusion, or added clarification.
+4) Arrangement lets distant meanings meet. The introduction presents syntax as a device that can bring far-separated matters into one visible frame.
+5) A sentence fails not only when vocabulary is weak, but when the relations fail to reveal who is doing what, under what restriction, and through which dependency.
+
+Representative stable snippets:
+- `معلوم أن ليس النظم سوى تعليق الكلم بعضها ببعض وجعل بعضها بسبب من بعض`.
+- The opening division of relations among اسم / فعل / حرف and the many paths of attachment between them.
+
+Practical agent takeaways:
+- Diagnose weak prose by looking first for broken relations, not for rare vocabulary.
+- Before revising a sentence, identify its load-bearing ties: predicate, qualifier, cause, limit, exception, and contrast.
+- If a paragraph feels inflated, ask whether relation is being repeated in several loose phrases instead of one precise structure.
+
+==================================================
+SECTION 2 — البلاغة ليست في اللفظة المفردة بل في مطابقة المعنى للنظم
+Approx. page-equivalent range: 25–58 of this batch
+Working value: lexical choice, collocation, and the rejection of “isolated fasaha” as a writerly myth.
+
+Core editorial reading:
+In the long chapter on البلاغة والفصاحة والبيان والبراعة, al-Jurjani attacks the idea that one can praise a word in total isolation as though the word itself carried eloquence apart from the composition that houses it. Words may differ in familiarity, roughness, lightness, or strangeness, but the decisive merit lies in whether the chosen expression is the most fitting way to deliver the intended meaning and whether neighboring words support one another without clash. He repeatedly shifts judgment from ornament to fitness: the right word is the one most specific to the intended sense, most revealing of it, and best suited to its companions.
+
+Major foundations extracted from this range:
+1) A word is not praised because it is inherently noble; it is praised because it lands in the right place.
+2) `حسن الدلالة وتمامها` precedes embellishment. Ornament with weak delivery is not true rhetorical success.
+3) Collocation matters: the source repeatedly treats fit between adjacent expressions as a condition of acceptance.
+4) Famous excellence in Qur'anic phrasing returns to interdependence, not isolated brilliance.
+5) Writers must distinguish between familiar-vs-strange vocabulary and truly better-vs-worse wording for a given meaning.
+6) Lexical revision should therefore ask what this word does here, beside these neighbors, under this intended pressure.
+
+Representative stable snippets:
+- `لا معنى لهذه العبارات ... غير وصف الكلام بحسن الدلالة وتمامها`.
+- `ويختار له اللفظ الذي هو أخص به وأكشف عنه وأتم له`.
+- His challenge that one cannot sensibly claim one isolated word is intrinsically more eloquent than another apart from composition.
+
+Practical agent takeaways:
+- Never substitute a “higher” word unless it improves the sentence’s fit, not merely its prestige.
+- Judge collocations by whether the neighboring meanings cooperate or abrade one another.
+- When revising, compare two candidates inside the full sentence, not in a vacuum.
+
+==================================================
+SECTION 3 — التقديم والتأخير يغيران جهة النفي وموضع التحقيق
+Approx. page-equivalent range: 59–72 of this batch
+Working value: scope, focus, and emphasis in negation and assertion.
+
+Core editorial reading:
+The short chapter on negation is compact but highly practical. Al-Jurjani distinguishes between negating the occurrence of an act and negating that a particular participant was the one who performed it. `ما فعلت` is not the same as `ما أنا فعلت`; `ما ضربت زيدًا` is not the same as `ما أنا ضربت زيدًا`; `ما زيدًا ضربت` presupposes something different from both. Order alters what remains presupposed and what gets denied.
+
+Major foundations extracted from this range:
+1) Fronting the subject in negation often presumes the act exists and shifts denial onto agency.
+2) Fronting the object in negation often presumes some action occurred and disputes the target.
+3) Not every rearrangement is stylistic redundancy; some carry hard semantic consequences.
+4) Scope is part of honesty: careless order can imply facts the writer did not mean to presuppose.
+5) This chapter is directly useful for attributions, denials, disclaimers, and argumentative correction.
+
+Representative stable snippets:
+- `إذا قلت ما فعلت كنت نفيت عنك فعلا لم يثبت أنه مفعول`.
+- `إذا قلت ما أنا فعلت كنت نفيت عنك فعلا ثبت أنه مفعول`.
+- The paired discussion of `ما ضربت زيدًا` versus `ما زيدًا ضربت`.
+
+Practical agent takeaways:
+- In denial sentences, decide first what is fixed in the discourse: the act, the actor, or the object.
+- Use fronting only when you intend the shift in scope.
+- Review generated Arabic for unintended presuppositions hidden inside reordering.
+
+==================================================
+SECTION 4 — الحذف و`الذي` وآليات الثقة في استدلال القارئ
+Approx. page-equivalent range: 73–103 of this batch
+Working value: productive omission, controlled recovery, and linking a known referent to a known story.
+
+Core editorial reading:
+The chapter on الحذف gives one of the most important lessons for strong Arabic prose: deletion is not mere brevity; it is a disciplined wager that the structure and context allow the reader to restore what has been omitted without confusion. Al-Jurjani presents omission as a field where silence can carry more force than overt wording. The linked chapter on `الذي` shows another side of the same art: sometimes a writer does not state a bare name and then add a loose clause, but uses `الذي` to reconnect a known person or thing to a previously shared event. In both cases the writer is managing inference rather than dumping explicit material.
+
+Major foundations extracted from this range:
+1) Successful omission depends on reliable cues; hidden structure must be recoverable.
+2) Hadhf can heighten force, speed, and elegance, but only when the path of recovery is clear.
+3) `الذي` is not filler. It is a precision tool for attaching a known referent to a known action/story.
+4) Relative-clause framing separates “this known thing with that known story” from mere descriptive surplus.
+5) Agent writing can learn when to trust the reader with recovery and when to state the missing element explicitly.
+
+Representative stable snippets:
+- `هو باب دقيق المسلك ... ترى به ترك الذكر أفصح من الذكر`.
+- `وتجدك أنطق ما تكون إذا لم تنطق`.
+- The explanation that `الذي` was brought as a means of connecting a known entity to a sentence already grasped by the hearer in some way.
+
+Practical agent takeaways:
+- Delete only when the omitted element is forced by structure or strong context.
+- Use `الذي` when you need to reactivate a shared referent through a specific known event, not just to elongate the sentence.
+- In revision, test whether omission sharpens the line or merely shifts labor unfairly onto the reader.
+
+==================================================
+SECTION 5 — الفصل والوصل وبناء العلاقات بين الجمل
+Approx. page-equivalent range: 104–130 of this batch
+Working value: deciding when sentences should be linked, separated, or staged without conjunction.
+
+Core editorial reading:
+The opening of the chapter on الفصل والوصل treats sentence-linking as one of the deepest rhetorical judgments. In single words the role of conjunction is easier to see because shared syntax is visible. In full clauses, especially those without an obvious governing slot, the writer must decide whether to connect with `و` or leave each clause to stand independently. The problem is not mechanical punctuation; it is whether the mind should receive the two propositions as jointly staged, causally stepped, contrasted, or newly begun.
+
+Major foundations extracted from this range:
+1) Sentence-joining is rhetorical because it controls how meanings arrive together.
+2) `و` in free-standing clauses does not merely add sound; it signals a shared plane of judgment or scene.
+3) Leaving clauses unjoined can give independence, restart, surprise, or cleaner segmentation.
+4) The writer must know the kind of relation before choosing the connective.
+5) This is crucial for long AI answers, where loose chaining often hides weak structure.
+
+Representative stable snippets:
+- `معرفة الفصل من الوصل` as a reported limit-definition of البلاغة.
+- The explanation that free-standing clauses create difficulty because the conjunction cannot be justified merely by inherited case-sharing.
+
+Practical agent takeaways:
+- Do not chain sentences with `و` by default; name the relation first.
+- Separate clauses when independence helps the reader reset or weigh each claim distinctly.
+- Join clauses when they truly share one scene, one judgment frame, or one unfolding comparison.
+
+==================================================
+CROSS-BATCH FOUNDATIONS FOR AGENT USE
+A) Meaning in this source is relational before it is ornamental.
+B) Lexical strength depends on fit inside composition.
+C) Word order changes scope, presupposition, and emphasis.
+D) Omission and relative framing are tools of disciplined inference.
+E) Clause-linking is an argument about relation, not a habit of adding connectors.
+
+POTENTIAL DOWNSTREAM PACK CLUSTERS SUPPORTED BY THIS TEXT FILE
+1. النظم and relational meaning as the basis of rhetoric
+2. lexical fit, collocation, and anti-isolated-fasaha discipline
+3. order and scope in negation, attribution, and contrast
+4. omission, relative clauses, and reader inference
+5. الفصل والوصل and sentence-linking control
+
+END OF CLEANED WORKING TEXT

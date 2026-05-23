@@ -21,13 +21,13 @@ The project has moved beyond planning and already contains real artifacts.
 
 - 13 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 9 sources are currently `synthesized`
-- 2 sources remain `candidate`
+- 10 sources are currently `synthesized`
+- 1 source remains `candidate`
 - 2 sources remain `queued`
 
 ### أحدث إنجاز بنيوي مهم
 
-اكتملت الآن طبقة المراجع العامة كلها، لا بمصدر واحد معزول، بل بثلاثة شهود فعلية في السجل. بعد دفعة `أدب الكاتب` الواسعة، أُنجزت كذلك أول دفعة عملية من `البيان والتبيين` اعتمادًا على شاهد Internet Archive (`al-Jahiz`) عبر اقتناء خام كبير يشمل OCR النصي وملفي `scandata.xml` و`djvu.xml` مع PDF، ثم استخراج نطاق متصل من الجزء الأول يمتد تقريبًا على 40 صفحة مصدرية (101–140) تُعرّف البيان، وتشرح قنوات الدلالة، وتنتقل إلى الإيجاز، ومراعاة السامع، وضبط عيوب الأداء. نُظمت الدفعة في ملف text عملي وحزمتين Markdown متناسبتين مع قاعدة نحو ملف واحد لكل عشرين صفحة. وبذلك صارت المراجع الثلاثة (`كتاب الصناعتين` و`أدب الكاتب` و`البيان والتبيين`) كلُّها في حالة `synthesized` فعلية.
+اكتملت الآن أول دفعة بلاغية فعلية من `دلائل الإعجاز` بعد اكتمال طبقة المراجع العامة. استُخدمت صفحتان كاملتان متصلتان من متن ويكي مصدر (`دلائل الإعجاز - الجزء الأول` و`دلائل الإعجاز - الجزء الثاني`) في raw batch واحد يبلغ نحو 346 كيلوبايت بعد رؤوس الإثبات ويضم قرابة 38.5 ألف كلمة، أي ما يعادل تقريبًا 110–130 صفحة مطبوعة بحسب كثافة النص. نُظمت المادة في ملف text عملي واسع، ثم وُزعت على خمس حزم Markdown تخدم الوكيل مباشرة في: النظم والعلاقات، وملاءمة اللفظ للمعنى، والتقديم والتأخير في النفي والسؤال، والحذف و`الذي`، ثم الفصل والوصل. وبذلك دخلت طبقة البلاغة طور `synthesized` فعليًا في أول مصدر لها، وصارت الخطوة التالية في الخطة هي `أسرار البلاغة`.
 
 ### أمثلة مرجعية مكتملة يمكن القياس عليها
 
@@ -44,6 +44,7 @@ Representative artifacts:
 - `data/markdown/grammar-style-kitab-complete-writing-foundations.md`
 - `data/markdown/reference-adab-al-katib-lexical-corrections-and-precision.md`
 - `data/markdown/reference-al-bayan-wa-al-tabyin-channels-of-bayan-and-meaning.md`
+- `data/markdown/rhetoric-dalail-al-ijaz-nazm-and-relational-meaning.md`
 
 What this now proves:
 
@@ -100,7 +101,7 @@ Interpretation:
 ### ما يزال محتاجًا إلى استكمال
 
 - OCR/bootstrap is not yet formalized into repo scripts
-- the next unfinished checklist source is now `دلائل الإعجاز` at the rhetoric layer
+- the next unfinished checklist source is now `أسرار البلاغة` at the rhetoric layer
 - the broader poetry layer is still incomplete because `أبي تمام` and `البحتري` remain queued
 - no comprehensive automated test suite yet
 - no packaging / release process
@@ -109,16 +110,16 @@ Interpretation:
 
 Best next concrete task:
 
-1. start `rhetoric-dalail-al-ijaz` in line with `docs/MASTER_EXECUTION_CHECKLIST.md`
+1. start `rhetoric-asrar-al-balagha` in line with `docs/MASTER_EXECUTION_CHECKLIST.md`
 2. acquire a materially large raw batch from a real digital witness or a broad digital text witness (not a tiny excerpt)
 3. build one cleaned text artifact under `data/text/`
 4. synthesize one or more appropriately broad Markdown outputs under the ~1 file per 20 pages rule, ثم تحديث السجل
 
 Why this is the best next step:
 
-- the checklist order has now moved cleanly from the completed reference layer into the first unfinished rhetoric source before returning to poetry
-- repeating minor expansions on `البيان والتبيين` immediately would violate the anti-repeat rule after a substantive 40-page batch already landed
-- `دلائل الإعجاز` is the clearest next source for beginning the rhetoric layer on top of the now-stronger dictionary, grammar, and reference foundations
+- the checklist order has now moved from the first completed rhetoric source into the second and last unfinished rhetoric source before returning to poetry
+- repeating small add-ons on `دلائل الإعجاز` immediately would violate the anti-repeat rule after a broad two-part batch already landed
+- `أسرار البلاغة` is now the clearest next source for deepening the rhetoric layer on top of the stronger dictionary, grammar, reference, and newly-started rhetoric foundations
 
 ## أوامر التحقق
 
