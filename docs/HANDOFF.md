@@ -21,13 +21,13 @@ The project has moved beyond planning and already contains real artifacts.
 
 - 13 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 10 sources are currently `synthesized`
-- 1 source remains `candidate`
+- 11 sources are currently `synthesized`
+- 0 sources remain `candidate`
 - 2 sources remain `queued`
 
 ### أحدث إنجاز بنيوي مهم
 
-اكتملت الآن أول دفعة بلاغية فعلية من `دلائل الإعجاز` بعد اكتمال طبقة المراجع العامة. استُخدمت صفحتان كاملتان متصلتان من متن ويكي مصدر (`دلائل الإعجاز - الجزء الأول` و`دلائل الإعجاز - الجزء الثاني`) في raw batch واحد يبلغ نحو 346 كيلوبايت بعد رؤوس الإثبات ويضم قرابة 38.5 ألف كلمة، أي ما يعادل تقريبًا 110–130 صفحة مطبوعة بحسب كثافة النص. نُظمت المادة في ملف text عملي واسع، ثم وُزعت على خمس حزم Markdown تخدم الوكيل مباشرة في: النظم والعلاقات، وملاءمة اللفظ للمعنى، والتقديم والتأخير في النفي والسؤال، والحذف و`الذي`، ثم الفصل والوصل. وبذلك دخلت طبقة البلاغة طور `synthesized` فعليًا في أول مصدر لها، وصارت الخطوة التالية في الخطة هي `أسرار البلاغة`.
+اكتملت الآن ثاني دفعة بلاغية فعلية من `أسرار البلاغة`، فصار مصدرا البلاغة المسجلان كلاهما في طور `synthesized`. استُخدم شاهد رقمي كبير من Internet Archive (`ar114rhet38`) لا صفحة فهرسية قصيرة: raw batch جديد يضم OCR النصي (`data/raw/rhetoric-asrar-al-balagha.ia-djvu.txt` بنحو 1.26 ميغابايت)، وملف OCR البنيوي `data/raw/rhetoric-asrar-al-balagha.ia-djvu.xml`، و`data/raw/rhetoric-asrar-al-balagha.ia-scandata.xml`، مع المصوَّر `data/raw/rhetoric-asrar-al-balagha.ia.pdf`. ومن هذا الشاهد استُخرج نطاق متصل عريض من متن الكتاب نفسه عبر الأوراق التقريبية 32–120، أي نحو 89 صفحة مصدرية بعد المقدمة الحديثة الطويلة. نُظمت المادة في ملف text عملي واحد، ثم وُزعت على خمس حزم Markdown تخدم الوكيل مباشرة في: البيان والكلام وأولوية النظم، والتجنيس والسجع والحشو تحت حكم المعنى، والتشبيه والتمثيل والطريق إلى الاستعارة، والاستعارة المفيدة واستعارة الاسم والفعل، ثم مآخذ الشبه بين الحس والعقل. وبذلك أُغلقت المرحلة البلاغية في الخطة، وصارت الخطوة التالية الإلزامية هي `ديوان أبي تمام`.
 
 ### أمثلة مرجعية مكتملة يمكن القياس عليها
 
@@ -101,7 +101,7 @@ Interpretation:
 ### ما يزال محتاجًا إلى استكمال
 
 - OCR/bootstrap is not yet formalized into repo scripts
-- the next unfinished checklist source is now `أسرار البلاغة` at the rhetoric layer
+- the rhetoric layer is now fully synthesized across its two registered sources
 - the broader poetry layer is still incomplete because `أبي تمام` and `البحتري` remain queued
 - no comprehensive automated test suite yet
 - no packaging / release process
@@ -110,16 +110,16 @@ Interpretation:
 
 Best next concrete task:
 
-1. start `rhetoric-asrar-al-balagha` in line with `docs/MASTER_EXECUTION_CHECKLIST.md`
-2. acquire a materially large raw batch from a real digital witness or a broad digital text witness (not a tiny excerpt)
+1. start `poetry-diwan-abi-tammam` in line with `docs/MASTER_EXECUTION_CHECKLIST.md`
+2. acquire a materially large raw batch from a real scan or broad digital witness (not a tiny poem page or isolated excerpt)
 3. build one cleaned text artifact under `data/text/`
 4. synthesize one or more appropriately broad Markdown outputs under the ~1 file per 20 pages rule, ثم تحديث السجل
 
 Why this is the best next step:
 
-- the checklist order has now moved from the first completed rhetoric source into the second and last unfinished rhetoric source before returning to poetry
-- repeating small add-ons on `دلائل الإعجاز` immediately would violate the anti-repeat rule after a broad two-part batch already landed
-- `أسرار البلاغة` is now the clearest next source for deepening the rhetoric layer on top of the stronger dictionary, grammar, reference, and newly-started rhetoric foundations
+- the checklist order has now moved out of rhetoric entirely and into the unfinished poetry layer
+- repeating small add-ons on `أسرار البلاغة` immediately would violate the anti-repeat rule after a broad 89-page batch already landed
+- `ديوان أبي تمام` is now the clearest next source because it is the next unchecked source in the master execution order before `ديوان البحتري`
 
 ## أوامر التحقق
 

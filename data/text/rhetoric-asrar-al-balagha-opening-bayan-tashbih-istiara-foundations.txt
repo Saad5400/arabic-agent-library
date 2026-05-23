@@ -1,0 +1,244 @@
+SOURCE ID: rhetoric-asrar-al-balagha
+TITLE: أسرار البلاغة في علم البيان
+AUTHOR: عبد القاهر الجرجاني
+RAW SOURCE: data/raw/rhetoric-asrar-al-balagha.ia-djvu.txt
+AUXILIARY PAGE MAP: data/raw/rhetoric-asrar-al-balagha.ia-scandata.xml
+AUXILIARY OCR XML: data/raw/rhetoric-asrar-al-balagha.ia-djvu.xml
+AUXILIARY PDF: data/raw/rhetoric-asrar-al-balagha.ia.pdf
+DIGITAL PROVENANCE: Internet Archive item ar114rhet38
+EDITORIAL METHOD: broad leaf-bounded extraction from OCR XML + conservative cleanup + concept-level reorganization. Stable phrases are quoted when the OCR is strong enough; the rest is summarized conservatively from the scanned text.
+COVERAGE IN THIS TEXT FILE: approximately scan leaves 32–120 from the digital witness, i.e. about 89 source pages after the long modern editorial introduction and before later deeper branches of the book. This batch covers the opening foundations of البيان, the dependence of style on order and meaning, the critique of ornament detached from sense, the road from التشبيه and التمثيل to الاستعارة, the transfer of verbs and names in figurative usage, and several routes by which similarity is intellectually constructed.
+APPROXIMATE SOURCE PAGES IN THIS BATCH: 89 pages.
+WHY THIS RANGE: it is a materially broad contiguous slice from the real body of the book, not a tiny excerpt. The range begins where عبد القاهر starts his own argument and carries through several tightly connected chapters that directly help an Arabic writing agent: how speech reveals knowledge, why wording alone is insufficient, when jinas and saj become defects, how tashbih and tamthil work, how istiara yields dense meaning, and how resemblance may be sensory or intellectual.
+KNOWN LIMITATIONS:
+- OCR remains noisy in some lines, especially quotations of poetry, marginal matter, and a few page transitions.
+- Scan leaves are more reliable than reconstructed print page numbers for this batch, so the coverage below is identified primarily by leaf ranges.
+- This file is a practical working extraction for agent use, not a diplomatic transcription.
+
+==================================================
+SECTION 1 — البيان، والكلام، وأن الفضل يرجع إلى النظم لا إلى اللفظ المفرد
+Approx. scan leaves: 32–47
+Working value: foundations for judging prose by how it orders meaning, not by loud diction alone.
+
+Core editorial reading:
+عبد القاهر opens by treating speech as the medium that gives knowledge its visible form: it reveals what thought contains, distinguishes ranks of ideas, and makes human intelligence socially effective. From there he turns quickly toward the practical critical question: when we prefer one expression over another, what exactly are we preferring? His answer is not bare wording. Words do not yield their value until they are arranged in a specific order and bound by a specific structure.
+
+Major foundations extracted from this range:
+
+1) الكلام آلة إظهار العلوم
+- The opening gives speech a civilizational role: without it knowledge would stay locked in minds.
+- Writing value: explanation should be judged by what it successfully externalizes from thought.
+
+2) البيان لا يقوم باللفظ وحده
+- The batch repeatedly pushes against the idea that verbal material by itself explains eloquence.
+- Writing value: replacing one word with a fancier synonym does not repair a broken sentence.
+
+3) الفضل راجع إلى التأليف والترتيب
+- If one dismantles the order of a verse or prose sentence, the same words stop giving the same meaning.
+- Writing value: revision must inspect dependency, sequence, subordination, and distribution of emphasis.
+
+4) لكل موضع حق في التقديم والتأخير
+- The range ties value to where the mubtada', khabar, sifat, and other elements sit in the chain.
+- Writing value: many weak answers fail because their governing condition, core claim, or limit arrives too late.
+
+5) النسبة إلى القائل تمر عبر صورته التركيبية
+- The expression becomes this speaker’s expression because of its formed arrangement, not because the lexicon is exclusive to him.
+- Writing value: voice is carried by structural choices as much as by vocabulary.
+
+Representative stable snippets from the OCR:
+- "اعلم أن الكلام هو الذي يعطي العلوم منازلها".
+- "الألفاظ لا تفيد حتى يؤلف ضربًا خاصًا من التأليف".
+- material asserting that once the order is broken, the intended meaning and attributed excellence collapse with it.
+
+Practical agent takeaways:
+- Diagnose sentence failure structurally before diagnosing it lexically.
+- Ask which relation carries the point: attribution, restriction, contrast, cause, or sequence.
+- Treat order as meaning-bearing, not as packaging after meaning is complete.
+
+==================================================
+SECTION 2 — التجنيس والسجع والحشو: الزينة لا تُحمد إلا إذا ساقها المعنى
+Approx. scan leaves: 48–55
+Working value: criteria for accepting or rejecting ornament in generated Arabic prose.
+
+Core editorial reading:
+This stretch refuses to let rhetorical ornament claim autonomous value. عبد القاهر discusses tajnis, hashw, and related effects by returning them to mental action, not ear alone. Some additions look like padding only because they arrive as though they add nothing, yet may in fact reward the hearer if they bring a subtle benefit. The critical criterion is not the mere presence of patterned wording, but whether meaning needed it.
+
+Major foundations extracted from this range:
+
+1) التجنيس تابع للتوهم العقلي
+- Sound patterning matters insofar as the mind recognizes a fit or tension between meanings.
+- Writing value: do not keep wordplay that only displays cleverness.
+
+2) الحشو يذم إذا عطل الفائدة
+- Extra wording is blameworthy when it burdens the line without new gain.
+- Writing value: a sentence may be grammatically fine yet still be rhetorical padding.
+
+3) ما يقبل من الزيادة هو ما جاء بخدمة خفية
+- Some apparently secondary phrasing lands well because it surprises with real usefulness.
+- Writing value: an added clause is justified when it sharpens, limits, or deepens the claim.
+
+4) القبح هنا ليس من غرابة الحروف وحدها
+- The ugly line often fails because thought-order and expression-order diverge.
+- Writing value: jarring prose may stem from conceptual mis-order, not exotic vocabulary.
+
+5) السجع والتجنيس لا يُطلبان ابتداءً
+- They become admirable when the sense itself calls them forward.
+- Writing value: cadence should emerge from fit, not be stapled onto the sentence afterward.
+
+Representative stable snippets from the OCR:
+- material stating that hashw is disliked when it comes empty of benefit.
+- material linking istiara and tatbiq to judgments of meaning rather than to ear alone.
+- material insisting that admired tajnis and saj are not praised merely for surface sound.
+
+Practical agent takeaways:
+- Cut every flourish that does not alter understanding.
+- If a cadence survives deletion without loss, it was probably decorative excess.
+- Praise in style should follow relevance and exactness, not acoustic pattern alone.
+
+==================================================
+SECTION 3 — التشبيه والتمثيل والاستعارة: الباب المركزي الذي تتشعب عنه محاسن الكلام
+Approx. scan leaves: 56–79
+Working value: broad rhetorical map for moving from explicit comparison to compressed figurative force.
+
+Core editorial reading:
+عبد القاهر announces that much of the beauty of speech branches from tashbih, tamthil, and istiara. He resists a teaching method that would be satisfied with a few famous examples. Instead he wants the reader to distinguish kinds, degrees, and logical relations. He also notes that although majaz is more general and tashbih appears in one sense more basic, the path into the subject may profitably begin from istiara because it exposes the range and pressure of figurative transfer.
+
+Major foundations extracted from this range:
+
+1) لا يكفي عد الأمثلة المشهورة
+- A few textbook illustrations do not reveal the field’s real subtlety.
+- Writing value: an agent should not reduce figurative writing to canned formulas.
+
+2) هذه الأبواب من أقطاب المعاني لا من الهوامش
+- The source treats them as central engines of expression.
+- Writing value: figurative choices affect explanation, persuasion, and emotional force, not ornament alone.
+
+3) التمثيل ليس مساواة سطحية
+- The comparison gains power when the relation, not merely the object, is carried across.
+- Writing value: strong analogy transfers structure or behavior, not only appearance.
+
+4) الاستعارة تُعطى صدرًا في الشرح لكشف سعة المجال
+- Even where taxonomy could start elsewhere, istiara is pedagogically revealing because it shows how language compresses movement from one domain to another.
+- Writing value: metaphor can condense a long explanation if the transferred trait is exact.
+
+5) الفرق بين الأبواب يحتاج نظرًا في الجهة لا في الاسم فقط
+- Similar labels may hide different mechanisms.
+- Writing value: before imitating a figure, ask what precisely is being borrowed: attribute, action, relation, or whole scene.
+
+Representative stable snippets from the OCR:
+- material declaring that many beauties of speech branch back to this territory.
+- material warning against contentment with scattered examples instead of principled inquiry.
+- material noting why the exposition may begin from istiara before later returning to tashbih and tamthil in fuller taxonomic order.
+
+Practical agent takeaways:
+- Use analogy to transfer a pattern the reader can reason through.
+- Prefer figures that clarify the relation you need, not merely those that sound elevated.
+- Treat metaphor as compressed reasoning, not as detachable embellishment.
+
+==================================================
+SECTION 4 — الاستعارة المفيدة، واستعارة الاسم والفعل، وكثافة المعنى في اللفظ اليسير
+Approx. scan leaves: 80–95
+Working value: practical control over figurative transfer in modern prose and explanation.
+
+Core editorial reading:
+In this stretch عبد القاهر differentiates ways that names and verbs are borrowed. A noun may be transferred because the borrowed object itself carries the relevant likeness, or because what happens to it under a given action yields the likeness elsewhere. A verb, by contrast, does not transfer a concrete object; it transfers an attributed action or state. Hence expressions such as speaking eyes, speaking circumstances, or a state that tells on its owner all depend on noticing a shared functional trait.
+
+Major foundations extracted from this range:
+
+1) الاستعارة قد تقع من جهة الاسم أو الفعل
+- The mechanism changes with the grammatical category.
+- Writing value: do not explain all metaphors as if they were simple noun substitutions.
+
+2) الفعل المستعار يثبت وصفًا شبيهًا بأصله
+- When a verb is borrowed, the target acquires a manner analogous to the verb’s original force.
+- Writing value: metaphorical verbs can animate explanation efficiently if the shared trait is clear.
+
+3) الحال والوجه والعين قد تُسند إليها أفعال القول
+- This is not childish personification; it is a disciplined claim about signs that function like speech.
+- Writing value: one may say that a situation announces, a document reveals, or a face denies—but only where the evidence-bearing role is real.
+
+4) الاستعارة المفيدة تعطي الكثير باليسير
+- The source praises figurative compression that releases many meanings from a small phrase.
+- Writing value: the best metaphor reduces bulk while increasing grasp.
+
+5) جهة الفاعل وجهة المفعول تختلفان في الفعل المستعار
+- Not every transferred verb works alike; one must ask from whose side the resemblance is being projected.
+- Writing value: watch whether the force comes from the doer, the receiver, or the interaction.
+
+Representative stable snippets from the OCR:
+- material on "نطقت الحال" and eyes or facial lines reporting what the chest conceals.
+- material saying that istiara may "تعطيك الكثير من المعاني باليسير من اللفظ".
+- material distinguishing استعارة الاسم from استعارة الفعل and returning verb-borrowing to the source action.
+
+Practical agent takeaways:
+- Use metaphorical verbs to expose function, not merely to dramatize.
+- Keep personifying expressions only when there is an evidentiary bridge.
+- Prefer dense figures that actually shorten the road to meaning.
+
+==================================================
+SECTION 5 — مآخذ الشبه: من الحس إلى العقل، ومن المثال المرئي إلى الحكم المعنوي
+Approx. scan leaves: 96–120
+Working value: choosing stronger analogies and diagnosing bad ones.
+
+Core editorial reading:
+Here the book turns to the routes by which resemblance is understood. Some comparisons borrow from visible, audible, or otherwise sensory experience; others are fundamentally intellectual even when they borrow sensory language. The examples around darkness/light, fairness, purity, sweetness/bitterness, and green growth on foul ground all show that the real operative likeness may lie not in color or taste themselves, but in what the mind judges from them.
+
+Major foundations extracted from this range:
+
+1) ليس كل تشبيه حسيًا وإن استعمل ألفاظ الحس
+- The wording may name light, darkness, sweetness, or greenness while the operative relation is intellectual.
+- Writing value: explain what aspect is actually being carried across.
+
+2) الشبه قد يؤخذ من الأثر النفسي لا من الصورة المجردة
+- Sweetness and bitterness can be borrowed for the felt quality of treatment, not taste itself.
+- Writing value: emotional and evaluative analogies work when their affective logic is disciplined.
+
+3) اللفظة الواحدة قد تستعار على أكثر من طريق
+- A single expression may point once to a visible likeness and once to an inferred moral or mental one.
+- Writing value: beware flattening figurative language to one default interpretation.
+
+4) المعقول قد يشبه بالمحسوس لإحكام الحكم
+- Balance, scale, reins, light, and darkness all become tools for reasoning about justice, guidance, error, and control.
+- Writing value: good conceptual prose often borrows its firmness from concrete images that organize thought.
+
+5) فساد الأصل وبهرجة الظاهر باب نافع في الحكم على الأشخاص والأحوال
+- The discussion around خضراء الدمن shows how outer attractiveness may hide corrupt ground.
+- Writing value: when evaluating style, institution, or argument, do not confuse surface bloom with sound foundation.
+
+Representative stable snippets from the OCR:
+- material aligning darkness with confusion, misguidance, or obstructed sight.
+- material on sweetness and bitterness as judgments of treatment and experience rather than literal taste.
+- material on "خضراء الدمن" as apparent freshness over foul origin.
+
+Practical agent takeaways:
+- State the exact shared trait behind every analogy you keep.
+- Prefer comparisons that increase discrimination, not just intensity.
+- Use sensory imagery to stabilize abstract reasoning, not to blur it.
+
+==================================================
+CROSS-RANGE FOUNDATIONS FOR AGENT USE
+
+A) البلاغة في هذا الافتتاح صناعة تمييز
+The book begins by training judgment: what carries meaning, what merely glitters, and what compresses without loss.
+
+B) اللفظ خادم للنظام العقلي
+Words matter, but their rank follows arrangement, relation, and intended effect.
+
+C) المجاز والتشبيه أدوات تفسير لا زينة فحسب
+Their practical value lies in clarifying structure, emotional quality, and conceptual relation.
+
+D) الاقتصاد البلاغي يسبق التوسع
+Dense successful transfer can outperform long explicit paraphrase.
+
+E) التشخيص أهم من الحفظ المدرسي للأسماء
+Before naming a device, identify the mechanism of likeness and the use it serves.
+
+==================================================
+POTENTIAL DOWNSTREAM PACK CLUSTERS SUPPORTED BY THIS TEXT FILE
+1. البيان والنظم وأولوية المعنى على اللفظ المفرد
+2. ornament under discipline: jinas, saj, hashw, and anti-takalluf
+3. tashbih, tamthil, and the architecture of figurative explanation
+4. productive istiara: nouns, verbs, evidentiary personification, and compressed meaning
+5. routes of similarity: sensory, conceptual, and mixed analogies
+
+END OF CLEANED WORKING TEXT

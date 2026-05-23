@@ -182,26 +182,38 @@
     "title": "أسرار البلاغة",
     "author": "عبد القاهر الجرجاني",
     "category": "rhetoric",
-    "source_type": "html",
+    "source_type": "scan",
     "language_stage": "classical",
-    "status": "candidate",
-    "original_url": "https://ar.wikisource.org/wiki/%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1_%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_%D9%81%D9%8A_%D8%B9%D9%84%D9%85_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86",
-    "mirror_urls": [],
-    "publisher": "Wikisource contributors",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/ar114rhet38",
+    "mirror_urls": [
+      "https://archive.org/download/ar114rhet38/%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%20%D8%A7%D9%84%D8%AC%D8%B1%D8%AC%D8%A7%D9%86%D9%8A-%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9.pdf",
+      "https://archive.org/download/ar114rhet38/%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%20%D8%A7%D9%84%D8%AC%D8%B1%D8%AC%D8%A7%D9%86%D9%8A-%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_djvu.txt",
+      "https://archive.org/download/ar114rhet38/%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%20%D8%A7%D9%84%D8%AC%D8%B1%D8%AC%D8%A7%D9%86%D9%8A-%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_djvu.xml",
+      "https://archive.org/download/ar114rhet38/%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%20%D8%A7%D9%84%D8%AC%D8%B1%D8%AC%D8%A7%D9%86%D9%8A-%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1%20%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_scandata.xml",
+      "https://ar.wikisource.org/wiki/%D8%A3%D8%B3%D8%B1%D8%A7%D8%B1_%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_%D9%81%D9%8A_%D8%B9%D9%84%D9%85_%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86"
+    ],
+    "publisher": "Internet Archive",
     "year": null,
-    "notes": "مفيد في التصوير البياني والفروق الأسلوبية. تأكد وجوده على ويكي مصدر العربي تحت عنوان الصفحة: أسرار البلاغة في علم البيان.",
-    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": null,
-    "text_file": null,
-    "markdown_outputs": [],
+    "notes": "أُنجزت في هذه الدفعة أول معالجة فعلية واسعة لـ `أسرار البلاغة` اعتمادًا على شاهد رقمي كبير من Internet Archive هو العنصر `ar114rhet38`، لا على صفحة ويكي مصدر الفهرسية القصيرة. جرى اقتناء raw كبير يضم OCR النصي (`data/raw/rhetoric-asrar-al-balagha.ia-djvu.txt` بحجم يقارب 1.26 ميغابايت)، وملف OCR البنيوي `data/raw/rhetoric-asrar-al-balagha.ia-djvu.xml`، وملف `scandata.xml`، مع الاحتفاظ بالمصوَّر PDF نفسه. ثم استُخرجت دفعة متصلة عريضة من متن الكتاب تقريبًا عبر الأوراق 32–120 من الشاهد الرقمي، أي نحو 89 صفحة مصدرية من بداية متن عبد القاهر بعد المقدمة الحديثة الطويلة. نُظمت هذه المادة في ملف text عملي واحد، ثم وُزعت على خمس حزم Markdown متوسطة الغنى تحت قاعدة نحو ملف واحد لكل عشرين صفحة تقريبًا: الأولى في البيان والكلام وأولوية النظم، والثانية في التجنيس والسجع والحشو تحت حكم المعنى، والثالثة في التشبيه والتمثيل والطريق إلى الاستعارة، والرابعة في الاستعارة المفيدة واستعارة الاسم والفعل، والخامسة في مآخذ الشبه بين الحس والعقل. التغطية ما تزال جزئية بالنسبة إلى الكتاب كله، لكنها تمثل اقتناءً بلاغيًا حقيقيًا واسعًا من متن المصدر نفسه وتنقل `أسرار البلاغة` من طور candidate إلى طور synthesized.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms. The auxiliary Arabic Wikisource listing remains available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/rhetoric-asrar-al-balagha.ia-djvu.txt",
+    "text_file": "data/text/rhetoric-asrar-al-balagha-opening-bayan-tashbih-istiara-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/rhetoric-asrar-al-balagha-bayan-meaning-and-the-primacy-of-order.md",
+      "data/markdown/rhetoric-asrar-al-balagha-jinas-saj-and-meaning-governed-ornament.md",
+      "data/markdown/rhetoric-asrar-al-balagha-tashbih-tamthil-and-the-road-to-istiara.md",
+      "data/markdown/rhetoric-asrar-al-balagha-productive-istiara-and-verb-transfer.md",
+      "data/markdown/rhetoric-asrar-al-balagha-routes-of-similarity-sensory-and-intellectual.md"
+    ],
     "duplicate_keys": {
       "normalized_title": "اسرار البلاغه",
       "normalized_author": "عبد القاهر الجرجاني",
-      "content_sha256": null
+      "content_sha256": "3994a591d7d093f3bec710236ad81fcd33c613bc861ddc7863cf216eae495e42"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "discovery_method": "verified via Internet Archive advanced search + metadata API; Arabic Wikisource listing retained as an auxiliary pointer",
       "verified_by": "Hermes"
     }
   },
