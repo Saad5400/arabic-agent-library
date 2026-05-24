@@ -493,7 +493,7 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "نُقل `ديوان البحتري` من مجرد مرشح على ويكي مصدر إلى اقتناء فعلي واسع من Internet Archive (العنصر `Diwan_Buhturi`). حُفظت محليًا ملفات raw الأربعة: المصوَّر `data/raw/poetry-diwan-al-buhturi.ia.pdf`، وOCR النصي `data/raw/poetry-diwan-al-buhturi.ia-djvu.txt`، وOCR البنيوي `data/raw/poetry-diwan-al-buhturi.ia-djvu.xml`، وملف `data/raw/poetry-diwan-al-buhturi.ia-scandata.xml`. ثم استُخرج نطاق متصل واسع من متن الديوان اعتمادًا على DjVuXML عبر الأوراق 1400–1520 (حوالي 121 ورقة/صفحة مصدرية). نُتج ملف OCR وسيط (للمراجعة/الرجوع) وملف foundations محافظ ينظّف الضجيج ويُوسم كل مقطع برقم الورقة. وبسبب ضجيج OCR وعدم تحقق ترقيم القصائد في هذا الشاهد، تُنسب التغطية هنا إلى أرقام الأوراق (leaves) لا إلى قصائد محققة سطرًا سطرًا. ثم قُسمت المخرجات إلى 7 ملفات Markdown تحت قاعدة ~ملف لكل 20 ورقة تقريبًا.",
+    "notes": "نُقل `ديوان البحتري` من مجرد مرشح على ويكي مصدر إلى اقتناء فعلي واسع من Internet Archive (العنصر `Diwan_Buhturi`). حُفظت محليًا ملفات raw الأربعة: المصوَّر `data/raw/poetry-diwan-al-buhturi.ia.pdf`، وOCR النصي `data/raw/poetry-diwan-al-buhturi.ia-djvu.txt`، وOCR البنيوي `data/raw/poetry-diwan-al-buhturi.ia-djvu.xml`، وملف `data/raw/poetry-diwan-al-buhturi.ia-scandata.xml`. ثم استُخرج نطاق متصل واسع من متن الديوان اعتمادًا على DjVuXML عبر الأوراق 1400–1520 (حوالي 121 ورقة/صفحة مصدرية). نُتج ملف OCR وسيط (للمراجعة/الرجوع) وملف foundations محافظ ينظّف الضجيج ويُوسم كل مقطع برقم الورقة. وبسبب ضجيج OCR وعدم تحقق ترقيم القصائد في هذا الشاهد، تُنسب التغطية هنا إلى أرقام الأوراق (leaves) لا إلى قصائد محققة سطرًا سطرًا. ثم قُسمت المخرجات إلى 6 ملفات Markdown تحت قاعدة ~ملف لكل 20 ورقة تقريبًا.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms. The auxiliary Wikisource page remains only a discovery pointer under CC BY-SA 4.0.",
     "raw_file": "data/raw/poetry-diwan-al-buhturi.ia.pdf",
     "text_file": "data/text/poetry-diwan-al-buhturi-leaves-1400-1520-foundations.txt",
@@ -508,7 +508,7 @@
     "duplicate_keys": {
       "normalized_title": "ديوان البحتري",
       "normalized_author": "البحتري",
-      "content_sha256": null
+      "content_sha256": "5f94ec73bb173af7e238980a0bc0b968022c97ba250d818c2d581007d591da1f"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
