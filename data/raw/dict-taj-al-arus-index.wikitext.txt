@@ -1,0 +1,25 @@
+# Arabic Wikisource raw capture
+- requested_title: تاج العروس
+- canonical_title: تاج العروس
+- canonical_url: https://ar.wikisource.org/wiki/%D8%AA%D8%A7%D8%AC_%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B3
+- source_id: 
+- fetched_at_utc: 2026-05-24T03:49:45Z
+- page_id: 39891
+- revision_id: 507331
+- content_sha256: 315da5061d4894777ffab22e6a19c3d634a2d60f2a387f3e0b62c768b90141e0
+- note: This file preserves raw page wikitext for provenance before any downstream cleaning.
+{{ويكيبيديا}}
+{{تصفحية
+|تاج العروس
+|[[مؤلف:محمد مرتضى الزبيدي|محمد مرتضى الزبيدي]]
+|
+| [[ويكي مصدر:كتب مصورة]]
+|
+|
+}}
+{{مطبوعة|:تصنيف:تاج العروس:مطبوع}}
+
+{{مصورفقط}}
+== الفهرس العام==
+{{فهرس تاج العروس (المطبعة الخيرية، 1306هـ)}}
+[[تصنيف:تاج العروس|*]]
