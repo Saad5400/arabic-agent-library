@@ -27,7 +27,11 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### أحدث إنجاز بنيوي مهم
 
-أضيف `dict-taj-al-arus` كمصدر معجمي رابع synthesized بدل بقاء raw شاهد Internet Archive غير مسجل. استُخدم الشاهد الكبير `taga07_202001` المحفوظ محليًا (`data/raw/dict-taj-al-arus.ia.pdf`، و`data/raw/dict-taj-al-arus.ia-djvu.txt`، و`data/raw/dict-taj-al-arus.ia-djvu.xml`، و`data/raw/dict-taj-al-arus.ia-scandata.xml`) لا ملفات wikitext الصغيرة ولا فهرسًا. استُخرج نطاق متصل من DjVuXML عبر الأوراق/OBJECTs 370-412، أي نحو 43 ورقة مصدرية من محتوى معجمي حقيقي، ثم صيغ منه ملف OCR وسيط وملف اختيار عملي محافظ، وتحوّل إلى حزمتين Markdown: واحدة عن الأبد/الأحد/الأكيد/الأمد، والثانية عن الأيد/أبجد/لا بد/التبدد/البرد. وبذلك صارت كل المصادر المسجلة حاليًا في السجل synthesized، وأصبحت الخطوة التالية حسب `docs/MASTER_EXECUTION_CHECKLIST.md` هي مراجعة الجودة النهائية على المشروع كله.
+أُنجزت مراجعة الجودة النهائية للمشروع كله، ووُثقت في `docs/FINAL_QUALITY_REVIEW.md`. راجعت المراجعة كل entries بحالة `synthesized` في `data/registry/sources.json` واحدًا واحدًا، وتحققت من وجود raw/text/markdown، ومن عدم وجود Markdown غير مسجل أو إحالات Markdown مفقودة، ومن أن عدد الحزم لكل مصدر مناسب لحجم الشريحة المصدرية تقريبًا. بناءً على ذلك أُغلقت مرحلة 6 في `docs/MASTER_EXECUTION_CHECKLIST.md`: كل المصادر الأربعة عشر المسجلة حاليًا synthesized، ولا توجد candidate أو queued، والإغلاق هنا مرحلي للمصادر المسجلة لا ادعاء بأنه تم تمثيل كل كتاب كاملًا.
+
+### آخر دفعة مصدرية كبيرة قبل المراجعة
+
+أضيف `dict-taj-al-arus` كمصدر معجمي رابع synthesized بدل بقاء raw شاهد Internet Archive غير مسجل. استُخدم الشاهد الكبير `taga07_202001` المحفوظ محليًا (`data/raw/dict-taj-al-arus.ia.pdf`، و`data/raw/dict-taj-al-arus.ia-djvu.txt`، و`data/raw/dict-taj-al-arus.ia-djvu.xml`، و`data/raw/dict-taj-al-arus.ia-scandata.xml`) لا ملفات wikitext الصغيرة ولا فهرسًا. استُخرج نطاق متصل من DjVuXML عبر الأوراق/OBJECTs 370-412، أي نحو 43 ورقة مصدرية من محتوى معجمي حقيقي، ثم صيغ منه ملف OCR وسيط وملف اختيار عملي محافظ، وتحوّل إلى حزمتين Markdown: واحدة عن الأبد/الأحد/الأكيد/الأمد، والثانية عن الأيد/أبجد/لا بد/التبدد/البرد. وبذلك صارت كل المصادر المسجلة حاليًا في السجل synthesized.
 
 ### أمثلة مرجعية مكتملة يمكن القياس عليها
 
@@ -100,28 +104,27 @@ Interpretation:
 - multiple synthesized examples across dictionary, grammar/style, reference, and poetry layers
 - completed mutanabbi raw/text/markdown path as proof that the poetry layer is reachable, even if still incomplete overall
 
-### ما يزال محتاجًا إلى استكمال
+### ما يزال محتاجًا إلى استكمال لاحقًا
 
-- OCR/bootstrap is not yet formalized into repo scripts
-- the rhetoric layer is now fully synthesized across its two registered sources
-- the broader poetry layer is now synthesized across its three registered diwans
-- no comprehensive automated test suite yet
-- no packaging / release process
+- OCR/bootstrap is not yet formalized into repo scripts, لكن لا تجعل ذلك أولوية إلا إذا خدم دفعة مصدرية كبيرة جديدة.
+- لا توجد بعد حزمة إصدار أو packaging للمكتبة؛ المشروع في هذه المرحلة corpus مرجعي لا مكتبة برمجية منشورة.
+- التغطية داخل كل كتاب أو ديوان ما تزال جزئية في معظم المصادر، وإن كان مسار raw/text/markdown مكتملًا لكل مصدر مسجل.
+- أي نقص لاحق ينبغي أن يُعالج بإضافة نطاقات مصدرية كبيرة لا بتعديلات تجميلية صغيرة.
 
 ## الخطوة التالية المقترحة
 
 Best next concrete task:
 
-1. execute phase 6 in `docs/MASTER_EXECUTION_CHECKLIST.md`: final project-wide quality review
-2. audit every `synthesized` source for existing raw/text/markdown paths and source-page/Markdown-count proportionality
-3. normalize stale registry notes and handoff/readme counts where they drift from reality
-4. run both registry validations and update the checklist boxes only when the audit is actually complete
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد.
+2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
+3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
+4. شغّل فحصي السجل بعد أي تغيير.
 
 Why this is the best next step:
 
-- all currently registered sources are now synthesized
-- the last run added a real dictionary foundation increment from `تاج العروس`, so repeating another small same-source slice immediately would risk source-churn rather than final consolidation
-- the master checklist's next unchecked item is explicitly the final quality review
+- المراجعة النهائية أغلقت Phase 6 للمصادر المسجلة حاليًا.
+- إعادة صياغة الحزم الحالية بلا مصدر جديد ستكون أقرب إلى churn تجميلي.
+- القيمة التالية ستكون في توسيع corpus بمادة كبيرة جديدة أو في معالجة خلل موثق إن ظهر.
 
 ## أوامر التحقق
 
