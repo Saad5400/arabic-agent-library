@@ -157,18 +157,20 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `تاج العروس` كمصدر معجمي رابع بعد أن كان الشاهد الخام الكبير موجوداً محلياً وغير مسجل في السجل. لا يعتمد العمل هنا على wikitext صغير أو فهرس؛ بل على شاهد Internet Archive `taga07_202001` المحفوظ في raw: المصوَّر PDF، وDjVuTXT، وDjVuXML، وscandata. جرى التأكد من أن DjVuXML يحوي 541 ورقة/OBJECT وأن النطاق المختار يتضمن محتوى معجمياً حقيقياً لا فهرساً. استُخرجت دفعة متصلة من الأوراق 370-412، أي نحو 43 ورقة مصدرية، إلى ملف OCR وسيط ثم إلى اختيار عملي محافظ يركز على ألفاظ نافعة للكتابة: الأبد، الأحد، الأكيد، الأمد، الأيد، أبجد، لا بد، التبدد، والبرد. وبسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات مطبوعة محققة، وتبقى التغطية جزئية جداً بالنسبة إلى المعجم كله؛ لكنها توسع الأساس المعجمي بمصدر ثقيل جديد وraw كبير حقيقي. قُسم الناتج إلى ملفي Markdown فقط لأن 43 ورقة تبرر تقريباً ملفين تحت قاعدة ~ملف لكل 20 صفحة.",
+    "notes": "أضيف `تاج العروس` كمصدر معجمي رابع بعد أن كان الشاهد الخام الكبير موجوداً محلياً وغير مسجل في السجل. لا يعتمد العمل هنا على wikitext صغير أو فهرس؛ بل على شاهد Internet Archive `taga07_202001` المحفوظ في raw: المصوَّر PDF، وDjVuTXT، وDjVuXML، وscandata. جرى التأكد من أن DjVuXML يحوي 541 ورقة/OBJECT وأن النطاقات المختارة تتضمن محتوى معجمياً حقيقياً لا فهرساً. أُنجزت أولاً دفعة متصلة من الأوراق 370-412، أي نحو 43 ورقة مصدرية، ركزت على الأبد، الأحد، الأكيد، الأمد، الأيد، أبجد، لا بد، التبدد، والبرد. وفي هذه التوسعة أضيف نطاق متصل تالٍ مباشرة من الأوراق 413-455، أي نحو 43 ورقة إضافية، يوسّع مادة البرد ثم ينتقل إلى البعد والبلد والتبلد وباد/بيد. صار مجموع تغطية `تاج العروس` في السجل نحو 86 ورقة مصدرية من محتوى معجمي حقيقي، مع OCR وسيط لكل دفعة وملف اختيار عملي جامع للأوراق 370-455. وبسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات مطبوعة محققة، وتبقى التغطية جزئية جداً بالنسبة إلى المعجم كله؛ لكنها توسع الأساس المعجمي بمصدر ثقيل وraw كبير حقيقي. قُسم الناتج الآن إلى أربعة ملفات Markdown لأن نحو 86 ورقة تبرر تقريباً أربعة ملفات تحت قاعدة ~ملف لكل 20 صفحة.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-taj-al-arus.ia-djvu.xml",
-    "text_file": "data/text/dict-taj-al-arus-leaves-370-412-foundational-selection.txt",
+    "text_file": "data/text/dict-taj-al-arus-leaves-370-455-foundational-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-taj-al-arus-time-unity-and-confirmed-commitment.md",
-      "data/markdown/dict-taj-al-arus-strength-writing-necessity-and-cooling.md"
+      "data/markdown/dict-taj-al-arus-strength-writing-necessity-and-cooling.md",
+      "data/markdown/dict-taj-al-arus-cooling-distance-and-message-paths.md",
+      "data/markdown/dict-taj-al-arus-place-stagnation-and-erasure.md"
     ],
     "duplicate_keys": {
       "normalized_title": "تاج العروس من جواهر القاموس",
       "normalized_author": "مرتضي الزبيدي",
-      "content_sha256": "17fad7fd0ecd8de868d5853b02054a9417de06f6ef3b3257078162a971f935f7"
+      "content_sha256": "6ab12fa8216490b88d112bf79fe4d43349cb8a835bd33e6fc9f60f46e3e50b2d"
     },
     "provenance": {
       "discovered_at": "2026-05-30",
