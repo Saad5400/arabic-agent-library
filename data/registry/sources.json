@@ -157,20 +157,22 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `تاج العروس` كمصدر معجمي رابع بعد أن كان الشاهد الخام الكبير موجوداً محلياً وغير مسجل في السجل. لا يعتمد العمل هنا على wikitext صغير أو فهرس؛ بل على شاهد Internet Archive `taga07_202001` المحفوظ في raw: المصوَّر PDF، وDjVuTXT، وDjVuXML، وscandata. جرى التأكد من أن DjVuXML يحوي 541 ورقة/OBJECT وأن النطاقات المختارة تتضمن محتوى معجمياً حقيقياً لا فهرساً. أُنجزت أولاً دفعة متصلة من الأوراق 370-412، أي نحو 43 ورقة مصدرية، ركزت على الأبد، الأحد، الأكيد، الأمد، الأيد، أبجد، لا بد، التبدد، والبرد. وفي هذه التوسعة أضيف نطاق متصل تالٍ مباشرة من الأوراق 413-455، أي نحو 43 ورقة إضافية، يوسّع مادة البرد ثم ينتقل إلى البعد والبلد والتبلد وباد/بيد. صار مجموع تغطية `تاج العروس` في السجل نحو 86 ورقة مصدرية من محتوى معجمي حقيقي، مع OCR وسيط لكل دفعة وملف اختيار عملي جامع للأوراق 370-455. وبسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات مطبوعة محققة، وتبقى التغطية جزئية جداً بالنسبة إلى المعجم كله؛ لكنها توسع الأساس المعجمي بمصدر ثقيل وraw كبير حقيقي. قُسم الناتج الآن إلى أربعة ملفات Markdown لأن نحو 86 ورقة تبرر تقريباً أربعة ملفات تحت قاعدة ~ملف لكل 20 صفحة.",
+    "notes": "أضيف `تاج العروس` كمصدر معجمي رابع بعد أن كان الشاهد الخام الكبير موجوداً محلياً وغير مسجل في السجل. لا يعتمد العمل هنا على wikitext صغير أو فهرس؛ بل على شاهد Internet Archive `taga07_202001` المحفوظ في raw: المصوَّر PDF، وDjVuTXT، وDjVuXML، وscandata. جرى التأكد من أن DjVuXML يحوي 541 ورقة/OBJECT وأن النطاقات المختارة تتضمن محتوى معجمياً حقيقياً لا فهرساً. أُنجزت أولاً دفعة متصلة من الأوراق 370-412، أي نحو 43 ورقة مصدرية، ركزت على الأبد، الأحد، الأكيد، الأمد، الأيد، أبجد، لا بد، التبدد، والبرد. ثم أضيف نطاق متصل تالٍ مباشرة من الأوراق 413-455، أي نحو 43 ورقة إضافية، يوسّع مادة البرد ثم ينتقل إلى البعد والبلد والتبلد وباد/بيد. وفي هذه الدفعة الحالية أضيف نطاق ثالث متصل من الأوراق 456-498، أي نحو 43 ورقة جديدة، ينتقل من بقايا التاء والثاء إلى أوائل الجيم: التالد والرجوع الهيوب، الثرد والثمد، الجحد، الجدد والجد والجدة والجادة، ثم الجرد والتجرد والجريدة والجارود. صار مجموع تغطية `تاج العروس` في السجل نحو 129 ورقة مصدرية من محتوى معجمي حقيقي، مع OCR وسيط لكل دفعة وملف اختيار عملي جامع للأوراق 370-498. وبسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات مطبوعة محققة، وتبقى التغطية جزئية جداً بالنسبة إلى المعجم كله؛ لكنها توسع الأساس المعجمي بمصدر ثقيل وraw كبير حقيقي. قُسم الناتج الآن إلى ستة ملفات Markdown لأن نحو 129 ورقة تبرر تقريباً ستة ملفات تحت قاعدة ~ملف لكل 20 صفحة.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-taj-al-arus.ia-djvu.xml",
-    "text_file": "data/text/dict-taj-al-arus-leaves-370-455-foundational-selection.txt",
+    "text_file": "data/text/dict-taj-al-arus-leaves-370-498-foundational-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-taj-al-arus-time-unity-and-confirmed-commitment.md",
       "data/markdown/dict-taj-al-arus-strength-writing-necessity-and-cooling.md",
       "data/markdown/dict-taj-al-arus-cooling-distance-and-message-paths.md",
-      "data/markdown/dict-taj-al-arus-place-stagnation-and-erasure.md"
+      "data/markdown/dict-taj-al-arus-place-stagnation-and-erasure.md",
+      "data/markdown/dict-taj-al-arus-old-inheritance-denial-and-clear-paths.md",
+      "data/markdown/dict-taj-al-arus-stripping-clarity-and-separate-remnants.md"
     ],
     "duplicate_keys": {
       "normalized_title": "تاج العروس من جواهر القاموس",
       "normalized_author": "مرتضي الزبيدي",
-      "content_sha256": "6ab12fa8216490b88d112bf79fe4d43349cb8a835bd33e6fc9f60f46e3e50b2d"
+      "content_sha256": "3330037c8816bea7197a156a85b2b02808e2580bc42d0caa70bb159bbf2faad7"
     },
     "provenance": {
       "discovered_at": "2026-05-30",
