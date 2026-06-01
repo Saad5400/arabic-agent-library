@@ -27,6 +27,10 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
+وُسِّع الأساس النحوي/الأسلوبي داخل `الكتاب` بدفعة كبيرة من `الجزء الرابع` الكامل على ويكي مصدر، لا من باب صغير منفرد. حُفظ الخام في `data/raw/grammar-style-kitab-part-four.wikitext.txt` بحجم يقارب 199 كيلوبايت، ونُظم في `data/text/grammar-style-kitab-part-four-ibtida-nida-istithna-damair-foundations.txt`. أُنتجت ثلاث حزم Markdown متوسطة الغنى: `data/markdown/grammar-style-kitab-part-four-ibtida-inna-and-kam.md`، و`data/markdown/grammar-style-kitab-part-four-nida-nudba-and-address.md`، و`data/markdown/grammar-style-kitab-part-four-negation-exception-pronouns.md`. تغطي هذه الدفعة نحو 60 صفحة مصدرية رقمية تقديرية من مباحث الابتداء، والحروف الخمسة، وكم، والنداء والندبة، والنفي والاستثناء، والضمائر والاستفهام، ولذلك يبررها التقسيم إلى ثلاث حزم تحت قاعدة ~ملف لكل 20 صفحة.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
+
 وُسِّعت طبقة `تاج العروس` بدفعة معجمية جديدة متصلة من الأوراق/OBJECTs 413-455 من شاهد Internet Archive نفسه، لا من فهرس ولا من wikitext صغير. أُنتج لها OCR وسيط `data/text/dict-taj-al-arus-leaves-413-455-ocr-extract.txt` وملف اختيار عملي `data/text/dict-taj-al-arus-leaves-413-455-foundational-selection.txt`، ثم جُمعت الدفعتان 370-412 و413-455 في النص المعتمد الجديد `data/text/dict-taj-al-arus-leaves-370-455-foundational-selection.txt`. أضيفت حزمتا Markdown جديدتان: `data/markdown/dict-taj-al-arus-cooling-distance-and-message-paths.md` و`data/markdown/dict-taj-al-arus-place-stagnation-and-erasure.md`. صار `dict-taj-al-arus` يغطي نحو 86 ورقة مصدرية وأربع حزم، وهو متناسب مع قاعدة ~ملف لكل 20 صفحة.
 
 ### أحدث إنجاز بنيوي مهم
@@ -52,6 +56,8 @@ Representative artifacts:
 - `data/markdown/dict-mukhtar-al-sihah-complete-writing-foundations.md`
 - `data/markdown/dict-taj-al-arus-cooling-distance-and-message-paths.md`
 - `data/markdown/dict-taj-al-arus-place-stagnation-and-erasure.md`
+- `data/markdown/grammar-style-kitab-part-four-ibtida-inna-and-kam.md`
+- `data/markdown/grammar-style-kitab-part-four-negation-exception-pronouns.md`
 - `data/markdown/grammar-style-kitab-complete-writing-foundations.md`
 - `data/markdown/reference-adab-al-katib-lexical-corrections-and-precision.md`
 - `data/markdown/reference-al-bayan-wa-al-tabyin-channels-of-bayan-and-meaning.md`
@@ -120,7 +126,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `الكتاب`، لذلك يُفضّل أن تكون الدفعة التالية معجمية جديدة أو نطاقًا كبيرًا من مصدر آخر حتى لا يتكرر العمل على المصدر نفسه مباشرة.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.

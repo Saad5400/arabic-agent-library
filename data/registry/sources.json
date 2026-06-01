@@ -268,21 +268,25 @@
       "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9",
       "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%A3%D9%88%D9%84",
       "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A",
-      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB"
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8_(%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87)/%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9"
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "امتد العمل على `الكتاب` من طبقة التأسيس السابقة (المقدمة + الجزء الأول) إلى batch خام أكبر جديد يضم `الجزء الثاني` و`الجزء الثالث` معاً في ملف raw واحد حجمه نحو 366 كيلوبايت قبل التركيب. بدلاً من الرجوع إلى باب صغير منفرد، جُمعت كتلة أوسع من المادة ثم نُظمت في ملف نصي عملي واسع، واستُخرجت منها وحدات عملية عن إضمار الفعل، والمصادر المنصوبة، والظروف والجر، والبدل والنعت والحال. ثم جاءت مراجعة مرحلة الأساس النحوي/الأسلوبي لتجمع الوحدات القديمة والجديدة كلها في ملف Markdown جامع واحد (`data/markdown/grammar-style-kitab-complete-writing-foundations.md`) بدل إبقاء خمسة ملفات منفصلة لمصدر واحد. بذلك صار `الكتاب` أوضح استعمالاً للوكيل، وصار عدد المخرجات أنسب لقاعدة التقسيم، مع بقاء التغطية **جزئية لكنها عريضة نسبيًا** مقارنة بالدفعات الأولى.",
+    "notes": "امتد العمل على `الكتاب` من طبقة التأسيس السابقة (المقدمة + الجزء الأول، ثم الجزءان الثاني والثالث) إلى دفعة خام كبيرة جديدة من `الجزء الرابع` الكامل على ويكي مصدر. حُفظت الصفحة كاملة في `data/raw/grammar-style-kitab-part-four.wikitext.txt` بحجم يقارب 199 كيلوبايت قبل التنظيف، وهي كتلة أوسع من باب صغير منفرد، وتغطي طيفًا نحويًا/أسلوبيًا عريضًا: الابتداء والخبر، الحروف الخمسة، كم، النداء والندبة والترخيم، النفي بلا، الاستثناء، علامات المضمرين، إيّا، ضمائر الفصل، وأبواب أي ومن وماذا. نُظمت المادة في `data/text/grammar-style-kitab-part-four-ibtida-nida-istithna-damair-foundations.txt`، ثم صيغت منها ثلاث حزم Markdown جديدة متوسطة الغنى، لأن كتلة الجزء الرابع تعادل تقريبًا 60 صفحة مصدرية رقمية وتبرر نحو ثلاثة ملفات تحت قاعدة ~ملف لكل 20 صفحة. بهذا صار `الكتاب` يضم المخرج الجامع القديم للمراحل الأولى، وثلاث حزم مستقلة مبررة للجزء الرابع؛ والتغطية لا تزال جزئية بالنسبة إلى الكتاب كله، لكنها توسع الأساس النحوي/الأسلوبي في منطقة عملية جدًا للوكيل: بناء الجملة، الخطاب، النفي، الاستثناء، والضمائر.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/grammar-style-kitab-parts-two-three.wikitext.txt",
-    "text_file": "data/text/grammar-style-kitab-parts-two-three-commands-masdars-zarf-sifa-foundations.txt",
+    "raw_file": "data/raw/grammar-style-kitab-part-four.wikitext.txt",
+    "text_file": "data/text/grammar-style-kitab-part-four-ibtida-nida-istithna-damair-foundations.txt",
     "markdown_outputs": [
-      "data/markdown/grammar-style-kitab-complete-writing-foundations.md"
+      "data/markdown/grammar-style-kitab-complete-writing-foundations.md",
+      "data/markdown/grammar-style-kitab-part-four-ibtida-inna-and-kam.md",
+      "data/markdown/grammar-style-kitab-part-four-nida-nudba-and-address.md",
+      "data/markdown/grammar-style-kitab-part-four-negation-exception-pronouns.md"
     ],
     "duplicate_keys": {
       "normalized_title": "الكتاب",
       "normalized_author": "سيبويه",
-      "content_sha256": "b102da081c67694c3d08982618c75a79889c35d96e2833a3c4e30b187b2a2ec4"
+      "content_sha256": "561d407cc9cd6f12686b9a7ec7d94264515a0a4dbaf09e6c2eec68e9ddc5c8a6"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
