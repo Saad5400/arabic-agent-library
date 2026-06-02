@@ -27,6 +27,10 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
+وُسِّع الأساس النحوي/الأسلوبي داخل `الخصائص` بدفعة كبيرة جديدة من ويكي مصدر لا تكرر دفعاته السابقة: 12 صفحة فعلية عن اختلاف اللغات وحجيتها، أصل اللغة، إجماع أهل العربية، انتقال اللسان، اجتماع اللغات، تعارض السماع والقياس، المخالف للجمهور، تركب اللغات، وتلاقي اللغة. حُفظ الخام في `data/raw/grammar-style-khasais-lughat-samaa-qiyas-batch.wikitext.txt` بحجم 136,667 bytes ونحو 13,968 كلمة عربية، أي قرابة 40–47 صفحة رقمية. نُظم في `data/text/grammar-style-khasais-lughat-samaa-qiyas-foundations.txt`، وأُنتجت حزمتا Markdown: `data/markdown/grammar-style-khasais-language-variation-and-usage-authority.md` و`data/markdown/grammar-style-khasais-samaa-qiyas-and-apparent-exceptions.md`. هذا تقدم grammar/style foundation ويعالج أخطاء عملية للوكيل: التخطئة المتسرعة، القياس على الشاذ، وبناء الاشتقاق من تشابه لفظي عابر.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
+
 وُسِّعت طبقة `تاج العروس` مرة أخرى بدفعة معجمية متصلة من الأوراق/OBJECTs 456-498 من شاهد Internet Archive نفسه، لا من فهرس ولا من wikitext صغير. أُنتج لها OCR وسيط `data/text/dict-taj-al-arus-leaves-456-498-ocr-extract.txt` وملف اختيار عملي `data/text/dict-taj-al-arus-leaves-456-498-foundational-selection.txt`، ثم جُمعت الدفعات 370-412 و413-455 و456-498 في النص المعتمد الجديد `data/text/dict-taj-al-arus-leaves-370-498-foundational-selection.txt`. أضيفت حزمتا Markdown جديدتان: `data/markdown/dict-taj-al-arus-old-inheritance-denial-and-clear-paths.md` و`data/markdown/dict-taj-al-arus-stripping-clarity-and-separate-remnants.md`. صار `dict-taj-al-arus` يغطي نحو 129 ورقة مصدرية وست حزم، وهو متناسب مع قاعدة ~ملف لكل 20 صفحة/ورقة.
 
 ### إنجاز مصدري سابق بعد الإغلاق المرحلي
@@ -60,6 +64,8 @@ Representative artifacts:
 - `data/markdown/dict-mukhtar-al-sihah-complete-writing-foundations.md`
 - `data/markdown/dict-taj-al-arus-old-inheritance-denial-and-clear-paths.md`
 - `data/markdown/dict-taj-al-arus-stripping-clarity-and-separate-remnants.md`
+- `data/markdown/grammar-style-khasais-language-variation-and-usage-authority.md`
+- `data/markdown/grammar-style-khasais-samaa-qiyas-and-apparent-exceptions.md`
 - `data/markdown/grammar-style-kitab-part-four-ibtida-inna-and-kam.md`
 - `data/markdown/grammar-style-kitab-part-four-negation-exception-pronouns.md`
 - `data/markdown/grammar-style-kitab-complete-writing-foundations.md`
@@ -130,7 +136,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا في `تاج العروس`، لذلك يُفضّل أن تكون الدفعة التالية نحوية/أسلوبية من مصدر آخر أو نطاقًا معجميًا جديدًا غير ملاصق مباشرة حتى لا يتكرر العمل على المصدر نفسه مباشرة.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `الخصائص`، لذلك يُفضّل أن تكون الدفعة التالية معجمية كبيرة غير ملاصقة مباشرة أو مرجعية/بلاغية واسعة إذا اقتضى التخطيط، حتى لا يتكرر العمل على المصدر نفسه مباشرة.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
