@@ -27,7 +27,7 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
-وُسِّع الأساس النحوي/الأسلوبي داخل `الخصائص` بدفعة كبيرة جديدة من ويكي مصدر لا تكرر دفعاته السابقة: 12 صفحة فعلية عن اختلاف اللغات وحجيتها، أصل اللغة، إجماع أهل العربية، انتقال اللسان، اجتماع اللغات، تعارض السماع والقياس، المخالف للجمهور، تركب اللغات، وتلاقي اللغة. حُفظ الخام في `data/raw/grammar-style-khasais-lughat-samaa-qiyas-batch.wikitext.txt` بحجم 136,667 bytes ونحو 13,968 كلمة عربية، أي قرابة 40–47 صفحة رقمية. نُظم في `data/text/grammar-style-khasais-lughat-samaa-qiyas-foundations.txt`، وأُنتجت حزمتا Markdown: `data/markdown/grammar-style-khasais-language-variation-and-usage-authority.md` و`data/markdown/grammar-style-khasais-samaa-qiyas-and-apparent-exceptions.md`. هذا تقدم grammar/style foundation ويعالج أخطاء عملية للوكيل: التخطئة المتسرعة، القياس على الشاذ، وبناء الاشتقاق من تشابه لفظي عابر.
+وُسِّع `كتاب الصناعتين` بدفعة مرجعية كبيرة غير مكررة: حُفظت خامات DjVuXML وscandata من Internet Archive إلى جانب DjVuTXT القديم، ثم استُخرج نطاق متصل من الأوراق/OBJECTs 120-179، أي نحو 60 ورقة مصدرية، عن حسن السبك وجودة الرصف، والإيجاز والحذف والإطناب المقبول، والأخذ من السابقين والزيادة الحسنة والتقصير. أُنتج OCR وسيط في `data/text/reference-sinaatayn-leaves-120-179-sabk-ijaz-akhdh-ocr.txt`، وملف اختيار عملي في `data/text/reference-sinaatayn-leaves-120-179-sabk-ijaz-akhdh-foundations.txt`، وثلاث حزم Markdown جديدة: `data/markdown/reference-sinaatayn-sabk-and-word-placement.md`، و`data/markdown/reference-sinaatayn-ijaz-itnab-and-sufficient-brevity.md`، و`data/markdown/reference-sinaatayn-akhdh-source-use-and-good-addition.md`. هذه دفعة reference material واسعة تحت قاعدة ~ملف لكل 20 صفحة، وليست تكرارًا للتوسعة النحوية السابقة في `الخصائص`.
 
 ### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
@@ -64,6 +64,9 @@ Representative artifacts:
 - `data/markdown/dict-mukhtar-al-sihah-complete-writing-foundations.md`
 - `data/markdown/dict-taj-al-arus-old-inheritance-denial-and-clear-paths.md`
 - `data/markdown/dict-taj-al-arus-stripping-clarity-and-separate-remnants.md`
+- `data/markdown/reference-sinaatayn-sabk-and-word-placement.md`
+- `data/markdown/reference-sinaatayn-ijaz-itnab-and-sufficient-brevity.md`
+- `data/markdown/reference-sinaatayn-akhdh-source-use-and-good-addition.md`
 - `data/markdown/grammar-style-khasais-language-variation-and-usage-authority.md`
 - `data/markdown/grammar-style-khasais-samaa-qiyas-and-apparent-exceptions.md`
 - `data/markdown/grammar-style-kitab-part-four-ibtida-inna-and-kam.md`
@@ -136,7 +139,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `الخصائص`، لذلك يُفضّل أن تكون الدفعة التالية معجمية كبيرة غير ملاصقة مباشرة أو مرجعية/بلاغية واسعة إذا اقتضى التخطيط، حتى لا يتكرر العمل على المصدر نفسه مباشرة.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان مرجعيًا في `كتاب الصناعتين`، لذلك يُفضّل أن تكون الدفعة التالية معجمية كبيرة من مصدر غير مستهلك حديثًا أو نطاقًا نحويًا/مرجعيًا واسعًا آخر، مع تجنب تكرار العمل مباشرة على الأوراق 120-179 نفسها.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.

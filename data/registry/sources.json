@@ -401,21 +401,26 @@
     "original_url": "https://archive.org/details/AAlexandrina-145489",
     "mirror_urls": [
       "https://archive.org/download/AAlexandrina-145489/145489_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D8%B1.pdf",
-      "https://archive.org/download/AAlexandrina-145489/145489_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D8%B1_djvu.txt"
+      "https://archive.org/download/AAlexandrina-145489/145489_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D8%B1_djvu.txt",
+      "https://archive.org/download/AAlexandrina-145489/145489_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D8%B1_djvu.xml",
+      "https://archive.org/download/AAlexandrina-145489/145489_%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%AA%D9%8A%D9%86_%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D8%A9_%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D8%B1_scandata.xml"
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "نُزِّل ملف OCR بصيغة DjVuTXT من Internet Archive وحُفظ خامًا، ثم أُنتج منه ملف نصي منظَّف موسَّع من المقتطفات الافتتاحية (المقدمة وبعض الفصلين الأولين من الباب الأول) مع حزمة Markdown أكثر ثراءً عن البلاغة والفصاحة. المعالجة ما تزال جزئية ولا تمثل الكتاب كله؛ وتحتاج لاحقًا إلى مراجعة النص على PDF المصوَّر وربط المقتطفات بمواضعها الصفحية وتوسيع التغطية إلى أبواب السبك والإيجاز والسجع والبديع.",
+    "notes": "نُزِّل أولاً ملف OCR بصيغة DjVuTXT من Internet Archive وحُفظ خامًا، ثم أُنتج منه ملف نصي منظَّف من المقتطفات الافتتاحية مع حزمة Markdown عن البلاغة والفصاحة. وفي هذه التوسعة اللاحقة غير المكررة جرى تعزيز الشاهد الخام نفسه بملفي DjVuXML وscandata، ثم استُخرج نطاق متصل واسع من الأوراق/OBJECTs 120-179، أي نحو 60 ورقة مصدرية من متن الكتاب، يغطي الباب الرابع في حسن السبك وجودة الرصف، والباب الخامس في الإيجاز والحذف والإطناب المقبول، والباب السادس في الأخذ من السابقين والزيادة الحسنة والتقصير. أُنتج ملف OCR عملي وسيط، وملف اختيار عملي محافظ، وثلاث حزم Markdown جديدة متوسطة الغنى؛ وبذلك صار `كتاب الصناعتين` لا يقتصر على مقتطف افتتاحي صغير، بل يضم دفعة مرجعية أوسع تخدم صناعة الكاتب مباشرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى تحقيق سطري كامل، وتبقى التغطية جزئية بالنسبة إلى الكتاب كله، لكنها أوسع بكثير من المعالجة الأولى ومتناسبة مع قاعدة نحو ملف Markdown واحد لكل عشرين صفحة.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
-    "raw_file": "data/raw/reference-sinaatayn.ia-djvu.txt",
-    "text_file": "data/text/reference-sinaatayn-opening.txt",
+    "raw_file": "data/raw/reference-sinaatayn.ia-djvu.xml",
+    "text_file": "data/text/reference-sinaatayn-leaves-120-179-sabk-ijaz-akhdh-foundations.txt",
     "markdown_outputs": [
-      "data/markdown/reference-sinaatayn-balagha-fasaha.md"
+      "data/markdown/reference-sinaatayn-balagha-fasaha.md",
+      "data/markdown/reference-sinaatayn-sabk-and-word-placement.md",
+      "data/markdown/reference-sinaatayn-ijaz-itnab-and-sufficient-brevity.md",
+      "data/markdown/reference-sinaatayn-akhdh-source-use-and-good-addition.md"
     ],
     "duplicate_keys": {
       "normalized_title": "كتاب الصناعتين الكتابه والشعر",
       "normalized_author": "ابو هلال العسكري",
-      "content_sha256": "ccf2e47a332eea02d31f344a3c9f327c11b35e2c173e1910e7fc843eb099cc8d"
+      "content_sha256": "75f3449efd3fc16d7ef30797532fe282aecc66cde5bc1c19ec1944f6b5822e0b"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
