@@ -27,6 +27,10 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
+وُسِّع `تاج العروس` بدفعة معجمية رابعة متصلة من الأوراق/OBJECTs 499-541 من شاهد Internet Archive نفسه، أي نحو 43 ورقة حتى آخر DjVuXML. هذه ليست صفحة wikitext صغيرة ولا فهرسًا؛ بل محتوى معجمي حقيقي يغطي الجسد والجعد والجلد والجمد والجند والجود والجهد والجيد. أُنتج OCR وسيط `data/text/dict-taj-al-arus-leaves-499-541-ocr-extract.txt` وملف اختيار عملي `data/text/dict-taj-al-arus-leaves-499-541-foundational-selection.txt`، ثم جُمعت الدفعات 370-412 و413-455 و456-498 و499-541 في النص المعتمد الجديد `data/text/dict-taj-al-arus-leaves-370-541-foundational-selection.txt`. أضيفت حزمتا Markdown جديدتان: `data/markdown/dict-taj-al-arus-body-form-firmness-and-frozen-limits.md` و`data/markdown/dict-taj-al-arus-cohorts-generosity-effort-and-fine-placement.md`. صار `dict-taj-al-arus` يغطي نحو 172 ورقة مصدرية وثماني حزم، وهو متناسب مع قاعدة ~ملف لكل 20 صفحة/ورقة. هذه دفعة dictionary foundations واسعة، وليست تكرارًا للتوسعة المرجعية السابقة في `كتاب الصناعتين`.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
+
 وُسِّع `كتاب الصناعتين` بدفعة مرجعية كبيرة غير مكررة: حُفظت خامات DjVuXML وscandata من Internet Archive إلى جانب DjVuTXT القديم، ثم استُخرج نطاق متصل من الأوراق/OBJECTs 120-179، أي نحو 60 ورقة مصدرية، عن حسن السبك وجودة الرصف، والإيجاز والحذف والإطناب المقبول، والأخذ من السابقين والزيادة الحسنة والتقصير. أُنتج OCR وسيط في `data/text/reference-sinaatayn-leaves-120-179-sabk-ijaz-akhdh-ocr.txt`، وملف اختيار عملي في `data/text/reference-sinaatayn-leaves-120-179-sabk-ijaz-akhdh-foundations.txt`، وثلاث حزم Markdown جديدة: `data/markdown/reference-sinaatayn-sabk-and-word-placement.md`، و`data/markdown/reference-sinaatayn-ijaz-itnab-and-sufficient-brevity.md`، و`data/markdown/reference-sinaatayn-akhdh-source-use-and-good-addition.md`. هذه دفعة reference material واسعة تحت قاعدة ~ملف لكل 20 صفحة، وليست تكرارًا للتوسعة النحوية السابقة في `الخصائص`.
 
 ### إنجاز مصدري سابق بعد الإغلاق المرحلي
@@ -62,6 +66,8 @@ Source ids:
 Representative artifacts:
 
 - `data/markdown/dict-mukhtar-al-sihah-complete-writing-foundations.md`
+- `data/markdown/dict-taj-al-arus-body-form-firmness-and-frozen-limits.md`
+- `data/markdown/dict-taj-al-arus-cohorts-generosity-effort-and-fine-placement.md`
 - `data/markdown/dict-taj-al-arus-old-inheritance-denial-and-clear-paths.md`
 - `data/markdown/dict-taj-al-arus-stripping-clarity-and-separate-remnants.md`
 - `data/markdown/reference-sinaatayn-sabk-and-word-placement.md`
@@ -139,7 +145,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان مرجعيًا في `كتاب الصناعتين`، لذلك يُفضّل أن تكون الدفعة التالية معجمية كبيرة من مصدر غير مستهلك حديثًا أو نطاقًا نحويًا/مرجعيًا واسعًا آخر، مع تجنب تكرار العمل مباشرة على الأوراق 120-179 نفسها.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا داخل `تاج العروس` حتى آخر الشاهد المحلي (الأوراق 499-541)، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو من طبقة نحوية/مرجعية واسعة غير مستهلكة حديثًا، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
