@@ -368,23 +368,28 @@
     "mirror_urls": [
       "https://archive.org/download/AAlexandrina-195125/195125%20-%20%D8%A3%D8%AF%D8%A8%20%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8.pdf",
       "https://archive.org/download/AAlexandrina-195125/195125%20-%20%D8%A3%D8%AF%D8%A8%20%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8_djvu.txt",
+      "https://archive.org/download/AAlexandrina-195125/195125%20-%20%D8%A3%D8%AF%D8%A8%20%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8_djvu.xml",
       "https://archive.org/download/AAlexandrina-195125/195125%20-%20%D8%A3%D8%AF%D8%A8%20%D8%A7%D9%84%D9%83%D8%A7%D8%AA%D8%A8_scandata.xml"
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أُنجزت أول دفعة فعلية من `أدب الكاتب` اعتمادًا على شاهد رقمي كبير من Internet Archive هو العنصر `AAlexandrina-195125`، لا على صفحة فهرسية صغيرة ولا على لقطة هامشية. استُخدم ملف OCR الخام `djvu.txt` مع `scandata.xml` لاقتناء نطاق واسع من `كتاب المعرفة` يمتد تقريبًا من الصفحة 8 إلى الصفحة 64، أي نحو 57 صفحة مصدرية قبل باب `أصول أسماء الناس`. ونظرًا إلى تشويش OCR في مواضع متعددة، نُظمت المادة وفق تنظيف محافظ في ملف text عملي يركز على خمسة أبواب متعاقبة ذات فائدة مباشرة للكاتب: تصحيح الألفاظ وحدود الاستعمال، ما جاء مثنى، المزدوج من الكلام، صيغ الدعاء الجارية، وتأويل الكلام المستعمل بين الناس. ثم صيغت المادة في ثلاث حزم Markdown متوسطة الغنى، وهو تقسيم مبرر لهذه الكتلة الصفحية تحت قاعدة نحو ملف واحد لكل عشرين صفحة. التغطية ما تزال جزئية بالنسبة إلى الكتاب كله، لكنها تمثل اقتناءً حقيقيًا واسعًا ومخرجًا مرجعيًا عمليًا يخدم الكتابة الفصحى من متن المصدر نفسه.",
+    "notes": "أُنجزت أول دفعة فعلية من `أدب الكاتب` اعتمادًا على شاهد رقمي كبير من Internet Archive هو العنصر `AAlexandrina-195125`، لا على صفحة فهرسية صغيرة ولا على لقطة هامشية. استُخدم أولاً ملف OCR الخام `djvu.txt` مع `scandata.xml` لاقتناء نطاق واسع من `كتاب المعرفة` يمتد تقريبًا من الصفحة 8 إلى الصفحة 64، أي نحو 57 صفحة مصدرية قبل باب `أصول أسماء الناس`، وصيغت منه ثلاث حزم Markdown عن تصحيح الألفاظ، والمثنى/المزدوج والصيغ، وتأويل العبارات الجارية. وفي هذه التوسعة اللاحقة غير المكررة أُضيف raw بنيوي كبير `data/raw/reference-adab-al-katib.ia-djvu.xml` بحجم يتجاوز 7.5 ميغابايت، واستُخرج منه نطاق متصل جديد من OBJECTs/leaves 65-140، أي نحو 76 ورقة مصدرية رقمية من تتمة `كتاب المعرفة` وبداية `أبواب الفروق`. يغطي النطاق أسماء الرجال وأصولها، والسماء والنجوم والنبات، وإناث الحيوان وجموعه، وصفات الخيل وعيوبها وشياتها، وعيوب الإنسان، وفروق الإنسان والحيوان والطعام والمجالس. أُنتج OCR وسيط وملف foundations عملي محافظ، ثم أربع حزم Markdown جديدة متوسطة الغنى؛ وبذلك صار `أدب الكاتب` يضم نحو 133 صفحة/ورقة عملية عبر سبع حزم، وهو متناسب تقريبًا مع قاعدة ~ملف لكل 20 صفحة. بسبب ضجيج OCR تُنسب التوسعة الجديدة إلى أرقام OBJECTs لا إلى تحقيق سطري كامل، وتبقى التغطية جزئية بالنسبة إلى الكتاب كله لكنها توسع المادة المرجعية العملية توسيعًا عريضًا.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
-    "raw_file": "data/raw/reference-adab-al-katib.ia-djvu.txt",
-    "text_file": "data/text/reference-adab-al-katib-book-al-maarifa-opening-foundations.txt",
+    "raw_file": "data/raw/reference-adab-al-katib.ia-djvu.xml",
+    "text_file": "data/text/reference-adab-al-katib-leaves-65-140-names-stars-creatures-furuq-foundations.txt",
     "markdown_outputs": [
       "data/markdown/reference-adab-al-katib-lexical-corrections-and-precision.md",
       "data/markdown/reference-adab-al-katib-paired-expressions-and-formulae.md",
-      "data/markdown/reference-adab-al-katib-idiom-origins-and-writerly-judgment.md"
+      "data/markdown/reference-adab-al-katib-idiom-origins-and-writerly-judgment.md",
+      "data/markdown/reference-adab-al-katib-names-origins-and-natural-taxonomies.md",
+      "data/markdown/reference-adab-al-katib-animals-horses-and-described-form.md",
+      "data/markdown/reference-adab-al-katib-human-defects-and-ethical-description.md",
+      "data/markdown/reference-adab-al-katib-furuq-human-animal-food-and-social-scenes.md"
     ],
     "duplicate_keys": {
       "normalized_title": "ادب الكاتب",
       "normalized_author": "ابن قتيبه",
-      "content_sha256": "ade8e78926c2f7e6dffee0c38fcfd69c70a7f80915820ba5c719d0a5ac2162ee"
+      "content_sha256": "c605709245aa6a2e73e7e000770d91a63a9ef5fc154bf87fe0228d5484d9e50d"
     },
     "provenance": {
       "discovered_at": "2026-05-21",

@@ -27,6 +27,10 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
+وُسِّع `أدب الكاتب` بدفعة مرجعية كبيرة غير مكررة من شاهد Internet Archive نفسه: حُفظ raw بنيوي جديد `data/raw/reference-adab-al-katib.ia-djvu.xml` بحجم يتجاوز 7.5 ميغابايت، واستُخرج نطاق متصل من OBJECTs/leaves 65-140، أي نحو 76 ورقة مصدرية رقمية من تتمة `كتاب المعرفة` وبداية `أبواب الفروق`. هذه ليست صفحة صغيرة ولا إعادة تلخيص للافتتاح السابق، بل نطاق واسع يغطي أسماء الرجال وأصولها، والسماء والنجوم والنبات، وإناث الحيوان وجموعه، وصفات الخيل وعيوبها وشياتها، وعيوب الإنسان، وفروق الإنسان والحيوان والطعام والمجالس. أُنتج OCR وسيط `data/text/reference-adab-al-katib-leaves-65-140-ocr-extract.txt` وملف عملي `data/text/reference-adab-al-katib-leaves-65-140-names-stars-creatures-furuq-foundations.txt`، وأضيفت أربع حزم Markdown: `data/markdown/reference-adab-al-katib-names-origins-and-natural-taxonomies.md`، و`data/markdown/reference-adab-al-katib-animals-horses-and-described-form.md`، و`data/markdown/reference-adab-al-katib-human-defects-and-ethical-description.md`، و`data/markdown/reference-adab-al-katib-furuq-human-animal-food-and-social-scenes.md`. صار `reference-adab-al-katib` يغطي نحو 133 صفحة/ورقة عملية عبر سبع حزم، وهو متناسب مع قاعدة ~ملف لكل 20 صفحة. هذه دفعة reference material واسعة، وليست تكرارًا للتوسعة المعجمية السابقة في `تاج العروس`.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
+
 وُسِّع `تاج العروس` بدفعة معجمية رابعة متصلة من الأوراق/OBJECTs 499-541 من شاهد Internet Archive نفسه، أي نحو 43 ورقة حتى آخر DjVuXML. هذه ليست صفحة wikitext صغيرة ولا فهرسًا؛ بل محتوى معجمي حقيقي يغطي الجسد والجعد والجلد والجمد والجند والجود والجهد والجيد. أُنتج OCR وسيط `data/text/dict-taj-al-arus-leaves-499-541-ocr-extract.txt` وملف اختيار عملي `data/text/dict-taj-al-arus-leaves-499-541-foundational-selection.txt`، ثم جُمعت الدفعات 370-412 و413-455 و456-498 و499-541 في النص المعتمد الجديد `data/text/dict-taj-al-arus-leaves-370-541-foundational-selection.txt`. أضيفت حزمتا Markdown جديدتان: `data/markdown/dict-taj-al-arus-body-form-firmness-and-frozen-limits.md` و`data/markdown/dict-taj-al-arus-cohorts-generosity-effort-and-fine-placement.md`. صار `dict-taj-al-arus` يغطي نحو 172 ورقة مصدرية وثماني حزم، وهو متناسب مع قاعدة ~ملف لكل 20 صفحة/ورقة. هذه دفعة dictionary foundations واسعة، وليست تكرارًا للتوسعة المرجعية السابقة في `كتاب الصناعتين`.
 
 ### إنجاز مصدري سابق بعد الإغلاق المرحلي
@@ -73,6 +77,8 @@ Representative artifacts:
 - `data/markdown/reference-sinaatayn-sabk-and-word-placement.md`
 - `data/markdown/reference-sinaatayn-ijaz-itnab-and-sufficient-brevity.md`
 - `data/markdown/reference-sinaatayn-akhdh-source-use-and-good-addition.md`
+- `data/markdown/reference-adab-al-katib-names-origins-and-natural-taxonomies.md`
+- `data/markdown/reference-adab-al-katib-furuq-human-animal-food-and-social-scenes.md`
 - `data/markdown/grammar-style-khasais-language-variation-and-usage-authority.md`
 - `data/markdown/grammar-style-khasais-samaa-qiyas-and-apparent-exceptions.md`
 - `data/markdown/grammar-style-kitab-part-four-ibtida-inna-and-kam.md`
@@ -145,7 +151,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا داخل `تاج العروس` حتى آخر الشاهد المحلي (الأوراق 499-541)، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو من طبقة نحوية/مرجعية واسعة غير مستهلكة حديثًا، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان مرجعيًا داخل `أدب الكاتب` في OBJECTs/leaves 65-140، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو من طبقة غير مستهلكة حديثًا، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
