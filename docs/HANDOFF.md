@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 15 total source entries
+- 16 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 15 sources are currently `synthesized`
+- 16 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `فقه اللغة وسر العربية` للثعالبي كمصدر مرجعي/لغوي تأسيسي جديد غير مكرر: جُمعت صفحة المقدمة وثلاثون بابًا فعليًا من ويكي مصدر في raw واحد `data/raw/reference-fiqh-al-lugha-wa-sirr-al-arabiyya-complete.wikitext.txt` حجمه 620,358 bytes ونحو 45,833 كلمة/تتابع عربي، أي مادة أكبر بكثير من صفحة أو باب صغير. استُخرج text عملي منظف `data/text/reference-fiqh-al-lugha-wa-sirr-al-arabiyya-complete-cleaned.txt` حجمه 601,145 bytes ونحو 44,330 كلمة/تتابع عربي، وأُنتجت خمس حزم Markdown: `data/markdown/reference-fiqh-al-lugha-taxonomy-boundaries-and-naming.md`، و`data/markdown/reference-fiqh-al-lugha-body-description-and-action.md`، و`data/markdown/reference-fiqh-al-lugha-sounds-groups-and-crowds.md`، و`data/markdown/reference-fiqh-al-lugha-clothing-food-and-tools.md`، و`data/markdown/reference-fiqh-al-lugha-weather-water-and-land.md`. تقدير حجم الدفعة نحو 120-150 صفحة مكافئة؛ لذلك خمس حزم عريضة مبررة تحت قاعدة ~ملف لكل 20 صفحة مع تجنب تفتيت زائد. هذه دفعة reference/foundation لغوية لا تكرر دفعة `أساس البلاغة` السابقة لأنها تنتقل من الجذر المعجمي البلاغي إلى الحقول الدلالية والتسمية والتصنيف الطبيعي والعملي.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 أضيف `أساس البلاغة` للزمخشري كمصدر معجمي/بلاغي تأسيسي جديد غير مكرر: جُمعت صفحتا ويكي مصدر الكاملتان `أساس البلاغة - الجزء الأول` و`أساس البلاغة - الجزء الثاني` في raw واحد `data/raw/dict-asas-al-balagha-parts-one-two.wikitext.txt` حجمه 351,727 bytes ونحو 33,952 كلمة عربية، أي مادة أكبر بكثير من جذر أو صفحة صغيرة. استُخرج text عملي `data/text/dict-asas-al-balagha-parts-one-two-writing-foundations.txt` من 28 جذرًا مختارًا، وأُنتجت أربع حزم Markdown: `data/markdown/dict-asas-al-balagha-bayan-balagha-and-visible-meaning.md`، و`data/markdown/dict-asas-al-balagha-trust-fixity-and-verification.md`، و`data/markdown/dict-asas-al-balagha-composition-origin-building-and-completion.md`، و`data/markdown/dict-asas-al-balagha-relation-distance-following-and-flow.md`. تقدير حجم الدفعة نحو 90-110 صفحة مكافئة؛ لذلك أربع حزم متوسطة الغنى مبررة تحت قاعدة ~ملف لكل 20 صفحة مع تجنب تفتيت زائد. هذه دفعة dictionary foundations جديدة لا تكرر توسعة `أدب الكاتب` السابقة.
 

@@ -509,6 +509,46 @@
     }
   },
   {
+    "id": "reference-fiqh-al-lugha-wa-sirr-al-arabiyya",
+    "title": "فقه اللغة وسر العربية",
+    "author": "أبو منصور الثعالبي",
+    "category": "reference",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://ar.wikisource.org/wiki/%D9%81%D9%82%D9%87_%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D9%88%D8%B3%D8%B1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D9%81%D9%82%D9%87_%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D9%88%D8%B3%D8%B1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D9%85%D9%82%D8%AF%D9%85%D8%A9",
+      "https://ar.wikisource.org/wiki/%D9%81%D9%82%D9%87_%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D9%88%D8%B3%D8%B1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%A7%D9%84%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%A3%D9%88%D9%84",
+      "https://ar.wikisource.org/wiki/%D9%81%D9%82%D9%87_%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D9%88%D8%B3%D8%B1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%A7%D9%84%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%88%D9%86",
+      "https://ar.wikisource.org/wiki/%D9%81%D9%82%D9%87_%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D9%88%D8%B3%D8%B1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%A7%D9%84%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3_%D9%88%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%88%D9%86",
+      "https://ar.wikisource.org/wiki/%D9%81%D9%82%D9%87_%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D9%88%D8%B3%D8%B1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9/%D8%A7%D9%84%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AB%D9%84%D8%A7%D8%AB%D9%88%D9%86"
+    ],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "أُضيف `فقه اللغة وسر العربية` للثعالبي كمصدر مرجعي/لغوي تأسيسي واسع يخدم دقة التسمية والفروق والحقول الدلالية قبل العودة إلى طبقات البلاغة والشعر. الدفعة ليست صفحة صغيرة ولا بابًا منفردًا: جُمعت صفحة المقدمة وثلاثون بابًا فعليًا من ويكي مصدر في raw واحد حجمه 620,358 bytes ونحو 45,833 كلمة/تتابع عربي، ثم نُظف إلى text عملي حجمه 601,145 bytes ونحو 44,330 كلمة/تتابع عربي. التقدير الصفحي العملي نحو 120-150 صفحة مكافئة على أساس كثافة الكلمات، لذلك قُسم الناتج إلى خمس حزم Markdown متوسطة الغنى تحت قاعدة ~ملف لكل 20 صفحة تقريبًا، مع تفضيل محاور عريضة لا تفتيت باب صغير: حدود الأشياء والتسمية الجامعة؛ أعضاء الجسد والهيئة والحركة؛ الأصوات والجماعات؛ اللباس والطعام والآلة؛ والرياح والمطر والماء والأرض. التغطية تستند إلى متن لغوي حقيقي كامل متاح عبر صفحات ويكي مصدر لا إلى فهرس أو لقطة صغيرة، لكنها تُنسب إلى هذا الشاهد الرقمي وتبقى عرضة لهنات نسخ ويكي مصدر، كما لا تدعي تحويل كل مفردة في الكتاب إلى بطاقة مستقلة.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/reference-fiqh-al-lugha-wa-sirr-al-arabiyya-complete.wikitext.txt",
+    "text_file": "data/text/reference-fiqh-al-lugha-wa-sirr-al-arabiyya-complete-cleaned.txt",
+    "markdown_outputs": [
+      "data/markdown/reference-fiqh-al-lugha-taxonomy-boundaries-and-naming.md",
+      "data/markdown/reference-fiqh-al-lugha-body-description-and-action.md",
+      "data/markdown/reference-fiqh-al-lugha-sounds-groups-and-crowds.md",
+      "data/markdown/reference-fiqh-al-lugha-clothing-food-and-tools.md",
+      "data/markdown/reference-fiqh-al-lugha-weather-water-and-land.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "فقه اللغه وسر العربيه",
+      "normalized_author": "ابو منصور الثعالبي",
+      "content_sha256": "55974cd66c95f21b7b47342de0cb747cf456fd77b80cb6670e41cc89c9befcce"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-04",
+      "discovery_method": "post-final-review expansion via Arabic Wikisource API; fetched introduction plus thirty actual chapter pages into one large batch",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "poetry-diwan-al-mutanabbi",
     "title": "ديوان المتنبي",
     "author": "المتنبي",
