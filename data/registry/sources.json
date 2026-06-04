@@ -183,6 +183,42 @@
     }
   },
   {
+    "id": "dict-asas-al-balagha",
+    "title": "أساس البلاغة",
+    "author": "الزمخشري",
+    "category": "dictionary",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A3%D8%B3%D8%A7%D8%B3_%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9",
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%A3%D8%B3%D8%A7%D8%B3_%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_-_%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%A3%D9%88%D9%84",
+      "https://ar.wikisource.org/wiki/%D8%A3%D8%B3%D8%A7%D8%B3_%D8%A7%D9%84%D8%A8%D9%84%D8%A7%D8%BA%D8%A9_-_%D8%A7%D9%84%D8%AC%D8%B2%D8%A1_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A"
+    ],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "أضيف `أساس البلاغة` كمصدر معجمي/بلاغي تأسيسي جديد بعد مرحلة الإغلاق المرحلي، لأنه يخدم اختيار اللفظ العربي مع وصل الحقيقة بالمجاز والاستعمال. الدفعة ليست صفحة صغيرة ولا جذرًا منفردًا: جُمعت صفحتا ويكي مصدر الكاملتان `أساس البلاغة - الجزء الأول` و`أساس البلاغة - الجزء الثاني` في raw واحد حجمه 351,727 bytes قبل التنظيف، وفيهما نحو 33,952 كلمة عربية من كتاب الهمزة وكتاب التاء وما يتصل بهما في ترتيب ويكي مصدر. استُخرج ملف text عملي واسع من 28 جذرًا مختارًا يخدم البيان والبلاغة، والأمانة والثبات، والبناء والابتداء والتمام، والصلة والبعد والاتباع. ثم صيغت أربع حزم Markdown متوسطة الغنى، لأن حجم الدفعة يقدر بنحو 90-110 صفحات رقمية/مطبوعة مكافئة، وهو يبرر نحو أربعة إلى خمسة ملفات تحت قاعدة ~ملف لكل 20 صفحة؛ اختيرت أربعة ملفات لتجنب التفتيت الزائد. التغطية جزئية بالنسبة إلى الكتاب كله لكنها واسعة بالنسبة إلى تشغيل واحد، وتوسع foundations المعجمية بمصدر جديد لا يكرر توسعات `تاج العروس` ولا دفعة `أدب الكاتب` الأخيرة.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/dict-asas-al-balagha-parts-one-two.wikitext.txt",
+    "text_file": "data/text/dict-asas-al-balagha-parts-one-two-writing-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/dict-asas-al-balagha-bayan-balagha-and-visible-meaning.md",
+      "data/markdown/dict-asas-al-balagha-trust-fixity-and-verification.md",
+      "data/markdown/dict-asas-al-balagha-composition-origin-building-and-completion.md",
+      "data/markdown/dict-asas-al-balagha-relation-distance-following-and-flow.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "اساس البلاغه",
+      "normalized_author": "الزمخشري",
+      "content_sha256": "c1f9fbfca6bebf8cba523eb47322fe5f1d366edbbc8cffe8da2347d7f2835a6b"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-04",
+      "discovery_method": "post-final-review expansion via Arabic Wikisource API; fetched two full large part pages as one batch",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "rhetoric-dalail-al-ijaz",
     "title": "دلائل الإعجاز",
     "author": "عبد القاهر الجرجاني",

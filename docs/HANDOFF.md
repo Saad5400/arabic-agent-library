@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 14 total source entries
+- 15 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 14 sources are currently `synthesized`
+- 15 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `أساس البلاغة` للزمخشري كمصدر معجمي/بلاغي تأسيسي جديد غير مكرر: جُمعت صفحتا ويكي مصدر الكاملتان `أساس البلاغة - الجزء الأول` و`أساس البلاغة - الجزء الثاني` في raw واحد `data/raw/dict-asas-al-balagha-parts-one-two.wikitext.txt` حجمه 351,727 bytes ونحو 33,952 كلمة عربية، أي مادة أكبر بكثير من جذر أو صفحة صغيرة. استُخرج text عملي `data/text/dict-asas-al-balagha-parts-one-two-writing-foundations.txt` من 28 جذرًا مختارًا، وأُنتجت أربع حزم Markdown: `data/markdown/dict-asas-al-balagha-bayan-balagha-and-visible-meaning.md`، و`data/markdown/dict-asas-al-balagha-trust-fixity-and-verification.md`، و`data/markdown/dict-asas-al-balagha-composition-origin-building-and-completion.md`، و`data/markdown/dict-asas-al-balagha-relation-distance-following-and-flow.md`. تقدير حجم الدفعة نحو 90-110 صفحة مكافئة؛ لذلك أربع حزم متوسطة الغنى مبررة تحت قاعدة ~ملف لكل 20 صفحة مع تجنب تفتيت زائد. هذه دفعة dictionary foundations جديدة لا تكرر توسعة `أدب الكاتب` السابقة.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 وُسِّع `أدب الكاتب` بدفعة مرجعية كبيرة غير مكررة من شاهد Internet Archive نفسه: حُفظ raw بنيوي جديد `data/raw/reference-adab-al-katib.ia-djvu.xml` بحجم يتجاوز 7.5 ميغابايت، واستُخرج نطاق متصل من OBJECTs/leaves 65-140، أي نحو 76 ورقة مصدرية رقمية من تتمة `كتاب المعرفة` وبداية `أبواب الفروق`. هذه ليست صفحة صغيرة ولا إعادة تلخيص للافتتاح السابق، بل نطاق واسع يغطي أسماء الرجال وأصولها، والسماء والنجوم والنبات، وإناث الحيوان وجموعه، وصفات الخيل وعيوبها وشياتها، وعيوب الإنسان، وفروق الإنسان والحيوان والطعام والمجالس. أُنتج OCR وسيط `data/text/reference-adab-al-katib-leaves-65-140-ocr-extract.txt` وملف عملي `data/text/reference-adab-al-katib-leaves-65-140-names-stars-creatures-furuq-foundations.txt`، وأضيفت أربع حزم Markdown: `data/markdown/reference-adab-al-katib-names-origins-and-natural-taxonomies.md`، و`data/markdown/reference-adab-al-katib-animals-horses-and-described-form.md`، و`data/markdown/reference-adab-al-katib-human-defects-and-ethical-description.md`، و`data/markdown/reference-adab-al-katib-furuq-human-animal-food-and-social-scenes.md`. صار `reference-adab-al-katib` يغطي نحو 133 صفحة/ورقة عملية عبر سبع حزم، وهو متناسب مع قاعدة ~ملف لكل 20 صفحة. هذه دفعة reference material واسعة، وليست تكرارًا للتوسعة المعجمية السابقة في `تاج العروس`.
 
@@ -63,6 +67,7 @@ Source ids:
 
 - `dict-mukhtar-al-sihah`
 - `dict-taj-al-arus`
+- `dict-asas-al-balagha`
 - `grammar-style-kitab`
 - `reference-adab-al-katib`
 - `reference-al-bayan-wa-al-tabyin`
@@ -72,6 +77,8 @@ Representative artifacts:
 - `data/markdown/dict-mukhtar-al-sihah-complete-writing-foundations.md`
 - `data/markdown/dict-taj-al-arus-body-form-firmness-and-frozen-limits.md`
 - `data/markdown/dict-taj-al-arus-cohorts-generosity-effort-and-fine-placement.md`
+- `data/markdown/dict-asas-al-balagha-bayan-balagha-and-visible-meaning.md`
+- `data/markdown/dict-asas-al-balagha-composition-origin-building-and-completion.md`
 - `data/markdown/dict-taj-al-arus-old-inheritance-denial-and-clear-paths.md`
 - `data/markdown/dict-taj-al-arus-stripping-clarity-and-separate-remnants.md`
 - `data/markdown/reference-sinaatayn-sabk-and-word-placement.md`
@@ -151,7 +158,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان مرجعيًا داخل `أدب الكاتب` في OBJECTs/leaves 65-140، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو من طبقة غير مستهلكة حديثًا، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا/بلاغيًا في `أساس البلاغة` عبر الجزأين الأول والثاني، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق لاحق كبير لا إعادة تفصيل الجذور نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
