@@ -19,15 +19,15 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 17 total source entries
+- 18 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 17 sources are currently `synthesized`
+- 18 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
-أضيف `المقتضب` للمبرّد كمصدر نحوي/أسلوبي تأسيسي جديد غير مكرر: حُفظت صفحة ويكي مصدر الكاملة في raw واحد `data/raw/grammar-style-al-muqtadab-complete.wikitext.txt` حجمه 2,069,936 bytes ونحو 171,042 تتابعًا عربيًا، أي مادة أوسع بكثير من باب صغير أو مثال نحوي منفرد. استُخرج اختيار عملي واسع `data/text/grammar-style-al-muqtadab-broad-writing-foundations.txt` حجمه 344,158 bytes ونحو 28,406 تتابعات عربية، موزع على ستة نطاقات كبرى من افتتاح الكتاب إلى أبواب الاستثناء. أُنتجت ست حزم Markdown: `data/markdown/grammar-style-al-muqtadab-sentence-core-and-agency.md`، و`data/markdown/grammar-style-al-muqtadab-morphology-roots-additions-and-sound.md`، و`data/markdown/grammar-style-al-muqtadab-verbs-mood-and-condition.md`، و`data/markdown/grammar-style-al-muqtadab-number-question-oath-and-inna.md`، و`data/markdown/grammar-style-al-muqtadab-transitivity-relation-and-clause-building.md`، و`data/markdown/grammar-style-al-muqtadab-predication-vocative-negation-and-exception.md`. تقدير الاختيار العملي نحو 120-160 صفحة مكافئة؛ لذلك ست حزم عريضة مبررة تحت قاعدة ~ملف لكل 20 صفحة مع تجنب تفتيت باب صغير. هذه دفعة grammar/style foundations جديدة لا تكرر دفعة `فقه اللغة` السابقة لأنها تنتقل من التصنيف الدلالي والمعجمي إلى ضبط بنية الجملة والعمل والعطف والشرط والنفي والاستثناء.
+أضيف `المصباح المنير في غريب الشرح الكبير` للفيومي كمصدر معجمي تأسيسي جديد غير مكرر: جُمعت صفحات كتب الحروف الثمانية والعشرين كاملة من ويكي مصدر، من `كتاب الألف` إلى `كتاب الياء`، في raw واحد `data/raw/dict-al-misbah-al-munir-complete-letter-books.wikitext.txt` حجمه 3,522,238 bytes، أي مادة أكبر بكثير من صفحة أو جذر صغير. استُخرج اختيار عملي واسع `data/text/dict-al-misbah-al-munir-complete-letter-books-writing-selection.txt` من 43 مدخلًا يخدم البيان والدلالة، والتحقق والثبوت، والحكم والقصد، والكتابة والنقل، والفصل والوصل، والوصف والتخصيص والمقدار. أُنتجت ست حزم Markdown: `data/markdown/dict-al-misbah-al-munir-clarity-disclosure-and-signification.md`، و`data/markdown/dict-al-misbah-al-munir-verification-truth-and-reliable-knowledge.md`، و`data/markdown/dict-al-misbah-al-munir-judgment-intent-command-and-fairness.md`، و`data/markdown/dict-al-misbah-al-munir-writing-speech-transmission-and-attribution.md`، و`data/markdown/dict-al-misbah-al-munir-connection-separation-order-and-distance.md`، و`data/markdown/dict-al-misbah-al-munir-description-specificity-measure-and-quality.md`. تقدير الدفعة نحو 220-300 صفحة مكافئة؛ لذلك ست حزم عريضة مبررة مع تجنب تفتيت الجذور إلى ملفات صغيرة. هذه دفعة dictionary foundations جديدة لا تكرر دفعة `المقتضب` السابقة لأنها تعود إلى الأساس المعجمي والدلالي بعد توسيع النحو/الأسلوب.
 
 ### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
@@ -166,7 +166,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `المقتضب` عبر صفحة ويكي مصدر الكاملة، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق لاحق كبير لا إعادة تفصيل أبواب المقتضب نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا في `المصباح المنير` عبر كتب الحروف كاملة من ويكي مصدر، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق لاحق كبير لا إعادة تفصيل أبواب المقتضب نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.

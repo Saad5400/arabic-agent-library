@@ -219,6 +219,44 @@
     }
   },
   {
+    "id": "dict-al-misbah-al-munir",
+    "title": "المصباح المنير في غريب الشرح الكبير",
+    "author": "أحمد بن محمد الفيومي",
+    "category": "dictionary",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%85%D8%B5%D8%A8%D8%A7%D8%AD_%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%B1",
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%85%D8%B5%D8%A8%D8%A7%D8%AD_%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%B1/%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D8%A3%D9%84%D9%81",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%85%D8%B5%D8%A8%D8%A7%D8%AD_%D8%A7%D9%84%D9%85%D9%86%D9%8A%D8%B1/%D9%83%D8%AA%D8%A7%D8%A8_%D8%A7%D9%84%D9%8A%D8%A7%D8%A1"
+    ],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "أضيف `المصباح المنير في غريب الشرح الكبير` للفيومي كمصدر معجمي تأسيسي جديد بعد دفعة `المقتضب` النحوية، لأنه يمد الوكيل بفروق عملية في دلالة الألفاظ وضبط القول والتحقق والحكم والكتابة والوصل والوصف. الدفعة ليست جذرًا منفردًا ولا بابًا صغيرًا: جُمعت صفحات كتب الحروف الثمانية والعشرين كاملة من ويكي مصدر (`كتاب الألف` إلى `كتاب الياء`) في raw واحد حجمه 3,522,238 bytes قبل التنظيف. استُخرج اختيار عملي واسع من 43 مدخلًا موزعًا على ستة محاور: البيان والدلالة؛ التحقق والثبوت؛ الحكم والقصد؛ الكتابة والنقل؛ الفصل والوصل؛ الوصف والتخصيص والمقدار. صيغت ست حزم Markdown متوسطة الغنى لأن الخام الكامل الحروف مع الاختيار العملي يقدر بنحو 220-300 صفحة مكافئة، ولأن ست حزم عريضة تعطي تغطية عملية دون تفتيت عشرات الجذور إلى ملفات صغيرة. التغطية لا تدعي تحويل كل المصباح إلى بطاقات، لكنها مبنية على متن معجمي حقيقي واسع كامل الحروف لا على فهرس أو لقطة صغيرة.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/dict-al-misbah-al-munir-complete-letter-books.wikitext.txt",
+    "text_file": "data/text/dict-al-misbah-al-munir-complete-letter-books-writing-selection.txt",
+    "markdown_outputs": [
+      "data/markdown/dict-al-misbah-al-munir-clarity-disclosure-and-signification.md",
+      "data/markdown/dict-al-misbah-al-munir-verification-truth-and-reliable-knowledge.md",
+      "data/markdown/dict-al-misbah-al-munir-judgment-intent-command-and-fairness.md",
+      "data/markdown/dict-al-misbah-al-munir-writing-speech-transmission-and-attribution.md",
+      "data/markdown/dict-al-misbah-al-munir-connection-separation-order-and-distance.md",
+      "data/markdown/dict-al-misbah-al-munir-description-specificity-measure-and-quality.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "المصباح المنير في غريب الشرح الكبير",
+      "normalized_author": "احمد بن محمد الفيومي",
+      "content_sha256": "9f024fb7a375648ce2391c98e704c47ca1fdc7377954d5794fbea19e6712d3a0"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-05",
+      "discovery_method": "post-final-review dictionary foundation expansion via Arabic Wikisource API; fetched all 28 letter-book pages as one large raw batch with retry after 429 throttling",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "rhetoric-dalail-al-ijaz",
     "title": "دلائل الإعجاز",
     "author": "عبد القاهر الجرجاني",
