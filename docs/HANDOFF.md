@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 16 total source entries
+- 17 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 16 sources are currently `synthesized`
+- 17 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `المقتضب` للمبرّد كمصدر نحوي/أسلوبي تأسيسي جديد غير مكرر: حُفظت صفحة ويكي مصدر الكاملة في raw واحد `data/raw/grammar-style-al-muqtadab-complete.wikitext.txt` حجمه 2,069,936 bytes ونحو 171,042 تتابعًا عربيًا، أي مادة أوسع بكثير من باب صغير أو مثال نحوي منفرد. استُخرج اختيار عملي واسع `data/text/grammar-style-al-muqtadab-broad-writing-foundations.txt` حجمه 344,158 bytes ونحو 28,406 تتابعات عربية، موزع على ستة نطاقات كبرى من افتتاح الكتاب إلى أبواب الاستثناء. أُنتجت ست حزم Markdown: `data/markdown/grammar-style-al-muqtadab-sentence-core-and-agency.md`، و`data/markdown/grammar-style-al-muqtadab-morphology-roots-additions-and-sound.md`، و`data/markdown/grammar-style-al-muqtadab-verbs-mood-and-condition.md`، و`data/markdown/grammar-style-al-muqtadab-number-question-oath-and-inna.md`، و`data/markdown/grammar-style-al-muqtadab-transitivity-relation-and-clause-building.md`، و`data/markdown/grammar-style-al-muqtadab-predication-vocative-negation-and-exception.md`. تقدير الاختيار العملي نحو 120-160 صفحة مكافئة؛ لذلك ست حزم عريضة مبررة تحت قاعدة ~ملف لكل 20 صفحة مع تجنب تفتيت باب صغير. هذه دفعة grammar/style foundations جديدة لا تكرر دفعة `فقه اللغة` السابقة لأنها تنتقل من التصنيف الدلالي والمعجمي إلى ضبط بنية الجملة والعمل والعطف والشرط والنفي والاستثناء.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 أضيف `فقه اللغة وسر العربية` للثعالبي كمصدر مرجعي/لغوي تأسيسي جديد غير مكرر: جُمعت صفحة المقدمة وثلاثون بابًا فعليًا من ويكي مصدر في raw واحد `data/raw/reference-fiqh-al-lugha-wa-sirr-al-arabiyya-complete.wikitext.txt` حجمه 620,358 bytes ونحو 45,833 كلمة/تتابع عربي، أي مادة أكبر بكثير من صفحة أو باب صغير. استُخرج text عملي منظف `data/text/reference-fiqh-al-lugha-wa-sirr-al-arabiyya-complete-cleaned.txt` حجمه 601,145 bytes ونحو 44,330 كلمة/تتابع عربي، وأُنتجت خمس حزم Markdown: `data/markdown/reference-fiqh-al-lugha-taxonomy-boundaries-and-naming.md`، و`data/markdown/reference-fiqh-al-lugha-body-description-and-action.md`، و`data/markdown/reference-fiqh-al-lugha-sounds-groups-and-crowds.md`، و`data/markdown/reference-fiqh-al-lugha-clothing-food-and-tools.md`، و`data/markdown/reference-fiqh-al-lugha-weather-water-and-land.md`. تقدير حجم الدفعة نحو 120-150 صفحة مكافئة؛ لذلك خمس حزم عريضة مبررة تحت قاعدة ~ملف لكل 20 صفحة مع تجنب تفتيت زائد. هذه دفعة reference/foundation لغوية لا تكرر دفعة `أساس البلاغة` السابقة لأنها تنتقل من الجذر المعجمي البلاغي إلى الحقول الدلالية والتسمية والتصنيف الطبيعي والعملي.
 
@@ -162,7 +166,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا/بلاغيًا في `أساس البلاغة` عبر الجزأين الأول والثاني، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق لاحق كبير لا إعادة تفصيل الجذور نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `المقتضب` عبر صفحة ويكي مصدر الكاملة، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق لاحق كبير لا إعادة تفصيل أبواب المقتضب نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.

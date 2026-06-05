@@ -393,6 +393,43 @@
     }
   },
   {
+    "id": "grammar-style-al-muqtadab",
+    "title": "المقتضب",
+    "author": "المبرّد",
+    "category": "grammar-style",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%B6%D8%A8",
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%85%D9%82%D8%AA%D8%B6%D8%A8"
+    ],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "أضيف `المقتضب` للمبرّد كمصدر نحوي/أسلوبي تأسيسي جديد بعد الإغلاق المرحلي، لأنه يمد الوكيل بقواعد عملية واسعة في الإسناد، والتعدية، والعطف، والتصريف، وعمل المضارع، والشرط، والعدد، والاستفهام، والنداء، والمعرفة والنكرة، والنفي والاستثناء. الدفعة ليست بابًا صغيرًا ولا مثالًا منفردًا: حُفظت صفحة ويكي مصدر الكاملة في raw واحد حجمه 2,069,936 bytes وفيه نحو 171,042 تتابعًا عربيًا، ثم استُخرج اختيار عملي واسع حجمه 344,158 bytes ونحو 28,406 تتابعات عربية، موزع على ستة نطاقات كبرى من افتتاح الكتاب إلى آخر أبواب الاستثناء. صيغت ست حزم Markdown متوسطة الغنى لأن الاختيار العملي يغطي تقريبًا 120-160 صفحة مكافئة من مادة نحوية عريضة، وهو متناسب مع قاعدة ~ملف لكل 20 صفحة مع تجنب تفتيت باب صغير. التغطية لا تمثل شرح `المقتضب` كله، لكنها raw كبير حقيقي يضيف أساسًا نحويًا/أسلوبيًا غير مكرر بعد دفعة `فقه اللغة` المرجعية السابقة.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/grammar-style-al-muqtadab-complete.wikitext.txt",
+    "text_file": "data/text/grammar-style-al-muqtadab-broad-writing-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-al-muqtadab-sentence-core-and-agency.md",
+      "data/markdown/grammar-style-al-muqtadab-morphology-roots-additions-and-sound.md",
+      "data/markdown/grammar-style-al-muqtadab-verbs-mood-and-condition.md",
+      "data/markdown/grammar-style-al-muqtadab-number-question-oath-and-inna.md",
+      "data/markdown/grammar-style-al-muqtadab-transitivity-relation-and-clause-building.md",
+      "data/markdown/grammar-style-al-muqtadab-predication-vocative-negation-and-exception.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "المقتضب",
+      "normalized_author": "المبرد",
+      "content_sha256": "591810e170f5e18d9a9a6541042e2a813e30b0bbfd5e8257a7e16a3b6d049404"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-05",
+      "discovery_method": "post-final-review grammar/style expansion via Arabic Wikisource API; fetched the complete large page as one raw batch",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "reference-adab-al-katib",
     "title": "أدب الكاتب",
     "author": "ابن قتيبة",
