@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 18 total source entries
+- 19 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 18 sources are currently `synthesized`
+- 19 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `إصلاح المنطق` لابن السكيت كمصدر نحوي/أسلوبي عملي جديد غير مكرر: حُفظت صفحة ويكي مصدر العربية الكاملة في raw واحد `data/raw/reference-islah-al-mantiq-complete.wikitext.txt` حجمه 902,857 bytes ونحو 79,205 تتابعات عربية، أي شاهد كامل كبير لا صفحة صغيرة ولا فهرسًا. أُنتج النص العملي المنظف `data/text/grammar-style-islah-al-mantiq-complete-cleaned.txt` بحجم 903,203 bytes مع إبقاء بنية الأبواب والتنبيه إلى أنه ليس تحقيقًا طباعيًا جديدًا. صيغت ثلاث حزم Markdown من اختيار عريض يقارب 60 صفحة ذات كثافة تحريرية عالية: `data/markdown/grammar-style-islah-al-mantiq-public-error-corrections.md`، و`data/markdown/grammar-style-islah-al-mantiq-verbs-forms-and-number.md`، و`data/markdown/grammar-style-islah-al-mantiq-idioms-and-semantic-distinctions.md`. الشاهد الكامل يقدَّر بنحو 190-230 صفحة مكافئة؛ لكن هذه الدفعة أنتجت ثلاث حزم فقط لأنها تمثل طبقة أولى عريضة من أبواب التصحيح والصيغ والعدد والأمثال، لا تفتيتًا ميكروسكوبيًا لكل باب.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 أضيف `المصباح المنير في غريب الشرح الكبير` للفيومي كمصدر معجمي تأسيسي جديد غير مكرر: جُمعت صفحات كتب الحروف الثمانية والعشرين كاملة من ويكي مصدر، من `كتاب الألف` إلى `كتاب الياء`، في raw واحد `data/raw/dict-al-misbah-al-munir-complete-letter-books.wikitext.txt` حجمه 3,522,238 bytes، أي مادة أكبر بكثير من صفحة أو جذر صغير. استُخرج اختيار عملي واسع `data/text/dict-al-misbah-al-munir-complete-letter-books-writing-selection.txt` من 43 مدخلًا يخدم البيان والدلالة، والتحقق والثبوت، والحكم والقصد، والكتابة والنقل، والفصل والوصل، والوصف والتخصيص والمقدار. أُنتجت ست حزم Markdown: `data/markdown/dict-al-misbah-al-munir-clarity-disclosure-and-signification.md`، و`data/markdown/dict-al-misbah-al-munir-verification-truth-and-reliable-knowledge.md`، و`data/markdown/dict-al-misbah-al-munir-judgment-intent-command-and-fairness.md`، و`data/markdown/dict-al-misbah-al-munir-writing-speech-transmission-and-attribution.md`، و`data/markdown/dict-al-misbah-al-munir-connection-separation-order-and-distance.md`، و`data/markdown/dict-al-misbah-al-munir-description-specificity-measure-and-quality.md`. تقدير الدفعة نحو 220-300 صفحة مكافئة؛ لذلك ست حزم عريضة مبررة مع تجنب تفتيت الجذور إلى ملفات صغيرة. هذه دفعة dictionary foundations جديدة لا تكرر دفعة `المقتضب` السابقة لأنها تعود إلى الأساس المعجمي والدلالي بعد توسيع النحو/الأسلوب.
 

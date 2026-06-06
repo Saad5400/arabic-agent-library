@@ -468,6 +468,40 @@
     }
   },
   {
+    "id": "grammar-style-islah-al-mantiq",
+    "title": "إصلاح المنطق",
+    "author": "ابن السكيت",
+    "category": "grammar-style",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A5%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82",
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%A5%D8%B5%D9%84%D8%A7%D8%AD_%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82"
+    ],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "أضيف `إصلاح المنطق` لابن السكيت كمصدر نحوي/أسلوبي ولغوي عملي جديد بعد دفعات `المقتضب` و`المصباح المنير`. لم تُستخدم لقطة صغيرة ولا صفحة فهرسية: حُفظت صفحة ويكي مصدر العربية الكاملة في raw واحد حجمه 902,857 bytes ونحو 79,205 تتابعات عربية، ثم أُنتج نص عملي منظف حجمه 903,203 bytes مع إبقاء الأبواب. ركزت حزم Markdown الأولى على نطاقات واسعة نافعة للكتابة: تصحيح مواضع غلط العامة في اللفظ والاستعمال، الأفعال والصيغ والعدد، والعبارات والأمثال والفروق الدلالية. التقدير العملي للصفحات نحو 190-230 صفحة مكافئة للكتاب الكامل، أما حزم هذه الدفعة فتغطي اختياراً عملياً عريضاً يقارب 60 صفحة من مواضع ذات كثافة تحريرية عالية، ولذلك أُنتجت ثلاث حزم متوسطة الغنى لا عشرات الملفات الصغيرة. التغطية لا تمثل استيعاب الكتاب كله، لكنها raw كبير حقيقي وتضيف أساساً عملياً قوياً لتصحيح فصحى الكتابة من جهة الصيغ، الأفعال، العدد، والأمثال.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/reference-islah-al-mantiq-complete.wikitext.txt",
+    "text_file": "data/text/grammar-style-islah-al-mantiq-complete-cleaned.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-islah-al-mantiq-public-error-corrections.md",
+      "data/markdown/grammar-style-islah-al-mantiq-verbs-forms-and-number.md",
+      "data/markdown/grammar-style-islah-al-mantiq-idioms-and-semantic-distinctions.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "اصلاح المنطق",
+      "normalized_author": "ابن السكيت",
+      "content_sha256": "58887af27fe80efc3da3dfe54ec7bcb1761168be515277af735e9ea328018c51"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-06",
+      "discovery_method": "Arabic Wikisource API; fetched the complete page as one large wikitext batch after retry/backoff for rate limiting",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "reference-adab-al-katib",
     "title": "أدب الكاتب",
     "author": "ابن قتيبة",
