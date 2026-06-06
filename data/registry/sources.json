@@ -502,6 +502,46 @@
     }
   },
   {
+    "id": "grammar-style-sharh-ibn-aqil",
+    "title": "شرح ابن عقيل على ألفية ابن مالك",
+    "author": "ابن عقيل",
+    "category": "grammar-style",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%B4%D8%B1%D8%AD_%D8%A7%D8%A8%D9%86_%D8%B9%D9%82%D9%8A%D9%84_%D8%B9%D9%84%D9%89_%D8%A3%D9%84%D9%81%D9%8A%D8%A9_%D8%A7%D8%A8%D9%86_%D9%85%D8%A7%D9%84%D9%83",
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%B4%D8%B1%D8%AD_%D8%A7%D8%A8%D9%86_%D8%B9%D9%82%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D8%A7%D9%84%D9%83%D9%84%D8%A7%D9%85_%D9%88%D9%85%D8%A7_%D9%8A%D8%AA%D8%A3%D9%84%D9%81_%D9%85%D9%86%D9%87",
+      "https://ar.wikisource.org/wiki/%D8%B4%D8%B1%D8%AD_%D8%A7%D8%A8%D9%86_%D8%B9%D9%82%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D8%A8_%D9%88%D8%A7%D9%84%D9%85%D8%A8%D9%86%D9%8A",
+      "https://ar.wikisource.org/wiki/%D8%B4%D8%B1%D8%AD_%D8%A7%D8%A8%D9%86_%D8%B9%D9%82%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D8%A7%D9%84%D9%86%D9%83%D8%B1%D8%A9_%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%B1%D9%81%D8%A9",
+      "https://ar.wikisource.org/wiki/%D8%B4%D8%B1%D8%AD_%D8%A7%D8%A8%D9%86_%D8%B9%D9%82%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D8%A7%D9%84%D8%B9%D9%84%D9%85",
+      "https://ar.wikisource.org/wiki/%D8%B4%D8%B1%D8%AD_%D8%A7%D8%A8%D9%86_%D8%B9%D9%82%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D8%A7%D8%B3%D9%85_%D8%A7%D9%84%D8%A5%D8%B4%D8%A7%D8%B1%D8%A9",
+      "https://ar.wikisource.org/wiki/%D8%B4%D8%B1%D8%AD_%D8%A7%D8%A8%D9%86_%D8%B9%D9%82%D9%8A%D9%84/%D8%A7%D9%84%D9%85%D8%AC%D9%84%D8%AF_%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D8%A7%D9%84%D9%85%D9%88%D8%B5%D9%88%D9%84"
+    ],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "أضيف `شرح ابن عقيل على ألفية ابن مالك` كمصدر نحوي/أسلوبي تأسيسي جديد بعد دفعة `إصلاح المنطق`، لأنه يمد الوكيل بطبقة عملية في بنية الكلام، وتمييز أقسام الكلمة، والإعراب والبناء، والتعريف والضمائر، والأعلام والإشارة والموصول. لم تُستخدم صفحة صغيرة ولا باب منفرد: جُمعت صفحات المجلد الأول الست المتاحة على ويكي مصدر (`الكلام وما يتألف منه`، `المعرب والمبني`، `النكرة والمعرفة`، `العلم`، `اسم الإشارة`، `الموصول`) في raw واحد حجمه 390,597 bytes قبل التنظيف. أُنتج نص عملي منظف يحافظ على ترتيب الأبواب ويضم 291 سطرًا، ثم صيغت أربع حزم Markdown عريضة: الحد الأدنى للجملة وأقسام الكلمة؛ الإعراب والبناء وعلامات النيابة؛ التعريف والضمائر وسلامة الإحالة؛ الأعلام والإشارة والموصول في ربط المعنى. تقدير الدفعة نحو 80-110 صفحات مكافئة، وأربع الحزم مبررة تحت قاعدة نحو ملف لكل 20 صفحة لأنها تغطي ست صفحات ويكي مصدرية طويلة وموضوعات نحوية واسعة، لا تفتيتًا لباب صغير. التغطية جزئية بالنسبة إلى شرح ابن عقيل كله، لكنها raw كبير حقيقي يضيف أساسًا نحويًا عمليًا غير مكرر.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/grammar-style-sharh-ibn-aqil-volume-one-core-topics.wikitext.txt",
+    "text_file": "data/text/grammar-style-sharh-ibn-aqil-volume-one-core-topics-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-sharh-ibn-aqil-kalam-word-classes-and-sentence-minimum.md",
+      "data/markdown/grammar-style-sharh-ibn-aqil-irab-bina-and-inflection-checks.md",
+      "data/markdown/grammar-style-sharh-ibn-aqil-definiteness-pronouns-and-reference.md",
+      "data/markdown/grammar-style-sharh-ibn-aqil-proper-nouns-demonstratives-and-relative-links.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "شرح ابن عقيل علي الفيه ابن مالك",
+      "normalized_author": "ابن عقيل",
+      "content_sha256": "18fe540dca54c167a77bdbdb7f83b444fa9d009b8ebf6235a09e58ef9eff9ecf"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-06",
+      "discovery_method": "post-final-review grammar/style expansion via Arabic Wikisource API; fetched all six available volume-one topic pages as one broad raw batch with retry/backoff after HTTP 429",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "reference-adab-al-katib",
     "title": "أدب الكاتب",
     "author": "ابن قتيبة",
