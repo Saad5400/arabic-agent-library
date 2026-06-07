@@ -469,6 +469,44 @@
     }
   },
   {
+    "id": "grammar-style-sharh-qatr-al-nada",
+    "title": "شرح قطر الندى وبل الصدى",
+    "author": "ابن هشام الأنصاري بشرح/تحقيق محمد محيي الدين عبد الحميد",
+    "category": "grammar-style",
+    "source_type": "scan",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/AAlexandrina-007066",
+    "mirror_urls": [
+      "https://archive.org/download/AAlexandrina-007066/007066%20-%20%D8%B4%D8%B1%D8%AD%20%D9%82%D8%B7%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89%20%D9%88%D8%A8%D9%84%20%D8%A7%D9%84%D8%B5%D8%AF%D9%89.pdf",
+      "https://archive.org/download/AAlexandrina-007066/007066%20-%20%D8%B4%D8%B1%D8%AD%20%D9%82%D8%B7%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89%20%D9%88%D8%A8%D9%84%20%D8%A7%D9%84%D8%B5%D8%AF%D9%89_djvu.txt",
+      "https://archive.org/download/AAlexandrina-007066/007066%20-%20%D8%B4%D8%B1%D8%AD%20%D9%82%D8%B7%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89%20%D9%88%D8%A8%D9%84%20%D8%A7%D9%84%D8%B5%D8%AF%D9%89_djvu.xml",
+      "https://archive.org/download/AAlexandrina-007066/007066%20-%20%D8%B4%D8%B1%D8%AD%20%D9%82%D8%B7%D8%B1%20%D8%A7%D9%84%D9%86%D8%AF%D9%89%20%D9%88%D8%A8%D9%84%20%D8%A7%D9%84%D8%B5%D8%AF%D9%89_scandata.xml"
+    ],
+    "publisher": "Internet Archive",
+    "year": null,
+    "notes": "أضيف `شرح قطر الندى وبل الصدى` كمصدر نحوي/أسلوبي تأسيسي جديد بعد دفعة `معجم مقاييس اللغة` المعجمية، ليقوي طبقة ضبط الكلمة والفعل والحرف، والإعراب بالحروف، ونصب المضارع وجزمه، والتعريف والإحالة. لم تعتمد الدفعة على صفحات ويكي مصدر الصغيرة التي تبيّن عند الاستدعاء أنها شبه فارغة، بل على شاهد Internet Archive الكبير `AAlexandrina-007066`: حُفظ DjVuTXT بحجم 1,408,058 bytes، وDjVuXML بحجم 11,743,422 bytes، وscandata. استُخرج نطاق OCR واسع من الأوراق 40-139، ثم صيغ اختيار عملي من الأوراق 50-139، أي نحو 90 ورقة مصدرية رقمية. يغطي النطاق أقسام الفعل والحرف وما اختلف فيه، والأسماء الخمسة والمثنى والجمع والأمثلة الخمسة، ونواصب المضارع وجوازمه، وأوائل باب المعارف من العلم والإشارة والموصول و`أل`. أُنتجت أربع حزم Markdown عريضة، لأن نحو 90 ورقة يبرر نحو أربعة ملفات تحت قاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت كل أداة أو باب صغير. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى تحقيق سطري كامل، وتبقى جزئية بالنسبة إلى الكتاب كله، لكنها دفعة grammar/style حقيقية واسعة من مصدر جديد غير مكرر.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
+    "raw_file": "data/raw/grammar-style-sharh-qatr-al-nada.ia-djvu.xml",
+    "text_file": "data/text/grammar-style-sharh-qatr-al-nada-leaves-50-139-writing-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-sharh-qatr-al-nada-word-classes-verb-and-particle-tests.md",
+      "data/markdown/grammar-style-sharh-qatr-al-nada-five-nouns-plurals-and-five-verbs.md",
+      "data/markdown/grammar-style-sharh-qatr-al-nada-mudari-nasb-jazm-and-condition.md",
+      "data/markdown/grammar-style-sharh-qatr-al-nada-reference-definiteness-and-linking.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "شرح قطر الندي وبل الصدي",
+      "normalized_author": "ابن هشام الانصاري بشرح تحقيق محمد محيي الدين عبد الحميد",
+      "content_sha256": "e0abff4e748c198aef0167de07a834081db511206eb8e75abde00ddb2aac4af3"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-07",
+      "discovery_method": "post-final-review grammar/style expansion via Internet Archive metadata API; downloaded large DjVuTXT/DjVuXML/scandata witness and extracted leaves 40-139 with synthesis from leaves 50-139",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "grammar-style-al-muqtadab",
     "title": "المقتضب",
     "author": "المبرّد",

@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 21 total source entries
+- 22 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 21 sources are currently `synthesized`
+- 22 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `شرح قطر الندى وبل الصدى` كمصدر نحوي/أسلوبي تأسيسي جديد غير مكرر بعد دفعة `معجم مقاييس اللغة` المعجمية: حُفظ شاهد Internet Archive الكبير `AAlexandrina-007066` في `data/raw/grammar-style-sharh-qatr-al-nada.ia-djvu.txt` بحجم 1,408,058 bytes، و`data/raw/grammar-style-sharh-qatr-al-nada.ia-djvu.xml` بحجم 11,743,422 bytes، و`data/raw/grammar-style-sharh-qatr-al-nada.ia-scandata.xml`. استُخرج نطاق OCR واسع من الأوراق/OBJECTs 40-139 في `data/text/grammar-style-sharh-qatr-al-nada-leaves-40-139-ocr-extract.txt`، ثم صيغ text عملي من الأوراق 50-139 في `data/text/grammar-style-sharh-qatr-al-nada-leaves-50-139-writing-foundations.txt`، أي نحو 90 ورقة مصدرية رقمية. أُنتجت أربع حزم Markdown: `data/markdown/grammar-style-sharh-qatr-al-nada-word-classes-verb-and-particle-tests.md`، و`data/markdown/grammar-style-sharh-qatr-al-nada-five-nouns-plurals-and-five-verbs.md`، و`data/markdown/grammar-style-sharh-qatr-al-nada-mudari-nasb-jazm-and-condition.md`، و`data/markdown/grammar-style-sharh-qatr-al-nada-reference-definiteness-and-linking.md`. هذه دفعة grammar/style foundations واسعة من مصدر جديد، لا تكرار لدفعة ابن فارس؛ أربع الحزم مبررة لأن النطاق يقارب 90 ورقة وتجنبت تفتيت كل أداة أو باب صغير.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي جديد غير مكرر بعد الدفعة النحوية في `شرح ابن عقيل`: حُفظ شاهد Internet Archive الكبير `20220809_Makaislugha` في `data/raw/dict-maqayis-al-lugha.ia-djvu.txt` بحجم 4,309,722 bytes، و`data/raw/dict-maqayis-al-lugha.ia-djvu.xml` بحجم 33,729,915 bytes، و`data/raw/dict-maqayis-al-lugha.ia-scandata.xml`. استُخرج نطاق متصل من DjVuXML عبر الأوراق/OBJECTs 56-155، أي نحو 100 ورقة مصدرية من افتتاح منهج ابن فارس وباب الهمزة وأوائل الباء، في OCR وسيط `data/text/dict-maqayis-al-lugha-leaves-56-155-ocr-extract.txt`، ثم صيغ text عملي `data/text/dict-maqayis-al-lugha-leaves-56-155-foundational-selection.txt`. أُنتجت أربع حزم Markdown: `data/markdown/dict-maqayis-al-lugha-roots-method-and-lexical-judgment.md`، و`data/markdown/dict-maqayis-al-lugha-time-effect-trust-and-adab.md`، و`data/markdown/dict-maqayis-al-lugha-taking-starting-substitution-and-invalidity.md`، و`data/markdown/dict-maqayis-al-lugha-dissemination-insight-building-and-reaching.md`. هذه دفعة dictionary foundations واسعة من مصدر جديد، لا تكرار لدفعة `شرح ابن عقيل`؛ أربع الحزم مبررة لأن النطاق يقارب 100 ورقة وتجنبت تفتيت الجذور إلى ملفات صغيرة.
 
@@ -115,6 +119,8 @@ Representative artifacts:
 - `data/markdown/grammar-style-kitab-part-four-negation-exception-pronouns.md`
 - `data/markdown/grammar-style-sharh-ibn-aqil-kalam-word-classes-and-sentence-minimum.md`
 - `data/markdown/grammar-style-sharh-ibn-aqil-irab-bina-and-inflection-checks.md`
+- `data/markdown/grammar-style-sharh-qatr-al-nada-mudari-nasb-jazm-and-condition.md`
+- `data/markdown/grammar-style-sharh-qatr-al-nada-reference-definiteness-and-linking.md`
 - `data/markdown/grammar-style-kitab-complete-writing-foundations.md`
 - `data/markdown/reference-adab-al-katib-lexical-corrections-and-precision.md`
 - `data/markdown/reference-al-bayan-wa-al-tabyin-channels-of-bayan-and-meaning.md`
@@ -183,7 +189,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا في `معجم مقاييس اللغة` عبر نحو 100 ورقة من افتتاح المنهج وباب الهمزة وأوائل الباء، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل جذور ابن فارس نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` الأخيرة.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `شرح قطر الندى وبل الصدى` عبر نحو 90 ورقة من شاهد Internet Archive، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل أبواب قطر الندى نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` و`شرح قطر الندى` الأخيرة.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
