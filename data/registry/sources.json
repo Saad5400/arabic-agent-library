@@ -257,6 +257,44 @@
     }
   },
   {
+    "id": "dict-maqayis-al-lugha",
+    "title": "معجم مقاييس اللغة",
+    "author": "ابن فارس",
+    "category": "dictionary",
+    "source_type": "scan",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/20220809_Makaislugha",
+    "mirror_urls": [
+      "https://archive.org/download/20220809_Makaislugha/%D9%85%D8%B9%D8%AC%D9%85%20%D9%85%D9%82%D8%A7%D9%8A%D9%8A%D8%B3%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D9%84%D8%A7%D8%A8%D9%86%20%D9%81%D8%A7%D8%B1%D8%B3%20%D9%85%D9%81%D9%87%D8%B1%D8%B3.pdf",
+      "https://archive.org/download/20220809_Makaislugha/%D9%85%D8%B9%D8%AC%D9%85%20%D9%85%D9%82%D8%A7%D9%8A%D9%8A%D8%B3%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D9%84%D8%A7%D8%A8%D9%86%20%D9%81%D8%A7%D8%B1%D8%B3%20%D9%85%D9%81%D9%87%D8%B1%D8%B3_djvu.txt",
+      "https://archive.org/download/20220809_Makaislugha/%D9%85%D8%B9%D8%AC%D9%85%20%D9%85%D9%82%D8%A7%D9%8A%D9%8A%D8%B3%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D9%84%D8%A7%D8%A8%D9%86%20%D9%81%D8%A7%D8%B1%D8%B3%20%D9%85%D9%81%D9%87%D8%B1%D8%B3_djvu.xml",
+      "https://archive.org/download/20220809_Makaislugha/%D9%85%D8%B9%D8%AC%D9%85%20%D9%85%D9%82%D8%A7%D9%8A%D9%8A%D8%B3%20%D8%A7%D9%84%D9%84%D8%BA%D8%A9%20%D9%84%D8%A7%D8%A8%D9%86%20%D9%81%D8%A7%D8%B1%D8%B3%20%D9%85%D9%81%D9%87%D8%B1%D8%B3_scandata.xml"
+    ],
+    "publisher": "Internet Archive",
+    "year": null,
+    "notes": "أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي جديد بعد دفعة `شرح ابن عقيل` النحوية، لأنه يخدم اختيار الألفاظ بالرجوع إلى الأصول والمقاييس لا إلى الترادف السطحي. لم تعتمد الدفعة على صفحة ويكي مصدر فهرسية صغيرة؛ بل حُفظ شاهد Internet Archive الكبير `20220809_Makaislugha`: OCR النصي بحجم 4,309,722 bytes، وDjVuXML البنيوي بحجم 33,729,915 bytes، وscandata. استُخرج نطاق متصل واسع من DjVuXML عبر الأوراق/OBJECTs 56-155، أي نحو 100 ورقة مصدرية من افتتاح الكتاب وباب الهمزة وأوائل الباء، ثم حُفظ OCR وسيط وملف اختيار عملي محافظ يركز على منهج الأصل/المقياس وجذور نافعة للكتابة مثل `أجل` و`أدب` و`أثر` و`أمن` و`أخذ` و`بدأ` و`بدل` و`بطل` و`بحث` و`بث` و`بصر` و`بنى` و`بلغ`. أُنتجت أربع حزم Markdown عريضة: منهج الأصل والمقياس، والزمن والأثر والأمانة والأدب، والأخذ والبدء والتبديل والبطلان والبحث، والبث والبصر والبناء والبلوغ. عدد الحزم مبرر تحت قاعدة نحو ملف لكل 20 صفحة لأن النطاق يقارب 100 ورقة، واختيرت أربع حزم لتجنب التفتيت الزائد مع إبقاء كل حزمة واسعة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله، لكنها دفعة معجمية كبيرة حقيقية من مصدر جديد غير مكرر.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
+    "raw_file": "data/raw/dict-maqayis-al-lugha.ia-djvu.xml",
+    "text_file": "data/text/dict-maqayis-al-lugha-leaves-56-155-foundational-selection.txt",
+    "markdown_outputs": [
+      "data/markdown/dict-maqayis-al-lugha-roots-method-and-lexical-judgment.md",
+      "data/markdown/dict-maqayis-al-lugha-time-effect-trust-and-adab.md",
+      "data/markdown/dict-maqayis-al-lugha-taking-starting-substitution-and-invalidity.md",
+      "data/markdown/dict-maqayis-al-lugha-dissemination-insight-building-and-reaching.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "معجم مقاييس اللغه",
+      "normalized_author": "ابن فارس",
+      "content_sha256": "b6594272c5f92391bfe6e342590e1324e674d33e2e1ae3987852e68e28d847c3"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-07",
+      "discovery_method": "post-final-review dictionary foundation expansion via Internet Archive advanced search and metadata API; downloaded large DjVuTXT/DjVuXML/scandata witness and extracted leaves 56-155 as one broad batch",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "rhetoric-dalail-al-ijaz",
     "title": "دلائل الإعجاز",
     "author": "عبد القاهر الجرجاني",

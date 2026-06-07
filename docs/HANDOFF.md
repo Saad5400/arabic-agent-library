@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 20 total source entries
+- 21 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 20 sources are currently `synthesized`
+- 21 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي جديد غير مكرر بعد الدفعة النحوية في `شرح ابن عقيل`: حُفظ شاهد Internet Archive الكبير `20220809_Makaislugha` في `data/raw/dict-maqayis-al-lugha.ia-djvu.txt` بحجم 4,309,722 bytes، و`data/raw/dict-maqayis-al-lugha.ia-djvu.xml` بحجم 33,729,915 bytes، و`data/raw/dict-maqayis-al-lugha.ia-scandata.xml`. استُخرج نطاق متصل من DjVuXML عبر الأوراق/OBJECTs 56-155، أي نحو 100 ورقة مصدرية من افتتاح منهج ابن فارس وباب الهمزة وأوائل الباء، في OCR وسيط `data/text/dict-maqayis-al-lugha-leaves-56-155-ocr-extract.txt`، ثم صيغ text عملي `data/text/dict-maqayis-al-lugha-leaves-56-155-foundational-selection.txt`. أُنتجت أربع حزم Markdown: `data/markdown/dict-maqayis-al-lugha-roots-method-and-lexical-judgment.md`، و`data/markdown/dict-maqayis-al-lugha-time-effect-trust-and-adab.md`، و`data/markdown/dict-maqayis-al-lugha-taking-starting-substitution-and-invalidity.md`، و`data/markdown/dict-maqayis-al-lugha-dissemination-insight-building-and-reaching.md`. هذه دفعة dictionary foundations واسعة من مصدر جديد، لا تكرار لدفعة `شرح ابن عقيل`؛ أربع الحزم مبررة لأن النطاق يقارب 100 ورقة وتجنبت تفتيت الجذور إلى ملفات صغيرة.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 أضيف `شرح ابن عقيل على ألفية ابن مالك` كمصدر نحوي/أسلوبي تأسيسي جديد غير مكرر: جُمعت صفحات المجلد الأول الست المتاحة على ويكي مصدر (`الكلام وما يتألف منه`، `المعرب والمبني`، `النكرة والمعرفة`، `العلم`، `اسم الإشارة`، `الموصول`) في raw واحد `data/raw/grammar-style-sharh-ibn-aqil-volume-one-core-topics.wikitext.txt` حجمه 390,597 bytes، أي دفعة عريضة لا باب صغيرًا منفردًا. أُنتج النص العملي المنظف `data/text/grammar-style-sharh-ibn-aqil-volume-one-core-topics-foundations.txt` مع إبقاء ترتيب الأبواب وحدود التنظيف، ثم صيغت أربع حزم Markdown: `data/markdown/grammar-style-sharh-ibn-aqil-kalam-word-classes-and-sentence-minimum.md`، و`data/markdown/grammar-style-sharh-ibn-aqil-irab-bina-and-inflection-checks.md`، و`data/markdown/grammar-style-sharh-ibn-aqil-definiteness-pronouns-and-reference.md`، و`data/markdown/grammar-style-sharh-ibn-aqil-proper-nouns-demonstratives-and-relative-links.md`. تقدير الدفعة نحو 80-110 صفحات مكافئة، وأربع الحزم مبررة تحت قاعدة ~ملف لكل 20 صفحة لأنها تغطي بنية الكلام والإعراب والضمائر والربط، لا تفتيتًا ميكروسكوبيًا لموضع واحد.
 
@@ -84,6 +88,7 @@ Source ids:
 - `dict-mukhtar-al-sihah`
 - `dict-taj-al-arus`
 - `dict-asas-al-balagha`
+- `dict-maqayis-al-lugha`
 - `grammar-style-kitab`
 - `reference-adab-al-katib`
 - `reference-al-bayan-wa-al-tabyin`
@@ -95,6 +100,8 @@ Representative artifacts:
 - `data/markdown/dict-taj-al-arus-cohorts-generosity-effort-and-fine-placement.md`
 - `data/markdown/dict-asas-al-balagha-bayan-balagha-and-visible-meaning.md`
 - `data/markdown/dict-asas-al-balagha-composition-origin-building-and-completion.md`
+- `data/markdown/dict-maqayis-al-lugha-roots-method-and-lexical-judgment.md`
+- `data/markdown/dict-maqayis-al-lugha-time-effect-trust-and-adab.md`
 - `data/markdown/dict-taj-al-arus-old-inheritance-denial-and-clear-paths.md`
 - `data/markdown/dict-taj-al-arus-stripping-clarity-and-separate-remnants.md`
 - `data/markdown/reference-sinaatayn-sabk-and-word-placement.md`
@@ -176,7 +183,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `شرح ابن عقيل` عبر ست صفحات طويلة من المجلد الأول، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق لاحق كبير لا إعادة تفصيل أبواب ابن عقيل نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` الأخيرة.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا في `معجم مقاييس اللغة` عبر نحو 100 ورقة من افتتاح المنهج وباب الهمزة وأوائل الباء، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل جذور ابن فارس نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` الأخيرة.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
