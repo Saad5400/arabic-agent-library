@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 23 total source entries
+- 24 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 23 sources are currently `synthesized`
+- 24 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد غير مكرر بعد دفعة `الجمل في النحو` النحوية: حُفظ شاهد Internet Archive الكبير `civ-7220` في `data/raw/dict-al-sihah-al-jawhari.ia-djvu.txt` بحجم 6,023,564 bytes، و`data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml` بحجم 47,839,854 bytes، و`data/raw/dict-al-sihah-al-jawhari.ia-scandata.xml`. استُخرج نطاق OCR واسع من الأوراق/OBJECTs 20-139 في `data/text/dict-al-sihah-al-jawhari-leaves-20-139-ocr-extract.txt`، ثم صيغ text عملي محافظ في `data/text/dict-al-sihah-al-jawhari-leaves-20-139-writing-selection.txt`، أي 120 ورقة مصدرية من افتتاح حرف الألف وبداية حرف الباء. أُنتجت ست حزم Markdown: `data/markdown/dict-al-sihah-al-jawhari-motion-origin-and-adab.md`، و`data/markdown/dict-al-sihah-al-jawhari-security-familiarity-and-community.md`، و`data/markdown/dict-al-sihah-al-jawhari-particles-linking-and-warning.md`، و`data/markdown/dict-al-sihah-al-jawhari-initiative-substitution-and-clearance.md`، و`data/markdown/dict-al-sihah-al-jawhari-expansion-invalidity-interiority-and-settlement.md`، و`data/markdown/dict-al-sihah-al-jawhari-morphology-attribution-and-witness-limits.md`. هذه دفعة dictionary foundations واسعة من مصدر جديد، لا تكرار لدفعة `الجمل`؛ ست الحزم مبررة لأن النطاق 120 ورقة وتجنبت تفتيت الجذور إلى ملفات صغيرة.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 أضيف `الجمل في النحو` كمصدر نحوي/أسلوبي تأسيسي جديد غير مكرر بعد دفعة `شرح قطر الندى`: جُمعت ثماني عشرة صفحة فعلية من ويكي مصدر في raw واحد `data/raw/grammar-style-al-jumal-fi-al-nahw-core-pages.wikitext.txt` حجمه 311,736 bytes وفيه نحو 25,181 تتابعًا عربيًا، تشمل المقدمة ووجوه الرفع والنصب والجزم والخفض وأبواب الحروف (`الألفات`، `التاءات`، `الواوات`، `اللامات`، `الباءات`، `الفاءات`، `النونات`، `الياءات`، `الهاءات`، و`لا`) وفصلي `أم/أو` و`رويد`. أُنتج النص العملي المحافظ `data/text/grammar-style-al-jumal-fi-al-nahw-core-pages-writing-foundations.txt`، ثم ثلاث حزم Markdown: `data/markdown/grammar-style-al-jumal-irab-map-and-case-governance.md`، و`data/markdown/grammar-style-al-jumal-particles-linking-and-meaning.md`، و`data/markdown/grammar-style-al-jumal-variant-readings-choice-and-editorial-judgment.md`. هذه دفعة grammar/style foundations واسعة من مصدر جديد لا تعيد تفصيل أبواب قطر الندى؛ تقديرها نحو 70-90 صفحة مكافئة، وثلاث الحزم مبررة تحت قاعدة ~ملف لكل 20 صفحة.
 
@@ -97,6 +101,7 @@ Source ids:
 - `dict-taj-al-arus`
 - `dict-asas-al-balagha`
 - `dict-maqayis-al-lugha`
+- `dict-al-sihah-al-jawhari`
 - `grammar-style-kitab`
 - `reference-adab-al-katib`
 - `reference-al-bayan-wa-al-tabyin`
@@ -110,6 +115,8 @@ Representative artifacts:
 - `data/markdown/dict-asas-al-balagha-composition-origin-building-and-completion.md`
 - `data/markdown/dict-maqayis-al-lugha-roots-method-and-lexical-judgment.md`
 - `data/markdown/dict-maqayis-al-lugha-time-effect-trust-and-adab.md`
+- `data/markdown/dict-al-sihah-al-jawhari-motion-origin-and-adab.md`
+- `data/markdown/dict-al-sihah-al-jawhari-expansion-invalidity-interiority-and-settlement.md`
 - `data/markdown/dict-taj-al-arus-old-inheritance-denial-and-clear-paths.md`
 - `data/markdown/dict-taj-al-arus-stripping-clarity-and-separate-remnants.md`
 - `data/markdown/reference-sinaatayn-sabk-and-word-placement.md`
@@ -195,7 +202,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `الجمل في النحو` عبر ثماني عشرة صفحة ويكي مصدرية ونحو 70-90 صفحة مكافئة، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل أبواب `الجمل` نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` و`شرح قطر الندى` و`الجمل في النحو` الأخيرة.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا في `الصحاح تاج اللغة وصحاح العربية` عبر 120 ورقة من شاهد Internet Archive، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل أوراق `الصحاح` 20-139 نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` و`شرح قطر الندى` و`الجمل في النحو` و`الصحاح` الأخيرة.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
