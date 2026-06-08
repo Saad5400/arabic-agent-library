@@ -507,6 +507,44 @@
     }
   },
   {
+    "id": "grammar-style-al-jumal-fi-al-nahw",
+    "title": "الجمل في النحو",
+    "author": "الخليل بن أحمد الفراهيدي (بحسب نسبة صفحة ويكي مصدر)",
+    "category": "grammar-style",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D9%86%D8%AD%D9%88",
+    "mirror_urls": [
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D9%86%D8%AD%D9%88/%D8%A7%D9%84%D9%85%D9%82%D8%AF%D9%85%D8%A9",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D9%86%D8%AD%D9%88/%D9%88%D8%AC%D9%88%D9%87_%D8%A7%D9%84%D8%B1%D9%81%D8%B9",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D9%86%D8%AD%D9%88/%D9%88%D8%AC%D9%88%D9%87_%D8%A7%D9%84%D9%86%D8%B5%D8%A8",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D9%86%D8%AD%D9%88/%D8%AA%D9%81%D8%B3%D9%8A%D8%B1_%D8%A5%D8%B9%D8%B1%D8%A7%D8%A8_%D8%AC%D9%85%D9%84_%D8%A7%D9%84%D8%AC%D8%B2%D9%85",
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D8%AC%D9%85%D9%84_%D9%81%D9%8A_%D8%A7%D9%84%D9%86%D8%AD%D9%88/%D8%AA%D9%81%D8%B3%D9%8A%D8%B1_%D9%88%D8%AC%D9%88%D9%87_%D8%A7%D9%84%D8%AE%D9%81%D8%B6"
+    ],
+    "publisher": "Wikisource contributors",
+    "year": null,
+    "notes": "أضيف `الجمل في النحو` كمصدر نحوي/أسلوبي تأسيسي جديد بعد دفعة `شرح قطر الندى`، لكنه لا يكررها: هذه الدفعة تركز على خريطة وجوه الإعراب ومعاني الحروف والاختيار بين الوجوه، لا على شرح أبواب ابن هشام. جُمعت ثماني عشرة صفحة فعلية من ويكي مصدر في raw واحد، تشمل المقدمة ووجوه الرفع والنصب والجزم والخفض وأبواب الألفات والتاءات والواوات واللامات والباءات والفاءات والنونات والياءات والهاءات و`لا` وفصل `أم/أو` و`رويد`. حجم الخام 311,736 bytes وفيه نحو 25,181 تتابعًا عربيًا، أي ما يقارب 70-90 صفحة مكافئة بحسب كثافة النص الرقمي. أُنتج نص عملي منظف محافظ، ثم ثلاث حزم Markdown عريضة: خريطة الإعراب، والحروف ومعاني الربط، والاختلاف والاختيار بين الوجوه. ثلاث الحزم مبررة تحت قاعدة ~ملف لكل 20 صفحة لأنها تغطي دفعة واسعة لا بابًا صغيرًا، وتبقى التغطية جزئية بالنسبة إلى كل تراث النحو لكنها مفيدة مباشرة لضبط كتابة الوكيل.",
+    "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
+    "raw_file": "data/raw/grammar-style-al-jumal-fi-al-nahw-core-pages.wikitext.txt",
+    "text_file": "data/text/grammar-style-al-jumal-fi-al-nahw-core-pages-writing-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-al-jumal-irab-map-and-case-governance.md",
+      "data/markdown/grammar-style-al-jumal-particles-linking-and-meaning.md",
+      "data/markdown/grammar-style-al-jumal-variant-readings-choice-and-editorial-judgment.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "الجمل في النحو",
+      "normalized_author": "الخليل بن احمد الفراهيدي بحسب نسبه صفحه ويكي مصدر",
+      "content_sha256": "e50f3ca0a1fcf5e15d4685f020c58b41dd18cc146d1871b2efbfee2a6d4399f1"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-08",
+      "discovery_method": "post-final-review grammar/style expansion via Arabic Wikisource API; fetched all linked core pages as one broad raw batch after retry/backoff for HTTP 429",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "grammar-style-al-muqtadab",
     "title": "المقتضب",
     "author": "المبرّد",
