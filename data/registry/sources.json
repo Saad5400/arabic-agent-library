@@ -311,22 +311,28 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد بعد دفعة `الجمل في النحو` النحوية، كي يعود التوسيع إلى طبقة المعاجم دون تكرار آخر عمل. لم تعتمد الدفعة على صفحة فهرسية أو جذر صغير؛ بل حُفظ شاهد Internet Archive الكبير `civ-7220`: DjVuTXT بحجم 6,023,564 bytes، وDjVuXML بحجم 47,839,854 bytes، وscandata. استُخرج نطاق متصل واسع من DjVuXML عبر الأوراق/OBJECTs 20-139، أي 120 ورقة مصدرية رقمية من افتتاح حرف الألف وبداية حرف الباء، ثم أُنتج OCR وسيط وملف اختيار عملي محافظ يركز على ألفاظ نافعة للكتابة مثل الإتيان والأثر والأدب والإرث والأصل، والأسوة والأمن والأنس والأهل والألفة، وأدوات الباء وأم وأي وإياك، والمبادرة والإبدال والبراءة والظهور، والبسط والبطلان والباطن والإقرار والمباءة. أُنتجت ست حزم Markdown عريضة لأن 120 ورقة تبرر تقريبًا ستة ملفات تحت قاعدة ~ملف لكل 20 صفحة، مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية من مصدر جديد غير مكرر.",
+    "notes": "أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد بعد دفعة `الجمل في النحو` النحوية، ثم وُسّع بعد دفعة `شرح درة الغواص` النحوية/التصحيحية بدفعة معجمية ثانية كبيرة من الشاهد نفسه. لم تعتمد الدفعتان على صفحة فهرسية أو جذر صغير؛ بل على شاهد Internet Archive الكبير `civ-7220`: DjVuTXT بحجم 6,023,564 bytes، وDjVuXML بحجم 47,839,854 bytes، وscandata. استُخرجت الدفعة الأولى من الأوراق/OBJECTs 20-139، أي 120 ورقة مصدرية رقمية من افتتاح حرف الألف وبداية حرف الباء، ثم أُنتج OCR وسيط وملف اختيار عملي وست حزم Markdown عن الإتيان والأثر والأدب والأصل، والأسوة والأمن والأنس والأهل، والأدوات، والمبادرة والإبدال والبراءة والظهور، والبسط والبطلان والباطن والإقرار والمباءة، وضوابط التصريف والنسبة. وفي هذه التوسعة الحالية استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 140-259، أي 120 ورقة إضافية من آخر التاء، وحرف الثاء، وكتلة واسعة من الجيم، وبداية الحاء إلى الحضور والحاضرة. أُنتج OCR وسيط جديد وملف اختيار عملي جديد، ثم جُمعت الدفعتان في النص المعتمد للأوراق 20-259. أضيفت ست حزم Markdown عريضة عن الثبات والعدد، والجبر والجبلة والجذر، والجري والجزء والجسّ، والجفاء والجلاء والجلد والجلال، والجمع والجنس والجهد والجهل، والجواب والجود والجور والحد والحضور. صار مجموع تغطية `الصحاح` نحو 240 ورقة مصدرية واثنتي عشرة حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml",
-    "text_file": "data/text/dict-al-sihah-al-jawhari-leaves-20-139-writing-selection.txt",
+    "text_file": "data/text/dict-al-sihah-al-jawhari-leaves-20-259-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-al-sihah-al-jawhari-motion-origin-and-adab.md",
       "data/markdown/dict-al-sihah-al-jawhari-security-familiarity-and-community.md",
       "data/markdown/dict-al-sihah-al-jawhari-particles-linking-and-warning.md",
       "data/markdown/dict-al-sihah-al-jawhari-initiative-substitution-and-clearance.md",
       "data/markdown/dict-al-sihah-al-jawhari-expansion-invalidity-interiority-and-settlement.md",
-      "data/markdown/dict-al-sihah-al-jawhari-morphology-attribution-and-witness-limits.md"
+      "data/markdown/dict-al-sihah-al-jawhari-morphology-attribution-and-witness-limits.md",
+      "data/markdown/dict-al-sihah-al-jawhari-fixity-number-and-rank.md",
+      "data/markdown/dict-al-sihah-al-jawhari-repair-nature-roots-and-cutting.md",
+      "data/markdown/dict-al-sihah-al-jawhari-flow-parts-testing-and-sufficiency.md",
+      "data/markdown/dict-al-sihah-al-jawhari-roughness-clarity-endurance-and-dignity.md",
+      "data/markdown/dict-al-sihah-al-jawhari-collection-classification-effort-and-ignorance.md",
+      "data/markdown/dict-al-sihah-al-jawhari-answer-quality-justice-limits-and-presence.md"
     ],
     "duplicate_keys": {
       "normalized_title": "الصحاح تاج اللغه وصحاح العربيه",
       "normalized_author": "اسماعيل بن حماد الجوهري",
-      "content_sha256": "6d31200315e407a441350460750b0aec132cefe0b03ae2f330eb477a85bbc250"
+      "content_sha256": "4d71e5f6eabc538f5b51f0c803f90b848f19fd77c511a2bc8ea0b3eba6217c18"
     },
     "provenance": {
       "discovered_at": "2026-06-08",
