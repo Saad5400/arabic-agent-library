@@ -696,6 +696,43 @@
     }
   },
   {
+    "id": "grammar-style-sharh-durrat-al-ghawwas",
+    "title": "شرح درة الغواص في أوهام الخواص",
+    "author": "أحمد بن محمد الخفاجي المصري شرحًا لدرة الحريري",
+    "category": "grammar-style",
+    "source_type": "html",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/4616Htm",
+    "mirror_urls": [
+      "https://archive.org/download/4616Htm/4616%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%B5%D9%8A%D8%BA%D8%A9%20%D9%88%D9%8A%D8%A8%20%D8%A7%D8%AA%D8%B4%20%D8%AA%D9%8A%20%D8%A7%D9%85%20%20%20%20%20htm%20%20%D8%B4%D8%B1%D8%AD%20%D8%AF%D8%B1%D8%A9%20%D8%A7%D9%84%D8%BA%D9%88%D8%A7%D8%B5%20%D9%84%D9%84%D8%B4%D9%87%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AE%D9%81%D8%A7%D8%AC%D9%8A.zip"
+    ],
+    "publisher": "Internet Archive / المكتبة الشاملة HTML",
+    "year": 1996,
+    "notes": "أضيف `شرح درة الغواص في أوهام الخواص` كمصدر نحوي/أسلوبي وتصحيحي جديد بعد دفعة `الصحاح` المعجمية، كي تتوسع طبقة foundations في ضبط أوهام الخواص، والتراكيب، وحروف الجر، وألفاظ الكم والزمن، وصيغ التفضيل والتعجب. لم تعتمد الدفعة على لقطة صغيرة: حُفظ ملف HTML/ZIP من Internet Archive (`4616Htm`) بحجم 278,678 bytes، واستُخرج منه HTML خام UTF-8 حجمه 783,800 حرف تقريبًا، ثم نُظف إلى نص كامل حجمه نحو 679,826 حرفًا. اختير نطاق عملي واسع من المسائل [1]-[25]، من استعمال `سائر` إلى التعجب من الألوان والعاهات، وهو يقابل تقريبًا صفحات 46-159 في ترقيم الشاملة/المطبوع، أي نحو 114 صفحة مصدرية. أُنتجت ست حزم Markdown عريضة عن الكم والتتابع والزمن، والتفضيل والأهلية والتصغير، والسير والسهر والألفاظ الملازمة، والتسمية والتعدية والنسبة والإرسال، والتحذير والمكان واللون، والاجتماع والحال والرجاء والتعجب. ست الحزم مبررة تحت قاعدة ~ملف لكل 20 صفحة، وتبقى التغطية جزئية بالنسبة إلى الكتاب الكامل لكنها دفعة grammar/style واسعة ومباشرة النفع لتحسين الفصحى وتصحيح أوهام الكتابة.",
+    "license": "Underlying classical work public domain; HTML transcription hosted by Internet Archive/Shamela-derived item under item-specific access terms.",
+    "raw_file": "data/raw/grammar-style-sharh-durrat-al-ghawwas.html",
+    "text_file": "data/text/grammar-style-sharh-durrat-al-ghawwas-issues-1-25-writing-selection.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-sharh-durrat-al-ghawwas-quantity-sequence-and-time.md",
+      "data/markdown/grammar-style-sharh-durrat-al-ghawwas-comparison-eligibility-and-diminution.md",
+      "data/markdown/grammar-style-sharh-durrat-al-ghawwas-night-motion-fixed-usage-and-adverbs.md",
+      "data/markdown/grammar-style-sharh-durrat-al-ghawwas-naming-transitivity-attribution-and-sending.md",
+      "data/markdown/grammar-style-sharh-durrat-al-ghawwas-warning-place-and-color-forms.md",
+      "data/markdown/grammar-style-sharh-durrat-al-ghawwas-coordination-hal-raja-and-exclamation.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "شرح دره الغواص في اوهام الخواص",
+      "normalized_author": "احمد بن محمد الخفاجي المصري شرحا لدره الحريري",
+      "content_sha256": "1c3ac8ac112853f81aa8d6dc1d4f5e3fcec2dafc9e4c68885ceb358bccbf2718"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-09",
+      "discovery_method": "post-final-review grammar/style expansion via Internet Archive advanced search; downloaded Shamela-derived HTML zip and extracted a broad issues 1-25 range",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "reference-adab-al-katib",
     "title": "أدب الكاتب",
     "author": "ابن قتيبة",

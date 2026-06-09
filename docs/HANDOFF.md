@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 24 total source entries
+- 25 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 24 sources are currently `synthesized`
+- 25 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `شرح درة الغواص في أوهام الخواص` للخفاجي على درة الحريري كمصدر نحوي/أسلوبي وتصحيحي جديد غير مكرر بعد دفعة `الصحاح` المعجمية: حُفظ شاهد Internet Archive/Shamela HTML الكبير `4616Htm` في `data/raw/grammar-style-sharh-durrat-al-ghawwas-html.zip` بحجم 278,678 bytes، واستُخرج منه `data/raw/grammar-style-sharh-durrat-al-ghawwas.html` بحجم نحو 783,800 حرف، ثم نُظف كاملًا في `data/text/grammar-style-sharh-durrat-al-ghawwas-complete-cleaned.txt`. اختير نطاق المسائل [1]-[25] في `data/text/grammar-style-sharh-durrat-al-ghawwas-issues-1-25-writing-selection.txt`، من `سائر` إلى التعجب من الألوان والعاهات، ويقابل تقريبًا صفحات 46-159، أي نحو 114 صفحة مصدرية. أُنتجت ست حزم Markdown: `data/markdown/grammar-style-sharh-durrat-al-ghawwas-quantity-sequence-and-time.md`، و`data/markdown/grammar-style-sharh-durrat-al-ghawwas-comparison-eligibility-and-diminution.md`، و`data/markdown/grammar-style-sharh-durrat-al-ghawwas-night-motion-fixed-usage-and-adverbs.md`، و`data/markdown/grammar-style-sharh-durrat-al-ghawwas-naming-transitivity-attribution-and-sending.md`، و`data/markdown/grammar-style-sharh-durrat-al-ghawwas-warning-place-and-color-forms.md`، و`data/markdown/grammar-style-sharh-durrat-al-ghawwas-coordination-hal-raja-and-exclamation.md`. هذه دفعة grammar/style foundations واسعة لتصحيح أوهام الخواص في الألفاظ والتراكيب، وست الحزم مبررة لأن النطاق نحو 114 صفحة وتجنبت تفتيت المسائل إلى ملفات صغيرة.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد غير مكرر بعد دفعة `الجمل في النحو` النحوية: حُفظ شاهد Internet Archive الكبير `civ-7220` في `data/raw/dict-al-sihah-al-jawhari.ia-djvu.txt` بحجم 6,023,564 bytes، و`data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml` بحجم 47,839,854 bytes، و`data/raw/dict-al-sihah-al-jawhari.ia-scandata.xml`. استُخرج نطاق OCR واسع من الأوراق/OBJECTs 20-139 في `data/text/dict-al-sihah-al-jawhari-leaves-20-139-ocr-extract.txt`، ثم صيغ text عملي محافظ في `data/text/dict-al-sihah-al-jawhari-leaves-20-139-writing-selection.txt`، أي 120 ورقة مصدرية من افتتاح حرف الألف وبداية حرف الباء. أُنتجت ست حزم Markdown: `data/markdown/dict-al-sihah-al-jawhari-motion-origin-and-adab.md`، و`data/markdown/dict-al-sihah-al-jawhari-security-familiarity-and-community.md`، و`data/markdown/dict-al-sihah-al-jawhari-particles-linking-and-warning.md`، و`data/markdown/dict-al-sihah-al-jawhari-initiative-substitution-and-clearance.md`، و`data/markdown/dict-al-sihah-al-jawhari-expansion-invalidity-interiority-and-settlement.md`، و`data/markdown/dict-al-sihah-al-jawhari-morphology-attribution-and-witness-limits.md`. هذه دفعة dictionary foundations واسعة من مصدر جديد، لا تكرار لدفعة `الجمل`؛ ست الحزم مبررة لأن النطاق 120 ورقة وتجنبت تفتيت الجذور إلى ملفات صغيرة.
 
@@ -202,7 +206,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا في `الصحاح تاج اللغة وصحاح العربية` عبر 120 ورقة من شاهد Internet Archive، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل أوراق `الصحاح` 20-139 نفسها، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` و`شرح قطر الندى` و`الجمل في النحو` و`الصحاح` الأخيرة.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `شرح درة الغواص في أوهام الخواص` عبر نحو 114 صفحة من HTML/شاملة، لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل مسائل `درة الغواص` [1]-[25] نفسها ولا أوراق `الصحاح` 20-139، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` و`شرح قطر الندى` و`الجمل في النحو` و`الصحاح` الأخيرة.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
