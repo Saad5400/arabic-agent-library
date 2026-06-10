@@ -662,6 +662,45 @@
     }
   },
   {
+    "id": "grammar-style-sharh-shudhur-al-dhahab",
+    "title": "شرح شذور الذهب في معرفة كلام العرب",
+    "author": "ابن هشام الأنصاري",
+    "category": "grammar-style",
+    "source_type": "scan",
+    "language_stage": "classical",
+    "status": "synthesized",
+    "original_url": "https://archive.org/details/hm4337",
+    "mirror_urls": [
+      "https://archive.org/download/hm4337/hm4337.pdf",
+      "https://archive.org/download/hm4337/hm4337_djvu.txt",
+      "https://archive.org/download/hm4337/hm4337_djvu.xml",
+      "https://archive.org/download/hm4337/hm4337_scandata.xml"
+    ],
+    "publisher": "Internet Archive",
+    "year": null,
+    "notes": "أضيف `شرح شذور الذهب في معرفة كلام العرب` لابن هشام كمصدر نحوي/أسلوبي تأسيسي جديد بعد توسعة `الصحاح` المعجمية، كي يمد الوكيل بطبقة عملية في تشخيص نوع الكلمة، وعلامات الاسم والفعل والحرف، ومعنى الإعراب والعامل وتعدد الوجوه، والبناء والمبنيات وسلامة الإحالة. لم تعتمد الدفعة على لقطة صغيرة: حُفظ شاهد Internet Archive الكبير `hm4337` بصيغ DjVuTXT بحجم 1,517,945 bytes، وDjVuXML بحجم 13,933,142 bytes، وscandata. استُخرج نطاق متصل من DjVuXML عبر الأوراق/OBJECTs 30-129، أي نحو 100 ورقة مصدرية رقمية من أوائل متن الشرح بعد المقدمة. أُنتج OCR وسيط وملف اختيار عملي محافظ، ثم خمس حزم Markdown عريضة عن أقسام الكلمة وتشخيص الخلل، وعلامات الفعل والزمن والطلب، والحروف وعلاقات المعنى، والإعراب والعامل وتعدد الوجوه، والبناء والمبنيات وسلامة الإحالة. خمس الحزم مبررة تحت قاعدة ~ملف لكل 20 صفحة/ورقة، وتبقى التغطية جزئية بالنسبة إلى الكتاب كله لكنها دفعة grammar/style واسعة من مصدر جديد غير مكرر.",
+    "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
+    "raw_file": "data/raw/grammar-style-sharh-shudhur-al-dhahab.ia-djvu.xml",
+    "text_file": "data/text/grammar-style-sharh-shudhur-al-dhahab-leaves-30-129-writing-foundations.txt",
+    "markdown_outputs": [
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-word-classes-and-writing-diagnosis.md",
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-verb-tests-tense-and-command.md",
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-particles-linking-and-meaning-relations.md",
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-irab-agency-and-ambiguity-control.md",
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-bina-pronouns-and-reference.md"
+    ],
+    "duplicate_keys": {
+      "normalized_title": "شرح شذور الذهب في معرفه كلام العرب",
+      "normalized_author": "ابن هشام الانصاري",
+      "content_sha256": "8ee63655feb8989b184846cd024b39ecc5ab7b1f03f174fc766ec240fa5c2457"
+    },
+    "provenance": {
+      "discovered_at": "2026-06-10",
+      "discovery_method": "post-final-review grammar/style expansion via Internet Archive advanced search and metadata API; downloaded large DjVuTXT/DjVuXML/scandata witness and extracted leaves 30-129 as one broad batch",
+      "verified_by": "Hermes"
+    }
+  },
+  {
     "id": "grammar-style-sharh-ibn-aqil",
     "title": "شرح ابن عقيل على ألفية ابن مالك",
     "author": "ابن عقيل",

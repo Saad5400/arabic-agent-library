@@ -19,13 +19,17 @@ The project has moved beyond planning and already contains real artifacts.
 
 ### حال السجل المركزي
 
-- 25 total source entries
+- 26 total source entries
 - categories covered: dictionary, rhetoric, grammar-style, reference, poetry
-- 25 sources are currently `synthesized`
+- 26 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+أضيف `شرح شذور الذهب في معرفة كلام العرب` لابن هشام كمصدر نحوي/أسلوبي تأسيسي جديد غير مكرر بعد توسعة `الصحاح` المعجمية: حُفظ شاهد Internet Archive الكبير `hm4337` في `data/raw/grammar-style-sharh-shudhur-al-dhahab.ia-djvu.txt` بحجم 1,517,945 bytes، و`data/raw/grammar-style-sharh-shudhur-al-dhahab.ia-djvu.xml` بحجم 13,933,142 bytes، و`data/raw/grammar-style-sharh-shudhur-al-dhahab.ia-scandata.xml`. استُخرج نطاق واسع من الأوراق/OBJECTs 30-129، أي نحو 100 ورقة مصدرية رقمية من أوائل متن الشرح، في `data/text/grammar-style-sharh-shudhur-al-dhahab-leaves-30-129-ocr-extract.txt`، ثم صيغ text عملي محافظ في `data/text/grammar-style-sharh-shudhur-al-dhahab-leaves-30-129-writing-foundations.txt`. أُنتجت خمس حزم Markdown: `data/markdown/grammar-style-sharh-shudhur-al-dhahab-word-classes-and-writing-diagnosis.md`، و`data/markdown/grammar-style-sharh-shudhur-al-dhahab-verb-tests-tense-and-command.md`، و`data/markdown/grammar-style-sharh-shudhur-al-dhahab-particles-linking-and-meaning-relations.md`، و`data/markdown/grammar-style-sharh-shudhur-al-dhahab-irab-agency-and-ambiguity-control.md`، و`data/markdown/grammar-style-sharh-shudhur-al-dhahab-bina-pronouns-and-reference.md`. هذه دفعة grammar/style foundations واسعة من مصدر جديد، وخمس الحزم مبررة لأن النطاق 100 ورقة وتجنبت تفتيت أبواب صغيرة.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 وُسِّع `الصحاح تاج اللغة وصحاح العربية` للجوهري بدفعة معجمية ثانية كبيرة غير مكررة بعد دفعة `شرح درة الغواص`: استُخرج نطاق متصل جديد من شاهد Internet Archive الكبير `civ-7220` نفسه، الأوراق/OBJECTs 140-259، أي 120 ورقة مصدرية إضافية من آخر التاء، وحرف الثاء، وكتلة واسعة من الجيم، وبداية الحاء حتى الحضور والحاضرة. raw الشاهد الكبير كان محفوظًا في `data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml` بحجم 47,839,854 bytes مع DjVuTXT وscandata؛ أُنتج OCR وسيط جديد `data/text/dict-al-sihah-al-jawhari-leaves-140-259-ocr-extract.txt` بحجم نحو 541 كيلوبايت، وtext عملي `data/text/dict-al-sihah-al-jawhari-leaves-140-259-writing-selection.txt`، ثم النص الجامع المعتمد `data/text/dict-al-sihah-al-jawhari-leaves-20-259-writing-selection.txt`. أضيفت ست حزم Markdown: `data/markdown/dict-al-sihah-al-jawhari-fixity-number-and-rank.md`، و`data/markdown/dict-al-sihah-al-jawhari-repair-nature-roots-and-cutting.md`، و`data/markdown/dict-al-sihah-al-jawhari-flow-parts-testing-and-sufficiency.md`، و`data/markdown/dict-al-sihah-al-jawhari-roughness-clarity-endurance-and-dignity.md`، و`data/markdown/dict-al-sihah-al-jawhari-collection-classification-effort-and-ignorance.md`، و`data/markdown/dict-al-sihah-al-jawhari-answer-quality-justice-limits-and-presence.md`. صار مجموع تغطية `الصحاح` نحو 240 ورقة واثنتي عشرة حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة/ورقة.
 
@@ -111,6 +115,7 @@ Source ids:
 - `dict-maqayis-al-lugha`
 - `dict-al-sihah-al-jawhari`
 - `grammar-style-kitab`
+- `grammar-style-sharh-shudhur-al-dhahab`
 - `reference-adab-al-katib`
 - `reference-al-bayan-wa-al-tabyin`
 
@@ -140,6 +145,8 @@ Representative artifacts:
 - `data/markdown/grammar-style-sharh-ibn-aqil-irab-bina-and-inflection-checks.md`
 - `data/markdown/grammar-style-sharh-qatr-al-nada-mudari-nasb-jazm-and-condition.md`
 - `data/markdown/grammar-style-sharh-qatr-al-nada-reference-definiteness-and-linking.md`
+- `data/markdown/grammar-style-sharh-shudhur-al-dhahab-irab-agency-and-ambiguity-control.md`
+- `data/markdown/grammar-style-sharh-shudhur-al-dhahab-bina-pronouns-and-reference.md`
 - `data/markdown/grammar-style-al-jumal-irab-map-and-case-governance.md`
 - `data/markdown/grammar-style-al-jumal-particles-linking-and-meaning.md`
 - `data/markdown/grammar-style-kitab-complete-writing-foundations.md`
@@ -210,7 +217,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا داخل `الصحاح` عبر الأوراق 140-259 بعد دفعة نحوية/أسلوبية في `شرح درة الغواص`; لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل أوراق `الصحاح` 20-259 ولا مسائل `درة الغواص` [1]-[25]، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` و`شرح قطر الندى` و`الجمل في النحو` و`الصحاح` الأخيرة.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان نحويًا/أسلوبيًا في `شرح شذور الذهب` عبر الأوراق 30-129 بعد توسعة معجمية داخل `الصحاح`; لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير لاحق غير مكرر، لا إعادة تفصيل أوراق `شرح شذور الذهب` 30-129 ولا أوراق `الصحاح` 20-259 ولا مسائل `درة الغواص` [1]-[25]، مع تجنب تكرار العمل مباشرة على نطاقات `تاج العروس` 370-541 أو أوراق `كتاب الصناعتين` 120-179 أو `أدب الكاتب` 65-140 أو `أساس البلاغة` الجزأين 1-2 أو اختيار `المقتضب` الحالي أو حزم `إصلاح المنطق` و`شرح ابن عقيل` و`معجم مقاييس اللغة` و`شرح قطر الندى` و`الجمل في النحو` و`الصحاح` الأخيرة.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
