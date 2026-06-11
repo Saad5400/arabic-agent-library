@@ -273,15 +273,20 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي جديد بعد دفعة `شرح ابن عقيل` النحوية، لأنه يخدم اختيار الألفاظ بالرجوع إلى الأصول والمقاييس لا إلى الترادف السطحي. لم تعتمد الدفعة على صفحة ويكي مصدر فهرسية صغيرة؛ بل حُفظ شاهد Internet Archive الكبير `20220809_Makaislugha`: OCR النصي بحجم 4,309,722 bytes، وDjVuXML البنيوي بحجم 33,729,915 bytes، وscandata. استُخرج نطاق متصل واسع من DjVuXML عبر الأوراق/OBJECTs 56-155، أي نحو 100 ورقة مصدرية من افتتاح الكتاب وباب الهمزة وأوائل الباء، ثم حُفظ OCR وسيط وملف اختيار عملي محافظ يركز على منهج الأصل/المقياس وجذور نافعة للكتابة مثل `أجل` و`أدب` و`أثر` و`أمن` و`أخذ` و`بدأ` و`بدل` و`بطل` و`بحث` و`بث` و`بصر` و`بنى` و`بلغ`. أُنتجت أربع حزم Markdown عريضة: منهج الأصل والمقياس، والزمن والأثر والأمانة والأدب، والأخذ والبدء والتبديل والبطلان والبحث، والبث والبصر والبناء والبلوغ. عدد الحزم مبرر تحت قاعدة نحو ملف لكل 20 صفحة لأن النطاق يقارب 100 ورقة، واختيرت أربع حزم لتجنب التفتيت الزائد مع إبقاء كل حزمة واسعة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله، لكنها دفعة معجمية كبيرة حقيقية من مصدر جديد غير مكرر.",
+    "notes": "أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي جديد بعد دفعة `شرح ابن عقيل` النحوية، لأنه يخدم اختيار الألفاظ بالرجوع إلى الأصول والمقاييس لا إلى الترادف السطحي. لم تعتمد الدفعة على صفحة ويكي مصدر فهرسية صغيرة؛ بل حُفظ شاهد Internet Archive الكبير `20220809_Makaislugha`: OCR النصي بحجم 4,309,722 bytes، وDjVuXML البنيوي بحجم 33,729,915 bytes، وscandata. استُخرج أولًا نطاق متصل واسع من DjVuXML عبر الأوراق/OBJECTs 56-155، أي نحو 100 ورقة مصدرية من افتتاح الكتاب وباب الهمزة وأوائل الباء، ثم وُسع المصدر في دفعة ثانية متصلة عبر الأوراق/OBJECTs 156-255، أي نحو 100 ورقة إضافية من أواخر الباء وكتاب التاء وكتاب الثاء وبداية كتاب الجيم حتى افتتاح الحاء. صار مجموع الاختيار العملي المسجل للأوراق 56-255 نحو 200 ورقة مصدرية من شاهد كبير، لا جذرًا منفردًا ولا صفحة فهرسية. حُفظ OCR وسيط جديد للدفعة الثانية بحجم 380,254 bytes، وجُمعت الدفعتان في ملف selection عملي محافظ يركز على الأصول النافعة للكتابة: البعد والبعض والبغي والبلاء والبلاغ والبيان؛ النحت والتمام والترك والاتباع والرجوع؛ الصبّ والغزارة واللوم والثقل والنفاذ والثبات؛ الجد والجذر والجرح والجرم والجزاء؛ الجمع والجلال والجلد والجود والجور والجبر والحد. أُنتجت حتى الآن تسع حزم Markdown عريضة: أربع من الدفعة الأولى وخمس من الدفعة الثانية. عدد الحزم مبرر تحت قاعدة نحو ملف لكل 20 صفحة لأن التغطية المسجلة تقارب 200 ورقة، واختيرت الملفات العريضة لتجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله، لكنها توسعة معجمية كبيرة حقيقية من مصدر تأسيسي غير مكرر.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-maqayis-al-lugha.ia-djvu.xml",
-    "text_file": "data/text/dict-maqayis-al-lugha-leaves-56-155-foundational-selection.txt",
+    "text_file": "data/text/dict-maqayis-al-lugha-leaves-56-255-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-maqayis-al-lugha-roots-method-and-lexical-judgment.md",
       "data/markdown/dict-maqayis-al-lugha-time-effect-trust-and-adab.md",
       "data/markdown/dict-maqayis-al-lugha-taking-starting-substitution-and-invalidity.md",
-      "data/markdown/dict-maqayis-al-lugha-dissemination-insight-building-and-reaching.md"
+      "data/markdown/dict-maqayis-al-lugha-dissemination-insight-building-and-reaching.md",
+      "data/markdown/dict-maqayis-al-lugha-late-ba-distance-partition-and-disclosure.md",
+      "data/markdown/dict-maqayis-al-lugha-ta-completion-following-and-return.md",
+      "data/markdown/dict-maqayis-al-lugha-tha-density-weight-penetration-and-fixity.md",
+      "data/markdown/dict-maqayis-al-lugha-jim-roots-injury-acquisition-and-recompense.md",
+      "data/markdown/dict-maqayis-al-lugha-jim-collection-clarity-generosity-and-boundary.md"
     ],
     "duplicate_keys": {
       "normalized_title": "معجم مقاييس اللغه",
