@@ -278,10 +278,10 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي جديد بعد دفعة `شرح ابن عقيل` النحوية، لأنه يخدم اختيار الألفاظ بالرجوع إلى الأصول والمقاييس لا إلى الترادف السطحي. لم تعتمد الدفعة على صفحة ويكي مصدر فهرسية صغيرة؛ بل حُفظ شاهد Internet Archive الكبير `20220809_Makaislugha`: OCR النصي بحجم 4,309,722 bytes، وDjVuXML البنيوي بحجم 33,729,915 bytes، وscandata. استُخرج أولًا نطاق متصل واسع من DjVuXML عبر الأوراق/OBJECTs 56-155، أي نحو 100 ورقة مصدرية من افتتاح الكتاب وباب الهمزة وأوائل الباء، ثم وُسع المصدر في دفعة ثانية متصلة عبر الأوراق/OBJECTs 156-255، أي نحو 100 ورقة إضافية من أواخر الباء وكتاب التاء وكتاب الثاء وبداية كتاب الجيم حتى افتتاح الحاء. صار مجموع الاختيار العملي المسجل للأوراق 56-255 نحو 200 ورقة مصدرية من شاهد كبير، لا جذرًا منفردًا ولا صفحة فهرسية. حُفظ OCR وسيط جديد للدفعة الثانية بحجم 380,254 bytes، وجُمعت الدفعتان في ملف selection عملي محافظ يركز على الأصول النافعة للكتابة: البعد والبعض والبغي والبلاء والبلاغ والبيان؛ النحت والتمام والترك والاتباع والرجوع؛ الصبّ والغزارة واللوم والثقل والنفاذ والثبات؛ الجد والجذر والجرح والجرم والجزاء؛ الجمع والجلال والجلد والجود والجور والجبر والحد. أُنتجت حتى الآن تسع حزم Markdown عريضة: أربع من الدفعة الأولى وخمس من الدفعة الثانية. عدد الحزم مبرر تحت قاعدة نحو ملف لكل 20 صفحة لأن التغطية المسجلة تقارب 200 ورقة، واختيرت الملفات العريضة لتجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله، لكنها توسعة معجمية كبيرة حقيقية من مصدر تأسيسي غير مكرر.",
+    "notes": "أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي كبير يخدم اختيار الألفاظ بالرجوع إلى الأصول والمقاييس لا إلى الترادف السطحي. لم تعتمد الدفعات على صفحة فهرسية صغيرة؛ بل حُفظ شاهد Internet Archive الكبير `20220809_Makaislugha`: OCR النصي بحجم 4,309,722 bytes، وDjVuXML البنيوي بحجم 33,729,915 bytes، وscandata. استُخرجت ثلاث دفعات متصلة واسعة من DjVuXML: الأوراق/OBJECTs 56-155، ثم 156-255، ثم في هذه التوسعة الجديدة 256-355، أي نحو 300 ورقة مصدرية متصلة من افتتاح الكتاب وأبواب الهمزة والباء والتاء والثاء والجيم والحاء وبداية الخاء. الدفعة الثالثة وحدها 100 ورقة، وملف OCR الوسيط الجديد `data/text/dict-maqayis-al-lugha-leaves-256-355-ocr-extract.txt` حجمه 384,711 bytes / 213,789 حرفًا؛ لذلك فهي أكبر بكثير من جذر منفرد أو صفحة فهرسية. أُنشئ لها اختيار عملي محافظ في `data/text/dict-maqayis-al-lugha-leaves-256-355-writing-selection.txt`، ثم جُمعت الاختيارات في `data/text/dict-maqayis-al-lugha-leaves-56-355-writing-selection.txt`. تغطي التوسعة الجديدة أصولًا نافعة للكتابة مثل الحق والحل والحج والحراسة والحزم؛ الحصر والحفظ والحكم والحلم والحمد؛ الحمل والتحول والحياة والحبل والحجر؛ بدايات الخاء في الخداع والخروج والخسارة والخشوع والخصومة؛ وتتمة الخاء في الخضرة والخطاب والخفاء والخلوص والخلف والخير. أُنتجت خمس حزم Markdown عريضة جديدة، فصار مجموع حزم المصدر أربع عشرة حزمة. عدد الحزم مبرر تحت قاعدة نحو ملف لكل 20 صفحة لأن التغطية المسجلة تقارب 300 ورقة، واختيرت الملفات العريضة لتجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله، لكنها توسعة معجمية كبيرة حقيقية من مصدر تأسيسي غير مكرر.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-maqayis-al-lugha.ia-djvu.xml",
-    "text_file": "data/text/dict-maqayis-al-lugha-leaves-56-255-writing-selection.txt",
+    "text_file": "data/text/dict-maqayis-al-lugha-leaves-56-355-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-maqayis-al-lugha-roots-method-and-lexical-judgment.md",
       "data/markdown/dict-maqayis-al-lugha-time-effect-trust-and-adab.md",
@@ -291,16 +291,21 @@
       "data/markdown/dict-maqayis-al-lugha-ta-completion-following-and-return.md",
       "data/markdown/dict-maqayis-al-lugha-tha-density-weight-penetration-and-fixity.md",
       "data/markdown/dict-maqayis-al-lugha-jim-roots-injury-acquisition-and-recompense.md",
-      "data/markdown/dict-maqayis-al-lugha-jim-collection-clarity-generosity-and-boundary.md"
+      "data/markdown/dict-maqayis-al-lugha-jim-collection-clarity-generosity-and-boundary.md",
+      "data/markdown/dict-maqayis-al-lugha-haq-hall-hajj-guarded-boundaries.md",
+      "data/markdown/dict-maqayis-al-lugha-hasr-hifz-hukm-hilm-hamd.md",
+      "data/markdown/dict-maqayis-al-lugha-haml-hawl-hayat-habl-hajar.md",
+      "data/markdown/dict-maqayis-al-lugha-kha-beginnings-deception-loss-humility-dispute.md",
+      "data/markdown/dict-maqayis-al-lugha-kha-completion-purity-succession-goodness.md"
     ],
     "duplicate_keys": {
       "normalized_title": "معجم مقاييس اللغه",
       "normalized_author": "ابن فارس",
-      "content_sha256": "b6594272c5f92391bfe6e342590e1324e674d33e2e1ae3987852e68e28d847c3"
+      "content_sha256": "def293a396bd61f09fffa2a891eae6ec52951d4821fc84e181b5e90ab6772375"
     },
     "provenance": {
       "discovered_at": "2026-06-07",
-      "discovery_method": "post-final-review dictionary foundation expansion via Internet Archive advanced search and metadata API; downloaded large DjVuTXT/DjVuXML/scandata witness and extracted leaves 56-155 as one broad batch",
+      "discovery_method": "post-final-review dictionary foundation expansion via Internet Archive large DjVuXML witness; downloaded large sidecars and extracted leaves 56-355 in three broad batches",
       "verified_by": "Hermes"
     }
   },
