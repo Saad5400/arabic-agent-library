@@ -321,10 +321,10 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد بعد دفعة `الجمل في النحو` النحوية، ثم وُسّع بدفعات معجمية متصلة من شاهد Internet Archive الكبير نفسه `civ-7220` لا من صفحة فهرسية أو جذر صغير. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 6,023,564 bytes، وDjVuXML بحجم 47,839,854 bytes، وscandata. غطت الدفعة الأولى الأوراق/OBJECTs 20-139 من افتتاح الألف وبداية الباء، وغطت الدفعة الثانية الأوراق/OBJECTs 140-259 من آخر التاء والثاء والجيم وبداية الحاء. وفي هذه التوسعة الثالثة استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 260-379، أي 120 ورقة إضافية من تتمة الحاء، وحرف الخاء، وبداية حرف الدال. أُنتج OCR وسيط جديد، وملف اختيار عملي جديد، ثم جُمعت الدفعات في النص المعتمد للأوراق 20-379. أضيفت ست حزم Markdown عريضة عن الحق والحكم والحفظ والحل، والحماية والحمية والحال والحياة، والخفاء والخبر والخاتمة والخذلان، والنظم والخرق والخشونة والخطام والخفاء، والخلاف والخلل والخلال والاختيار والخير، والدأب والدبيب والدحض والدرج والدس والدغل. صار مجموع تغطية `الصحاح` نحو 360 ورقة مصدرية وثماني عشرة حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
+    "notes": "أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد بعد دفعة `الجمل في النحو` النحوية، ثم وُسّع بدفعات معجمية متصلة من شاهد Internet Archive الكبير نفسه `civ-7220` لا من صفحة فهرسية أو جذر صغير. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 6,023,564 bytes، وDjVuXML بحجم 47,839,854 bytes، وscandata. غطت الدفعات السابقة الأوراق/OBJECTs 20-379 من افتتاح الألف وبداية الباء، ثم آخر التاء والثاء والجيم وبداية الحاء، ثم تتمة الحاء والخاء وبداية الدال. وفي هذه التوسعة الرابعة استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 380-499، أي 120 ورقة إضافية من أواخر الدال، وحرف الذال، وقطاع واسع من حرف الراء حتى أوائل الزاي. أُنتج OCR وسيط جديد حجمه 567,404 bytes، وملف اختيار عملي جديد عن الدلو والدلالة والدلوك والدماثة والإدماج؛ والدهر والداهية والدهاء؛ والذرب والذريعة والذلاقة والذمام؛ والربط والرجوع والرد والرحب؛ والرخص والرزق والرشد والرضا والرفعة؛ والرقع والركوب والرمي والرواية والرؤية والزمام. ثم جُمعت الدفعات في النص المعتمد للأوراق 20-499. أضيفت ست حزم Markdown عريضة جديدة، فصار مجموع تغطية `الصحاح` نحو 480 ورقة مصدرية وأربعًا وعشرين حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml",
-    "text_file": "data/text/dict-al-sihah-al-jawhari-leaves-20-379-writing-selection.txt",
+    "text_file": "data/text/dict-al-sihah-al-jawhari-leaves-20-499-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-al-sihah-al-jawhari-motion-origin-and-adab.md",
       "data/markdown/dict-al-sihah-al-jawhari-security-familiarity-and-community.md",
@@ -343,12 +343,18 @@
       "data/markdown/dict-al-sihah-al-jawhari-hidden-news-ending-and-abandonment.md",
       "data/markdown/dict-al-sihah-al-jawhari-order-roughness-restraint-and-hiddenness.md",
       "data/markdown/dict-al-sihah-al-jawhari-difference-friendship-choice-and-goodness.md",
-      "data/markdown/dict-al-sihah-al-jawhari-persistence-movement-refutation-and-intrusion.md"
+      "data/markdown/dict-al-sihah-al-jawhari-persistence-movement-refutation-and-intrusion.md",
+      "data/markdown/dict-al-sihah-al-jawhari-extraction-signification-and-softness.md",
+      "data/markdown/dict-al-sihah-al-jawhari-calamity-cunning-darkness-and-turning.md",
+      "data/markdown/dict-al-sihah-al-jawhari-sharpness-means-and-ethical-bonds.md",
+      "data/markdown/dict-al-sihah-al-jawhari-linking-returning-refutation-and-breadth.md",
+      "data/markdown/dict-al-sihah-al-jawhari-value-provision-guidance-and-consent.md",
+      "data/markdown/dict-al-sihah-al-jawhari-patching-composition-narration-and-control.md"
     ],
     "duplicate_keys": {
       "normalized_title": "الصحاح تاج اللغه وصحاح العربيه",
       "normalized_author": "اسماعيل بن حماد الجوهري",
-      "content_sha256": "7a8e8934c10bdb543602c9632205f99c443476cde264e946f914e6ea4024b526"
+      "content_sha256": "9f598826d3a601a3fbd73643e3dd87dba7bf53c18c4bc3db019bfd59e895d530"
     },
     "provenance": {
       "discovered_at": "2026-06-08",
