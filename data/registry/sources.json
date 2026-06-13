@@ -64,25 +64,32 @@
     "original_url": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7",
     "mirror_urls": [
       "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7/%D9%85%D9%82%D8%AF%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D8%A4%D9%84%D9%81",
-      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%87%D9%85%D8%B2%D8%A9"
+      "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%A7%D9%85%D9%88%D8%B3_%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7/%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D9%87%D9%85%D8%B2%D8%A9",
+      "https://archive.org/details/2315Htm"
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "أُنجزت في هذه الدفعة أول طبقة عمل حقيقية من القاموس المحيط عبر جمع صفحتين كاملتين من النص الرقمي المتاح على ويكي مصدر: مقدمة المؤلف وباب الهمزة. جُمعت الصفحتان في raw batch واحد أكبر من الجذور المنفردة الصغيرة، ثم نُظِّمت المادة في ملف نصي يوزع الفائدة على مبادئ صناعة المعجم والاختصار، وعلى عناقيد لفظية عملية تخدم التثبت، والمران والتهاون، والبطء والإبطاء، والرجوع والإقرار والتبوئة. ثم صيغت منها ثلاث حزم Markdown متوسطة الغنى بدل ملف واحد ضيق حول جذر مفرد. هذه التغطية لا تزال جزئية بالنسبة إلى المعجم كله، لكنها تمنح المشروع أول دفعة حقيقية من القاموس المحيط نفسه وتوسع الأساس المعجمي بمصدر جديد لا يكرر الدفعات الأخيرة من لسان العرب.",
+    "notes": "توسعت تغطية القاموس المحيط بعد الطبقة الأولى الويكية الصغيرة عبر شاهد Internet Archive/Shamela الكبير `2315Htm`: حُفظ ZIP خام بحجم 2,067,930 bytes واستُخرج HTML UTF-8 بحجم 9,197,314 bytes. استُخرج باب الباء كاملًا تقريبًا من نحو (1/57) إلى قبل باب الجيم نحو (1/178)، أي قرابة 122 صفحة مطبوعة، في cleaned range حجمه 794,526 bytes، ثم صيغ اختيار عملي من 18 محورًا يخدم الكتابة الفصحى: الأدب والإرب والأهبة، الرجوع والتأليب والسبب، الحساب والكفاية والحجاب، الطلب والغلبة والقرب، الكتابة والرقابة والنسبة والعتاب، والكذب والوجوب والندب. أضيفت ست حزم Markdown عريضة من هذه الدفعة، مع إبقاء الملف الموحد القديم للطبقة الأولى. صار المصدر يملك سبع حزم إجمالًا: واحدة للمدخل/باب الهمزة السابق وستًا لباب الباء الواسع. التغطية ما تزال جزئية بالنسبة إلى القاموس كله، لكنها الآن مبنية على شاهد كامل كبير لا صفحتي ويكي مصدر فقط، وعدد الحزم مناسب تقريبًا لنحو 150-170 صفحة عملية إجمالًا تحت قاعدة ~ملف لكل 20 صفحة.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/dict-al-qamus-al-muhit-muqaddima-and-bab-al-hamza.wikitext.txt",
-    "text_file": "data/text/dict-al-qamus-al-muhit-foundations-from-muqaddima-and-bab-al-hamza.txt",
+    "raw_file": "data/raw/dict-al-qamus-al-muhit-shamela.html",
+    "text_file": "data/text/dict-al-qamus-al-muhit-bab-al-ba-writing-selection.txt",
     "markdown_outputs": [
-      "data/markdown/dict-al-qamus-al-muhit-complete-writing-foundations.md"
+      "data/markdown/dict-al-qamus-al-muhit-complete-writing-foundations.md",
+      "data/markdown/dict-al-qamus-al-muhit-adab-irb-and-lexical-method.md",
+      "data/markdown/dict-al-qamus-al-muhit-return-readiness-and-mobilization.md",
+      "data/markdown/dict-al-qamus-al-muhit-calculation-sufficiency-and-veils.md",
+      "data/markdown/dict-al-qamus-al-muhit-seeking-dominance-and-nearness.md",
+      "data/markdown/dict-al-qamus-al-muhit-writing-monitoring-lineage-and-reproach.md",
+      "data/markdown/dict-al-qamus-al-muhit-truth-obligation-and-recommendation.md"
     ],
     "duplicate_keys": {
       "normalized_title": "القاموس المحيط",
       "normalized_author": "مجد الدين الفيروزابادي",
-      "content_sha256": "c7ddbd6247b3f4dc3a7f9df530aa233e03053803083f1c0152caf4972ba0e839"
+      "content_sha256": "46571c7b9ac581056ee083a568cec67e4613a79cb6fe8550180ad90e44d00f41"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "قائمة تأسيسية يدوية؛ تحقق عبر واجهة ويكي مصدر API",
+      "discovery_method": "Arabic Wikisource API for initial pages; Internet Archive metadata/download for Shamela HTML witness 2315Htm; current broad batch extracted Bab al-ba from full HTML witness",
       "verified_by": "Hermes"
     }
   },
