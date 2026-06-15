@@ -69,10 +69,10 @@
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "توسعت تغطية القاموس المحيط بعد الطبقة الأولى الويكية الصغيرة عبر شاهد Internet Archive/Shamela الكبير `2315Htm`: حُفظ ZIP خام بحجم 2,067,930 bytes واستُخرج HTML UTF-8 بحجم 9,197,314 bytes. استُخرج باب الباء كاملًا تقريبًا من نحو (1/57) إلى قبل باب الجيم نحو (1/178)، أي قرابة 122 صفحة مطبوعة، في cleaned range حجمه 794,526 bytes، ثم صيغ اختيار عملي من 18 محورًا يخدم الكتابة الفصحى: الأدب والإرب والأهبة، الرجوع والتأليب والسبب، الحساب والكفاية والحجاب، الطلب والغلبة والقرب، الكتابة والرقابة والنسبة والعتاب، والكذب والوجوب والندب. أضيفت ست حزم Markdown عريضة من هذه الدفعة، مع إبقاء الملف الموحد القديم للطبقة الأولى. صار المصدر يملك سبع حزم إجمالًا: واحدة للمدخل/باب الهمزة السابق وستًا لباب الباء الواسع. التغطية ما تزال جزئية بالنسبة إلى القاموس كله، لكنها الآن مبنية على شاهد كامل كبير لا صفحتي ويكي مصدر فقط، وعدد الحزم مناسب تقريبًا لنحو 150-170 صفحة عملية إجمالًا تحت قاعدة ~ملف لكل 20 صفحة.",
+    "notes": "توسعت تغطية القاموس المحيط بعد الطبقة الأولى الويكية الصغيرة عبر شاهد Internet Archive/Shamela الكبير `2315Htm`: حُفظ ZIP خام بحجم 2,067,930 bytes واستُخرج HTML UTF-8 بحجم 9,197,314 bytes. كانت الدفعة السابقة قد استخرجت باب الباء كاملًا تقريبًا من نحو (1/57) إلى قبل باب الجيم نحو (1/178)، أي قرابة 122 صفحة مطبوعة، في cleaned range حجمه 794,526 bytes، ثم صيغ اختيار عملي من 18 محورًا وست حزم Markdown. وفي هذه الدفعة أضيف باب الجيم من نحو (1/178) إلى قبل باب الحاء نحو (1/211)، أي قرابة 34 صفحة مطبوعة، في cleaned range حجمه 205,853 bytes، ثم صيغ اختيار عملي عريض عن الظهور والطريق والدخول والخلط والحركة والجماعة والصوت والنضج، وأضيفت حزمتا Markdown جديدتان. صار المصدر يملك تسع حزم إجمالًا: واحدة للمدخل/باب الهمزة السابق، وستًا لباب الباء، وحزمتين لباب الجيم. التغطية ما تزال جزئية بالنسبة إلى القاموس كله، لكنها مبنية على شاهد كامل كبير لا صفحتي ويكي مصدر فقط، وعدد الحزم مناسب تقريبًا لنحو 184-204 صفحة عملية إجمالًا تحت قاعدة ~ملف لكل 20 صفحة.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
     "raw_file": "data/raw/dict-al-qamus-al-muhit-shamela.html",
-    "text_file": "data/text/dict-al-qamus-al-muhit-bab-al-ba-writing-selection.txt",
+    "text_file": "data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-al-qamus-al-muhit-complete-writing-foundations.md",
       "data/markdown/dict-al-qamus-al-muhit-adab-irb-and-lexical-method.md",
@@ -80,12 +80,14 @@
       "data/markdown/dict-al-qamus-al-muhit-calculation-sufficiency-and-veils.md",
       "data/markdown/dict-al-qamus-al-muhit-seeking-dominance-and-nearness.md",
       "data/markdown/dict-al-qamus-al-muhit-writing-monitoring-lineage-and-reproach.md",
-      "data/markdown/dict-al-qamus-al-muhit-truth-obligation-and-recommendation.md"
+      "data/markdown/dict-al-qamus-al-muhit-truth-obligation-and-recommendation.md",
+      "data/markdown/dict-al-qamus-al-muhit-jim-appearance-path-and-mixture.md",
+      "data/markdown/dict-al-qamus-al-muhit-jim-motion-sound-and-maturity.md"
     ],
     "duplicate_keys": {
       "normalized_title": "القاموس المحيط",
       "normalized_author": "مجد الدين الفيروزابادي",
-      "content_sha256": "46571c7b9ac581056ee083a568cec67e4613a79cb6fe8550180ad90e44d00f41"
+      "content_sha256": "157623097b09c95ded95f8db591eb03231dd080840e4d1e8179cc526ad0074e2"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
