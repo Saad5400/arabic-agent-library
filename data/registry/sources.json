@@ -736,10 +736,10 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `شرح شذور الذهب في معرفة كلام العرب` لابن هشام كمصدر نحوي/أسلوبي تأسيسي جديد بعد توسعة `الصحاح` المعجمية، ثم وُسّع بدفعات متصلة من شاهد Internet Archive الكبير نفسه `hm4337` لا من لقطة صغيرة. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 1,517,945 bytes، وDjVuXML بحجم 13,933,142 bytes، وscandata. استُخرجت أولاً الأوراق/OBJECTs 30-129، أي نحو 100 ورقة مصدرية رقمية من أوائل متن الشرح بعد المقدمة، وأُنتجت منها خمس حزم Markdown عريضة عن أقسام الكلمة، والفعل، والحروف، والإعراب، والبناء. ثم استُخرج نطاق متصل تالٍ 130-229، أي 100 ورقة إضافية من بقية المبنيات والظروف إلى النكرة والمعرفة، والفاعل ونائب الفاعل، والمبتدأ والخبر والنواسخ، والمفعول به والاشتغال، والمفعول لأجله/معه والحال؛ وأضيفت خمس حزم أخرى. وفي هذه التوسعة الجديدة غير المكررة استُخرجت الأوراق/OBJECTs 230-329، أي 100 ورقة إضافية متصلة من تتمة الحال والتمييز والاستثناء وخبر ما حمل على ليس، ثم نواصب المضارع (`كي`، ولام التعليل، و`حتى`، و`أو`، وفاء السببية، وواو المعية)، وبداية المجرورات وحذف حرف الجر، والمجزومات وأدوات الشرط، وأوائل باب عمل الفعل وتعديته. أُنتج OCR وسيط جديد حجمه 305,903 bytes وملف اختيار عملي جديد، ثم جُمعت الدفعات الثلاث في نص معتمد للأوراق 30-329. أضيفت خمس حزم Markdown جديدة، فصار مجموع تغطية المصدر نحو 300 ورقة مصدرية وخمس عشرة حزمة، وهو مناسب تحت قاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت المسائل الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله لكنها تغطي الآن قوسًا عمليًا واسعًا من تعريف الكلمة والإعراب إلى المنصوبات والمجرورات والمجزومات وعمل الفعل.",
+    "notes": "أضيف `شرح شذور الذهب في معرفة كلام العرب` لابن هشام كمصدر نحوي/أسلوبي تأسيسي جديد بعد توسعة `الصحاح` المعجمية، ثم وُسّع بدفعات متصلة من شاهد Internet Archive الكبير نفسه `hm4337` لا من لقطة صغيرة. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 1,517,945 bytes، وDjVuXML بحجم 13,933,142 bytes، وscandata. استُخرجت الدفعات السابقة من الأوراق/OBJECTs 30-329، أي نحو 300 ورقة مصدرية رقمية من تعريف الكلمة والإعراب والمبنيات إلى المنصوبات والمجرورات والمجزومات وبداية عمل الفعل. وفي هذه التوسعة الجديدة غير المكررة استُخرجت الأوراق/OBJECTs 330-404، أي نحو 75 ورقة إضافية متصلة قبل الفهارس العامة، تغطي تتمة عمل الفعل، والأسماء التي تعمل عمل الفعل، والمصدر واسم الفاعل وصيغ المبالغة والصفة المشبهة، واسم الفعل، وأفعال التعجب، والتنازع، والتوابع، وموانع الصرف، والعدد. أُنتج OCR وسيط جديد حجمه 218,938 bytes وملف اختيار عملي جديد، ثم جُمعت الدفعات الأربع في نص معتمد للأوراق 30-404. أضيفت أربع حزم Markdown جديدة، فصار مجموع تغطية المصدر نحو 375 ورقة مصدرية وتسع عشرة حزمة، وهو مناسب تحت قاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت المسائل الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله لكنها تغطي الآن قوسًا عمليًا واسعًا من تعريف الكلمة والإعراب إلى عمل الأسماء والتوابع والعدد.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/grammar-style-sharh-shudhur-al-dhahab.ia-djvu.xml",
-    "text_file": "data/text/grammar-style-sharh-shudhur-al-dhahab-leaves-30-329-writing-foundations.txt",
+    "text_file": "data/text/grammar-style-sharh-shudhur-al-dhahab-leaves-30-404-writing-foundations.txt",
     "markdown_outputs": [
       "data/markdown/grammar-style-sharh-shudhur-al-dhahab-word-classes-and-writing-diagnosis.md",
       "data/markdown/grammar-style-sharh-shudhur-al-dhahab-verb-tests-tense-and-command.md",
@@ -755,16 +755,20 @@
       "data/markdown/grammar-style-sharh-shudhur-al-dhahab-negation-kay-hatta-and-purpose.md",
       "data/markdown/grammar-style-sharh-shudhur-al-dhahab-causative-fa-comitative-waw-and-governed-prepositions.md",
       "data/markdown/grammar-style-sharh-shudhur-al-dhahab-jussives-conditions-and-request-answers.md",
-      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-verb-governance-transitivity-and-complements.md"
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-verb-governance-transitivity-and-complements.md",
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-action-nouns-and-working-descriptions.md",
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-verb-nouns-exclamation-and-tanazu.md",
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-tawabi-paragraph-control.md",
+      "data/markdown/grammar-style-sharh-shudhur-al-dhahab-diptotes-and-number-editing.md"
     ],
     "duplicate_keys": {
       "normalized_title": "شرح شذور الذهب في معرفه كلام العرب",
       "normalized_author": "ابن هشام الانصاري",
-      "content_sha256": "9a027392f437863961867ca318e9352ae19ada26abcbf518738057aa3e84c971"
+      "content_sha256": "ec36b50e4685d7bcf171ff46f610d11ec1e8a84541fe4c3053975b59e24abd4d"
     },
     "provenance": {
       "discovered_at": "2026-06-10",
-      "discovery_method": "post-final-review grammar/style expansion via existing large Internet Archive DjVuXML witness hm4337; this run extracted adjacent leaves 230-329 as one broad batch after prior 30-229 coverage",
+      "discovery_method": "post-final-review grammar/style expansion via existing large Internet Archive DjVuXML witness hm4337; this run extracted adjacent leaves 330-404 as one broad batch after prior 30-329 coverage",
       "verified_by": "Hermes"
     }
   },
