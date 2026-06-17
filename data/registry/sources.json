@@ -345,10 +345,10 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد بعد دفعة `الجمل في النحو` النحوية، ثم وُسّع بدفعات معجمية متصلة من شاهد Internet Archive الكبير نفسه `civ-7220` لا من صفحة فهرسية أو جذر صغير. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 6,023,564 bytes، وDjVuXML بحجم 47,839,854 bytes، وscandata. غطت الدفعات السابقة الأوراق/OBJECTs 20-619 من افتتاح الألف وبداية الباء، ثم آخر التاء والثاء والجيم وبداية الحاء، ثم تتمة الحاء والخاء وبداية الدال، ثم أواخر الدال والذال وقطاع الراء إلى أوائل الزاي، ثم أواخر الزاي وقطاع السين وبدايات الشين حتى الشهادة والشهرة. وفي هذه التوسعة السادسة استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 620-739، أي 120 ورقة إضافية من أواخر الشين، وحرف الصاد، وحرف الضاد، وحرف الطاء، وحرف الظاء، وافتتاح حرف العين حتى مادة عدا. أُنتج OCR وسيط جديد حجمه 552,080 bytes، وملف اختيار عملي جديد عن الشورى والصبر والصداقة، والصرع والصلاة والصواب، والضفو والضفر والتضمين، والطبع والطعام والطريق، والأطوار والطوح، والظمأ والظلم والعتق والعدوان. ثم جُمعت الدفعات الست في النص المعتمد للأوراق 20-739. أضيفت ست حزم Markdown عريضة جديدة، فصار مجموع تغطية `الصحاح` نحو 720 ورقة مصدرية وستًا وثلاثين حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
+    "notes": "أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد بعد دفعة `الجمل في النحو` النحوية، ثم وُسّع بدفعات معجمية متصلة من شاهد Internet Archive الكبير نفسه `civ-7220` لا من صفحة فهرسية أو جذر صغير. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 6,023,564 bytes، وDjVuXML بحجم 47,839,854 bytes، وscandata. غطت الدفعات السابقة الأوراق/OBJECTs 20-739 من افتتاح الألف وبداية الباء، ثم آخر التاء والثاء والجيم وبداية الحاء، ثم تتمة الحاء والخاء وبداية الدال، ثم أواخر الدال والذال وقطاع الراء إلى أوائل الزاي، ثم أواخر الزاي وقطاع السين وبدايات الشين حتى الشهادة والشهرة، ثم أواخر الشين والصاد والضاد والطاء والظاء وافتتاح العين حتى مادة عدا. وفي هذه التوسعة السابعة استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 740-859، أي 120 ورقة إضافية من تتمة حرف العين وافتتاح حرف الغين. أُنتج OCR وسيط جديد حجمه 568,572 bytes، وملف اختيار عملي جديد عن العدد والعدل والعذر، والعرب والتعريب والعرض، والعرف والعرق والعسر والعصبة، والعضد والعقب والعقل والعلة والعمل، والعهد والعود والعون والعيب، والغدق والغربة والغرور والغلظة والغمض. ثم جُمعت الدفعات السبع في النص المعتمد للأوراق 20-859. أضيفت ست حزم Markdown عريضة جديدة، فصار مجموع تغطية `الصحاح` نحو 840 ورقة مصدرية واثنتين وأربعين حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml",
-    "text_file": "data/text/dict-al-sihah-al-jawhari-leaves-20-739-writing-selection.txt",
+    "text_file": "data/text/dict-al-sihah-al-jawhari-leaves-20-859-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-al-sihah-al-jawhari-motion-origin-and-adab.md",
       "data/markdown/dict-al-sihah-al-jawhari-security-familiarity-and-community.md",
@@ -385,12 +385,18 @@
       "data/markdown/dict-al-sihah-al-jawhari-dafw-dafr-and-tadmin.md",
       "data/markdown/dict-al-sihah-al-jawhari-tabaa-taste-path-and-fit.md",
       "data/markdown/dict-al-sihah-al-jawhari-atwar-tawah-and-transition.md",
-      "data/markdown/dict-al-sihah-al-jawhari-zama-zulm-atiq-and-udwan.md"
+      "data/markdown/dict-al-sihah-al-jawhari-zama-zulm-atiq-and-udwan.md",
+      "data/markdown/dict-al-sihah-al-jawhari-adad-adl-udhr-and-responsibility.md",
+      "data/markdown/dict-al-sihah-al-jawhari-arabicization-presentation-and-opposition.md",
+      "data/markdown/dict-al-sihah-al-jawhari-urf-irq-hardship-and-cohesion.md",
+      "data/markdown/dict-al-sihah-al-jawhari-support-consequence-reason-and-work.md",
+      "data/markdown/dict-al-sihah-al-jawhari-covenant-return-benefit-and-defect.md",
+      "data/markdown/dict-al-sihah-al-jawhari-ghadaq-strangeness-severity-and-obscurity.md"
     ],
     "duplicate_keys": {
       "normalized_title": "الصحاح تاج اللغه وصحاح العربيه",
       "normalized_author": "اسماعيل بن حماد الجوهري",
-      "content_sha256": "787b65f7a1d263e90cfcca8a3fa3c6db8df207e3c185b730e37b91c78ac8c50f"
+      "content_sha256": "9787a84ccf4d0aeb909782e69636d7e1063060bca98580f80664e3ed61920f81"
     },
     "provenance": {
       "discovered_at": "2026-06-08",
