@@ -24,11 +24,15 @@ The project has moved beyond planning and already contains real artifacts.
 - 26 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
-- 184 final Markdown packs, excluding `data/markdown/_template.md`
-- 102 text artifacts under `data/text/`, excluding `.gitkeep`
+- 186 final Markdown packs, excluding `data/markdown/_template.md`
+- 105 text artifacts under `data/text/`, excluding `.gitkeep`
 - 73 raw artifacts under `data/raw/`, excluding `.gitkeep`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+وُسِّع `القاموس المحيط` للفيروزآبادي بدفعة معجمية جديدة غير مكررة من شاهد Internet Archive/Shamela الكبير نفسه `2315Htm`: استُخرج باب الحاء من نحو (1/211) إلى قبل باب الخاء نحو (1/247)، أي قرابة 36 صفحة مطبوعة متصلة من HTML الخام الكبير `data/raw/dict-al-qamus-al-muhit-shamela.html` المحفوظ سابقًا بحجم 9,197,314 bytes. أُنتج cleaned range جديد `data/text/dict-al-qamus-al-muhit-shamela-bab-al-ha-ocr-cleaned.txt` حجمه 234,221 bytes، واختيار عملي `data/text/dict-al-qamus-al-muhit-bab-al-ha-writing-selection.txt`، ثم نص جامع مع بابي الباء والجيم `data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-writing-selection.txt`. أضيفت حزمتا Markdown عريضتان: `data/markdown/dict-al-qamus-al-muhit-ha-sound-space-and-hardship.md` و`data/markdown/dict-al-qamus-al-muhit-ha-inclination-clarity-and-fasaha.md`. صار مجموع `القاموس المحيط` نحو 192 صفحة مطبوعة من أبواب الباء والجيم والحاء، ومع الطبقة الأولى نحو 220-240 صفحة عملية وإحدى عشرة حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 وُسِّع `الصحاح تاج اللغة وصحاح العربية` للجوهري بدفعة معجمية سابعة كبيرة غير مكررة من شاهد Internet Archive الكبير نفسه `civ-7220`: استُخرجت الأوراق/OBJECTs 740-859، أي 120 ورقة إضافية متصلة تلي نطاق 620-739 مباشرة، من تتمة حرف العين وافتتاح حرف الغين. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml` بحجم 47,839,854 bytes مع DjVuTXT وscandata؛ وأُنتج OCR وسيط جديد `data/text/dict-al-sihah-al-jawhari-leaves-740-859-ocr-extract.txt` حجمه 568,572 bytes، وtext عملي جديد `data/text/dict-al-sihah-al-jawhari-leaves-740-859-writing-selection.txt`، ثم النص الجامع المعتمد `data/text/dict-al-sihah-al-jawhari-leaves-20-859-writing-selection.txt`. أضيفت ست حزم Markdown عريضة: `data/markdown/dict-al-sihah-al-jawhari-adad-adl-udhr-and-responsibility.md`، و`data/markdown/dict-al-sihah-al-jawhari-arabicization-presentation-and-opposition.md`، و`data/markdown/dict-al-sihah-al-jawhari-urf-irq-hardship-and-cohesion.md`، و`data/markdown/dict-al-sihah-al-jawhari-support-consequence-reason-and-work.md`، و`data/markdown/dict-al-sihah-al-jawhari-covenant-return-benefit-and-defect.md`، و`data/markdown/dict-al-sihah-al-jawhari-ghadaq-strangeness-severity-and-obscurity.md`. صار مجموع تغطية `الصحاح` نحو 840 ورقة واثنتين وأربعين حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة/ورقة.
 

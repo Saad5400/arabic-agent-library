@@ -69,10 +69,10 @@
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "توسعت تغطية القاموس المحيط بعد الطبقة الأولى الويكية الصغيرة عبر شاهد Internet Archive/Shamela الكبير `2315Htm`: حُفظ ZIP خام بحجم 2,067,930 bytes واستُخرج HTML UTF-8 بحجم 9,197,314 bytes. كانت الدفعة السابقة قد استخرجت باب الباء كاملًا تقريبًا من نحو (1/57) إلى قبل باب الجيم نحو (1/178)، أي قرابة 122 صفحة مطبوعة، في cleaned range حجمه 794,526 bytes، ثم صيغ اختيار عملي من 18 محورًا وست حزم Markdown. وفي هذه الدفعة أضيف باب الجيم من نحو (1/178) إلى قبل باب الحاء نحو (1/211)، أي قرابة 34 صفحة مطبوعة، في cleaned range حجمه 205,853 bytes، ثم صيغ اختيار عملي عريض عن الظهور والطريق والدخول والخلط والحركة والجماعة والصوت والنضج، وأضيفت حزمتا Markdown جديدتان. صار المصدر يملك تسع حزم إجمالًا: واحدة للمدخل/باب الهمزة السابق، وستًا لباب الباء، وحزمتين لباب الجيم. التغطية ما تزال جزئية بالنسبة إلى القاموس كله، لكنها مبنية على شاهد كامل كبير لا صفحتي ويكي مصدر فقط، وعدد الحزم مناسب تقريبًا لنحو 184-204 صفحة عملية إجمالًا تحت قاعدة ~ملف لكل 20 صفحة.",
+    "notes": "توسعت تغطية القاموس المحيط بعد الطبقة الأولى الويكية الصغيرة عبر شاهد Internet Archive/Shamela الكبير `2315Htm`: حُفظ ZIP خام بحجم 2,067,930 bytes واستُخرج HTML UTF-8 بحجم 9,197,314 bytes. استُخرج باب الباء كاملًا تقريبًا من نحو (1/57) إلى قبل باب الجيم نحو (1/178)، أي قرابة 122 صفحة مطبوعة، في cleaned range حجمه 794,526 bytes، ثم صيغ اختيار عملي من 18 محورًا وست حزم Markdown. ثم أضيف باب الجيم من نحو (1/178) إلى قبل باب الحاء نحو (1/211)، أي قرابة 34 صفحة مطبوعة، في cleaned range حجمه 205,853 bytes، ثم صيغ اختيار عملي عريض وحزمتا Markdown. وفي هذه الدفعة الجديدة غير المكررة أضيف باب الحاء من نحو (1/211) إلى قبل باب الخاء نحو (1/247)، أي قرابة 36 صفحة مطبوعة من الشاهد نفسه، في cleaned range حجمه 234,221 bytes، ثم صيغ اختيار عملي عريض عن الصوت والسعة والشدة والميل والترجيح والكبح والصلاح والبيان والفصاحة والمنح واللمح والروح، وأضيفت حزمتا Markdown جديدتان. صار المصدر يملك إحدى عشرة حزمة إجمالًا: واحدة للمدخل/باب الهمزة السابق، وستًا لباب الباء، وحزمتين لباب الجيم، وحزمتين لباب الحاء. التغطية ما تزال جزئية بالنسبة إلى القاموس كله، لكنها مبنية على شاهد كامل كبير لا صفحتي ويكي مصدر فقط، وعدد الحزم مناسب تقريبًا لنحو 220-240 صفحة عملية إجمالًا تحت قاعدة ~ملف لكل 20 صفحة.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
     "raw_file": "data/raw/dict-al-qamus-al-muhit-shamela.html",
-    "text_file": "data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-writing-selection.txt",
+    "text_file": "data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-al-qamus-al-muhit-complete-writing-foundations.md",
       "data/markdown/dict-al-qamus-al-muhit-adab-irb-and-lexical-method.md",
@@ -82,16 +82,18 @@
       "data/markdown/dict-al-qamus-al-muhit-writing-monitoring-lineage-and-reproach.md",
       "data/markdown/dict-al-qamus-al-muhit-truth-obligation-and-recommendation.md",
       "data/markdown/dict-al-qamus-al-muhit-jim-appearance-path-and-mixture.md",
-      "data/markdown/dict-al-qamus-al-muhit-jim-motion-sound-and-maturity.md"
+      "data/markdown/dict-al-qamus-al-muhit-jim-motion-sound-and-maturity.md",
+      "data/markdown/dict-al-qamus-al-muhit-ha-sound-space-and-hardship.md",
+      "data/markdown/dict-al-qamus-al-muhit-ha-inclination-clarity-and-fasaha.md"
     ],
     "duplicate_keys": {
       "normalized_title": "القاموس المحيط",
       "normalized_author": "مجد الدين الفيروزابادي",
-      "content_sha256": "157623097b09c95ded95f8db591eb03231dd080840e4d1e8179cc526ad0074e2"
+      "content_sha256": "2af6ccc6095a90014780753d0811214549fb96ccccc7cda8cf8005a85a7bcd9a"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "Arabic Wikisource API for initial pages; Internet Archive metadata/download for Shamela HTML witness 2315Htm; current broad batch extracted Bab al-ba from full HTML witness",
+      "discovery_method": "Arabic Wikisource API for initial pages; Internet Archive metadata/download for Shamela HTML witness 2315Htm; broad batches now extracted Bab al-ba, Bab al-jim, and Bab al-ha from full HTML witness",
       "verified_by": "Hermes"
     }
   },
