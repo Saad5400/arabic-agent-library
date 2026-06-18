@@ -24,13 +24,13 @@ The project has moved beyond planning and already contains real artifacts.
 - 26 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
-- 186 final Markdown packs, excluding `data/markdown/_template.md`
-- 105 text artifacts under `data/text/`, excluding `.gitkeep`
+- 191 final Markdown packs, excluding `data/markdown/_template.md`
+- 108 text artifacts under `data/text/`, excluding `.gitkeep`
 - 73 raw artifacts under `data/raw/`, excluding `.gitkeep`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
-وُسِّع `القاموس المحيط` للفيروزآبادي بدفعة معجمية جديدة غير مكررة من شاهد Internet Archive/Shamela الكبير نفسه `2315Htm`: استُخرج باب الحاء من نحو (1/211) إلى قبل باب الخاء نحو (1/247)، أي قرابة 36 صفحة مطبوعة متصلة من HTML الخام الكبير `data/raw/dict-al-qamus-al-muhit-shamela.html` المحفوظ سابقًا بحجم 9,197,314 bytes. أُنتج cleaned range جديد `data/text/dict-al-qamus-al-muhit-shamela-bab-al-ha-ocr-cleaned.txt` حجمه 234,221 bytes، واختيار عملي `data/text/dict-al-qamus-al-muhit-bab-al-ha-writing-selection.txt`، ثم نص جامع مع بابي الباء والجيم `data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-writing-selection.txt`. أضيفت حزمتا Markdown عريضتان: `data/markdown/dict-al-qamus-al-muhit-ha-sound-space-and-hardship.md` و`data/markdown/dict-al-qamus-al-muhit-ha-inclination-clarity-and-fasaha.md`. صار مجموع `القاموس المحيط` نحو 192 صفحة مطبوعة من أبواب الباء والجيم والحاء، ومع الطبقة الأولى نحو 220-240 صفحة عملية وإحدى عشرة حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة.
+وُسِّع `معجم مقاييس اللغة` لابن فارس بدفعة معجمية سادسة كبيرة غير مكررة من شاهد Internet Archive الكبير نفسه `20220809_Makaislugha`: استُخرجت الأوراق/OBJECTs 556-655، أي 100 ورقة إضافية متصلة تلي نطاق 456-555 مباشرة، وتختم قطاعًا واسعًا من الشين ثم تغطي الصاد والضاد والطاء والظاء وافتتاح العين. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-maqayis-al-lugha.ia-djvu.xml` بحجم 33,729,915 bytes مع DjVuTXT وscandata؛ وأُنتج OCR وسيط جديد `data/text/dict-maqayis-al-lugha-leaves-556-655-ocr-extract.txt` حجمه 377,705 bytes / نحو 210,812 حرفًا، وtext عملي جديد `data/text/dict-maqayis-al-lugha-leaves-556-655-writing-selection.txt`، ثم النص الجامع المعتمد `data/text/dict-maqayis-al-lugha-leaves-56-655-writing-selection.txt`. أضيفت خمس حزم Markdown عريضة: `data/markdown/dict-maqayis-al-lugha-shin-sad-raising-support-conflict-and-resistance.md`، و`data/markdown/dict-maqayis-al-lugha-sad-firmness-polish-aim-and-color.md`، و`data/markdown/dict-maqayis-al-lugha-document-truth-patience-joining-and-loss.md`، و`data/markdown/dict-maqayis-al-lugha-narrowness-harm-magnitude-measure-and-purity.md`، و`data/markdown/dict-maqayis-al-lugha-folding-nature-path-injustice-and-evidence.md`. صار مجموع تغطية `مقاييس اللغة` نحو 600 ورقة وتسعًا وعشرين حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة/ورقة.
 
 ### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
@@ -276,7 +276,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا داخل `الصحاح تاج اللغة وصحاح العربية` عبر شاهد IA `civ-7220` والأوراق/OBJECTs 740-859؛ لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير غير مكرر، أو امتداد بعيد/ضروري لا يعيد تفصيل هذا النطاق. تجنب أيضًا إعادة تفصيل باب الباء/الجيم من `القاموس المحيط`، ونطاقات `الصحاح` 20-859، وعنقود `لسان العرب` الحالي، وأوراق `معجم مقاييس اللغة` 56-555، ونطاقات `تاج العروس` 370-541، وأوراق `كتاب الصناعتين` 120-179، و`أدب الكاتب` 65-140، و`أساس البلاغة` الجزأين 1-2، واختيار `المقتضب` الحالي، وحزم `إصلاح المنطق` و`شرح ابن عقيل` و`شرح قطر الندى` و`الجمل في النحو` و`شرح شذور الذهب` 30-404.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا داخل `معجم مقاييس اللغة` عبر شاهد IA `20220809_Makaislugha` والأوراق/OBJECTs 556-655؛ لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير غير مكرر، أو امتداد بعيد/ضروري لا يعيد تفصيل هذا النطاق. تجنب أيضًا إعادة تفصيل باب الباء/الجيم/الحاء من `القاموس المحيط`، ونطاقات `الصحاح` 20-859، وعنقود `لسان العرب` الحالي، وأوراق `معجم مقاييس اللغة` 56-555، ونطاقات `تاج العروس` 370-541، وأوراق `كتاب الصناعتين` 120-179، و`أدب الكاتب` 65-140، و`أساس البلاغة` الجزأين 1-2، واختيار `المقتضب` الحالي، وحزم `إصلاح المنطق` و`شرح ابن عقيل` و`شرح قطر الندى` و`الجمل في النحو` و`شرح شذور الذهب` 30-404.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
