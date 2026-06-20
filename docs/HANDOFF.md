@@ -24,13 +24,13 @@ The project has moved beyond planning and already contains real artifacts.
 - 26 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
-- 202 final Markdown packs, excluding `data/markdown/_template.md`
-- 114 text artifacts under `data/text/`, excluding `.gitkeep`
+- 206 final Markdown packs, excluding `data/markdown/_template.md`
+- 117 text artifacts under `data/text/`, excluding `.gitkeep`
 - 73 raw artifacts under `data/raw/`, excluding `.gitkeep`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
-وُسِّع `معجم مقاييس اللغة` لابن فارس بدفعة معجمية سابعة كبيرة غير مكررة من شاهد Internet Archive الكبير نفسه `20220809_Makaislugha`: استُخرجت الأوراق/OBJECTs 656-755، أي 100 ورقة إضافية متصلة تلي نطاق 556-655 مباشرة، وتواصل حرف العين من العقوق والعك والعل والعم والعلم والعر والعفو، إلى العقب والعقد والعقل والعكف، ثم العمى والعمه والعنف والعنق والعود والعوذ والعور، فالعبور والعبارة والاعتبار والعجز والعذر. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-maqayis-al-lugha.ia-djvu.xml` بحجم 33,729,915 bytes مع DjVuTXT وscandata؛ وأُنتج OCR وسيط جديد `data/text/dict-maqayis-al-lugha-leaves-656-755-ocr-extract.txt` حجمه 378,898 bytes، وtext عملي جديد `data/text/dict-maqayis-al-lugha-leaves-656-755-writing-selection.txt`، ثم النص الجامع المعتمد `data/text/dict-maqayis-al-lugha-leaves-56-755-writing-selection.txt`. أضيفت خمس حزم Markdown عريضة: `data/markdown/dict-maqayis-al-lugha-confinement-repetition-generality-and-signs.md`، و`data/markdown/dict-maqayis-al-lugha-traces-consequence-binding-and-focused-attention.md`، و`data/markdown/dict-maqayis-al-lugha-knowledge-cause-blindness-and-confusion.md`، و`data/markdown/dict-maqayis-al-lugha-severity-extension-return-refuge-and-flaw.md`، و`data/markdown/dict-maqayis-al-lugha-crossing-expression-consideration-deficit-and-excuse.md`. صار مجموع تغطية `مقاييس اللغة` نحو 700 ورقة وأربعًا وثلاثين حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة/ورقة.
+وُسِّع `القاموس المحيط` للفيروزآبادي بدفعة معجمية جديدة غير مكررة من شاهد Internet Archive/Shamela الكبير نفسه `2315Htm`: استُخرج نطاق متصل من باب الخاء وباب الدال إلى قبل باب الذال، من نحو (1/247) إلى قبل (1/329)، أي قرابة 82 صفحة مطبوعة. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-al-qamus-al-muhit-shamela.html` بحجم 9,197,314 bytes؛ وأُنتج cleaned range جديد `data/text/dict-al-qamus-al-muhit-shamela-bab-al-kha-ocr-cleaned.txt` حجمه 282,000 bytes، وtext عملي جديد `data/text/dict-al-qamus-al-muhit-bab-al-kha-dal-writing-selection.txt`، ثم النص الجامع المعتمد `data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-kha-dal-writing-selection.txt`. أضيفت أربع حزم Markdown عريضة: `data/markdown/dict-al-qamus-al-muhit-kha-dal-rebuke-date-pride-and-fixity.md`، و`data/markdown/dict-al-qamus-al-muhit-kha-dal-copying-removal-and-inflation.md`، و`data/markdown/dict-al-qamus-al-muhit-kha-dal-duration-uniqueness-renewal-and-effort.md`، و`data/markdown/dict-al-qamus-al-muhit-kha-dal-envy-praise-mobilization-and-refutation.md`. صار مجموع تغطية `القاموس المحيط` نحو 300-322 صفحة عملية وخمس عشرة حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة.
 
 ### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
@@ -280,7 +280,7 @@ Interpretation:
 
 Best next concrete task:
 
-1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا داخل `معجم مقاييس اللغة` عبر شاهد IA `20220809_Makaislugha` والأوراق/OBJECTs 656-755؛ لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير غير مكرر، أو امتداد بعيد/ضروري لا يعيد تفصيل هذا النطاق. تجنب أيضًا إعادة تفصيل باب الباء/الجيم/الحاء من `القاموس المحيط`، ونطاقات `الصحاح` 20-979، وعنقود `لسان العرب` الحالي، وأوراق `معجم مقاييس اللغة` 56-755، ونطاقات `تاج العروس` 370-541، وأوراق `كتاب الصناعتين` 120-179، و`أدب الكاتب` 65-140، و`أساس البلاغة` الجزأين 1-2، واختيار `المقتضب` الحالي، وحزم `إصلاح المنطق` و`شرح ابن عقيل` و`شرح قطر الندى` و`الجمل في النحو` و`شرح شذور الذهب` 30-404.
+1. إذا كان المطلوب استمرار التوسيع، فأضف مصدرًا أو نطاقًا جديدًا كبيرًا وفق ترتيب يحدده `docs/MASTER_EXECUTION_CHECKLIST.md` بعد مرحلة الإغلاق، لا تعد إلى تلميع الحزم الحالية إلا عند ظهور خلل محدد. آخر توسيع كان معجميًا داخل `القاموس المحيط` عبر شاهد IA/Shamela `2315Htm` من نحو (1/247) إلى قبل (1/329)؛ لذلك يُفضّل أن تكون الدفعة التالية من مصدر آخر أو نطاق كبير غير مكرر، أو امتداد بعيد/ضروري لا يعيد تفصيل هذا النطاق. تجنب أيضًا إعادة تفصيل باب الباء/الجيم/الحاء أو نطاق الخاء/الدال من `القاموس المحيط`، ونطاقات `الصحاح` 20-979، وعنقود `لسان العرب` الحالي، وأوراق `معجم مقاييس اللغة` 56-755، ونطاقات `تاج العروس` 370-541، وأوراق `كتاب الصناعتين` 120-179، و`أدب الكاتب` 65-140، و`أساس البلاغة` الجزأين 1-2، واختيار `المقتضب` الحالي، وحزم `إصلاح المنطق` و`شرح ابن عقيل` و`شرح قطر الندى` و`الجمل في النحو` و`شرح شذور الذهب` 30-404.
 2. اجعل أي توسعة لاحقة raw/text/markdown كاملة في نفس الدفعة، مع تحديث السجل والمذكرة.
 3. حافظ على قاعدة الحجم: نحو ملف Markdown واحد لكل ~20 صفحة/ورقة، مع تجنب تفتيت المصدر الصغير.
 4. شغّل فحصي السجل بعد أي تغيير.
