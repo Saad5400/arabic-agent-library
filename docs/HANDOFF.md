@@ -24,11 +24,15 @@ The project has moved beyond planning and already contains real artifacts.
 - 26 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
-- 206 final Markdown packs, excluding `data/markdown/_template.md`
-- 117 text artifacts under `data/text/`, excluding `.gitkeep`
+- 211 final Markdown packs, excluding `data/markdown/_template.md`
+- 120 text artifacts under `data/text/`, excluding `.gitkeep`
 - 73 raw artifacts under `data/raw/`, excluding `.gitkeep`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+وُسِّع `معجم مقاييس اللغة` لابن فارس بدفعة معجمية ثامنة كبيرة غير مكررة من شاهد Internet Archive الكبير نفسه `20220809_Makaislugha`: استُخرجت الأوراق/OBJECTs 756-855، أي 100 ورقة إضافية متصلة تلي نطاق 656-755 مباشرة، وتختم كتاب العين من العذوبة والعرض والعرف والعرق إلى العزم والعسر والعصا والعصب والإعضال والنحت، ثم تغطي كتاب الغين في الغلو والغلبة والغنى والغدر والغسل، وافتتاح كتاب الفاء في الفيء والانكشاف والتفلت والفيض والفرض والفرط والفزع. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-maqayis-al-lugha.ia-djvu.xml` بحجم 33,729,915 bytes مع DjVuTXT وscandata؛ وأُنتج OCR وسيط جديد `data/text/dict-maqayis-al-lugha-leaves-756-855-ocr-extract.txt` حجمه 380,686 bytes، وtext عملي جديد `data/text/dict-maqayis-al-lugha-leaves-756-855-writing-selection.txt`، ونص جامع محدث `data/text/dict-maqayis-al-lugha-leaves-56-855-writing-selection.txt`. أضيفت خمس حزم Markdown عريضة: `data/markdown/dict-maqayis-al-lugha-sweetness-presentation-recognition-and-effort.md`، و`data/markdown/dict-maqayis-al-lugha-resolve-attribution-distance-difficulty-and-restraint.md`، و`data/markdown/dict-maqayis-al-lugha-binding-obstruction-and-derived-forms.md`، و`data/markdown/dict-maqayis-al-lugha-excess-prevailing-sufficiency-betrayal-and-cleansing.md`، و`data/markdown/dict-maqayis-al-lugha-return-disclosure-fluency-obligation-and-aid.md`. صار مجموع تغطية `مقاييس اللغة` نحو 800 ورقة وتسعًا وثلاثين حزمة، متناسبًا مع قاعدة ~ملف لكل 20 ورقة، مع التنبيه الدائم إلى ضجيج OCR وعدم اعتباره نصًا محققًا.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 وُسِّع `القاموس المحيط` للفيروزآبادي بدفعة معجمية جديدة غير مكررة من شاهد Internet Archive/Shamela الكبير نفسه `2315Htm`: استُخرج نطاق متصل من باب الخاء وباب الدال إلى قبل باب الذال، من نحو (1/247) إلى قبل (1/329)، أي قرابة 82 صفحة مطبوعة. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-al-qamus-al-muhit-shamela.html` بحجم 9,197,314 bytes؛ وأُنتج cleaned range جديد `data/text/dict-al-qamus-al-muhit-shamela-bab-al-kha-ocr-cleaned.txt` حجمه 282,000 bytes، وtext عملي جديد `data/text/dict-al-qamus-al-muhit-bab-al-kha-dal-writing-selection.txt`، ثم النص الجامع المعتمد `data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-kha-dal-writing-selection.txt`. أضيفت أربع حزم Markdown عريضة: `data/markdown/dict-al-qamus-al-muhit-kha-dal-rebuke-date-pride-and-fixity.md`، و`data/markdown/dict-al-qamus-al-muhit-kha-dal-copying-removal-and-inflation.md`، و`data/markdown/dict-al-qamus-al-muhit-kha-dal-duration-uniqueness-renewal-and-effort.md`، و`data/markdown/dict-al-qamus-al-muhit-kha-dal-envy-praise-mobilization-and-refutation.md`. صار مجموع تغطية `القاموس المحيط` نحو 300-322 صفحة عملية وخمس عشرة حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة.
 
