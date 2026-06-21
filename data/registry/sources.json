@@ -366,10 +366,10 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد بعد دفعة `الجمل في النحو` النحوية، ثم وُسّع بدفعات معجمية متصلة من شاهد Internet Archive الكبير نفسه `civ-7220` لا من صفحة فهرسية أو جذر صغير. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 6,023,564 bytes، وDjVuXML بحجم 47,839,854 bytes، وscandata. غطت الدفعات السابقة الأوراق/OBJECTs 20-859 من افتتاح الألف وبداية الباء، وآخر التاء والثاء والجيم، والحاء والخاء والدال، والذال والراء والزاي والسين والشين والصاد والضاد والطاء والظاء، ثم تتمة العين وافتتاح الغين. وفي هذه التوسعة الثامنة استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 860-979، أي 120 ورقة إضافية من ختام الغين، وحرف الفاء، وقطاع واسع من أوائل القاف حتى القيظ/القيض. أُنتج OCR وسيط جديد حجمه 571,433 bytes / نحو 321,431 حرفًا، وملف اختيار عملي جديد عن الغنى والغنيمة والفتوة والفتيا، والفرصة والفرض والفصل والفصاحة، والفناء والفور والقبس والتقديم، والقدم والقدح والقرب والقرض، والقشر والقسمة والقصد والقطع، والقلب والقناعة والقوة والقيظ. ثم جُمعت الدفعات الثماني في النص المعتمد للأوراق 20-979. أضيفت ست حزم Markdown عريضة جديدة، فصار مجموع تغطية `الصحاح` نحو 960 ورقة مصدرية وثمانيًا وأربعين حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
+    "notes": "أضيف `الصحاح تاج اللغة وصحاح العربية` للجوهري كمصدر معجمي تأسيسي جديد بعد دفعة `الجمل في النحو` النحوية، ثم وُسّع بدفعات معجمية متصلة من شاهد Internet Archive الكبير نفسه `civ-7220` لا من صفحة فهرسية أو جذر صغير. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 6,023,564 bytes، وDjVuXML بحجم 47,839,854 bytes، وscandata. غطت الدفعات السابقة الأوراق/OBJECTs 20-979 من افتتاح الألف وبداية الباء، وآخر التاء والثاء والجيم، والحاء والخاء والدال، والذال والراء والزاي والسين والشين والصاد والضاد والطاء والظاء، ثم تتمة العين والغين، وحرف الفاء، وقطاعًا واسعًا من أوائل القاف حتى القيظ/القيض. وفي هذه التوسعة التاسعة استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 980-1099، أي 120 ورقة إضافية من تتمة آخر القاف، وكتاب الكاف، وافتتاح اللام، إلى أوائل الميم حتى المسك والمضي والمطر والمنحة. أُنتج OCR وسيط جديد حجمه 568,046 bytes، وملف اختيار عملي جديد يغطي القيض/القيظ والقين والكبر والكتاب والكتمان، والكشف والكظم والكفء والكفاية، ولا/لو واللب واللبس واللجج، واللفظ واللقط والتلقين واللمح/اللمز، والمحو والمحض والمحنة والمخض، ثم المسك والمشي والمصر والمضي والمطر والمنحة. ثم جُمعت الدفعات التسع في النص المعتمد للأوراق 20-1099. أضيفت ست حزم Markdown عريضة جديدة، فصار مجموع تغطية `الصحاح` نحو 1080 ورقة مصدرية وأربعًا وخمسين حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml",
-    "text_file": "data/text/dict-al-sihah-al-jawhari-leaves-20-979-writing-selection.txt",
+    "text_file": "data/text/dict-al-sihah-al-jawhari-leaves-20-1099-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-al-sihah-al-jawhari-motion-origin-and-adab.md",
       "data/markdown/dict-al-sihah-al-jawhari-security-familiarity-and-community.md",
@@ -418,7 +418,13 @@
       "data/markdown/dict-al-sihah-al-jawhari-vanishing-immediacy-quotation-and-precedence.md",
       "data/markdown/dict-al-sihah-al-jawhari-precedence-sparking-nearness-and-cutting.md",
       "data/markdown/dict-al-sihah-al-jawhari-peeling-division-intent-cutting-and-settling.md",
-      "data/markdown/dict-al-sihah-al-jawhari-heart-contentment-strength-and-summer-heat.md"
+      "data/markdown/dict-al-sihah-al-jawhari-heart-contentment-strength-and-summer-heat.md",
+      "data/markdown/dict-al-sihah-al-jawhari-cracking-summer-craft-and-concealment.md",
+      "data/markdown/dict-al-sihah-al-jawhari-uncovering-restraint-sufficiency-and-equality.md",
+      "data/markdown/dict-al-sihah-al-jawhari-negation-core-confusion-and-contention.md",
+      "data/markdown/dict-al-sihah-al-jawhari-expression-gathering-naming-and-teaching.md",
+      "data/markdown/dict-al-sihah-al-jawhari-erasure-purity-trial-and-birth.md",
+      "data/markdown/dict-al-sihah-al-jawhari-holding-motion-boundaries-rain-and-grants.md"
     ],
     "duplicate_keys": {
       "normalized_title": "الصحاح تاج اللغه وصحاح العربيه",
