@@ -293,10 +293,10 @@
     ],
     "publisher": "Internet Archive",
     "year": null,
-    "notes": "أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي جديد عبر شاهد Internet Archive الكبير `20220809_Makaislugha`، ثم وُسّع بدفعات معجمية متصلة من الشاهد نفسه لا من صفحة فهرسية أو جذر صغير. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 4,309,722 bytes، وDjVuXML بحجم 33,729,915 bytes، وscandata. غطت الدفعات السابقة الأوراق/OBJECTs 56-755 من افتتاح المنهج وباب الهمزة والباء والتاء والثاء والجيم والحاء والخاء والدال والذال والراء والزاي والسين والشين والصاد والضاد والطاء والظاء وقطاعًا واسعًا من حرف العين حتى العبور والاعتبار والعجز والعذر. وفي هذه التوسعة الثامنة استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 756-855، أي 100 ورقة إضافية تختم كتاب العين من العذوبة والعرض والعرف والعرق إلى العزم والعسر والعصا والعصب والإعضال وأبواب النحت والمزيد، ثم تغطي كتاب الغين في الغلو والغلبة والغنى والغدر والغسل والغزو، ثم كتاب الفاء في الفيء والانكشاف والتفلت والفيض والفرض والفرط والفرع والفزع إلى آخر الشاهد قبل افتتاح القاف في leaf 856. أُنتج OCR وسيط جديد حجمه 380,686 bytes، وملف اختيار عملي جديد، ثم جُمعت الدفعات الثماني في النص المعتمد للأوراق 56-855. أضيفت خمس حزم Markdown عريضة جديدة، فصار مجموع تغطية `مقاييس اللغة` نحو 800 ورقة مصدرية وتسعًا وثلاثين حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
+    "notes": "أضيف `معجم مقاييس اللغة` لابن فارس كمصدر معجمي تأسيسي جديد عبر شاهد Internet Archive الكبير `20220809_Makaislugha`، ثم وُسّع بدفعات معجمية متصلة من الشاهد نفسه لا من صفحة فهرسية أو جذر صغير. الشاهد الخام محفوظ بصيغ DjVuTXT بحجم 4,309,722 bytes، وDjVuXML بحجم 33,729,915 bytes، وscandata. غطت الدفعات السابقة الأوراق/OBJECTs 56-855 من افتتاح المنهج وباب الهمزة والباء والتاء والثاء والجيم والحاء والخاء والدال والذال والراء والزاي والسين والشين والصاد والضاد والطاء والظاء والعين والغين والفاء إلى آخر الشاهد قبل افتتاح القاف. وفي هذه التوسعة التاسعة استُخرج نطاق متصل تالٍ من الأوراق/OBJECTs 856-955، أي 100 ورقة إضافية تبدأ بباب القاف وما بعدها في المضاعف/المطابق، وتمتد في قطاع واسع من القاف ثم الكاف وتفتح اللام إلى اللغو واللغب. أُنتج OCR وسيط جديد حجمه 394,442 bytes، وملف اختيار عملي جديد، ثم جُمعت الدفعات التسع في النص المعتمد للأوراق 56-955. أضيفت خمس حزم Markdown عريضة جديدة عن القلة والثبات وبري العبارة؛ والقوت والقيادة والقدر؛ والقسر والكشف والقشر؛ والكمال والكناية والكدر والكفاية؛ واللهف والليّ واللصوق واللغو. صار مجموع تغطية `مقاييس اللغة` نحو 900 ورقة مصدرية وأربعًا وأربعين حزمة Markdown، وهو مناسب تقريبًا لقاعدة ~ملف لكل 20 صفحة/ورقة مع تجنب تفتيت الجذور الصغيرة. بسبب ضجيج OCR تُنسب التغطية إلى أرقام الأوراق لا إلى صفحات طبعة محققة سطرًا سطرًا، وتبقى جزئية بالنسبة إلى الكتاب كله؛ لكنها دفعة معجمية كبيرة حقيقية ومستمرة من مصدر تأسيسي.",
     "license": "Public-domain work; Internet Archive hosts the scan and OCR sidecars under item-specific access terms.",
     "raw_file": "data/raw/dict-maqayis-al-lugha.ia-djvu.xml",
-    "text_file": "data/text/dict-maqayis-al-lugha-leaves-56-855-writing-selection.txt",
+    "text_file": "data/text/dict-maqayis-al-lugha-leaves-56-955-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-maqayis-al-lugha-roots-method-and-lexical-judgment.md",
       "data/markdown/dict-maqayis-al-lugha-time-effect-trust-and-adab.md",
@@ -336,16 +336,21 @@
       "data/markdown/dict-maqayis-al-lugha-resolve-attribution-distance-difficulty-and-restraint.md",
       "data/markdown/dict-maqayis-al-lugha-binding-obstruction-and-derived-forms.md",
       "data/markdown/dict-maqayis-al-lugha-excess-prevailing-sufficiency-betrayal-and-cleansing.md",
-      "data/markdown/dict-maqayis-al-lugha-return-disclosure-fluency-obligation-and-aid.md"
+      "data/markdown/dict-maqayis-al-lugha-return-disclosure-fluency-obligation-and-aid.md",
+      "data/markdown/dict-maqayis-al-lugha-qaf-economy-stability-and-shaping.md",
+      "data/markdown/dict-maqayis-al-lugha-sustenance-guidance-measure-and-restraint.md",
+      "data/markdown/dict-maqayis-al-lugha-coercion-disclosure-peeling-and-barrenness.md",
+      "data/markdown/dict-maqayis-al-lugha-completion-allusion-clarity-and-sufficiency.md",
+      "data/markdown/dict-maqayis-al-lugha-distress-twisting-attachment-and-futile-speech.md"
     ],
     "duplicate_keys": {
       "normalized_title": "معجم مقاييس اللغه",
       "normalized_author": "ابن فارس",
-      "content_sha256": "782ae276c6a19764acb627c84bd79db64c5a0f22c199e5f62e7aa8d2ab86bd9b"
+      "content_sha256": "24f7c452327fee916fcbb1950b7f68d7ddf8922f358831ecb8e860d852255314"
     },
     "provenance": {
       "discovered_at": "2026-06-07",
-      "discovery_method": "post-final-review dictionary foundation expansion via Internet Archive large DjVuXML witness; downloaded large sidecars and extracted leaves 56-855 in eight broad batches",
+      "discovery_method": "post-final-review dictionary foundation expansion via Internet Archive large DjVuXML witness; downloaded large sidecars and extracted leaves 56-955 in nine broad batches",
       "verified_by": "Hermes"
     }
   },
