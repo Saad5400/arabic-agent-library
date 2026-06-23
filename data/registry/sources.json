@@ -69,10 +69,10 @@
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "توسعت تغطية القاموس المحيط بعد الطبقة الأولى الويكية الصغيرة عبر شاهد Internet Archive/Shamela الكبير `2315Htm`: حُفظ ZIP خام بحجم 2,067,930 bytes واستُخرج HTML UTF-8 بحجم 9,197,314 bytes. استُخرج باب الباء كاملًا تقريبًا من نحو (1/57) إلى قبل باب الجيم نحو (1/178)، أي قرابة 122 صفحة مطبوعة، في cleaned range حجمه 794,526 bytes، ثم صيغ اختيار عملي من 18 محورًا وست حزم Markdown. ثم أضيف باب الجيم من نحو (1/178) إلى قبل باب الحاء نحو (1/211)، أي قرابة 34 صفحة مطبوعة، في cleaned range حجمه 205,853 bytes، ثم صيغ اختيار عملي عريض وحزمتا Markdown. ثم أضيف باب الحاء من نحو (1/211) إلى قبل باب الخاء نحو (1/247)، أي قرابة 36 صفحة مطبوعة، في cleaned range حجمه 234,221 bytes، ثم صيغ اختيار عملي عريض وحزمتا Markdown. وفي هذه الدفعة الجديدة غير المكررة أضيف نطاق متصل من باب الخاء وباب الدال إلى قبل باب الذال، من نحو (1/247) إلى قبل (1/329)، أي قرابة 82 صفحة مطبوعة من الشاهد نفسه، في cleaned range حجمه 282,000 bytes، ثم صيغ اختيار عملي عريض عن التوبيخ والتأريخ والمدح والفخر، والرسوخ والرضخ والنسخ والسلخ والفسخ والنفخ، والأبد والأحد والجدة والجهد، والحسد والحشد والحمد والخلود والرد، وأضيفت أربع حزم Markdown جديدة. صار المصدر يملك خمس عشرة حزمة إجمالًا: واحدة للمدخل/باب الهمزة السابق، وستًا لباب الباء، وحزمتين لباب الجيم، وحزمتين لباب الحاء، وأربعًا لنطاق الخاء/الدال. التغطية ما تزال جزئية بالنسبة إلى القاموس كله، لكنها مبنية على شاهد كامل كبير لا صفحتي ويكي مصدر فقط، وعدد الحزم مناسب تقريبًا لنحو 300-322 صفحة عملية إجمالًا تحت قاعدة ~ملف لكل 20 صفحة.",
+    "notes": "توسعت تغطية القاموس المحيط بعد الطبقة الأولى الويكية الصغيرة عبر شاهد Internet Archive/Shamela الكبير `2315Htm`: حُفظ ZIP خام بحجم 2,067,930 bytes واستُخرج HTML UTF-8 بحجم 9,197,314 bytes. استُخرج باب الباء كاملًا تقريبًا من نحو (1/57) إلى قبل باب الجيم نحو (1/178)، أي قرابة 122 صفحة مطبوعة، في cleaned range حجمه 794,526 bytes، ثم صيغ اختيار عملي من 18 محورًا وست حزم Markdown. ثم أضيف باب الجيم من نحو (1/178) إلى قبل باب الحاء نحو (1/211)، أي قرابة 34 صفحة مطبوعة، في cleaned range حجمه 205,853 bytes، ثم صيغ اختيار عملي عريض وحزمتا Markdown. ثم أضيف باب الحاء من نحو (1/211) إلى قبل باب الخاء نحو (1/247)، أي قرابة 36 صفحة مطبوعة، في cleaned range حجمه 234,221 bytes، ثم صيغ اختيار عملي عريض وحزمتا Markdown. ثم أضيف نطاق متصل من باب الخاء وباب الدال إلى قبل باب الذال، من نحو (1/247) إلى قبل (1/329)، أي قرابة 82 صفحة مطبوعة، في cleaned range حجمه 282,000 bytes، ثم صيغ اختيار عملي عريض وأربع حزم Markdown. وفي هذه الدفعة الجديدة غير المكررة أضيف باب الذال وباب الراء إلى قبل باب الزاي، من نحو (1/329) إلى قبل (1/501)، أي قرابة 172 صفحة مطبوعة من الشاهد نفسه، في cleaned range حجمه 1,162,209 bytes، ثم صيغ اختيار عملي عن الأخذ والمؤاخذة والزمن، والشذوذ والحد والفرادة، والأثر والأجر والأمر والبر، والبشر والبصر والبطر والبذر، والجبر والجهر والدهر والعذر، والفخر والفكر والمكر والنذر والوعر، وأضيفت ثماني حزم Markdown جديدة. صار المصدر يملك ثلاثًا وعشرين حزمة إجمالًا: واحدة للمدخل/باب الهمزة السابق، وستًا لباب الباء، وحزمتين لباب الجيم، وحزمتين لباب الحاء، وأربعًا لنطاق الخاء/الدال، وثمانيًا لنطاق الذال/الراء. التغطية ما تزال جزئية بالنسبة إلى القاموس كله، لكنها مبنية على شاهد كامل كبير لا صفحتي ويكي مصدر فقط، وعدد الحزم مناسب تقريبًا لنحو 472-494 صفحة عملية إجمالًا تحت قاعدة ~ملف لكل 20 صفحة.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
     "raw_file": "data/raw/dict-al-qamus-al-muhit-shamela.html",
-    "text_file": "data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-kha-dal-writing-selection.txt",
+    "text_file": "data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-kha-dal-dhal-ra-writing-selection.txt",
     "markdown_outputs": [
       "data/markdown/dict-al-qamus-al-muhit-complete-writing-foundations.md",
       "data/markdown/dict-al-qamus-al-muhit-adab-irb-and-lexical-method.md",
@@ -88,16 +88,24 @@
       "data/markdown/dict-al-qamus-al-muhit-kha-dal-rebuke-date-pride-and-fixity.md",
       "data/markdown/dict-al-qamus-al-muhit-kha-dal-copying-removal-and-inflation.md",
       "data/markdown/dict-al-qamus-al-muhit-kha-dal-duration-uniqueness-renewal-and-effort.md",
-      "data/markdown/dict-al-qamus-al-muhit-kha-dal-envy-praise-mobilization-and-refutation.md"
+      "data/markdown/dict-al-qamus-al-muhit-kha-dal-envy-praise-mobilization-and-refutation.md",
+      "data/markdown/dict-al-qamus-al-muhit-dhal-taking-accountability-and-past-time.md",
+      "data/markdown/dict-al-qamus-al-muhit-dhal-deviation-sharpening-refuge-and-singularity.md",
+      "data/markdown/dict-al-qamus-al-muhit-ra-trace-reward-command-and-birr.md",
+      "data/markdown/dict-al-qamus-al-muhit-ra-human-vision-prosperity-and-scattering.md",
+      "data/markdown/dict-al-qamus-al-muhit-ra-repair-compulsion-clarity-and-time.md",
+      "data/markdown/dict-al-qamus-al-muhit-ra-pride-thought-deception-vow-and-difficulty.md",
+      "data/markdown/dict-al-qamus-al-muhit-ra-initiative-repair-disclosure-and-seed-dispersal.md",
+      "data/markdown/dict-al-qamus-al-muhit-ra-evidence-insight-excuse-and-difficult-expression.md"
     ],
     "duplicate_keys": {
       "normalized_title": "القاموس المحيط",
       "normalized_author": "مجد الدين الفيروزابادي",
-      "content_sha256": "10904e5a87c77a5f76876dc7c76790c333a7d1beff7a767e01d7fea2c66c686e"
+      "content_sha256": "919f94718941fe226a90ca4247285b71bf9cdd1c363084b377002e898eabcbb1"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "Arabic Wikisource API for initial pages; Internet Archive metadata/download for Shamela HTML witness 2315Htm; broad batches now extracted Bab al-ba, Bab al-jim, and Bab al-ha from full HTML witness",
+      "discovery_method": "Arabic Wikisource API for initial pages; Internet Archive metadata/download for Shamela HTML witness 2315Htm; broad batches now extracted Bab al-ba, Bab al-jim, Bab al-ha, Bab al-kha/dal, and Bab al-dhal/ra from full HTML witness",
       "verified_by": "Hermes"
     }
   },
