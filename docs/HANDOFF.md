@@ -24,11 +24,15 @@ The project has moved beyond planning and already contains real artifacts.
 - 26 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
-- 229 final Markdown packs, excluding `data/markdown/_template.md`
-- 129 text artifacts under `data/text/`, excluding `.gitkeep`
+- 235 final Markdown packs, excluding `data/markdown/_template.md`
+- 132 text artifacts under `data/text/`, excluding `.gitkeep`
 - 73 raw artifacts under `data/raw/`, excluding `.gitkeep`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
+
+وُسِّع `الصحاح تاج اللغة وصحاح العربية` للجوهري بدفعة معجمية عاشرة كبيرة غير مكررة من شاهد Internet Archive الكبير نفسه `civ-7220`: استُخرجت الأوراق/OBJECTs 1100-1219، أي 120 ورقة إضافية متصلة تلي نطاق 980-1099 مباشرة، وتغطي تتمة الميم، وقطاعًا واسعًا من النون، وافتتاح حرف الهاء حتى الهيعة قبل الفهارس. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-al-sihah-al-jawhari.ia-djvu.xml` بحجم 47,839,854 bytes مع DjVuTXT وscandata؛ وأُنتج OCR وسيط جديد `data/text/dict-al-sihah-al-jawhari-leaves-1100-1219-ocr-extract.txt` حجمه 559,139 bytes، وtext عملي `data/text/dict-al-sihah-al-jawhari-leaves-1100-1219-writing-selection.txt`، ونص جامع `data/text/dict-al-sihah-al-jawhari-leaves-20-1219-writing-selection.txt`. أضيفت ست حزم Markdown عريضة عن المنّ والماء والنبت والنجاة والنحو؛ والنخل والنزع والنسف والنسق؛ والنضح والنضج والنغمة؛ والنقاء والنقع والناموس والنهي؛ والنوال والمنوال والهباء والهجوم والهداية والهذّ؛ والهز والهمل والهوج والهيعة. صار مجموع تغطية `الصحاح` نحو 1200 ورقة مصدرية وستين حزمة، وفق قاعدة ~ملف لكل 20 صفحة/ورقة بلا تفتيت جذور صغيرة.
+
+### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
 وُسِّع `معجم مقاييس اللغة` لابن فارس بدفعة معجمية عاشرة كبيرة غير مكررة من شاهد Internet Archive الكبير نفسه `20220809_Makaislugha`: استُخرجت الأوراق/OBJECTs 956-1105، أي 150 ورقة إضافية متصلة تلي نطاق 856-955 مباشرة، وتغطي تتمة اللام، وقطاعًا واسعًا من الميم والنون والهاء والواو قبل فهارس آخر الشاهد. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-maqayis-al-lugha.ia-djvu.xml` بحجم 33,729,915 bytes مع DjVuTXT وscandata؛ وأُنتج OCR وسيط جديد `data/text/dict-maqayis-al-lugha-leaves-956-1105-ocr-extract.txt` حجمه 568,698 bytes، وtext عملي `data/text/dict-maqayis-al-lugha-leaves-956-1105-writing-selection.txt`، ونص جامع `data/text/dict-maqayis-al-lugha-leaves-56-1105-writing-selection.txt`. أضيفت سبع حزم Markdown عريضة عن التلقي واللقاء ولمع الدلالة؛ والامتداد والمراس وإمساك الفقرة؛ والحركة والملاحة وملك المصطلح؛ والانتزاع والنجوم واجتماع الشواهد؛ والتجريد والنفض والنفي المحدد؛ والهبوط والهتاف والهضم؛ والوجدان والإيجاز والوصل والوهن. صار مجموع تغطية `مقاييس اللغة` نحو 1050 ورقة مصدرية وواحدًا وخمسين حزمة، وفق قاعدة ~ملف لكل 20 صفحة/ورقة بلا تفتيت جذور صغيرة.
 
