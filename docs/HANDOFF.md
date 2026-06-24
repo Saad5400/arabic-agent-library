@@ -24,13 +24,13 @@ The project has moved beyond planning and already contains real artifacts.
 - 26 sources are currently `synthesized`
 - 0 sources remain `candidate`
 - 0 sources remain `queued`
-- 243 final Markdown packs, excluding `data/markdown/_template.md`
-- 135 text artifacts under `data/text/`, excluding `.gitkeep`
+- 247 final Markdown packs, excluding `data/markdown/_template.md`
+- 138 text artifacts under `data/text/`, excluding `.gitkeep`
 - 73 raw artifacts under `data/raw/`, excluding `.gitkeep`
 
 ### أحدث إنجاز مصدري بعد الإغلاق المرحلي
 
-وُسِّع `القاموس المحيط` للفيروزآبادي بدفعة معجمية خامسة كبيرة غير مكررة من شاهد Internet Archive/Shamela الكبير نفسه `2315Htm`: استُخرج باب الذال وباب الراء إلى قبل باب الزاي، من نحو (1/329) إلى قبل (1/501)، أي قرابة 172 صفحة مطبوعة. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-al-qamus-al-muhit-shamela.html` بحجم 9,197,314 bytes؛ وأُنتج cleaned range جديد `data/text/dict-al-qamus-al-muhit-shamela-bab-al-dhal-ra-ocr-cleaned.txt` حجمه 1,162,209 bytes، وtext عملي `data/text/dict-al-qamus-al-muhit-bab-al-dhal-ra-writing-selection.txt`، ثم النص الجامع المعتمد `data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-kha-dal-dhal-ra-writing-selection.txt`. أضيفت ثماني حزم Markdown عريضة؛ صار مجموع `القاموس المحيط` نحو 472-494 صفحة عملية وثلاثًا وعشرين حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة.
+وُسِّع `القاموس المحيط` للفيروزآبادي بدفعة معجمية سادسة كبيرة غير مكررة من شاهد Internet Archive/Shamela الكبير نفسه `2315Htm`: استُخرج باب الزاي وباب السّين إلى قبل باب الشين، من نحو (1/501) إلى قبل (1/583)، أي قرابة 82 صفحة مطبوعة. الخام الكبير المعتمد محفوظ سابقًا في `data/raw/dict-al-qamus-al-muhit-shamela.html` بحجم 9,197,314 bytes؛ وأُنتج cleaned range جديد `data/text/dict-al-qamus-al-muhit-shamela-bab-al-zay-sin-ocr-cleaned.txt` حجمه 522,235 bytes، وtext عملي `data/text/dict-al-qamus-al-muhit-bab-al-zay-sin-writing-selection.txt`، ثم النص الجامع المعتمد `data/text/dict-al-qamus-al-muhit-bab-al-ba-jim-ha-kha-dal-dhal-ra-zay-sin-writing-selection.txt`. أضيفت أربع حزم Markdown عريضة عن الثبات والظهور والقوة والأخذ القسري؛ والعبور والحاجز والحيازة وإنجاز الوعد؛ والرمز والتأسيس والقياس والالتباس؛ والنفس والسر والهمس والعجز واليبس. صار مجموع `القاموس المحيط` نحو 554-576 صفحة عملية وسبعًا وعشرين حزمة، وهو مناسب لقاعدة ~ملف لكل 20 صفحة.
 
 ### إنجاز مصدري سابق بعد الإغلاق المرحلي
 
