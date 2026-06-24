@@ -31,25 +31,28 @@
       "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AA%D8%A8%D9%83-",
       "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%A7%D8%A1-",
       "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%A8%D9%84_-",
-      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%AB%D9%84%D9%85-"
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%AB%D9%84%D9%85-",
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%B1%D9%81_%D8%A7%D9%84%D8%AB%D8%A7%D8%A1",
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%B1%D9%81_%D8%A7%D9%84%D8%AC%D9%8A%D9%85",
+      "https://ar.wikisource.org/wiki/%D9%84%D8%B3%D8%A7%D9%86_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8/%D8%AD%D8%B1%D9%81_%D8%A7%D9%84%D8%AE%D8%A7%D8%A1"
     ],
     "publisher": "Wikisource contributors",
     "year": null,
-    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. صُحِّح في هذا المشروع وضع الاقتناء السابق: الملف `data/raw/dict-lisan-al-arab.wikitext.txt` ليس إلا صفحة الفهرس/المدخل التي تجمع روابط الحروف، ولا يمثل متن المعجم. أُنجز اقتناء فعلي سابقاً عبر صفحة الجذر `لسان العرب/بين-`، ثم عبر صفحات حقيقية إضافية من المتن (`لسان العرب/باء-` و`لسان العرب/فأفأ -`)، ثم عبر صفحة `لسان العرب/حرف الواو` الكاملة، ثم دفعة سبع صفحات فعلية من القاف واللام والنون تجاوزت 2.8 ميغابايت، ثم دفعة عنقود الألف من ست صفحات فعلية بحجم يقارب 2.08 ميغابايت. وفي هذه الدفعة الحالية أضيف عنقود خام جديد كبير من التاء والحاء يضم خمس صفحات فعلية من المتن (`تا-تبع`، `تبك-`، `حاء-`، `حبل -`، `حثلم-`) بحجم 1,224,148 bytes / 670,388 حرفاً، أي مادة معجمية حقيقية لا صفحة فهرسية ولا جذرًا منفردًا. استُخرج منه ملف نصي عملي واسع من 20 جذرًا تخدم الكتابة والتوثيق والحجاج والسبك (`تبع`، `حجب`، `حسب`، `حدث`، `حجج`، `حبل`، `حصل`، `حفل`، `حلل`، `حمل`، `حول`، `حال`، `حجم`، `حزم`، `حسم`، `حكم`، `حلم`، `حسن`، `حصن`، `حنن`)، ثم أُضيفت فائدته في وحدة Markdown جديدة داخل الملف الموحّد للمصدر. هذا العمل مبني على محتوى معجمي حقيقي من صفحات المتن، ويوسع تغطية لسان العرب عبر عناقيد متعددة كبيرة الحجم مع إبقاء الناتج Markdown في ملف واحد موحد لتجنب تفتيت المصدر الواحد. تبقى التغطية جزئية جداً بالنسبة إلى لسان العرب كله، لكنها الآن أوسع بكثير من الالتقاط الفهرسي الأول ومن صفحات الجذور الصغيرة.",
+    "notes": "معجم محوري لتتبع الألفاظ والاستعمالات الفصيحة. صُحِّح في هذا المشروع وضع الاقتناء السابق: الملف `data/raw/dict-lisan-al-arab.wikitext.txt` ليس إلا صفحة الفهرس/المدخل التي تجمع روابط الحروف، ولا يمثل متن المعجم. أُنجز اقتناء فعلي سابقاً عبر صفحة الجذر `لسان العرب/بين-`، ثم عبر صفحات حقيقية إضافية من المتن (`لسان العرب/باء-` و`لسان العرب/فأفأ -`)، ثم عبر صفحة `لسان العرب/حرف الواو` الكاملة، ثم دفعة سبع صفحات فعلية من القاف واللام والنون تجاوزت 2.8 ميغابايت، ثم دفعة عنقود الألف من ست صفحات فعلية بحجم يقارب 2.08 ميغابايت، ثم عنقود التاء والحاء من خمس صفحات فعلية بحجم 1,224,148 bytes. وفي هذه الدفعة الحالية أضيف عنقود خام جديد كبير من صفحات الحروف الفعلية `حرف الثاء` و`حرف الجيم` و`حرف الخاء` بحجم 816,295 bytes، أي مادة معجمية حقيقية لا صفحة فهرسية ولا جذرًا منفردًا. استُخرج منه ملف نصي عملي واسع من جذور تخدم تثبيت القول ووزنه وإصلاح الخلل وتشخيص الفساد اللفظي (`ثبت`، `ثقل`، `ثقف`، `ثمر`، `ثني`، `جبر`، `جبي`، `جنن`، `خبت`، `خبر`، `خبل`، `خبط`، `خبث`، `ختل`)، ثم أُضيفت فائدته في وحدة Markdown جديدة داخل الملف الموحّد للمصدر. بعض صفحات الحروف تضم عناوين هيكلية قصيرة إلى جانب مواد طويلة، لذلك اقتصرت المعالجة على الجذور ذات النص المعجمي الفعلي. هذا العمل مبني على محتوى معجمي حقيقي من صفحات المتن، ويوسع تغطية لسان العرب عبر عناقيد متعددة كبيرة الحجم مع إبقاء الناتج Markdown في ملف واحد موحد لتجنب تفتيت المصدر الواحد. تبقى التغطية جزئية جداً بالنسبة إلى لسان العرب كله، لكنها الآن أوسع بكثير من الالتقاط الفهرسي الأول ومن صفحات الجذور الصغيرة.",
     "license": "Underlying work public domain; Wikisource transcription available under CC BY-SA 4.0.",
-    "raw_file": "data/raw/dict-lisan-al-arab-ta-ha-cluster-writing-foundations.wikitext.txt",
-    "text_file": "data/text/dict-lisan-al-arab-ta-ha-cluster-foundational-roots.txt",
+    "raw_file": "data/raw/dict-lisan-al-arab-tha-jim-kha-letter-cluster.wikitext.txt",
+    "text_file": "data/text/dict-lisan-al-arab-tha-jim-kha-foundational-roots.txt",
     "markdown_outputs": [
       "data/markdown/dict-lisan-al-arab-complete-writing-foundations.md"
     ],
     "duplicate_keys": {
       "normalized_title": "لسان العرب",
       "normalized_author": "ابن منظور",
-      "content_sha256": "1ed483870ccdaa522e3f3d843c1c4bbd16b5c3559b90fcb8796c4c40776b7486"
+      "content_sha256": "c63fc3af3d562beac9f9c7d61b9659c2372d9e26c0a182a06c5c512c8fa860fc"
     },
     "provenance": {
       "discovered_at": "2026-05-21",
-      "discovery_method": "Arabic Wikisource API; cumulative real-content Lisan al-Arab batches, latest fetched five large ta/ha pages as one broad raw cluster",
+      "discovery_method": "Arabic Wikisource API; cumulative real-content Lisan al-Arab batches, latest fetched three large real letter pages (tha/jim/kha) as one broad raw cluster",
       "verified_by": "Hermes"
     }
   },
